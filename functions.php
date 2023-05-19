@@ -20,12 +20,12 @@ require_once get_template_directory() . '/includes/classes/class-core.php';
  *
  * @return void
  */
-function lsx() {
-	global $lsx;
-	if ( null === $lsx ) {
-		$lsx = new Core();
+function lsxd() {
+	global $lsxd;
+	if ( null === $lsxd ) {
+		$lsxd = new Core();
 		$lsxd->init();
 	}
-	return $lsx;
+	return $lsxd;
 }
-lsx();
+lsxd();

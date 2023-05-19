@@ -1,5 +1,5 @@
 <?php
-namespace LSX;
+namespace LSXD;
 
 use LSXD\Classes\Images;
 use LSXD\Classes\Setup;
