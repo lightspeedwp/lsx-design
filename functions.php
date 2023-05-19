@@ -5,7 +5,7 @@
  * @package lsx
  */
 
-use LSX\Core;
+use LSXD\Core;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

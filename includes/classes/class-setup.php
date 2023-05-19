@@ -1,5 +1,5 @@
 <?php
-namespace LSX\Classes;
+namespace LSXD\Classes;
 
 /**
  * All the functions for setting up the theme.

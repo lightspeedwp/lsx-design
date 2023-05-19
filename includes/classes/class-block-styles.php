@@ -1,5 +1,5 @@
 <?php
-namespace LSX\Classes;
+namespace LSXD\Classes;
 
 /**
  * All the functions that run on the frontend and the rendering of the blocks.

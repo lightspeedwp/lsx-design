@@ -1,5 +1,5 @@
 <?php
-namespace LSX\Classes;
+namespace LSXD\Classes;
 
 /**
  * All the image functions for the theme.

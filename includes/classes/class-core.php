@@ -1,12 +1,12 @@
 <?php
 namespace LSX;
 
-use LSX\Classes\Images;
-use LSX\Classes\Setup;
-use LSX\Classes\Block_Setup;
-use LSX\Classes\Block_Functions;
-use LSX\Classes\Block_Styles;
-use LSX\Classes\Frontend;
+use LSXD\Classes\Images;
+use LSXD\Classes\Setup;
+use LSXD\Classes\Block_Setup;
+use LSXD\Classes\Block_Functions;
+use LSXD\Classes\Block_Styles;
+use LSXD\Classes\Frontend;
 
 /**
  * The main file loading the rest of the files
