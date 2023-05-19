@@ -24,7 +24,7 @@ function lsx() {
 	global $lsx;
 	if ( null === $lsx ) {
 		$lsx = new Core();
-		$lsx->init();
+		$lsxd->init();
 	}
 	return $lsx;
 }

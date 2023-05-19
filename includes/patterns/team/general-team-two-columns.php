@@ -20,7 +20,7 @@ return array(
 <div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -35,7 +35,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -50,7 +50,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -67,7 +67,7 @@ return array(
 <div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -82,7 +82,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->
@@ -97,7 +97,7 @@ return array(
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"22%"} -->
 <div class="wp-block-column" style="flex-basis:22%"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"75%"} -->

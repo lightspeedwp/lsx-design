@@ -49,7 +49,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":163,"height":102,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="163" height="102"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="163" height="102"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -73,7 +73,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -91,7 +91,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -113,7 +113,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -131,7 +131,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>

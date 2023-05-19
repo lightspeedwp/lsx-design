@@ -9,7 +9,7 @@ return array(
     <div class="wp-block-group alignfull is-style-full-height" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:group -->
     <div class="wp-block-group">
     <!-- wp:image {"align":"center","id":3489,"width":120,"height":120,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-    <figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-800x800.jpg'. '"  alt="' . esc_attr__( 'Sample Image', 'lsx' ). '" class="wp-image-3489" width="120" height="120"/></figure>
+    <figure class="wp-block-image aligncenter size-full is-resized is-style-rounded"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '"  alt="' . esc_attr__( 'Sample Image', 'lsx' ). '" class="wp-image-3489" width="120" height="120"/></figure>
     <!-- /wp:image -->
     <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
     <h2 class="has-text-align-center has-x-large-font-size" id="your-name-1">' .  esc_html__( 'Your Name', 'lsx' ). '</h2>

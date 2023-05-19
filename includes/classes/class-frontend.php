@@ -42,7 +42,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function enqueue_styles() {
-		wp_enqueue_style( 'lsx-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 	}
 
 
@@ -53,8 +53,8 @@ class Frontend {
 	 */
 	public function yoast_faq_asset_files() {
 		if ( function_exists( 'wpseo_init' ) ) {
-			wp_enqueue_style( 'lsx-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', array() );
-			wp_enqueue_script( 'lsx-yoast-faq-js', get_template_directory_uri()  . '/assets/js/faq.js', array( "jquery" ), "1.0", true );
+			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', array() );
+			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri()  . '/assets/js/faq.js', array( "jquery" ), "1.0", true );
 		}
 	}
 
@@ -65,7 +65,7 @@ class Frontend {
 	 */
 	public function woo_asset_files() {
 		if ( class_exists( 'woocommerce' ) ) {
-			wp_enqueue_style( 'lsx-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array() );
+			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array() );
 		}
 	}
 

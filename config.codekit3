@@ -271,23 +271,23 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/assets/css/lsx-fonts.css": {
+	"/assets/css/lsxd-fonts.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/assets/css/lsx-fonts-min.css",
+		"oAP": "/build/assets/css/lsxd-fonts-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"/assets/css/lsx-rtl.css": {
+	"/assets/css/lsxd-rtl.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/assets/css/lsx-rtl-min.css",
+		"oAP": "/build/assets/css/lsxd-rtl-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -297,7 +297,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/assets/css/lsx-min.css",
+		"oAP": "/build/assets/css/lsxd-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -481,7 +481,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/assets/css/scss/global/_lsx-variables.scss": {
+	"/assets/css/scss/global/_lsxd-variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -489,7 +489,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/assets/css/scss/global/_lsx-variables.css",
+		"oAP": "/build/assets/css/scss/global/_lsxd-variables.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -2833,7 +2833,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/assets/js/lsx-min.js",
+		"oAP": "/build/assets/js/lsxd-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3009,100 +3009,100 @@
 		"oAP": "/build/includes/bbpress/bbpress.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-bootstrap-navwalker.php": {
+	"/includes/classes/class-lsxd-bootstrap-navwalker.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-bootstrap-navwalker.php",
+		"oAP": "/build/includes/classes/class-lsxd-bootstrap-navwalker.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-customize-core-control.php": {
+	"/includes/classes/class-lsxd-customize-core-control.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-customize-core-control.php",
+		"oAP": "/build/includes/classes/class-lsxd-customize-core-control.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-customize-header-layout-control.php": {
+	"/includes/classes/class-lsxd-customize-header-layout-control.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-customize-header-layout-control.php",
+		"oAP": "/build/includes/classes/class-lsxd-customize-header-layout-control.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-customize-layout-control.php": {
+	"/includes/classes/class-lsxd-customize-layout-control.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-customize-layout-control.php",
+		"oAP": "/build/includes/classes/class-lsxd-customize-layout-control.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-customize-mobile-header-layout-control.php": {
+	"/includes/classes/class-lsxd-customize-mobile-header-layout-control.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-customize-mobile-header-layout-control.php",
+		"oAP": "/build/includes/classes/class-lsxd-customize-mobile-header-layout-control.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-nav-walker.php": {
+	"/includes/classes/class-lsxd-nav-walker.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-nav-walker.php",
+		"oAP": "/build/includes/classes/class-lsxd-nav-walker.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-optimisation.php": {
+	"/includes/classes/class-lsxd-optimisation.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-optimisation.php",
+		"oAP": "/build/includes/classes/class-lsxd-optimisation.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-schema-graph-piece.php": {
+	"/includes/classes/class-lsxd-schema-graph-piece.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-schema-graph-piece.php",
+		"oAP": "/build/includes/classes/class-lsxd-schema-graph-piece.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-schema-utils.php": {
+	"/includes/classes/class-lsxd-schema-utils.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-schema-utils.php",
+		"oAP": "/build/includes/classes/class-lsxd-schema-utils.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-theme-customizer.php": {
+	"/includes/classes/class-lsxd-theme-customizer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-theme-customizer.php",
+		"oAP": "/build/includes/classes/class-lsxd-theme-customizer.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-walker-comment.php": {
+	"/includes/classes/class-lsxd-walker-comment.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-walker-comment.php",
+		"oAP": "/build/includes/classes/class-lsxd-walker-comment.php",
 		"oF": 0
 		},
-	"/includes/classes/class-lsx-wc-widget-recent-reviews.php": {
+	"/includes/classes/class-lsxd-wc-widget-recent-reviews.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/classes/class-lsx-wc-widget-recent-reviews.php",
+		"oAP": "/build/includes/classes/class-lsxd-wc-widget-recent-reviews.php",
 		"oF": 0
 		},
 	"/includes/config.php": {
@@ -3177,12 +3177,12 @@
 		"oAP": "/build/includes/nav-navwalker.php",
 		"oF": 0
 		},
-	"/includes/popup-maker/class-lsx-popup-maker.php": {
+	"/includes/popup-maker/class-lsxd-popup-maker.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/popup-maker/class-lsx-popup-maker.php",
+		"oAP": "/build/includes/popup-maker/class-lsxd-popup-maker.php",
 		"oF": 0
 		},
 	"/includes/sanitize.php": {
@@ -3201,28 +3201,28 @@
 		"oAP": "/build/includes/scripts.php",
 		"oF": 0
 		},
-	"/includes/sensei/class-lsx-sensei-course.php": {
+	"/includes/sensei/class-lsxd-sensei-course.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/sensei/class-lsx-sensei-course.php",
+		"oAP": "/build/includes/sensei/class-lsxd-sensei-course.php",
 		"oF": 0
 		},
-	"/includes/sensei/class-lsx-sensei-lesson.php": {
+	"/includes/sensei/class-lsxd-sensei-lesson.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/sensei/class-lsx-sensei-lesson.php",
+		"oAP": "/build/includes/sensei/class-lsxd-sensei-lesson.php",
 		"oF": 0
 		},
-	"/includes/sensei/class-lsx-sensei.php": {
+	"/includes/sensei/class-lsxd-sensei.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/sensei/class-lsx-sensei.php",
+		"oAP": "/build/includes/sensei/class-lsxd-sensei.php",
 		"oF": 0
 		},
 	"/includes/template-tags.php": {
@@ -3273,12 +3273,12 @@
 		"oAP": "/build/includes/woocommerce/woocommerce.php",
 		"oF": 0
 		},
-	"/includes/yoast/class-lsx-yoast.php": {
+	"/includes/yoast/class-lsxd-yoast.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/build/includes/yoast/class-lsx-yoast.php",
+		"oAP": "/build/includes/yoast/class-lsxd-yoast.php",
 		"oF": 0
 		},
 	"/index.php": {
@@ -3627,7 +3627,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 527118075,
-	"displayValue": "lsx-master",
+	"displayValue": "lsxd-master",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-obama",
 	"iconImageWasSetByUser": 0

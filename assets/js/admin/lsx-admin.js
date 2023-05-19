@@ -3,7 +3,7 @@
  */
 jQuery( function( $ ) {
 
-	$( document ).on( 'click', '.lsx-theme-notice .notice-dismiss', function() {
+	$( document ).on( 'click', '.lsxd-theme-notice .notice-dismiss', function() {
 		$.ajax( {
 			url: ajaxurl,
 			data: {

@@ -113,32 +113,32 @@ class Block_Styles {
 	private function get_block_assets() {
 		$this->block_assets = array(
 			'core/separator' => array(
-				'handle' => 'lsx-separator-block-styles',
+				'handle' => 'lsxd-separator-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/separator.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/separator.css',
 			),
 			'core/button' => array(
-				'handle' => 'lsx-button-block-styles',
+				'handle' => 'lsxd-button-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/button.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/button.css',
 			),
 			'core/heading' => array(
-				'handle' => 'lsx-heading-block-styles',
+				'handle' => 'lsxd-heading-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/heading.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/heading.css',
 			),
 			'core/image' => array(
-				'handle' => 'lsx-image-block-styles',
+				'handle' => 'lsxd-image-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/image.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/image.css',
 			),
 			'core/pullquote' => array(
-				'handle' => 'lsx-pullquote-block-styles',
+				'handle' => 'lsxd-pullquote-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/pullquote.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/pullquote.css',
 			),
 			'core/paragraph' => array(
-				'handle' => 'lsx-paragraph-block-styles',
+				'handle' => 'lsxd-paragraph-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/paragraph.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/paragraph.css',
 			)

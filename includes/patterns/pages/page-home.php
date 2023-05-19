@@ -50,7 +50,7 @@ return array(
 <!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline"} -->
 <div class="wp-block-button is-style-outline"><a class="wp-block-button__link no-border-radius wp-element-button">Learn More</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-3485 size-full"/></figure></div>
+<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-3485 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
@@ -70,7 +70,7 @@ return array(
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -90,7 +90,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -110,7 +110,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -190,8 +190,8 @@ return array(
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained","contentSize":"1200px"},"extUtilities":[]} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"textAlign":"center","className":"wp-block-heading lsx-title","fontSize":"huge"} -->
-<h2 class="has-text-align-center wp-block-heading lsx-title has-huge-font-size" id="h-services"><strong>Services</strong></h2>
+<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:heading {"textAlign":"center","className":"wp-block-heading lsxd-title","fontSize":"huge"} -->
+<h2 class="has-text-align-center wp-block-heading lsxd-title has-huge-font-size" id="h-services"><strong>Services</strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->

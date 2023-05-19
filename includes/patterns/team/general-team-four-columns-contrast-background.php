@@ -16,7 +16,7 @@ return array(
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
 <h3 class="has-text-align-center has-medium-font-size" id="member-name-1">'.  esc_html__( 'Member Name', 'lsx' ).'</h3>
@@ -30,7 +30,7 @@ return array(
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
 <h3 class="has-text-align-center has-medium-font-size" id="member-name-2">'.  esc_html__( 'Member Name', 'lsx' ).'</h3>
@@ -44,7 +44,7 @@ return array(
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
 <h3 class="has-text-align-center has-medium-font-size" id="member-name-3">'.  esc_html__( 'Member Name', 'lsx' ).'</h3>
@@ -58,7 +58,7 @@ return array(
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":3488,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsx-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
+<figure class="wp-block-image size-full"><img src="'.  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-white-800x800.jpg'.'" alt="Sample Image" class="wp-image-3488"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
 <h3 class="has-text-align-center has-medium-font-size" id="member-name-4">'.  esc_html__( 'Member Name', 'lsx' ).'</h3>
