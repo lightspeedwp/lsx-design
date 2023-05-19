@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="lsxd_layout" />
+		<key name="lsxd_font" />
+		<key name="lsxd_header_search" />
+		<key name="lsxd_header_layout" />
+		<key name="lsxd_header_fixed" />
+	</admin-texts>
+</wpml-config>
