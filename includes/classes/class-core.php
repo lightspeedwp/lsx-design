@@ -4,7 +4,6 @@ namespace LSXD;
 use LSXD\Classes\Images;
 use LSXD\Classes\Setup;
 use LSXD\Classes\Block_Setup;
-use LSXD\Classes\Block_Functions;
 use LSXD\Classes\Block_Styles;
 use LSXD\Classes\Frontend;
 
@@ -81,7 +80,6 @@ class Core {
 		$this->setup->init();
 		$this->block_setup->init();
 		$this->block_styles->init();
-		$this->block_functions->init();
 		$this->frontend->init();
 	}
 
@@ -100,9 +98,6 @@ class Core {
 
 		require get_template_directory() . '/includes/classes/class-block-styles.php';
 		$this->block_styles = new Block_Styles();
-		
-		require get_template_directory() . '/includes/classes/class-block-functions.php';
-		$this->block_functions = new Block_Functions();
 
 		require get_template_directory() . '/includes/classes/class-frontend.php';
 		$this->frontend = new Frontend();
