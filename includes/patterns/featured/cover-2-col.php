@@ -3,7 +3,7 @@
  * Cover 2 Coloumns with CTA
  */
 return array(
-	'title'	  => __( 'Cover 2 Columns with CTA', 'lsx' ),
+	'title'	  => __( 'Cover 2 Columns with CTA', 'lsx-design' ),
 	'categories' => array( 'featured' ),
 	'content'	=> '<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignfull"><!-- wp:columns {"align":"wide"} -->

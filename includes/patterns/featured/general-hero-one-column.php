@@ -3,7 +3,7 @@
  * Hero 1 Column
  */
 return array(
-	'title'	  => __( 'Hero 1 Col', 'lsx' ),
+	'title'	  => __( 'Hero 1 Col', 'lsx-design' ),
 	'categories' => array( 'featured' ),
 	'content'	=> '<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|x-large","right":"30px","bottom":"var:preset|spacing|x-large","left":"30px"}}},"layout":{"type":"constrained","wideSize":"800px"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:image {"id":3480,"sizeSlug":"full","linkDestination":"none"} -->

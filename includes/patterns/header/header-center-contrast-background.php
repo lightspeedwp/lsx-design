@@ -3,7 +3,7 @@
  * Header Center Contrast
  */
 return array(
-	'title'	  => __( 'Header Center Contrast', 'lsx' ),
+	'title'	  => __( 'Header Center Contrast', 'lsx-design' ),
 	'categories' => array( 'header' ),
 	'content'	=> '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"30px","bottom":"30px"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-contrast-background-color has-background" style="margin-top:0px;padding-top:30px;padding-bottom:30px"><!-- wp:image {"align":"center","id":379,"sizeSlug":"full","linkDestination":"none"} -->

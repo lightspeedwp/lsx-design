@@ -3,7 +3,7 @@
  * Header CTA
  */
 return array(
-	'title'	  => __( 'Header CTA', 'lsx' ),
+	'title'	  => __( 'Header CTA', 'lsx-design' ),
 	'categories' => array( 'header' ),
 	'content'	=> '
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"inherit":true,"type":"constrained","justifyContent":"center"},"extUtilities":[]} -->

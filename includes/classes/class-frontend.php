@@ -91,9 +91,9 @@ class Frontend {
 		}
 
 		if ( true === wc_shipping_enabled() ) {
-			$items['edit-address'] = __( 'Addresses', 'woocommerce' );
+			$items['edit-address'] = __( 'Addresses', 'lsx-design' );
 		} else {
-			$items['edit-address'] = __( 'Address', 'woocommerce' );
+			$items['edit-address'] = __( 'Address', 'lsx-design' );
 		}
 
 		return $items;

@@ -3,7 +3,7 @@
  * Header default
  */
 return array(
-	'title'	  => __( 'Header default', 'lsx' ),
+	'title'	  => __( 'Header default', 'lsx-design' ),
 	'categories' => array( 'header' ),
 	'content'	=> '
 	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"10px","bottom":"10px"},"margin":{"top":"0px"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->

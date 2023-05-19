@@ -43,43 +43,43 @@ class Block_Styles {
 
 		$block_styles = array(
 			'core/separator'           => array(
-				'wide'       => __( 'Wide', 'lsx' ),
+				'wide'       => __( 'Wide', 'lsx-design' ),
 			),
 			'core/button'           => array(
-				'cta'       => __( 'CTA', 'lsx' ),
-				'pill'       => __( 'Pill', 'lsx' ),
-				'pill-outline'       => __( 'Pill Outline', 'lsx' ),
-				'rounded'       => __( 'Rounded', 'lsx' ),
-				'shadow'       => __( 'Shadow', 'lsx' ),
-				'outline-shadow'       => __( 'Outline Shadow', 'lsx' ),
-				'link'       => __( 'Link', 'lsx' ),
+				'cta'       => __( 'CTA', 'lsx-design' ),
+				'pill'       => __( 'Pill', 'lsx-design' ),
+				'pill-outline'       => __( 'Pill Outline', 'lsx-design' ),
+				'rounded'       => __( 'Rounded', 'lsx-design' ),
+				'shadow'       => __( 'Shadow', 'lsx-design' ),
+				'outline-shadow'       => __( 'Outline Shadow', 'lsx-design' ),
+				'link'       => __( 'Link', 'lsx-design' ),
 			),
 			'core/quote'           => array(
-				'contrast-background' => __( 'Contrast', 'lsx' ),
-				'primary-background' => __( 'Primary', 'lsx' ),
-				'secondary-background' => __( 'Secondary', 'lsx' ),
+				'contrast-background' => __( 'Contrast', 'lsx-design' ),
+				'primary-background' => __( 'Primary', 'lsx-design' ),
+				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
 			'core/pullquote'           => array(
-				'contrast-background' => __( 'Contrast', 'lsx' ),
-				'primary-background' => __( 'Primary', 'lsx' ),
-				'secondary-background' => __( 'Secondary', 'lsx' ),
+				'contrast-background' => __( 'Contrast', 'lsx-design' ),
+				'primary-background' => __( 'Primary', 'lsx-design' ),
+				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
 			'core/image'           => array(
-				'inner-border'   => __( 'Inner Border', 'lsx' ),
-				'shadow'       => __( 'Shadow', 'lsx' ),
+				'inner-border'   => __( 'Inner Border', 'lsx-design' ),
+				'shadow'       => __( 'Shadow', 'lsx-design' ),
 			),
 			'core/paragraph'           => array(
-				'content-box'   => __( 'Content Box', 'lsx' ),
-				'dark-content-box'       => __( 'Dark Content Box', 'lsx' ),
-				'failure-content-box'       => __( 'Failure Content Box', 'lsx' ),
-				'warning-content-box'       => __( 'Warning Content Box', 'lsx' ),
-				'success-content-box'       => __( 'Success Content Box', 'lsx' ),
+				'content-box'   => __( 'Content Box', 'lsx-design' ),
+				'dark-content-box'       => __( 'Dark Content Box', 'lsx-design' ),
+				'failure-content-box'       => __( 'Failure Content Box', 'lsx-design' ),
+				'warning-content-box'       => __( 'Warning Content Box', 'lsx-design' ),
+				'success-content-box'       => __( 'Success Content Box', 'lsx-design' ),
 			),
 			'core/heading'           => array(
-				'underline-primary'  => __( 'Underline #1', 'lsx' ),
-			'underline-secondary-tertiary' => __( 'Underline #2', 'lsx' ),
-			'underline-tertiary-primary'   => __( 'Underline #3', 'lsx' ),
-			'underline'                    => __( 'Underline #4', 'lsx' ),
+				'underline-primary'  => __( 'Underline #1', 'lsx-design' ),
+			'underline-secondary-tertiary' => __( 'Underline #2', 'lsx-design' ),
+			'underline-tertiary-primary'   => __( 'Underline #3', 'lsx-design' ),
+			'underline'                    => __( 'Underline #4', 'lsx-design' ),
 			)
 		);
 	

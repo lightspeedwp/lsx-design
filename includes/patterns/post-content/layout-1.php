@@ -4,7 +4,7 @@
  */
 
 return array(
-	'title'	  => __( 'Layout 1', 'lsx' ),
+	'title'	  => __( 'Layout 1', 'lsx-design' ),
 	'blockTypes' => array( 'core/post-content' ),
 	'content'	=> '
 		<!-- wp:pattern {"slug":"lsx/featured/cover-2-col"} /-->

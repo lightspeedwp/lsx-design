@@ -3,7 +3,7 @@
  * Home Page
  */
 return array(
-	'title'	  => __( 'Home Page', 'lsx' ),
+	'title'	  => __( 'Home Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
 	'content'	=> '
 <!-- wp:cover {"minHeight":502,"minHeightUnit":"px","gradient":"secondary-primary","contentPosition":"center center","isDark":false,"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"color":{"duotone":"unset"}}} -->

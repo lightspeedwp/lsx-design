@@ -3,7 +3,7 @@
  * Contact Us
  */
 return array(
-	'title'	  => __( 'Contact Us', 'lsx' ),
+	'title'	  => __( 'Contact Us', 'lsx-design' ),
 	'categories' => array( 'pages' ),
 	'content'	=> '<!-- wp:cover {"overlayColor":"contrast","minHeight":300,"minHeightUnit":"px","contentPosition":"center center","align":"full"} -->
     <div class="wp-block-cover alignfull" style="min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->

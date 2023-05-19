@@ -3,7 +3,7 @@
  * Header Center
  */
 return array(
-	'title'	  => __( 'Header Center', 'lsx' ),
+	'title'	  => __( 'Header Center', 'lsx-design' ),
 	'categories' => array( 'header' ),
 	'content'	=> '
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"30px","bottom":"30px"},"margin":{"top":"0px"}}},"layout":{"type":"constrained"}} -->

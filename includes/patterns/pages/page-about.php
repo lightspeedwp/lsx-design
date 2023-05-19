@@ -3,7 +3,7 @@
  * About Page
  */
 return array(
-	'title'	  => __( 'About Page', 'lsx' ),
+	'title'	  => __( 'About Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
 	'content'	=> '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"70px","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignfull" style="padding-top:70px;padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|medium"}}}} -->

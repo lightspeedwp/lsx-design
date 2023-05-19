@@ -36,14 +36,14 @@ class Block_Setup {
 	 */
 	public function register_block_patterns() {
 		$block_pattern_categories = array(
-			'featured' => array( 'label' => __( 'Featured', 'lsx' ) ),
-			'footer'   => array( 'label' => __( 'Footers', 'lsx' ) ),
-			'header'   => array( 'label' => __( 'Headers', 'lsx' ) ),
-			'query'    => array( 'label' => __( 'Query', 'lsx' ) ),
-			'pages'    => array( 'label' => __( 'Pages', 'lsx' ) ),
-			'team'   => array( 'label' => __( 'Team', 'lsx' ) ),
-			'testimonials'   => array( 'label' => __( 'Testimonials', 'lsx' ) ),
-			'cards'   => array( 'label' => __( 'Cards', 'lsx' ) ),
+			'featured' => array( 'label' => __( 'Featured', 'lsx-design' ) ),
+			'footer'   => array( 'label' => __( 'Footers', 'lsx-design' ) ),
+			'header'   => array( 'label' => __( 'Headers', 'lsx-design' ) ),
+			'query'    => array( 'label' => __( 'Query', 'lsx-design' ) ),
+			'pages'    => array( 'label' => __( 'Pages', 'lsx-design' ) ),
+			'team'   => array( 'label' => __( 'Team', 'lsx-design' ) ),
+			'testimonials'   => array( 'label' => __( 'Testimonials', 'lsx-design' ) ),
+			'cards'   => array( 'label' => __( 'Cards', 'lsx-design' ) ),
 		);
 
 		/**

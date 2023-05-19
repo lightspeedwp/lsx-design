@@ -3,7 +3,7 @@
  * Single Cards Icons
  */
 return array(
-	'title'	  => __( 'Single Cards Icons', 'lsx' ),
+	'title'	  => __( 'Single Cards Icons', 'lsx-design' ),
 	'categories' => array( 'cards' ),
 	'content'	=> '<!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"color":{"background":"#f5fbff"},"border":{"width":"2px"}},"borderColor":"septenary","textColor":"contrast"} -->

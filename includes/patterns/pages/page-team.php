@@ -3,7 +3,7 @@
  * Team Page
  */
 return array(
-	'title'	  => __( 'Team Page', 'lsx' ),
+	'title'	  => __( 'Team Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
 	'content'	=> '<!-- wp:cover {"customOverlayColor":"#313535","minHeight":264,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}}} -->
     <div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--x-small);min-height:264px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#313535"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->

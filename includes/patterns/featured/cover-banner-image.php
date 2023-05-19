@@ -3,7 +3,7 @@
  * Cover Banne with Image
  */
 return array(
-	'title'	  => __( 'Cover Banner with Image', 'lsx' ),
+	'title'	  => __( 'Cover Banner with Image', 'lsx-design' ),
 	'categories' => array( 'featured' ),
 	'content'	=> '<!-- wp:cover {"url":"https://s.w.org/images/core/5.8/art-01.jpg","dimRatio":40,"customOverlayColor":"#000000","minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
     <div class="wp-block-cover alignfull is-light" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#000000"></span><img class="wp-block-cover__image-background" alt="" src="https://s.w.org/images/core/5.8/art-01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"className":"wp-block-heading alignwide has-white-color has-text-color"} -->
