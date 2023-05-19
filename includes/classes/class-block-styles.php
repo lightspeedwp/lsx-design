@@ -102,7 +102,7 @@ class Block_Styles {
 	 * @return void
 	 */
 	public function block_editor_styles() {
-		wp_enqueue_style( 'editor-styles', get_template_directory_uri() . '/assets/css/editor-style.css', false, LSX_VERSION, 'all' );
+		wp_enqueue_style( 'editor-styles', get_template_directory_uri() . '/assets/css/editor-style.css', false, LSXD_VERSION, 'all' );
 	}
 
 	/**
