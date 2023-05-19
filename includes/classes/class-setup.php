@@ -80,8 +80,8 @@ class Setup {
 	/**
 	 * Adds the old menu options back in for site transition
 	 *
-	 * @deprecated in version 4.0.0
-	 * @todo Remove in Version 4.1.0
+	 * @deprecated in version 1.0.0
+	 * @todo Remove in Version 1.1.0
 	 * @return void
 	 */
 	public function theme_setup() {
