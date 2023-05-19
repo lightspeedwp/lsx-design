@@ -1,6 +1,6 @@
 {
     "name": "lightspeeddevelopment/lsx",
-    "description": "LSX is a minimalistic WordPress theme that allows users to create fast, efficient and attractive websites that are feature-rich. The theme displays perfectly on all desktop and portable devices.",
+    "description": "is a minimalistic WordPress theme that allows users to create fast, efficient and attractive websites that are feature-rich. The theme displays perfectly on all desktop and portable devices.",
     "type": "wordpress-theme",
     "require": {
         "php": ">=8.0",

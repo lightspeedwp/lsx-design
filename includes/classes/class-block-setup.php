@@ -30,7 +30,7 @@ class Block_Setup {
 	/**
 	 * Registers block patterns and categories.
 	 *
-	 * @since LSX 1.0
+	 * @since 1.0
 	 *
 	 * @return void
 	 */
@@ -49,7 +49,7 @@ class Block_Setup {
 		/**
 		 * Filters the theme block pattern categories.
 		 *
-		 * @since LSX 1.0
+		 * @since 1.0
 		 *
 		 * @param array[] $block_pattern_categories {
 		 *     An associative array of block pattern categories, keyed by category name.
@@ -116,7 +116,7 @@ class Block_Setup {
 		/**
 		 * Filters the theme block patterns.
 		 *
-		 * @since LSX 1.0
+		 * @since 1.0
 		 *
 		 * @param array $block_patterns List of block patterns by name.
 		 */

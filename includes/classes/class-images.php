@@ -47,7 +47,7 @@ class Images {
 	 */
 	public function register_media_editor_sizes( $sizes = array() ) {
 		return array_merge( $sizes, array(
-			'lsxd-blog-thumbnail' => __( 'LSX Blog Thumbnail', 'lsx' ),
+			'lsxd-blog-thumbnail' => __( 'Blog Thumbnail', 'lsx' ),
 		) );
 	}
 

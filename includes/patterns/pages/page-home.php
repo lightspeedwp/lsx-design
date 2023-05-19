@@ -15,7 +15,7 @@ return array(
 <div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:paragraph {"align":"center","style":{"color":{"text":"#ffffff"}}} -->
-<p class="has-text-align-center has-text-color" style="color:#ffffff">LSX is the ultimate WordPress theme for website builders.</p>
+<p class="has-text-align-center has-text-color" style="color:#ffffff">is the ultimate WordPress theme for website builders.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"wp-block-button has-custom-width wp-block-button__width-75 is-style-fill","layout":{"type":"flex","justifyContent":"center"}} -->
