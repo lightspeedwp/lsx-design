@@ -7,7 +7,7 @@ jQuery( function( $ ) {
 		$.ajax( {
 			url: ajaxurl,
 			data: {
-				action: 'lsx_dismiss_theme_notice'
+				action: 'lsxd_dismiss_theme_notice'
 			}
 		} );
 	} );
