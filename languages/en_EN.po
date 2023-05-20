@@ -2,28 +2,28 @@
 # This file is distributed under the GPLv3 or later License URI: https://www.gnu.org/licenses/gpl-3.0.en.html.
 msgid ""
 msgstr ""
-"Project-Id-Version: LSX 1.0.0\n"
+"Project-Id-Version: LSX Design 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lsx-design\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-05-19T07:37:52+00:00\n"
+"POT-Creation-Date: 2023-05-20T11:54:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
-"X-Domain: lsx Tags: blog, e-commerce, portfolio This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun, and share what you've learned with others.\n"
+"X-Domain: lsx-design\n"
 
 #. Theme Name of the theme
-msgid "LSX"
+msgid "LSX Design"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://www.lsdev.biz/lsx/"
+msgid "https://lsx.design/"
 msgstr ""
 
 #. Description of the theme
-msgid "LSX is an flexible, light-weight, minimalistic and responsive theme designed to empower makers to build beautifully rich websites with WordPress block editor and customizer. We take full advantage of the block editor, which gives you more control over creating your content. Install the free LSX Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page. The flexibility LSX is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce, making it an ideal choice for your next eCommerce build. Check the demo to test drive the LSX & the free LSX extensions: https://lsx-demo.lsdev.biz/"
+msgid "LSX Design is a light-weight WordPress Block Theme designed to empower makers to build beautifully rich websites using WordPress Block Editor and Site Editor. We take full advantage of the block editor, which gives you more control over creating your content. Install the free Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page. The flexibility is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites. LSX Design is fully compatibility with WooCommerce & WooCommerce Blocks, making it an ideal choice for your next eCommerce build."
 msgstr ""
 
 #. Author of the theme
@@ -32,6 +32,511 @@ msgstr ""
 
 #. Author URI of the theme
 msgid "https://www.lsdev.biz/"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:39
+msgid "Featured"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:40
+msgid "Footers"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:41
+msgid "Headers"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:42
+msgid "Query"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:43
+msgid "Pages"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:44
+msgid "Team"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:45
+msgid "Testimonials"
+msgstr ""
+
+#: includes/classes/class-block-setup.php:46
+msgid "Cards"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:46
+msgid "Wide"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:49
+msgid "CTA"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:50
+msgid "Pill"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:51
+msgid "Pill Outline"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:52
+msgid "Rounded"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:53
+#: includes/classes/class-block-styles.php:69
+msgid "Shadow"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:54
+msgid "Outline Shadow"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:55
+msgid "Link"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:58
+#: includes/classes/class-block-styles.php:63
+msgid "Contrast"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:59
+#: includes/classes/class-block-styles.php:64
+msgid "Primary"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:60
+#: includes/classes/class-block-styles.php:65
+msgid "Secondary"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:68
+msgid "Inner Border"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:72
+msgid "Content Box"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:73
+msgid "Dark Content Box"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:74
+msgid "Failure Content Box"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:75
+msgid "Warning Content Box"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:76
+msgid "Success Content Box"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:79
+msgid "Underline #1"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:80
+msgid "Underline #2"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:81
+msgid "Underline #3"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:82
+msgid "Underline #4"
+msgstr ""
+
+#: includes/classes/class-frontend.php:94
+msgid "Addresses"
+msgstr ""
+
+#: includes/classes/class-frontend.php:96
+msgid "Address"
+msgstr ""
+
+#: includes/classes/class-images.php:50
+msgid "Blog Thumbnail"
+msgstr ""
+
+#: includes/patterns/cards/four-columns-icon-cards.php:6
+msgid "4 Column Cards Icons"
+msgstr ""
+
+#: includes/patterns/cards/single-icon-card.php:6
+msgid "Single Cards Icons"
+msgstr ""
+
+#: includes/patterns/cards/three-columns-icon-cards.php:6
+msgid "3 Column Cards Icons"
+msgstr ""
+
+#: includes/patterns/featured/cover-2-col.php:6
+msgid "Cover 2 Columns with CTA"
+msgstr ""
+
+#: includes/patterns/featured/cover-banner-image.php:6
+msgid "Cover Banner with Image"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-one-column.php:6
+msgid "Hero 1 Col"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-three-columns.php:6
+msgid "Hero 3 Colum "
+msgstr ""
+
+#: includes/patterns/featured/general-hero-three-columns.php:11
+msgid "Image, heading, text, button."
+msgstr ""
+
+#: includes/patterns/featured/general-hero-three-columns.php:24
+#: includes/patterns/featured/general-hero-three-columns.php:44
+#: includes/patterns/featured/general-hero-three-columns.php:64
+#: includes/patterns/pages/page-links.php:12
+msgid "Sample Image"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-three-columns.php:27
+#: includes/patterns/featured/general-hero-three-columns.php:47
+#: includes/patterns/featured/general-hero-three-columns.php:67
+msgid "Sample Heading"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-three-columns.php:35
+#: includes/patterns/featured/general-hero-three-columns.php:55
+#: includes/patterns/featured/general-hero-three-columns.php:75
+#: includes/patterns/featured/general-hero-two-columns.php:21
+#: includes/patterns/footer/footer-mega-contrast-background.php:20
+#: includes/patterns/footer/footer-mega.php:20
+msgid "Learn More"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-two-columns.php:6
+msgid "Hero 2 Col with Image"
+msgstr ""
+
+#: includes/patterns/featured/general-hero-two-columns.php:11
+msgid "Text on left, media on right."
+msgstr ""
+
+#: includes/patterns/featured/general-hero-two-columns.php:18
+msgid "Get Started"
+msgstr ""
+
+#: includes/patterns/featured/page-title.php:6
+msgid "Dark Page Title"
+msgstr ""
+
+#: includes/patterns/featured/white-page-title.php:6
+msgid "White Page Title"
+msgstr ""
+
+#: includes/patterns/footer/footer-default-contrast-background.php:6
+msgid "Footer Default Contrast"
+msgstr ""
+
+#: includes/patterns/footer/footer-default-contrast-background.php:14
+#: includes/patterns/footer/footer-default.php:14
+#: includes/patterns/footer/footer-stacked-contrast-background.php:25
+#: includes/patterns/footer/footer-stacked.php:25
+#: includes/patterns/footer/footer-three-columns-contrast-background.php:17
+#: includes/patterns/footer/footer-three-columns.php:17
+#: includes/patterns/pages/page-contact.php:6
+msgid "Contact Us"
+msgstr ""
+
+#: includes/patterns/footer/footer-default.php:6
+msgid "Footer Default "
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:6
+msgid "Footer Mega Contrast"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:13
+#: includes/patterns/footer/footer-mega.php:13
+msgid "Our Company"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:26
+#: includes/patterns/footer/footer-mega.php:26
+msgid "About Us"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:30
+#: includes/patterns/footer/footer-mega.php:30
+msgid "Start Here"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:33
+#: includes/patterns/footer/footer-mega.php:33
+msgid "Our Mission"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:36
+#: includes/patterns/footer/footer-mega.php:36
+msgid "Brand Guide"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:39
+#: includes/patterns/footer/footer-mega.php:39
+msgid "Newsletter"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:42
+#: includes/patterns/footer/footer-mega.php:42
+msgid "Accessibility"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:48
+#: includes/patterns/footer/footer-mega.php:48
+msgid "Services"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:52
+#: includes/patterns/footer/footer-mega.php:52
+msgid "Web Design"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:55
+#: includes/patterns/footer/footer-mega.php:55
+msgid "Development"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:58
+#: includes/patterns/footer/footer-mega.php:58
+msgid "Copywriting"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:61
+#: includes/patterns/footer/footer-mega.php:61
+msgid "Marketing"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:64
+#: includes/patterns/footer/footer-mega.php:64
+msgid "Social Media"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega-contrast-background.php:70
+#: includes/patterns/footer/footer-mega.php:70
+msgid "Connect"
+msgstr ""
+
+#: includes/patterns/footer/footer-mega.php:6
+msgid "Footer Mega "
+msgstr ""
+
+#: includes/patterns/footer/footer-stacked-contrast-background.php:6
+msgid "Footer Stacked Contrast"
+msgstr ""
+
+#: includes/patterns/footer/footer-stacked-contrast-background.php:12
+#: includes/patterns/footer/footer-stacked.php:12
+msgid "Let’s Connect"
+msgstr ""
+
+#: includes/patterns/footer/footer-stacked-contrast-background.php:20
+#: includes/patterns/footer/footer-stacked.php:20
+msgid "Get in Touch"
+msgstr ""
+
+#: includes/patterns/footer/footer-stacked.php:6
+msgid "Footer Stacked"
+msgstr ""
+
+#: includes/patterns/footer/footer-three-columns-contrast-background.php:6
+msgid "Footer 3 Colum Contrast "
+msgstr ""
+
+#: includes/patterns/footer/footer-three-columns-contrast-background.php:17
+#: includes/patterns/footer/footer-three-columns.php:17
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/patterns/footer/footer-three-columns-contrast-background.php:17
+#: includes/patterns/footer/footer-three-columns.php:17
+msgid "Terms of Service"
+msgstr ""
+
+#: includes/patterns/footer/footer-three-columns.php:6
+msgid "Footer 3 Column"
+msgstr ""
+
+#: includes/patterns/header/header-center-contrast-background.php:6
+msgid "Header Center Contrast"
+msgstr ""
+
+#: includes/patterns/header/header-center.php:6
+msgid "Header Center"
+msgstr ""
+
+#: includes/patterns/header/header-cta-contrast-background.php:6
+msgid "Header CTA Contrast"
+msgstr ""
+
+#: includes/patterns/header/header-cta.php:6
+msgid "Header CTA"
+msgstr ""
+
+#: includes/patterns/header/header-default-contrast-background.php:6
+msgid "Header Contrast default"
+msgstr ""
+
+#: includes/patterns/header/header-default.php:6
+msgid "Header default"
+msgstr ""
+
+#: includes/patterns/pages/page-about.php:6
+msgid "About Page"
+msgstr ""
+
+#: includes/patterns/pages/page-home.php:6
+msgid "Home Page"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:6
+msgid "Page Links"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:15
+msgid "Your Name"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:18
+msgid "Company Name"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:32
+msgid "Visit My Website"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:35
+msgid "Read My Blog"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:38
+msgid "Download My Ebook"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:41
+msgid "Follow My Newsletter"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:44
+msgid "Listen to My Podcast"
+msgstr ""
+
+#: includes/patterns/pages/page-links.php:52
+msgid "Made with LSX"
+msgstr ""
+
+#: includes/patterns/pages/page-team.php:6
+msgid "Team Page"
+msgstr ""
+
+#: includes/patterns/pages/page-testimonials.php:6
+msgid "Testimonials Page"
+msgstr ""
+
+#: includes/patterns/post-content/layout-1.php:7
+msgid "Layout 1"
+msgstr ""
+
+#: includes/patterns/post-content/layout-2.php:11
+msgid "Layout 2"
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:6
+msgid "Team 4 Column Contract"
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:11
+#: includes/patterns/team/general-team-four-columns.php:11
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:12
+#: includes/patterns/team/general-team-two-columns.php:12
+msgid "Our Team"
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:14
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:15
+#: includes/patterns/team/general-team-two-columns.php:15
+msgid "The people who are ready to serve you."
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:22
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:36
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:50
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:64
+#: includes/patterns/team/general-team-four-columns.php:22
+#: includes/patterns/team/general-team-four-columns.php:36
+#: includes/patterns/team/general-team-four-columns.php:50
+#: includes/patterns/team/general-team-four-columns.php:64
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:28
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:43
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:58
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:75
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:90
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:105
+#: includes/patterns/team/general-team-two-columns.php:28
+#: includes/patterns/team/general-team-two-columns.php:43
+#: includes/patterns/team/general-team-two-columns.php:58
+#: includes/patterns/team/general-team-two-columns.php:75
+#: includes/patterns/team/general-team-two-columns.php:90
+#: includes/patterns/team/general-team-two-columns.php:105
+msgid "Member Name"
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:28
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:42
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:56
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:70
+#: includes/patterns/team/general-team-four-columns.php:28
+#: includes/patterns/team/general-team-four-columns.php:42
+#: includes/patterns/team/general-team-four-columns.php:56
+#: includes/patterns/team/general-team-four-columns.php:70
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:31
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:46
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:61
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:78
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:93
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:108
+#: includes/patterns/team/general-team-two-columns.php:31
+#: includes/patterns/team/general-team-two-columns.php:46
+#: includes/patterns/team/general-team-two-columns.php:61
+#: includes/patterns/team/general-team-two-columns.php:78
+#: includes/patterns/team/general-team-two-columns.php:93
+#: includes/patterns/team/general-team-two-columns.php:108
+msgid "View profile"
+msgstr ""
+
+#: includes/patterns/team/general-team-four-columns.php:6
+msgid "Team 4 Column"
+msgstr ""
+
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:6
+msgid "Team 2 Column Contract"
+msgstr ""
+
+#: includes/patterns/team/general-team-two-columns.php:6
+msgid "Team 2 Column"
+msgstr ""
+
+#: includes/patterns/testimonials/testimonial-1-column.php:6
+msgid "Testimonial 1 Col"
+msgstr ""
+
+#: includes/patterns/testimonials/testimonial-2-column.php:6
+msgid "Testimonial 2 Col"
 msgstr ""
 
 #: theme.json
