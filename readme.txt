@@ -19,7 +19,7 @@ We take full advantage of the block editor, which gives you more control over cr
 
 Install the free LSX Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page.
 
-LSX  Design is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
+LSX Design is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
 
 Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce, making it an ideal choice for your next eCommerce build.
 
@@ -99,7 +99,7 @@ This software uses the following open source packages:
 Take a look at all our [Frequently Asked Questions](https://www.lsdev.biz/lsx/documentation/lsx-theme/lsx-theme-faqs/), we are sure you'll find what you're looking for.
 
 = What are the server requirements for running the LSX Theme? =
-Your WordPress website needs to be running PHP version 7.0 or higher in order to make use of the LSX theme.
+Your WordPress website needs to be running PHP version 8.0 or higher in order to make use of the LSX theme.
 
 = Does the LSX theme work with the WordPress Block Editor? =
 Yes it does! In fact we have developed a block plugin with a variety of custom blocks! If you are running the LSX theme and have upgraded WordPress, then check out the LSX Blocks plugin!
