@@ -25,9 +25,7 @@ class Setup {
 	 */
 	public function init() {
 		add_action( 'admin_init', array( $this, 'remove_customizer_menu' ), 10 );
-		add_filter( 'user_has_cap', array( $this, 'remove_customize_capability' ), 200, 4 );
 		add_action( 'wp_before_admin_bar_render', array( $this, 'admin_bar_render' ), 10 );
-
 		add_action( 'after_setup_theme', array( $this, 'theme_setup' ) );
 	}
 
@@ -50,22 +48,6 @@ class Setup {
 		}
 		remove_submenu_page( 'themes.php', $customize_url );
 	}
-
-	/**
-	 * Removes the customizer capability
-	 *
-	 * @param array $caps
-	 * @param string $cap
-	 * @param array $args
-	 * @param object $wp_user
-	 * @return void
-	 */
-    public function remove_customize_capability( $all_caps = [],$caps = '',$args = [], $wp_user ) {
-		if ( isset( $all_caps['customize'] ) ) {
-			unset( $all_caps['customize'] );
-		}
-        return $all_caps;
-    }
 
 	/**
 	 * Removes unwanted links from the admin bar.
