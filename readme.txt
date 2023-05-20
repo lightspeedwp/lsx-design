@@ -1,29 +1,29 @@
-=== LSX Theme ===
-Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, jacquesvdh, ignusvermaak
-Donate link: https://lsdev.biz/lsx/donate/
+=== LSX Design ===
+Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
+Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
-Requires at least: 5.0
-Tested up to: 6.2
+Requires at least: 6.0
+Tested up to: 6.2.1
 Requires PHP: 8.0
 Stable tag: 1.0.0
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-LSX is a flexible, light-weight, minimalistic and responsive theme built for the new block editor.
+LSX Design is a flexible WordPress Block theme, light-weight, minimalistic and responsive theme built for the WordPress block editor and full site editor, with extensive WooCommerce integration support.
 
 == Description ==
 
-LSX is a flexible, light-weight, minimalistic and responsive theme designed to empower makers to build beautifully rich websites with WordPress block editor and customizer.
+LSX Design is a flexible, light-weight, minimalistic and responsive theme designed to empower makers to build beautifully rich websites with WordPress block editor and customizer.
 
 We take full advantage of the block editor, which gives you more control over creating your content.
 
 Install the free LSX Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page.
 
-The flexibility LSX is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
+LSX  Design is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
 
 Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce, making it an ideal choice for your next eCommerce build.
 
-Check the demo to test drive the LSX DEMO SITE: https://lsx-demo.lsdev.biz/
+Check the product sitehere - https://lsx.design/ - and theme demo here - https://demo.lsx.design/
 
 = Features =
 
@@ -35,10 +35,8 @@ Check the demo to test drive the LSX DEMO SITE: https://lsx-demo.lsdev.biz/
 * Multiple Design Styles
 * Multiple Header Variations
 * Multiple Footer Variations
-* Social Links Menu
 * WooCommerce Ready
 * Translation Ready
-* Sensei LMS Ready
 * Portfolio
 * Blog
 * Block Editor styles,
@@ -49,52 +47,36 @@ Check the demo to test drive the LSX DEMO SITE: https://lsx-demo.lsdev.biz/
 
 = WooCommerce Support =
 
-LSX is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lsdev.biz/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+LSX Design is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lsdev.biz/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
 
-For more information about LSX Theme please go to the [LSX product site](https://lsdev.biz/lsx/).
+For more information about LSX Design please go to the [product site](https://lsx.design/).
 
-For even more customization, check out the available free [LSX extensions](https://lsdev.biz/lsx/extensions/) and the free [Minimal LSX Child Theme](https://wordpress.org/themes/minimal-lsx/).
+For even more customization, check out the available free [LSX extensions](https://lsx.design/extensions/).
 
-= Block Editor Compatible =
+= Block Editor & Site Editor Compatible =
 
-The LSX theme is full compatible with the WordPress block editor. This means you can now make use of the drag-and-drop page builder when creating new pages and posts.
-
-[LSX Blocks](https://lsdev.biz/lsx/extensions/blocks) is an extension with blocks designed to display perfectly with the LSX theme. The blocks plugin extends various WordPress core blocks to be more flexible with the WordPress theme.
-
-The combination of LSX Theme & LSX Blocks gives you a true page builder experience using the WordPress Gutenberg block editor.
-
-= LSX Theme Extensions =
-
-Our range of powerful [LSX extensions](https://www.lsdev.biz/lsx/extensions/) gives you freedom to add team members, client reviews, your portfolio and so much more to your website. Each extension is designed fluidly with the LSX theme. So there are no code hassles involved.
+LSX Design is full compatible with the WordPress block editor and site editor. This means you can now make use of the drag-and-drop page builder when editing website layouts or creating new pages and posts.
 
 = Documentation =
 
-We have extensive documentation on all our themes functionality. This allows you to take control of your website setup and design to your needs:
-
-* [Getting Starting with LSX](https://www.lsdev.biz/lsx/documentation/lsx-theme/getting-started/)
-* [Customizer](https://www.lsdev.biz/lsx/documentation/lsx-theme/customizer/)
-* [Page Tempates](https://www.lsdev.biz/lsx/documentation/lsx-theme/page-templates/)
-* [Banners](https://www.lsdev.biz/lsx/documentation/lsx-theme/banners/)
-* [Menus](https://www.lsdev.biz/lsx/documentation/lsx-theme/menus/)
-* [Third Party Plugins](https://www.lsdev.biz/lsx/documentation/lsx-theme/third-party-plugins/)
+We have documentation on the LSX Design theme, take control of your website setup and design to your needs - https://lsx.design/docs/
 
 = Support =
 
-Contact the [LightSpeed](https://lsdev.biz/) for assistance via the [LSX support form](https://www.lsdev.biz/lsx/support/).
+Contact the LightSpeed for paid support assistance via the contact form - https://www.lsdev.biz/contact/
 
-If you are experiencing issues with the LSX Theme, please log any bug issues you are having on the [LSX Github Issues](https://github.com/lightspeeddevelopment/lsx/issues) page.
+Please log bug issues via Github Issues if you are experiencing issues with LSX Design - https://github.com/lightspeeddevelopment/lsx-design/issues
 
 = Contributing =
 
-If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit the [LSX theme on Github](https://github.com/lightspeeddevelopment/lsx) and submit a Pull Request with your updates.
+If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit LSX Design on Github and submit a Pull Request with your updates - https://github.com/lightspeeddevelopment/lsx-design
 
 == Installation ==
 
 1. In your admin panel, go to *Appearance > Themes* and click the *'Add New'* button.
 2. Type in Storefront in the search form and press the 'Enter' key on your keyboard.
 3. Click on the *'Activate'* button to use your new theme right away.
-4. Go to https://docs.woocommerce.com/documentation/themes/storefront/ guides on how to customize this theme.
-5. Navigate to *Appearance > Customize* in your admin panel and customize to taste.
+5. Navigate to *Appearance > Site Editor* in your admin panel and customize to taste.
 
 == Copyright ==
 
@@ -106,21 +88,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 This software uses the following open source packages:
 
 * [WordPress](https://wordpress.org/)
-* [Underscores](https://underscores.me/) (C) 2014-2020 Automattic, Inc.
 * [Composer](https://getcomposer.org/)
 * [WebPack](https://webpackwebpack.js.org/)
 * [Gulp](https://gulpjs.com/)
 * [Node.js](https://nodejs.org/)
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-* [WP-Bootstrap-Navwalker](https://github.com/twittem/wp-bootstrap-navwalker) is licensed under the terms of the GNU GPL, Version 3.
-* [Bootstrap](http://getbootstrap.com/) is licensed under the terms of the MIT license.
-* [Font Awesome](http://fontawesome.io/) icons are licensed under the terms of the SIL OFL 1.1, and code licensed under the terms of MIT License.
-* [Modernizr](https://modernizr.com/) is licensed under the terms of the MIT license.
-* [imagesLoaded](http://imagesloaded.desandro.com/) is licensed under the terms of the MIT license.
-* [ScrollToFixed](https://github.com/bigspotteddog/ScrollToFixed) is licensed under the terms of the MIT license.
-* [Picturefill](https://scottjehl.github.io/picturefill/) is licensed under the terms of the MIT license.
-* [lazysizes](https://github.com/aFarkas/lazysizes) is licensed under MIT license.
-
 
 == Frequently Asked Questions ==
 
@@ -152,12 +124,6 @@ LSX has extensive documentation you can find [here](https://docs.LSX.com).
 = Do you offer support? =
  Contact the [LightSpeed](https://lsdev.biz/) for assistance via the [LSX support form](https://www.lsdev.biz/lsx/support/).
 
-= Where can I find the theme options? =
-All of our options can be found in the Customizer in 'Appearance > Customize'.
-
-= Does LSX have any widget areas? =
-LSX has up to 4 widget areas which you can add widgets to in Appearance > Widgets.
-
 == Changelog ==
 
-[Latest changelogs can be found on GitHub](https://github.com/lightspeeddevelopment/lsx/blob/master/changelog.md).
+[Latest changelogs can be found on GitHub](https://github.com/lightspeeddevelopment/lsx-design/blob/master/changelog.md).
