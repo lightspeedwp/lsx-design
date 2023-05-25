@@ -636,6 +636,10 @@
          clear: both;
          margin: 0 0 2em
     }
+    .wc-block-grid.has-5-columns .wc-block-grid__product {
+        max-width: 85%!important;
+        margin-bottom: 15px;
+    }
     .woocommerce div.product form.cart .variations select {
         border: 2px solid #2B2D2F!important;
         background: url('/wp-content/plugins/woocommerce/assets/images/icons/gridicons-chevron-down.svg') no-repeat right;
