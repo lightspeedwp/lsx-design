@@ -314,6 +314,22 @@
 				"primary": "#FFFFFF",
 				"secondary": "#FFFFFF"
 			},
+			"theme": {
+				"default": {
+					"primary": "#2F8EFF",
+					"secondary": "#FF3131",
+					"tertiary": "#00CE5F",
+					"quatenerey": "#F6DD54",
+					"quinary": "#B4B7C1",
+					"senary": "#CC3F23",
+					"septenary": "#114BB2",
+					"octonary": "#00A34B",
+					"novenary": "#D6B300",
+					"denary": "#323649"
+				},
+				"light" : {
+				}
+			},
 			"primary": "#2F8EFF",
 			"secondary": "#FF3131",
 			"tertiary": "#00CE5F",
