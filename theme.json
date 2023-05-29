@@ -338,7 +338,17 @@
 			"septenary": "#114BB2",
 			"octonary": "#00A34B",
 			"novenary": "#D6B300",
-			"denary": "#323649"
+			"denary": "#323649",
+			"gigantic": {
+				"font-weight": 700,
+				"line-height": "96px",
+				"font-size": "72px"
+			},
+			"huge": {
+				"font-weight": 700,
+				"line-height": "30px",
+				"font-size": "60px"
+			}
 		},
 		"layout": {
 			"contentSize": "640px",
