@@ -1,4 +1,5 @@
-{	"version": 2,
+{
+	"version": 2,
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -89,42 +90,63 @@
 			"defaultGradients": true,
 			"defaultPalette": true,
 			"duotone": [
-                {
-                    "colors": [ "#CC3F23", "#F6DD54" ],
-                    "slug": "senary-and-quaternary",
-                    "name": "Senary and quaternary"
-                },
 				{
-                    "colors": [ "#323649", "#FF3131" ],
-                    "slug": "denary-and-primary",
-                    "name": "Denary and Primary"
-                },
+					"colors": [
+						"#CC3F23",
+						"#F6DD54"
+					],
+					"slug": "senary-and-quaternary",
+					"name": "Senary and quaternary"
+				},
 				{
-                    "colors": [ "#114BB2", "#F6DD54" ],
-                    "slug": "septenary-and-quaternary",
-                    "name": "Septenary and quaternary"
-                },
+					"colors": [
+						"#323649",
+						"#FF3131"
+					],
+					"slug": "denary-and-primary",
+					"name": "Denary and Primary"
+				},
 				{
-                    "colors": [ "#114BB2", "#2F8EFF" ],
-                    "slug": "septenary-and-secondary",
-                    "name": "Septenary and Secondary"
-                },
+					"colors": [
+						"#114BB2",
+						"#F6DD54"
+					],
+					"slug": "septenary-and-quaternary",
+					"name": "Septenary and quaternary"
+				},
 				{
-                    "colors": [ "#114BB2", "#00CE5F" ],
-                    "slug": "septenary-and-tertiary",
-                    "name": "Septenary and Tertiary"
-                },
+					"colors": [
+						"#114BB2",
+						"#2F8EFF"
+					],
+					"slug": "septenary-and-secondary",
+					"name": "Septenary and Secondary"
+				},
 				{
-                    "colors": [ "#000000", "#B4B7C1" ],
-                    "slug": "black-and-quinary",
-                    "name": "Black and Quinary"
-                },
+					"colors": [
+						"#114BB2",
+						"#00CE5F"
+					],
+					"slug": "septenary-and-tertiary",
+					"name": "Septenary and Tertiary"
+				},
 				{
-                    "colors": [ "#000000", "#2F8EFF" ],
-                    "slug": "black-and-secondary",
-                    "name": "Black and Secondary"
-                }
-            ],
+					"colors": [
+						"#000000",
+						"#B4B7C1"
+					],
+					"slug": "black-and-quinary",
+					"name": "Black and Quinary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#2F8EFF"
+					],
+					"slug": "black-and-secondary",
+					"name": "Black and Secondary"
+				}
+			],
 			"gradients": [
 				{
 					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--quaternary) 100%)",
@@ -243,7 +265,6 @@
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
-				
 			]
 		},
 		"shadow": {
@@ -292,7 +313,17 @@
 			"default": {
 				"primary": "#FFFFFF",
 				"secondary": "#FFFFFF"
-			}
+			},
+			"primary": "#2F8EFF",
+			"secondary": "#FF3131",
+			"tertiary": "#00CE5F",
+			"quatenerey": "#F6DD54",
+			"quinary": "#B4B7C1",
+			"senary": "#CC3F23",
+			"septenary": "#114BB2",
+			"octonary": "#00A34B",
+			"novenary": "#D6B300",
+			"denary": "#323649"
 		},
 		"layout": {
 			"contentSize": "640px",
@@ -358,37 +389,49 @@
 							"fontFamily": "Manrope",
 							"fontWeight": "200",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-200.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-200.woff2"
+							]
 						},
 						{
 							"fontFamily": "Manrope",
 							"fontWeight": "300",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-300.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-300.woff2"
+							]
 						},
 						{
 							"fontFamily": "Manrope",
 							"fontWeight": "500",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-500.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-500.woff2"
+							]
 						},
 						{
 							"fontFamily": "Manrope",
 							"fontWeight": "700",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-700.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-700.woff2"
+							]
 						},
 						{
 							"fontFamily": "Manrope",
 							"fontWeight": "800",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-800.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-800.woff2"
+							]
 						},
 						{
 							"fontFamily": "Manrope",
 							"fontWeight": "regular",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/manrope/manrope-regular.woff2" ]
+							"src": [
+								"file:./assets/fonts/manrope/manrope-regular.woff2"
+							]
 						}
 					]
 				},
@@ -458,7 +501,6 @@
 					"name": "Lora",
 					"slug": "lora"
 				}
-				
 			],
 			"fontSizes": [
 				{
@@ -651,12 +693,12 @@
 						"color": {
 							"text": "var(--wp--preset--color--secondary)"
 						},
-						":hover":{
+						":hover": {
 							"color": {
 								"text": "var(--wp--preset--color--tertiary)"
 							}
 						},
-						":active":{
+						":active": {
 							"color": {
 								"text": "var(--wp--preset--color--primary)"
 							}
@@ -933,12 +975,12 @@
 				"color": {
 					"text": "var(--wp--preset--color--secondary)"
 				},
-				":hover":{
+				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--tertiary)"
 					}
 				},
-				":active":{
+				":active": {
 					"color": {
 						"text": "var(--wp--preset--color--primary)"
 					}
