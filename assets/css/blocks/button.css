@@ -59,10 +59,12 @@ body .is-layout-constrained .alignfull, body .alignfull.is-layout-flow{margin-bl
     -webkit-transition-property: color,border-color,background-color;
     transition-property: color,border-color,background-color;
 }
-.hero .hero-header__button:hover:after a{-webkit-transform: scale(1,1);
-    -ms-transform: scale(1,1);
-    transform: scale(1,1);}
-.wp-block-button.is-style-underline-hover:after a{
+.wp-block-button.is-style-underline-hover .wp-element-button:hover:after{
+    position: absolute;
+    -webkit-transform: scale(1,1)!important;
+    -ms-transform: scale(1,1)!important;
+    transform: scale(1,1)!important;}
+.wp-block-button.is-style-underline-hover .wp-element-button:after{
         content: '';
         position: absolute;
         display: block;
