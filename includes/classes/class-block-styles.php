@@ -53,6 +53,7 @@ class Block_Styles {
 				'shadow'       => __( 'Shadow', 'lsx-design' ),
 				'outline-shadow'       => __( 'Outline Shadow', 'lsx-design' ),
 				'link'       => __( 'Link', 'lsx-design' ),
+				'underline-hover'       => __( 'Unerline Hover', 'lsx-design' ),
 			),
 			'core/quote'           => array(
 				'contrast-background' => __( 'Contrast', 'lsx-design' ),
