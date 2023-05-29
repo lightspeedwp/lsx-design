@@ -196,52 +196,52 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FF3131",
+					"color": "var( --wp--custom--primary )",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "var( --wp--custom--secondary )",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#00CE5F",
+					"color": "var( --wp--custom--tertiary )",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#F6DD54",
+					"color": "var( --wp--custom--quaternary )",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "#B4B7C1",
+					"color": "var( --wp--custom--quinary )",
 					"name": "Quinary",
 					"slug": "quinary"
 				},
 				{
-					"color": "#CC3F23",
+					"color": "var( --wp--custom--senary )",
 					"name": "Senary",
 					"slug": "senary"
 				},
 				{
-					"color": "#114BB2",
+					"color": "var( --wp--custom--septenary )",
 					"name": "Septenary",
 					"slug": "septenary"
 				},
 				{
-					"color": "#00A34B",
+					"color": "var( --wp--custom--octonary )",
 					"name": "Octonary",
 					"slug": "octonary"
 				},
 				{
-					"color": "#D6B300",
+					"color": "var( --wp--custom--novenary )",
 					"name": "Novenary",
 					"slug": "novenary"
 				},
 				{
-					"color": "#323649",
+					"color": "var( --wp--custom--denary )",
 					"name": "Denary",
 					"slug": "denary"
 				},
