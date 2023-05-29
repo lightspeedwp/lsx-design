@@ -59,10 +59,10 @@ body .is-layout-constrained .alignfull, body .alignfull.is-layout-flow{margin-bl
     -webkit-transition-property: color,border-color,background-color;
     transition-property: color,border-color,background-color;
 }
-.hero .hero-header__button a:hover:after{-webkit-transform: scale(1,1);
+.hero .hero-header__button:hover:after a{-webkit-transform: scale(1,1);
     -ms-transform: scale(1,1);
     transform: scale(1,1);}
-.wp-block-button.is-style-underline-hover a:after{
+.wp-block-button.is-style-underline-hover:after a{
         content: '';
         position: absolute;
         display: block;
