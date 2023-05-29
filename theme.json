@@ -245,7 +245,6 @@
 				}
 				
 			]
-
 		},
 		"shadow": {
 			"presets": [
@@ -289,6 +288,10 @@
 			},
 			"spacing": {
 				"outer": "30px"
+			},
+			"default": {
+				"primary": "#FFFFFF",
+				"secondary": "#FFFFFF"
 			}
 		},
 		"layout": {
