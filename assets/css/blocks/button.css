@@ -26,7 +26,7 @@ body .is-layout-constrained .alignfull, body .alignfull.is-layout-flow{margin-bl
 .wp-block-button.is-style-outline-shadow .has-base-background-color.has-background:hover{color:var(--wp--preset--color--base)!important;background-color: var(--wp--preset--color--cta);}
 .wp-block-button.is-style-outline-shadow .has-contrast-color:hover{color:var(--wp--preset--color--base)!important;background-color: var(--wp--preset--color--contrast)!important;}
 
-.wp-block-button.is-style-underline-hover{
+.wp-block-button.is-style-underline-hover a{
     background-color: transparent;
     border: solid 1px currentColor;
     color: currentColor;
@@ -59,10 +59,10 @@ body .is-layout-constrained .alignfull, body .alignfull.is-layout-flow{margin-bl
     -webkit-transition-property: color,border-color,background-color;
     transition-property: color,border-color,background-color;
 }
-.hero .hero-header__button:hover:after{-webkit-transform: scale(1,1);
+.hero .hero-header__button a:hover:after{-webkit-transform: scale(1,1);
     -ms-transform: scale(1,1);
     transform: scale(1,1);}
-.wp-block-button.is-style-underline-hover:after{
+.wp-block-button.is-style-underline-hover a:after{
         content: '';
         position: absolute;
         display: block;
