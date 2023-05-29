@@ -327,11 +327,10 @@
 					"novenary": "#D6B300",
 					"denary": "#323649"
 				},
-				"light" : {
-				}
+				"light": {}
 			},
-			"primary": "#2F8EFF",
-			"secondary": "#FF3131",
+			"primary": "#CF2E2E",
+			"secondary": "#8ED1FC",
 			"tertiary": "#00CE5F",
 			"quatenerey": "#F6DD54",
 			"quinary": "#B4B7C1",
