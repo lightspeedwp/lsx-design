@@ -18,7 +18,7 @@ return array(
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"cta","textColor":"base","className":"is-style-cta"} -->
-    <div class="wp-block-button is-style-cta"><a class="wp-block-button__link has-base-color has-cta-background-color has-text-color has-background wp-element-button" href="https://github.com/lightspeeddevelopment/lsx">View on Github</a></div>
+    <div class="wp-block-button is-style-cta"><a class="wp-block-button__link has-base-color has-cta-background-color has-text-color has-background wp-element-button" href="#">View on Github</a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:group --></div>

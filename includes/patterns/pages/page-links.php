@@ -49,7 +49,7 @@ return array(
     <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center"><a href="https://lsdev.biz/">' .  esc_html__( 'Made with LSX', 'lsx-design' ). '</a></p>
+    <p class="has-text-align-center"><a href="#">' .  esc_html__( 'Made with LSX', 'lsx-design' ). '</a></p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
