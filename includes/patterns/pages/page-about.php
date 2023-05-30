@@ -155,7 +155,7 @@ return array(
     <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
-    <p class="has-text-align-center" style="line-height:1.5"><p>Im a WordPress developer and enjoy building websites.</p>
+    <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
     <!-- /wp:paragraph -->
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
@@ -171,7 +171,7 @@ return array(
     <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
-    <p class="has-text-align-center" style="line-height:1.5"><p>Im a WordPress developer and enjoy building websites.</p>
+    <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
     <!-- /wp:paragraph -->
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
@@ -187,7 +187,7 @@ return array(
     <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
-    <p class="has-text-align-center" style="line-height:1.5"><p>Im a WordPress developer and enjoy building websites.</p>
+    <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
     <!-- /wp:paragraph -->
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
@@ -203,7 +203,7 @@ return array(
     <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
-    <p class="has-text-align-center" style="line-height:1.5"><p>Im a WordPress developer and enjoy building websites.</p>
+    <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
     <!-- /wp:paragraph -->
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
