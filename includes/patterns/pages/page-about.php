@@ -12,14 +12,14 @@ return array(
     <h2 class="wp-block-heading has-max-60-font-size" id="we-reimagine-how-to-build-wordpress-websites" style="margin-bottom:0px;letter-spacing:-1px">Experience the next generation of WordPress.</h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|x-small"}}},"fontSize":"large"} -->
-    <p class="has-large-font-size" style="margin-top:var(--wp--preset--spacing--x-small)"><p>Whether youre building a website for your business, personal brand, or creative project, lsx is the perfect solution for anyone looking to launch a website quickly and efficiently.</p>
+    <p class="has-large-font-size" style="margin-top:var(--wp--preset--spacing--x-small)">Whether youre building a website for your business, personal brand, or creative project, lsx is the perfect solution for anyone looking to launch a website quickly and efficiently.</p>
     <!-- /wp:paragraph -->
     <!-- wp:buttons {"layout":{"type":"flex"},"style":{"spacing":{"blockGap":"10px","margin":{"top":"30px"}}}} -->
     <div class="wp-block-buttons" style="margin-top:30px"><!-- wp:button {"fontSize":"small"} -->
     <div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
     <!-- /wp:button -->
     <!-- wp:button {"style":{"spacing":{"padding":{"top":"14px","bottom":"14px","left":"29px","right":"29px"}}},"className":"is-style-outline-background is-style-outline","fontSize":"small"} -->
-    <div class="wp-block-button has-custom-font-size is-style-outline-background is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:14px;padding-right:29px;padding-bottom:14px;padding-left:29px"><p>Learn More</a></div>
+    <div class="wp-block-button has-custom-font-size is-style-outline-background is-style-outline has-small-font-size"><a class="wp-block-button__link wp-element-button" style="padding-top:14px;padding-right:29px;padding-bottom:14px;padding-left:29px">Learn More</a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column -->
@@ -55,7 +55,7 @@ return array(
     <h2 class="wp-block-heading has-text-align-center has-max-60-font-size" id="text-on-left-image-on-right" style="letter-spacing:-1px">Build with lsx.</h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
-    <p class="has-text-align-center" style="line-height:1.5"><p>With its clean, minimal design and powerful feature set, lsx enables agencies to build stylish and sophisticated WordPress websites.</p>
+    <p class="has-text-align-center" style="line-height:1.5">With its clean, minimal design and powerful feature set, lsx enables agencies to build stylish and sophisticated WordPress websites.</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}}} -->
@@ -64,10 +64,10 @@ return array(
     <p class="has-max-60-font-size" style="font-style:normal;font-weight:400;line-height:1">01</p>
     <!-- /wp:paragraph -->
     <!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"className":"wp-block-heading","fontSize":"small"} -->
-    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase"><p>Design</h3>
+    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase">Design</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-    <p class="has-small-font-size" style="line-height:1.5"><p>The foundation on which aesthetics, user experience, and functionality is built.</p>
+    <p class="has-small-font-size" style="line-height:1.5">The foundation on which aesthetics, user experience, and functionality is built.</p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph {"fontSize":"small"} -->
     <p class="has-small-font-size"><a href="#features">Learn More →</a></p>
@@ -81,7 +81,7 @@ return array(
     <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase">Patterns</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-    <p class="has-small-font-size" style="line-height:1.5"><p>A preset bundle of blocks that empower builders and amplify their creativity.</p>
+    <p class="has-small-font-size" style="line-height:1.5">A preset bundle of blocks that empower builders and amplify their creativity.</p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
     <p class="has-link-color has-small-font-size"><a href="#">Learn More →</a></p>
@@ -92,10 +92,10 @@ return array(
     <p class="has-max-60-font-size" style="font-style:normal;font-weight:400;line-height:1">03</p>
     <!-- /wp:paragraph -->
     <!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"className":"wp-block-heading","fontSize":"small"} -->
-    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase"><p>Layouts</h3>
+    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase">Layouts</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-    <p class="has-small-font-size" style="line-height:1.5"><p>A collection of full-page patterns used to showcase content or a message.</p>
+    <p class="has-small-font-size" style="line-height:1.5">A collection of full-page patterns used to showcase content or a message.</p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
     <p class="has-link-color has-small-font-size"><a href="#">Learn More →</a></p>
@@ -106,10 +106,10 @@ return array(
     <p class="has-max-60-font-size" style="font-style:normal;font-weight:400;line-height:1">04</p>
     <!-- /wp:paragraph -->
     <!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase"}},"className":"wp-block-heading","fontSize":"small"} -->
-    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase"><p>Styles</h3>
+    <h3 class="wp-block-heading has-small-font-size" style="text-transform:uppercase">Styles</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-    <p class="has-small-font-size" style="line-height:1.5"><p>An essential element of web design used to create a visually striking design.</p>
+    <p class="has-small-font-size" style="line-height:1.5">An essential element of web design used to create a visually striking design.</p>
     <!-- /wp:paragraph -->
     <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
     <p class="has-link-color has-small-font-size"><a href="#">Learn More →</a></p>
@@ -121,7 +121,7 @@ return array(
     <div class="wp-block-group alignfull has-background-color has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
     <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"65%"} -->
     <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:65%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"large"} -->
-    <p class="has-large-font-size" style="line-height:1.5"><p>With its clean, minimal design and powerful feature set, lsx enables agencies to build stylish and sophisticated WordPress websites. Ka-chow!</p>
+    <p class="has-large-font-size" style="line-height:1.5">' . __( 'With its clean, minimal design and powerful feature set, lsx enables agencies to build stylish and sophisticated WordPress websites. Ka-chow!', 'lsx-design' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     <!-- wp:column {"verticalAlignment":"center","width":"35%"} -->
@@ -142,7 +142,7 @@ return array(
     <h2 class="wp-block-heading has-text-align-center has-max-48-font-size" id="block-patterns" style="margin-bottom:0px">Meet the team.</h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
-    <p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--medium)"><p>The talented folks who work on the lsx theme.</p>
+    <p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--medium)">' . __( 'The talented folks who work on the lsx theme.' ,'lsx-design' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
