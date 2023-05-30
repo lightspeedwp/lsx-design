@@ -152,7 +152,7 @@ return array(
     <figure class="wp-block-image aligncenter size-full is-resized"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/sample_800x800.jpg'. '" alt="Sample Image" class="wp-image-3489" width="200" height="200"/></figure>
     <!-- /wp:image -->
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
+    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
     <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
@@ -168,7 +168,7 @@ return array(
     <figure class="wp-block-image aligncenter size-full is-resized"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/sample_800x800.jpg'. '" alt="Sample Image" class="wp-image-3489" width="200" height="200"/></figure>
     <!-- /wp:image -->
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
+    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
     <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
@@ -184,7 +184,7 @@ return array(
     <figure class="wp-block-image aligncenter size-full is-resized"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/sample_800x800.jpg'. '" alt="Sample Image" class="wp-image-3489" width="200" height="200"/></figure>
     <!-- /wp:image -->
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
+    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
     <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>
@@ -200,7 +200,7 @@ return array(
     <figure class="wp-block-image aligncenter size-full is-resized"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/sample_800x800.jpg'. '" alt="Sample Image" class="wp-image-3489" width="200" height="200"/></figure>
     <!-- /wp:image -->
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1"><h3>Member Name</h3>
+    <h3 class="wp-block-heading has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}}} -->
     <p class="has-text-align-center" style="line-height:1.5">' . __( 'Im a WordPress developer and enjoy building websites.', 'lsx-design' ) . '</p>

@@ -119,7 +119,7 @@ return array(
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-1">Member Name</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -137,7 +137,7 @@ return array(
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-2">Member Name</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-2">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -155,7 +155,7 @@ return array(
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-3">Member Name</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-3">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -173,7 +173,7 @@ return array(
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-4">Member Name</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-4">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
