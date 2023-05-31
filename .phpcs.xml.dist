@@ -37,6 +37,7 @@
         <exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound" />
         <exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited" />
         <exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed" />
+		<exclude name="Generic.Strings.UnnecessaryStringConcat">
     </rule>
 
 </ruleset>
