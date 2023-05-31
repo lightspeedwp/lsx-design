@@ -111,6 +111,23 @@ Copyright 2023 Google LLC
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
+Images:
+
+"contact-icon-address.svg" W3C Royalty Free.
+https://www.w3.org/Icons/
+
+"contact-icon-address.svg" W3C Royalty Free.
+https://www.w3.org/Icons/
+
+"assets/images/favicon.png" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-contrast-800x800.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-contrast-1200x1200.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-contrast-1920x1200.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-white-800x800.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-white-1200x1200.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-placeholder-white-1920x1200.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-theme.jpg" illustrated by LightSpeed. GPLv3.
+"assets/images/lsxd-white.jpg" illustrated by LightSpeed. GPLv3.
 
 == Frequently Asked Questions ==
 
