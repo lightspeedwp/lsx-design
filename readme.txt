@@ -113,12 +113,8 @@ Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
 Images:
 
-"contact-icon-address.svg" W3C Royalty Free.
-https://www.w3.org/Icons/
-
-"contact-icon-address.svg" W3C Royalty Free.
-https://www.w3.org/Icons/
-
+"assets/images/contact-icon-address.svg" illustrated by LightSpeed. GPLv3.
+"contact-icon-address.svg" illustrated by LightSpeed. GPLv3.
 "assets/images/favicon.png" illustrated by LightSpeed. GPLv3.
 "assets/images/lsxd-placeholder-contrast-800x800.jpg" illustrated by LightSpeed. GPLv3.
 "assets/images/lsxd-placeholder-contrast-1200x1200.jpg" illustrated by LightSpeed. GPLv3.
