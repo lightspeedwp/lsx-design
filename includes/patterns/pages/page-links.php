@@ -1,7 +1,10 @@
 <?php
 /**
  * Page Links
+ * 
+ * @package lsx
  */
+
 return array(
 	'title'	  => __( 'Page Links', 'lsx-design' ),
 	'categories' => array( 'pages' ),
