@@ -163,6 +163,10 @@ LSX Design Logo Blank, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-white.jpg
 
+LSX Logo White Background, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/LSX-logo-white-background.svg
+
 Francis Danby - Sunset at Sea after a Storm. Public Domain.
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://commons.wikimedia.org/wiki/File:Francis_Danby_-_Sunset_at_Sea_after_a_Storm_-_Google_Art_Project.jpg

@@ -41,7 +41,7 @@ return array(
     <!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.lightspeedwp.dev/wp-content/uploads/2023/03/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"large"} -->
@@ -65,7 +65,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.lightspeedwp.dev/wp-content/uploads/2023/03/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -83,7 +83,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.lightspeedwp.dev/wp-content/uploads/2023/03/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -105,7 +105,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.lightspeedwp.dev/wp-content/uploads/2023/03/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -123,7 +123,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.lightspeedwp.dev/wp-content/uploads/2023/03/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
