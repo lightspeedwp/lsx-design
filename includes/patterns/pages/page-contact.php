@@ -1,14 +1,14 @@
 <?php
 /**
  * Contact Us
- * 
+ *
  * @package lsx-design
  */
 
 return array(
 	'title'      => __( 'Contact Us', 'lsx-design' ),
 	'categories' => array( 'pages' ),
-	'content'	 => '<!-- wp:cover {"overlayColor":"contrast","minHeight":300,"minHeightUnit":"px","contentPosition":"center center","align":"full"} -->
+	'content'    => '<!-- wp:cover {"overlayColor":"contrast","minHeight":300,"minHeightUnit":"px","contentPosition":"center center","align":"full"} -->
     <div class="wp-block-cover alignfull" style="min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
@@ -51,7 +51,7 @@ return array(
     <div class="wp-block-group has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}}},"className":"has-2-columns one-third-left"} -->
     <div class="wp-block-columns has-2-columns one-third-left" style="padding-top:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:column {"width":"40px","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
     <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:40px"><!-- wp:image {"align":"center","id":45327,"width":52,"height":49,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image aligncenter size-large is-resized"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/contact-icon-email.svg'. '"  alt="" class="wp-image-45327" width="52" height="49"/></figure>
+    <figure class="wp-block-image aligncenter size-large is-resized"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/contact-icon-email.svg' . '"  alt="" class="wp-image-45327" width="52" height="49"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     
@@ -69,7 +69,7 @@ return array(
     <!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}}},"className":"has-2-columns one-third-left"} -->
     <div class="wp-block-columns has-2-columns one-third-left" style="padding-top:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:column {"width":"40px"} -->
     <div class="wp-block-column" style="flex-basis:40px"><!-- wp:image {"align":"center","id":45328,"width":46,"height":59,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image aligncenter size-large is-resized"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/contact-icon-address.svg'. '" alt="" class="wp-image-45328" width="46" height="59"/></figure>
+    <figure class="wp-block-image aligncenter size-large is-resized"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/contact-icon-address.svg' . '" alt="" class="wp-image-45328" width="46" height="59"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     

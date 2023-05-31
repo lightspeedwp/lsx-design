@@ -28,12 +28,12 @@ class Frontend {
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'yoast_faq_asset_files' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'woo_asset_files' ) );
-		add_filter( 'script_loader_tag', array( $this, 'cf_async_disable' ), 10, 3);
+		add_filter( 'script_loader_tag', array( $this, 'cf_async_disable' ), 10, 3 );
 
-		//Output on the frontend.
+		// Output on the frontend.
 		add_filter( 'wpforms_frontend_form_data', array( $this, 'wpforms_match_button_block' ) );
 		add_filter( 'woocommerce_account_menu_items', array( $this, 'woocommerce_account_menu_items_fix' ), 10, 2 );
-		
+
 	}
 
 	/**
@@ -54,7 +54,7 @@ class Frontend {
 	public function yoast_faq_asset_files() {
 		if ( function_exists( 'wpseo_init' ) ) {
 			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', array() );
-			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri()  . '/assets/js/faq.js', array( "jquery" ), "1.0", true );
+			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri() . '/assets/js/faq.js', array( 'jquery' ), '1.0', true );
 		}
 	}
 
@@ -101,6 +101,7 @@ class Frontend {
 
 	/**
 	 * Make comment reply button work with CloudFlare Rocket Loader
+	 *
 	 * @see https://support.cloudflare.com/hc/en-us/articles/200169436-How-can-I-have-Rocket-Loader-ignore-specific-JavaScripts-
 	 */
 	public function cf_async_disable( $tag, $handle, $src ) {

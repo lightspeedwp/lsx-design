@@ -24,7 +24,7 @@ class Core {
 	 * @var object
 	 */
 	public $images;
-	
+
 	/**
 	 * Contains the class responsible for setting up theme.
 	 *
@@ -72,7 +72,7 @@ class Core {
 	 * @return void
 	 */
 	public function init() {
-		//Load our files and includes
+		// Load our files and includes
 		$this->load_classes();
 
 		// Initiate our classes.

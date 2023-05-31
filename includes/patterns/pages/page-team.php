@@ -3,9 +3,9 @@
  * Team Page
  */
 return array(
-	'title'	  => __( 'Team Page', 'lsx-design' ),
+	'title'      => __( 'Team Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
-	'content'	=> '<!-- wp:cover {"customOverlayColor":"#313535","minHeight":264,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}}} -->
+	'content'    => '<!-- wp:cover {"customOverlayColor":"#313535","minHeight":264,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}}} -->
     <div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--x-small);min-height:264px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#313535"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
@@ -57,7 +57,7 @@ return array(
     <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
     <div class="wp-block-group has-quaternary-background-color has-background"><!-- wp:image {"align":"full","id":43600,"sizeSlug":"large","linkDestination":"none","style":{"color":{}},"className":"is-style-default"} -->
-    <figure class="wp-block-image alignfull size-large is-style-default"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-43600"/></figure>
+    <figure class="wp-block-image alignfull size-large is-style-default"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-43600"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
@@ -81,7 +81,7 @@ return array(
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
     <div class="wp-block-group has-quaternary-background-color has-background"><!-- wp:image {"align":"full","id":43600,"sizeSlug":"large","linkDestination":"none","style":{"color":{}},"className":"is-style-default"} -->
-    <figure class="wp-block-image alignfull size-large is-style-default"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-43600"/></figure>
+    <figure class="wp-block-image alignfull size-large is-style-default"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-43600"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
@@ -115,11 +115,11 @@ return array(
     <!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="Sample Image" class="wp-image-3489"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-1">' . __( 'Member Name', 'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -133,11 +133,11 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="Sample Image" class="wp-image-3489"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-2">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-2">' . __( 'Member Name', 'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -151,11 +151,11 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="Sample Image" class="wp-image-3489"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-3">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-3">' . __( 'Member Name', 'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -169,11 +169,11 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":3489,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="Sample Image" class="wp-image-3489"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="Sample Image" class="wp-image-3489"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-    <h3 class="has-text-align-center has-medium-font-size" id="member-name-4">' . __( 'Member Name' ,'lsx-design' ) . '</h3>
+    <h3 class="has-text-align-center has-medium-font-size" id="member-name-4">' . __( 'Member Name', 'lsx-design' ) . '</h3>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->

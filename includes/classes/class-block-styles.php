@@ -42,48 +42,48 @@ class Block_Styles {
 	public function register_block_styles() {
 
 		$block_styles = array(
-			'core/separator'           => array(
-				'wide'       => __( 'Wide', 'lsx-design' ),
+			'core/separator' => array(
+				'wide' => __( 'Wide', 'lsx-design' ),
 			),
-			'core/button'           => array(
-				'cta'       => __( 'CTA', 'lsx-design' ),
-				'pill'       => __( 'Pill', 'lsx-design' ),
-				'pill-outline'       => __( 'Pill Outline', 'lsx-design' ),
-				'rounded'       => __( 'Rounded', 'lsx-design' ),
-				'shadow'       => __( 'Shadow', 'lsx-design' ),
-				'outline-shadow'       => __( 'Outline Shadow', 'lsx-design' ),
-				'link'       => __( 'Link', 'lsx-design' ),
-				'underline-hover'       => __( 'Unerline Hover', 'lsx-design' ),
+			'core/button'    => array(
+				'cta'             => __( 'CTA', 'lsx-design' ),
+				'pill'            => __( 'Pill', 'lsx-design' ),
+				'pill-outline'    => __( 'Pill Outline', 'lsx-design' ),
+				'rounded'         => __( 'Rounded', 'lsx-design' ),
+				'shadow'          => __( 'Shadow', 'lsx-design' ),
+				'outline-shadow'  => __( 'Outline Shadow', 'lsx-design' ),
+				'link'            => __( 'Link', 'lsx-design' ),
+				'underline-hover' => __( 'Unerline Hover', 'lsx-design' ),
 			),
-			'core/quote'           => array(
-				'contrast-background' => __( 'Contrast', 'lsx-design' ),
-				'primary-background' => __( 'Primary', 'lsx-design' ),
+			'core/quote'     => array(
+				'contrast-background'  => __( 'Contrast', 'lsx-design' ),
+				'primary-background'   => __( 'Primary', 'lsx-design' ),
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
-			'core/pullquote'           => array(
-				'contrast-background' => __( 'Contrast', 'lsx-design' ),
-				'primary-background' => __( 'Primary', 'lsx-design' ),
+			'core/pullquote' => array(
+				'contrast-background'  => __( 'Contrast', 'lsx-design' ),
+				'primary-background'   => __( 'Primary', 'lsx-design' ),
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
-			'core/image'           => array(
-				'inner-border'   => __( 'Inner Border', 'lsx-design' ),
+			'core/image'     => array(
+				'inner-border' => __( 'Inner Border', 'lsx-design' ),
 				'shadow'       => __( 'Shadow', 'lsx-design' ),
 			),
-			'core/paragraph'           => array(
-				'content-box'   => __( 'Content Box', 'lsx-design' ),
-				'dark-content-box'       => __( 'Dark Content Box', 'lsx-design' ),
-				'failure-content-box'       => __( 'Failure Content Box', 'lsx-design' ),
-				'warning-content-box'       => __( 'Warning Content Box', 'lsx-design' ),
-				'success-content-box'       => __( 'Success Content Box', 'lsx-design' ),
+			'core/paragraph' => array(
+				'content-box'         => __( 'Content Box', 'lsx-design' ),
+				'dark-content-box'    => __( 'Dark Content Box', 'lsx-design' ),
+				'failure-content-box' => __( 'Failure Content Box', 'lsx-design' ),
+				'warning-content-box' => __( 'Warning Content Box', 'lsx-design' ),
+				'success-content-box' => __( 'Success Content Box', 'lsx-design' ),
 			),
-			'core/heading'           => array(
-				'underline-primary'  => __( 'Underline #1', 'lsx-design' ),
-			'underline-secondary-tertiary' => __( 'Underline #2', 'lsx-design' ),
-			'underline-tertiary-primary'   => __( 'Underline #3', 'lsx-design' ),
-			'underline'                    => __( 'Underline #4', 'lsx-design' ),
-			)
+			'core/heading'   => array(
+				'underline-primary'            => __( 'Underline #1', 'lsx-design' ),
+				'underline-secondary-tertiary' => __( 'Underline #2', 'lsx-design' ),
+				'underline-tertiary-primary'   => __( 'Underline #3', 'lsx-design' ),
+				'underline'                    => __( 'Underline #4', 'lsx-design' ),
+			),
 		);
-	
+
 		foreach ( $block_styles as $block => $styles ) {
 			foreach ( $styles as $style_name => $style_label ) {
 				register_block_style(
@@ -118,17 +118,17 @@ class Block_Styles {
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/separator.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/separator.css',
 			),
-			'core/button' => array(
+			'core/button'    => array(
 				'handle' => 'lsxd-button-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/button.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/button.css',
 			),
-			'core/heading' => array(
+			'core/heading'   => array(
 				'handle' => 'lsxd-heading-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/heading.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/heading.css',
 			),
-			'core/image' => array(
+			'core/image'     => array(
 				'handle' => 'lsxd-image-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/image.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/image.css',
@@ -142,7 +142,7 @@ class Block_Styles {
 				'handle' => 'lsxd-paragraph-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/paragraph.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/paragraph.css',
-			)
+			),
 		);
 		return $this->block_assets;
 	}

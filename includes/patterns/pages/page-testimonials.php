@@ -3,9 +3,9 @@
  * Testimonials Page
  */
 return array(
-	'title'	  => __( 'Testimonials Page', 'lsx-design' ),
+	'title'      => __( 'Testimonials Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
-	'content'	=> '<!-- wp:cover {"customOverlayColor":"#313535","minHeight":264,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}}} -->
+	'content'    => '<!-- wp:cover {"customOverlayColor":"#313535","minHeight":264,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}}} -->
     <div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--x-small);min-height:264px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#313535"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
@@ -41,7 +41,7 @@ return array(
     <!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"large"} -->
@@ -49,7 +49,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":163,"height":102,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="163" height="102"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="163" height="102"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -65,7 +65,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -73,7 +73,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -83,7 +83,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -91,7 +91,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -105,7 +105,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -113,7 +113,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
@@ -123,7 +123,7 @@ return array(
     <div class="wp-block-column is-vertically-aligned-top" style="padding-bottom:0"><!-- wp:quote {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
     <blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color" style="font-style:normal;font-weight:600"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":204,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/LSX-logo-white-background.svg" alt="" class="wp-image-204"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
@@ -131,7 +131,7 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:image {"align":"left","id":251,"width":111,"height":68,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
-    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg'. '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
+    <figure class="wp-block-image alignleft size-large is-resized has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-800x800.jpg' . '" alt="" class="wp-image-251" style="border-width:2px;border-radius:100px" width="111" height="68"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:group --><cite>Client Name<br>Job Title<br><a href=""><strong>Company Name &amp; Link</strong></a></cite></blockquote>
     <!-- /wp:quote --></div>
