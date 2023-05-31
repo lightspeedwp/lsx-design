@@ -1,7 +1,7 @@
 <?php
 /**
  * Testimonials Page
- * 
+ *
  * @package lsx-design
  */
 

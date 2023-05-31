@@ -1,7 +1,7 @@
 <?php
 /**
  * Dark Page Title
- * 
+ *
  * @package lsx-design
  */
 

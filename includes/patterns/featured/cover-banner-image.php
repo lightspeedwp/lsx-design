@@ -1,7 +1,7 @@
 <?php
 /**
  * Cover Banne with Image
- * 
+ *
  * @package lsx-design
  */
 

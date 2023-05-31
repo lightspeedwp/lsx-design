@@ -1,7 +1,7 @@
 <?php
 /**
  * Testimonial 2 Col
- * 
+ *
  * @package lsx-design
  */
 

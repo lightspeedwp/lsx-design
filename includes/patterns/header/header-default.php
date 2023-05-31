@@ -1,7 +1,7 @@
 <?php
 /**
  * Header default
- * 
+ *
  * @package lsx-design
  */
 

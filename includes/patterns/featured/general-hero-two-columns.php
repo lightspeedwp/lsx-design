@@ -1,7 +1,7 @@
 <?php
 /**
  * Hero 2 Col with Image
- * 
+ *
  * @package lsx-design
  */
 

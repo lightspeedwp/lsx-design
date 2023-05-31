@@ -1,7 +1,7 @@
 <?php
 /**
  * The frontend file
- * 
+ *
  * @package lsx-design
  */
 

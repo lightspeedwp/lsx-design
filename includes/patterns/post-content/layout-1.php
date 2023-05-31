@@ -1,7 +1,7 @@
 <?php
 /**
  * Post Content Layout 1
- * 
+ *
  * @package lsx-design
  */
 

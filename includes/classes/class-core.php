@@ -1,4 +1,10 @@
 <?php
+/**
+ * The core file
+ *
+ * @package lsx-design
+ */
+
 namespace LSXD;
 
 use LSXD\Classes\Images;

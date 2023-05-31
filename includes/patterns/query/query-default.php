@@ -4,7 +4,7 @@
  * Slug: frost/query-default
  * Categories: frost-query
  * Viewport Width: 1280
- * 
+ *
  * @package lsx-design
  */
 ?>

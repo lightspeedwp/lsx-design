@@ -1,7 +1,7 @@
 <?php
 /**
  * Header CTA
- * 
+ *
  * @package lsx-design
  */
 

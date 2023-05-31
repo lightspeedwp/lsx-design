@@ -1,7 +1,7 @@
 <?php
 /**
  * White Page Title
- * 
+ *
  * @package lsx-design
  */
 

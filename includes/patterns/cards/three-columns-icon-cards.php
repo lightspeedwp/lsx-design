@@ -1,7 +1,7 @@
 <?php
 /**
  * 3 Column Cards Icons
- * 
+ *
  * @package lsx-design
  */
 

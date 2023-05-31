@@ -1,7 +1,7 @@
 <?php
 /**
  * Header Center Contrast
- * 
+ *
  * @package lsx-design
  */
 

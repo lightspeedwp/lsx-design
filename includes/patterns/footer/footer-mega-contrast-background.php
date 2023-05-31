@@ -1,7 +1,7 @@
 <?php
 /**
  * Footer with text, links.
- * 
+ *
  * @package lsx-design
  */
 

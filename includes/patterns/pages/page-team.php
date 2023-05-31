@@ -1,7 +1,7 @@
 <?php
 /**
  * Team Page
- * 
+ *
  * @package lsx-design
  */
 

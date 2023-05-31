@@ -1,4 +1,10 @@
 <?php
+/**
+ * The block styles file
+ *
+ * @package lsx-design
+ */
+
 namespace LSXD\Classes;
 
 /**

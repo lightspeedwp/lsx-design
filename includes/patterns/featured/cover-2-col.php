@@ -1,7 +1,7 @@
 <?php
 /**
  * Cover 2 Coloumns with CTA
- * 
+ *
  * @package lsx-design
  */
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * The Setup Class
- * 
+ *
  * @package lsx-design
  */
 

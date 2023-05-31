@@ -1,7 +1,7 @@
 <?php
 /**
  * Footer 3 Column
- * 
+ *
  * @package lsx-design
  */
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * Hero 1 Column
- * 
+ *
  * @package lsx-design
  */
 

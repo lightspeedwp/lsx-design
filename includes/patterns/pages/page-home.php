@@ -1,7 +1,7 @@
 <?php
 /**
  * Home Page
- * 
+ *
  * @package lsx-design
  */
 

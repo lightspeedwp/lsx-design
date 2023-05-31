@@ -1,7 +1,7 @@
 <?php
 /**
  * Team 4 Column
- * 
+ *
  * @package lsx-design
  */
 
