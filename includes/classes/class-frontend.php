@@ -59,7 +59,7 @@ class Frontend {
 	 */
 	public function yoast_faq_asset_files() {
 		if ( function_exists( 'wpseo_init' ) ) {
-			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', wp_get_theme()->get( 'Version' ) );
+			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', array(), wp_get_theme()->get( 'Version' ) );
 			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri() . '/assets/js/faq.js', array( 'jquery' ), wp_get_theme()->get( 'Version' ), true );
 		}
 	}
@@ -78,10 +78,10 @@ class Frontend {
 	/**
 	 * WPForms submit button, match Gutenberg button block
 	 *
-	 * @param array $form_data WPForms array
+	 * @param array $form_data WPForms array.
 	 * @return array
 	 */
-	function wpforms_match_button_block( $form_data ) {
+	public function wpforms_match_button_block( $form_data ) {
 		$form_data['settings']['submit_class'] .= ' btn';
 		return $form_data;
 	}
@@ -89,8 +89,8 @@ class Frontend {
 	/**
 	 * Fixes the plural for the edit address my account menu.
 	 *
-	 * @param array $items array of nav items
-	 * @param array $endpoints array of endpoints
+	 * @param array $items array of nav items.
+	 * @param array $endpoints array of endpoints.
 	 * @return array
 	 */
 	public function woocommerce_account_menu_items_fix( $items, $endpoints ) {

@@ -20,6 +20,8 @@ class Block_Styles {
 
 	/**
 	 * Holds the array of block stylesheets
+	 * 
+	 * @var array $block_assets Holds the block assets array.
 	 */
 	public $block_assets = array();
 
