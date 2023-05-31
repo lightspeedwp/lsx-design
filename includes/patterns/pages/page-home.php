@@ -1,11 +1,14 @@
 <?php
 /**
  * Home Page
+ *
+ * @package lsx-design
  */
+
 return array(
-	'title'	  => __( 'Home Page', 'lsx-design' ),
+	'title'      => __( 'Home Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),
-	'content'	=> '
+	'content'    => '
 <!-- wp:cover {"minHeight":502,"minHeightUnit":"px","gradient":"secondary-primary","contentPosition":"center center","isDark":false,"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"color":{"duotone":"unset"}}} -->
 <div class="wp-block-cover alignfull is-light" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:502px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-secondary-primary-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"700"}},"className":"wp-block-heading alignwide has-white-color has-text-color","fontSize":"gigantic"} -->
 <h2 class="has-text-align-center wp-block-heading alignwide has-white-color has-text-color has-gigantic-font-size" id="h-experience-the-next-generation-of-wordpress" style="font-style:normal;font-weight:700;line-height:1.2"><strong>Experience the next generation of WordPress.</strong></h2>
@@ -50,7 +53,7 @@ return array(
 <!-- wp:button {"style":{"border":{"radius":0}},"className":"is-style-outline"} -->
 <div class="wp-block-button is-style-outline"><a class="wp-block-button__link no-border-radius wp-element-button">Learn More</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-3485 size-full"/></figure></div>
+<!-- /wp:buttons --></div><figure class="wp-block-media-text__media"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg' . '" alt="Sample Image" class="wp-image-3485 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
@@ -70,7 +73,7 @@ return array(
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg' . '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -90,7 +93,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg' . '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
@@ -110,7 +113,7 @@ return array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":676,"sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"15px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="' .  esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg'. '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-placeholder-contrast-1200x1200.jpg' . '" alt="Sample Image" class="wp-image-676" style="border-width:15px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->

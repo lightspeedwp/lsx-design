@@ -1,4 +1,10 @@
 <?php
+/**
+ * The Setup Class
+ *
+ * @package lsx-design
+ */
+
 namespace LSXD\Classes;
 
 /**
@@ -24,39 +30,7 @@ class Setup {
 	 * @return void
 	 */
 	public function init() {
-		add_action( 'admin_init', array( $this, 'remove_customizer_menu' ), 10 );
-		add_action( 'wp_before_admin_bar_render', array( $this, 'admin_bar_render' ), 10 );
 		add_action( 'after_setup_theme', array( $this, 'theme_setup' ) );
-	}
-
-	/**
-	 * Removed the Customzer option from the Appearance Menu 
-	 *
-	 * @return void
-	 */
-	public function remove_customizer_menu() {
-        remove_action( 'plugins_loaded', '_wp_customize_include', 10 );
-        remove_action(
-            'admin_enqueue_scripts',
-            '_wp_customize_loader_settings',
-            11
-        );
-
-		$customize_url = 'customize.php';
-		if ( isset( $_SERVER['REQUEST_URI'] ) ) {
-			$customize_url .= '?return=' . urlencode( $_SERVER['REQUEST_URI'] );
-		}
-		remove_submenu_page( 'themes.php', $customize_url );
-	}
-
-	/**
-	 * Removes unwanted links from the admin bar.
-	 *
-	 * @return void
-	 */
-	public function admin_bar_render() {
-		global $wp_admin_bar;
-		$wp_admin_bar->remove_menu('customize');
 	}
 
 	/**

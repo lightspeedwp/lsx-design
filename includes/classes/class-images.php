@@ -1,4 +1,10 @@
 <?php
+/**
+ * Images file
+ *
+ * @package lsx-design
+ */
+
 namespace LSXD\Classes;
 
 /**
@@ -43,12 +49,15 @@ class Images {
 	 * Add ing the image sizes to the media editor.
 	 *
 	 * @param array $sizes
-	 * @return void
+	 * @return array
 	 */
 	public function register_media_editor_sizes( $sizes = array() ) {
-		return array_merge( $sizes, array(
-			'lsxd-blog-thumbnail' => __( 'Blog Thumbnail', 'lsx-design' ),
-		) );
+		return array_merge(
+			$sizes,
+			array(
+				'lsxd-blog-thumbnail' => __( 'Blog Thumbnail', 'lsx-design' ),
+			)
+		);
 	}
 
 	/**
@@ -59,9 +68,8 @@ class Images {
 	 * @param WP_Block|null $parent_block If this is a nested block, a reference to the parent block.
 	 * @return array
 	 */
-	
 	public function render_post_image_data( $parsed_block, $source_block, $parent_block ) {
-		if ( ! is_home() || !is_front_page() || is_archive() && 'core/post-featured-image' === $parsed_block['blockName'] ) {
+		if ( ! is_home() || ! is_front_page() || is_archive() && 'core/post-featured-image' === $parsed_block['blockName'] ) {
 			$parsed_block['attrs']['sizeSlug'] = 'lsxd-blog-thumbnail';
 		}
 		if ( function_exists( 'is_woocommerce' ) && is_woocommerce() && 'woocommerce/product-image' === $parsed_block['blockName'] ) {

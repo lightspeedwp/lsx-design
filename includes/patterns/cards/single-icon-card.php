@@ -1,11 +1,14 @@
 <?php
 /**
  * Single Cards Icons
+ *
+ * @package lsx-design
  */
+
 return array(
-	'title'	  => __( 'Single Cards Icons', 'lsx-design' ),
+	'title'      => __( 'Single Cards Icons', 'lsx-design' ),
 	'categories' => array( 'cards' ),
-	'content'	=> '<!-- wp:columns -->
+	'content'    => '<!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"color":{"background":"#f5fbff"},"border":{"width":"2px"}},"borderColor":"septenary","textColor":"contrast"} -->
     <div class="wp-block-column is-vertically-aligned-center has-border-color has-septenary-border-color has-contrast-color has-text-color has-background" style="border-width:2px;background-color:#f5fbff;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"0","left":"var:preset|spacing|x-small"},"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:0;padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:outermost/icon-block {"iconName":"","itemsJustification":"center","width":"150px"} /-->

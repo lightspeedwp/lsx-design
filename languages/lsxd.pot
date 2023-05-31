@@ -1,5 +1,5 @@
 # Copyright (C) 2023 LightSpeed
-# This file is distributed under the GPLv3 or later License URI: https://www.gnu.org/licenses/gpl-3.0.en.html.
+# This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: LSX Design 1.0.0\n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-05-20T11:54:25+00:00\n"
+"POT-Creation-Date: 2023-05-31T09:34:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: lsx-design\n"
@@ -87,7 +87,7 @@ msgid "Rounded"
 msgstr ""
 
 #: includes/classes/class-block-styles.php:53
-#: includes/classes/class-block-styles.php:69
+#: includes/classes/class-block-styles.php:70
 msgid "Shadow"
 msgstr ""
 
@@ -99,58 +99,62 @@ msgstr ""
 msgid "Link"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:58
-#: includes/classes/class-block-styles.php:63
-msgid "Contrast"
+#: includes/classes/class-block-styles.php:56
+msgid "Unerline Hover"
 msgstr ""
 
 #: includes/classes/class-block-styles.php:59
 #: includes/classes/class-block-styles.php:64
-msgid "Primary"
+msgid "Contrast"
 msgstr ""
 
 #: includes/classes/class-block-styles.php:60
 #: includes/classes/class-block-styles.php:65
+msgid "Primary"
+msgstr ""
+
+#: includes/classes/class-block-styles.php:61
+#: includes/classes/class-block-styles.php:66
 msgid "Secondary"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:68
+#: includes/classes/class-block-styles.php:69
 msgid "Inner Border"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:72
+#: includes/classes/class-block-styles.php:73
 msgid "Content Box"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:73
+#: includes/classes/class-block-styles.php:74
 msgid "Dark Content Box"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:74
+#: includes/classes/class-block-styles.php:75
 msgid "Failure Content Box"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:75
+#: includes/classes/class-block-styles.php:76
 msgid "Warning Content Box"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:76
+#: includes/classes/class-block-styles.php:77
 msgid "Success Content Box"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:79
+#: includes/classes/class-block-styles.php:80
 msgid "Underline #1"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:80
+#: includes/classes/class-block-styles.php:81
 msgid "Underline #2"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:81
+#: includes/classes/class-block-styles.php:82
 msgid "Underline #3"
 msgstr ""
 
-#: includes/classes/class-block-styles.php:82
+#: includes/classes/class-block-styles.php:83
 msgid "Underline #4"
 msgstr ""
 
@@ -400,6 +404,52 @@ msgstr ""
 msgid "About Page"
 msgstr ""
 
+#: includes/patterns/pages/page-about.php:124
+msgid "With its clean, minimal design and powerful feature set, lsx enables agencies to build stylish and sophisticated WordPress websites. Ka-chow!"
+msgstr ""
+
+#: includes/patterns/pages/page-about.php:145
+msgid "The talented folks who work on the lsx theme."
+msgstr ""
+
+#: includes/patterns/pages/page-about.php:155
+#: includes/patterns/pages/page-about.php:171
+#: includes/patterns/pages/page-about.php:187
+#: includes/patterns/pages/page-about.php:203
+#: includes/patterns/pages/page-team.php:122
+#: includes/patterns/pages/page-team.php:140
+#: includes/patterns/pages/page-team.php:158
+#: includes/patterns/pages/page-team.php:176
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:22
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:36
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:50
+#: includes/patterns/team/general-team-four-columns-contrast-background.php:64
+#: includes/patterns/team/general-team-four-columns.php:22
+#: includes/patterns/team/general-team-four-columns.php:36
+#: includes/patterns/team/general-team-four-columns.php:50
+#: includes/patterns/team/general-team-four-columns.php:64
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:28
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:43
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:58
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:75
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:90
+#: includes/patterns/team/general-team-two-columns-contrast-background.php:105
+#: includes/patterns/team/general-team-two-columns.php:28
+#: includes/patterns/team/general-team-two-columns.php:43
+#: includes/patterns/team/general-team-two-columns.php:58
+#: includes/patterns/team/general-team-two-columns.php:75
+#: includes/patterns/team/general-team-two-columns.php:90
+#: includes/patterns/team/general-team-two-columns.php:105
+msgid "Member Name"
+msgstr ""
+
+#: includes/patterns/pages/page-about.php:158
+#: includes/patterns/pages/page-about.php:174
+#: includes/patterns/pages/page-about.php:190
+#: includes/patterns/pages/page-about.php:206
+msgid "Im a WordPress developer and enjoy building websites."
+msgstr ""
+
 #: includes/patterns/pages/page-home.php:6
 msgid "Home Page"
 msgstr ""
@@ -471,29 +521,6 @@ msgstr ""
 #: includes/patterns/team/general-team-two-columns-contrast-background.php:15
 #: includes/patterns/team/general-team-two-columns.php:15
 msgid "The people who are ready to serve you."
-msgstr ""
-
-#: includes/patterns/team/general-team-four-columns-contrast-background.php:22
-#: includes/patterns/team/general-team-four-columns-contrast-background.php:36
-#: includes/patterns/team/general-team-four-columns-contrast-background.php:50
-#: includes/patterns/team/general-team-four-columns-contrast-background.php:64
-#: includes/patterns/team/general-team-four-columns.php:22
-#: includes/patterns/team/general-team-four-columns.php:36
-#: includes/patterns/team/general-team-four-columns.php:50
-#: includes/patterns/team/general-team-four-columns.php:64
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:28
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:43
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:58
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:75
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:90
-#: includes/patterns/team/general-team-two-columns-contrast-background.php:105
-#: includes/patterns/team/general-team-two-columns.php:28
-#: includes/patterns/team/general-team-two-columns.php:43
-#: includes/patterns/team/general-team-two-columns.php:58
-#: includes/patterns/team/general-team-two-columns.php:75
-#: includes/patterns/team/general-team-two-columns.php:90
-#: includes/patterns/team/general-team-two-columns.php:105
-msgid "Member Name"
 msgstr ""
 
 #: includes/patterns/team/general-team-four-columns-contrast-background.php:28

@@ -80,19 +80,104 @@ If you're a developer who's spotted a bug issue and have a fix, or simply have f
 
 == Copyright ==
 
-This theme, like WordPress, is licensed under the GPL.
+This theme, like WordPress, is licensed under the GPLv3 - https://www.gnu.org/licenses/gpl-3.0.en.html.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 == Licenses ==
 
-This software uses the following open source packages:
+This theme bundles the following third-party resources:
 
-* [WordPress](https://wordpress.org/)
-* [Composer](https://getcomposer.org/)
-* [WebPack](https://webpackwebpack.js.org/)
-* [Gulp](https://gulpjs.com/)
-* [Node.js](https://nodejs.org/)
-* [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+assets/images:
+
+Lora
+Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
+Copyright 2023 Google LLC
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Lora/
+
+Manrope
+Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+Copyright 2023 Google LLC
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Manrope/
+
+Montserrat
+Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
+Copyright 2023 Google LLC
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Montserrat/
+
+Plus Jakarta Sans
+Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
+Copyright 2023 Google LLC
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
+
+assets/images:
+
+Theme Screenshot, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/screenshot.png
+
+Contact Icon Address, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-address.svg
+
+Contact Icon Email, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-email.svg
+
+Contact Icon Email, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-email.svg
+
+Theme Favicon, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/favicon.png
+
+Placeholder Contrast 800x800, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-800x800.jpg
+
+Placeholder Contrast 1200x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-1200x1200.jpg
+
+Placeholder Contrast 1920x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-1920x1200.jpg
+
+Placeholder White 800x800, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-800x800.jpg
+
+Placeholder White 1200x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-1200x1200.jpg
+
+Placeholder White 1920x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-1920x1200.jpg
+
+LSX Design Logo, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-theme.jpg
+
+LSX Design Logo Blank, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-white.jpg
+
+LSX Logo White Background, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/LSX-logo-white-background.svg
+
+Map Placeholder, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/map-placeholder.jpg
+
+Francis Danby - Sunset at Sea after a Storm. Public Domain.
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://commons.wikimedia.org/wiki/File:Francis_Danby_-_Sunset_at_Sea_after_a_Storm_-_Google_Art_Project.jpg
 
 == Frequently Asked Questions ==
 

@@ -1,4 +1,10 @@
 <?php
+/**
+ * The core file
+ *
+ * @package lsx-design
+ */
+
 namespace LSXD;
 
 use LSXD\Classes\Images;
@@ -24,7 +30,7 @@ class Core {
 	 * @var object
 	 */
 	public $images;
-	
+
 	/**
 	 * Contains the class responsible for setting up theme.
 	 *
@@ -72,7 +78,7 @@ class Core {
 	 * @return void
 	 */
 	public function init() {
-		//Load our files and includes
+		// Load our files and includes
 		$this->load_classes();
 
 		// Initiate our classes.

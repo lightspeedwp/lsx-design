@@ -1,6 +1,6 @@
 <?php
 /**
- * functions and definitions.
+ * Functions and definitions.
  *
  * @package lsx
  */
@@ -18,7 +18,7 @@ require_once get_template_directory() . '/includes/classes/class-core.php';
 /**
  * Contains the theme object
  *
- * @return void
+ * @return object
  */
 function lsxd() {
 	global $lsxd;
