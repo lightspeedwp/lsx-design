@@ -1,4 +1,10 @@
 <?php
+/**
+ * The frontend file
+ * 
+ * @package lsx-design
+ */
+
 namespace LSXD\Classes;
 
 /**
@@ -24,7 +30,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function init() {
-		// Styles and Scripts
+		// Styles and Scripts.
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'yoast_faq_asset_files' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'woo_asset_files' ) );
@@ -65,15 +71,15 @@ class Frontend {
 	 */
 	public function woo_asset_files() {
 		if ( class_exists( 'woocommerce' ) ) {
-			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array() );
+			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array(), wp_get_theme()->get( 'Version' ) );
 		}
 	}
 
 	/**
 	 * WPForms submit button, match Gutenberg button block
 	 *
-	 * @param [type] $form_data
-	 * @return void
+	 * @param array $form_data
+	 * @return array
 	 */
 	function wpforms_match_button_block( $form_data ) {
 		$form_data['settings']['submit_class'] .= ' btn';
@@ -83,6 +89,8 @@ class Frontend {
 	/**
 	 * Fixes the plural for the edit address my account menu.
 	 *
+	 * @param array $items
+	 * @param array $endpoints
 	 * @return array
 	 */
 	public function woocommerce_account_menu_items_fix( $items, $endpoints ) {
@@ -102,7 +110,10 @@ class Frontend {
 	/**
 	 * Make comment reply button work with CloudFlare Rocket Loader
 	 *
-	 * @see https://support.cloudflare.com/hc/en-us/articles/200169436-How-can-I-have-Rocket-Loader-ignore-specific-JavaScripts-
+	 * @param string $tag
+	 * @param string $handle
+	 * @param string $src
+	 * @return string
 	 */
 	public function cf_async_disable( $tag, $handle, $src ) {
 		if ( 'comment-reply' !== $handle ) {
