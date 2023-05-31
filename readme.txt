@@ -115,6 +115,10 @@ Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
 assets/images:
 
+Theme Screenshot, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/screenshot.png
+
 Contact Icon Address, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-address.svg
