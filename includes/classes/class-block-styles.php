@@ -21,7 +21,7 @@ class Block_Styles {
 	/**
 	 * Holds the array of block stylesheets
 	 */
-	var $block_assets = array();
+	public $block_assets = array();
 
 	/**
 	 * Contructor

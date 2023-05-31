@@ -48,7 +48,7 @@ class Images {
 	/**
 	 * Add ing the image sizes to the media editor.
 	 *
-	 * @param array $sizes
+	 * @param array $sizes an array of the sizes.
 	 * @return array
 	 */
 	public function register_media_editor_sizes( $sizes = array() ) {

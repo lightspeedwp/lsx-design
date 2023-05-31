@@ -59,8 +59,8 @@ class Frontend {
 	 */
 	public function yoast_faq_asset_files() {
 		if ( function_exists( 'wpseo_init' ) ) {
-			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', array() );
-			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri() . '/assets/js/faq.js', array( 'jquery' ), '1.0', true );
+			wp_enqueue_style( 'lsxd-yoast-faq-css', get_template_directory_uri() . '/assets/css/faq/style.css', wp_get_theme()->get( 'Version' ) );
+			wp_enqueue_script( 'lsxd-yoast-faq-js', get_template_directory_uri() . '/assets/js/faq.js', array( 'jquery' ), wp_get_theme()->get( 'Version' ), true );
 		}
 	}
 
@@ -78,7 +78,7 @@ class Frontend {
 	/**
 	 * WPForms submit button, match Gutenberg button block
 	 *
-	 * @param array $form_data
+	 * @param array $form_data WPForms array
 	 * @return array
 	 */
 	function wpforms_match_button_block( $form_data ) {
@@ -89,8 +89,8 @@ class Frontend {
 	/**
 	 * Fixes the plural for the edit address my account menu.
 	 *
-	 * @param array $items
-	 * @param array $endpoints
+	 * @param array $items array of nav items
+	 * @param array $endpoints array of endpoints
 	 * @return array
 	 */
 	public function woocommerce_account_menu_items_fix( $items, $endpoints ) {
@@ -110,9 +110,9 @@ class Frontend {
 	/**
 	 * Make comment reply button work with CloudFlare Rocket Loader
 	 *
-	 * @param string $tag
-	 * @param string $handle
-	 * @param string $src
+	 * @param string $tag The current tag being used.
+	 * @param string $handle The current handle outputting.
+	 * @param string $src The current image src.
 	 * @return string
 	 */
 	public function cf_async_disable( $tag, $handle, $src ) {
