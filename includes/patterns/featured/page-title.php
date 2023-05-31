@@ -1,7 +1,10 @@
 <?php
 /**
  * Dark Page Title
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Dark Page Title', 'lsx-design' ),
 	'categories' => array( 'featured' ),

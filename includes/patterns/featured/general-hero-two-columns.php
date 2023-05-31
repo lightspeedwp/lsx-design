@@ -1,7 +1,10 @@
 <?php
 /**
  * Hero 2 Col with Image
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Hero 2 Col with Image', 'lsx-design' ),
 	'categories' => array( 'featured' ),

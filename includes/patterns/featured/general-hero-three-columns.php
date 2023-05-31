@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer with text, links.
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Hero 3 Colum ', 'lsx-design' ),
 	'categories' => array( 'featured' ),

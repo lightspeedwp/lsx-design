@@ -1,7 +1,10 @@
 <?php
 /**
  * Home Page
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Home Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),

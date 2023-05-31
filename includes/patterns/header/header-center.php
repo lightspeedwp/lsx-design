@@ -1,7 +1,10 @@
 <?php
 /**
  * Header Center
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Header Center', 'lsx-design' ),
 	'categories' => array( 'header' ),

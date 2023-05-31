@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer with text, links.
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Footer Stacked', 'lsx-design' ),
 	'categories' => array( 'footer' ),

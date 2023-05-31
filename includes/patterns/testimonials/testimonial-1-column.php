@@ -1,7 +1,10 @@
 <?php
 /**
  * Testimonial 1 Col
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Testimonial 1 Col', 'lsx-design' ),
 	'categories' => array( 'testimonials' ),

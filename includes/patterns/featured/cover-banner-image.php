@@ -1,7 +1,10 @@
 <?php
 /**
  * Cover Banne with Image
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Cover Banner with Image', 'lsx-design' ),
 	'categories' => array( 'featured' ),

@@ -1,7 +1,10 @@
 <?php
 /**
  * Header Center Contrast
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Header Center Contrast', 'lsx-design' ),
 	'categories' => array( 'header' ),

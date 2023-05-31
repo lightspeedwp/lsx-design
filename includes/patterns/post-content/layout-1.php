@@ -1,6 +1,8 @@
 <?php
 /**
- * Testimonial 1 Col
+ * Post Content Layout 1
+ * 
+ * @package lsx-design
  */
 
 return array(

@@ -1,7 +1,10 @@
 <?php
 /**
  * White Page Title
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'White Page Title', 'lsx-design' ),
 	'categories' => array( 'featured' ),

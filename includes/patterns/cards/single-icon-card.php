@@ -1,7 +1,10 @@
 <?php
 /**
  * Single Cards Icons
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Single Cards Icons', 'lsx-design' ),
 	'categories' => array( 'cards' ),

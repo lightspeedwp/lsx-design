@@ -1,7 +1,10 @@
 <?php
 /**
  * Header default
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Header default', 'lsx-design' ),
 	'categories' => array( 'header' ),

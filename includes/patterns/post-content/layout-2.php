@@ -1,6 +1,8 @@
 <?php
 /**
- * Testimonial 1 Col
+ * Post Content Layout 2
+ * 
+ * @package lsx-design
  */
 
 $cover_2_col          = include get_template_directory() . '/includes/patterns/featured/cover-2-col.php';

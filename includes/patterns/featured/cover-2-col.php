@@ -1,7 +1,10 @@
 <?php
 /**
  * Cover 2 Coloumns with CTA
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Cover 2 Columns with CTA', 'lsx-design' ),
 	'categories' => array( 'featured' ),

@@ -1,7 +1,10 @@
 <?php
 /**
  * Team 4 Column Contract
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Team 4 Column Contract', 'lsx-design' ),
 	'categories' => array( 'team' ),

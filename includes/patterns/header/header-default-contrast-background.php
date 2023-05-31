@@ -1,7 +1,10 @@
 <?php
 /**
  * Header default
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Header Contrast default', 'lsx-design' ),
 	'categories' => array( 'header' ),

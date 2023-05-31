@@ -1,7 +1,10 @@
 <?php
 /**
  * Testimonials Page
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Testimonials Page', 'lsx-design' ),
 	'categories' => array( 'pages' ),

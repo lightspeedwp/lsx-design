@@ -1,7 +1,10 @@
 <?php
 /**
  * Header CTA
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Header CTA', 'lsx-design' ),
 	'categories' => array( 'header' ),

@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer 3 Column
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Footer 3 Column', 'lsx-design' ),
 	'categories' => array( 'footer' ),

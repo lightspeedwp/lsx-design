@@ -1,7 +1,10 @@
 <?php
 /**
  * Hero 1 Column
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Hero 1 Col', 'lsx-design' ),
 	'categories' => array( 'featured' ),

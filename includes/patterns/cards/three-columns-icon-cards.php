@@ -1,7 +1,10 @@
 <?php
 /**
  * 3 Column Cards Icons
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( '3 Column Cards Icons', 'lsx-design' ),
 	'categories' => array( 'cards' ),

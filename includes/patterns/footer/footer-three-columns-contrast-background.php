@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer with text, links.
+ * 
+ * @package lsx-design
  */
+
 return array(
 	'title'      => __( 'Footer 3 Colum Contrast ', 'lsx-design' ),
 	'categories' => array( 'footer' ),
