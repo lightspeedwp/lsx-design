@@ -87,6 +87,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 This theme bundles the following third-party resources:
 
+assets/images:
+
 Lora
 Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
 Copyright 2023 Google LLC
@@ -111,19 +113,55 @@ Copyright 2023 Google LLC
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
-Images:
+assets/images:
 
-"assets/images/contact-icon-address.svg" illustrated by LightSpeed. GPLv3.
-"contact-icon-address.svg" illustrated by LightSpeed. GPLv3.
-"assets/images/favicon.png" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-contrast-800x800.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-contrast-1200x1200.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-contrast-1920x1200.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-white-800x800.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-white-1200x1200.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-placeholder-white-1920x1200.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-theme.jpg" illustrated by LightSpeed. GPLv3.
-"assets/images/lsxd-white.jpg" illustrated by LightSpeed. GPLv3.
+Contact Icon Address, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-address.svg
+
+Contact Icon Email, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-email.svg
+
+Contact Icon Email, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/contact-icon-email.svg
+
+Theme Favicon, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/favicon.png
+
+Placeholder Contrast 800x800, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-800x800.jpg
+
+Placeholder Contrast 1200x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-1200x1200.jpg
+
+Placeholder Contrast 1920x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-contrast-1920x1200.jpg
+
+Placeholder White 800x800, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-800x800.jpg
+
+Placeholder White 1200x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-1200x1200.jpg
+
+Placeholder White 1920x1200, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-1920x1200.jpg
+
+LSX Design Logo, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-theme.jpg
+
+LSX Design Logo Blank, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-white.jpg
 
 == Frequently Asked Questions ==
 
