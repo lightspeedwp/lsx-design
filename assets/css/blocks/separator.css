@@ -23,3 +23,28 @@
 	border-top: none;
 	height: 1px;
 }
+
+.wp-block-separator.is-style-eligant{ 
+	content: '&#xf219;';
+	color: currentColor;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+
+.wp-block-separator.is-style-eligant::before {
+	content: '';
+    display: block;
+    height: 0.09em;
+    min-width: 30vw;
+	background: linear-gradient(to right, rgba(240,240,240,0), currentColor);
+	margin-right: 4vh;
+}
+
+.wp-block-separator.is-style-eligant::after {
+	background: linear-gradient(to left, rgba(240,240,240,0), currentColor);
+	margin-left: 4vh;
+	content: '';
+    display: block;
+    height: 0.09em;
+}
