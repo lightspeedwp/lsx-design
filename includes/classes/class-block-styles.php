@@ -52,7 +52,7 @@ class Block_Styles {
 		$block_styles = array(
 			'core/separator' => array(
 				'wide' => __( 'Wide', 'lsx-design' ),
-				'eligant' => __( 'Eligant', 'lsx-design' ),
+				'elegant' => __( 'Elegant', 'lsx-design' ),
 			),
 			'core/search' => array(
 				'header' => __( 'Header', 'lsx-design' ),

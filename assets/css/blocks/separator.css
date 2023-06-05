@@ -24,7 +24,7 @@
 	height: 1px;
 }
 
-.wp-block-separator.is-style-eligant{ 
+.wp-block-separator.is-style-elegant{ 
 	content: '&#xf219;';
 	color: currentColor;
 	font-size: 30px;
@@ -32,7 +32,7 @@
 	justify-content: center;
 	align-items: center;}
 
-.wp-block-separator.is-style-eligant::before {
+.wp-block-separator.is-style-elegant::before {
 	content: '';
     display: block;
     height: 0.09em;
@@ -41,7 +41,7 @@
 	margin-right: 4vh;
 }
 
-.wp-block-separator.is-style-eligant::after {
+.wp-block-separator.is-style-elegant::after {
 	background: linear-gradient(to left, rgba(240,240,240,0), currentColor);
 	margin-left: 4vh;
 	content: '';
