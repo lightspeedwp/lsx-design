@@ -52,6 +52,10 @@ class Block_Styles {
 		$block_styles = array(
 			'core/separator' => array(
 				'wide' => __( 'Wide', 'lsx-design' ),
+				'elegant' => __( 'Elegant', 'lsx-design' ),
+			),
+			'core/search' => array(
+				'header' => __( 'Header', 'lsx-design' ),
 			),
 			'core/button'    => array(
 				'cta'             => __( 'CTA', 'lsx-design' ),
@@ -125,6 +129,11 @@ class Block_Styles {
 				'handle' => 'lsxd-separator-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/separator.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/separator.css',
+			),
+			'core/search' => array(
+				'handle' => 'lsxd-search-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/search.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/search.css',
 			),
 			'core/button'    => array(
 				'handle' => 'lsxd-button-block-styles',
