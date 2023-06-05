@@ -224,6 +224,10 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      padding: 2px 10px;
 }
 
+.wp-block-navigation .wp-block-navigation__submenu-container.wp-block-lsx-lsx-mega-menu a {
+    padding: 0;
+}
+
 /* Paragraph --------------------------------------------- */
  p.has-background {
      padding: 20px 30px;
