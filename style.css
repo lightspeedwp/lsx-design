@@ -430,7 +430,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
 /* Media Queries ---------------------------------------------------------------------------- */
  @media (max-width:960px) {
     /* Navigation Link --------------------------------------------- */
-    body .is-layout-constrained>.wp-block-group.alignfull:not(.has-global-padding){padding: 0 15px!important;}
+    .has-global-padding :where(.has-global-padding){padding: 0 15px!important;}
      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container{
         padding:10px 0 0 15px;
     }
