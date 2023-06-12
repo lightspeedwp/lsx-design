@@ -89,7 +89,7 @@ return array(
     <!-- /wp:spacer -->
 	
 	<!-- wp:image {"sizeSlug":"large"} -->
-	<figure class="wp-block-image size-large"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.4539806727507!2d18.45126131511593!3d-33.92944998063957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5da1b2446d25%3A0x351a974567826b35!2s46+Devon+St%2C+Woodstock%2C+Cape+Town%2C+7915%2C+South+Africa!5e0!3m2!1sen!2sve!4v1506956600720"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/map-placeholder.jpg" alt=""/></a></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/map-placeholder.jpg" alt=""/></figure>
 	<!-- /wp:image -->
 
 	</div>
