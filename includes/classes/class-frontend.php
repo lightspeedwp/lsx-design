@@ -39,7 +39,6 @@ class Frontend {
 		// Output on the frontend.
 		add_filter( 'wpforms_frontend_form_data', array( $this, 'wpforms_match_button_block' ) );
 		add_filter( 'woocommerce_account_menu_items', array( $this, 'woocommerce_account_menu_items_fix' ), 10, 2 );
-
 	}
 
 	/**
