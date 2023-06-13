@@ -648,6 +648,11 @@
 						"color": {
 							"text": "var(--wp--preset--color--secondary)"
 						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline dashed"
+							}
+						},
 						":hover":{
 							"color": {
 								"text": "var(--wp--preset--color--tertiary)"
@@ -656,7 +661,13 @@
 						":active":{
 							"color": {
 								"text": "var(--wp--preset--color--primary)"
+							},
+							"typography": {
+								"textDecoration": "none"
 							}
+						},
+						"typography": {
+							"textDecoration": "none"
 						}
 					}
 				}
