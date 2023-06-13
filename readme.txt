@@ -3,9 +3,9 @@ Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
 Requires at least: 6.0
-Tested up to: 6.2.1
+Tested up to: 6.2.2
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
