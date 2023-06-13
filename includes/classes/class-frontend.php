@@ -93,6 +93,9 @@ class Frontend {
 	 * @return array
 	 */
 	public function woocommerce_account_menu_items_fix( $items, $endpoints ) {
+		if ( ! function_exists( 'wc_shipping_enabled' ) ) {
+			return $items;
+		}
 		if ( ! isset( $items['edit-address'] ) || '' !== $items['edit-address'] ) {
 			return $items;
 		}
