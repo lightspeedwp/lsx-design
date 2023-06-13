@@ -442,7 +442,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     color:#000!important;
 }
 /* Media Queries ---------------------------------------------------------------------------- */
- @media (max-width:960px) {
+ @media (max-width:599px) {
     /* Navigation Link --------------------------------------------- */
     .has-global-padding :where(.has-global-padding){padding: 0 var(--wp--preset--spacing--x-small) !important;}
      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container{
