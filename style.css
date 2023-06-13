@@ -152,7 +152,8 @@ p.has-base-color a, .has-base-color.has-link-color a{
      border-color: var(--wp--preset--color--contrast);
 }
  .wp-block-post-comments-form input[type=submit] {
-     border: 1px solid var(--wp--preset--color--contrast);
+     border: 1px solid var(--wp--preset--color--secondary);
+	 color: var(--wp--preset--color--base);
 }
  .wp-block-post-comments-form .form-submit {
      margin-bottom: 0;
