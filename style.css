@@ -180,10 +180,8 @@ p.has-base-color a, .has-base-color.has-link-color a{
      border: 1px solid #fff;
      padding: 2px;
 }
- .has-background .wp-block-navigation__responsive-container-open:focus, .has-background .wp-block-navigation__responsive-container-open:hover {
-     color: var(--wp--preset--color--base);
-}
- .wp-block-navigation:not([style*=text-decoration]) a, .wp-block-navigation:not([style*=text-decoration]) a:focus, .wp-block-navigation:not([style*=text-decoration]) a:hover {
+
+.wp-block-navigation:not([style*=text-decoration]) a, .wp-block-navigation:not([style*=text-decoration]) a:focus, .wp-block-navigation:not([style*=text-decoration]) a:hover {
      text-decoration: none;
 }
 
