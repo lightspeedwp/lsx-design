@@ -63,6 +63,15 @@ p.has-base-color a, .has-base-color.has-link-color a{
     fill: currentColor!important;
     color: currentColor!important;
 }
+
+/* Header --------------------------------------------- */
+@media (max-width: 1250px) {
+	header :where(.has-global-padding) {
+		padding-left: var(--wp--preset--spacing--x-small) !important;
+		padding-right: var(--wp--preset--spacing--x-small) !important;
+	}
+}
+
 /* Quote --------------------------------------------- */
  .wp-block-quote.is-style-underline, .wp-block-quote.is-style-underline-primary-secondary, .wp-block-quote.is-style-underline-secondary-tertiary, .wp-block-quote.is-style-underline-tertiary-primary {
      border: none;
