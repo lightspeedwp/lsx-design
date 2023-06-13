@@ -66,7 +66,8 @@ p.has-base-color a, .has-base-color.has-link-color a{
 
 /* Header --------------------------------------------- */
 @media (max-width: 1250px) {
-	header :where(.has-global-padding) {
+	header :where(.has-global-padding),
+	footer :where(.has-global-padding) {
 		padding-left: var(--wp--preset--spacing--x-small) !important;
 		padding-right: var(--wp--preset--spacing--x-small) !important;
 	}
@@ -443,9 +444,9 @@ body .wp-block-navigation .wp-block-navigation-item__description {
 /* Media Queries ---------------------------------------------------------------------------- */
  @media (max-width:960px) {
     /* Navigation Link --------------------------------------------- */
-    .has-global-padding :where(.has-global-padding){padding: 0 15px!important;}
+    .has-global-padding :where(.has-global-padding){padding: 0 var(--wp--preset--spacing--x-small) !important;}
      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container{
-        padding:10px 0 0 15px;
+        padding:10px 0 0 var(--wp--preset--spacing--x-small);
     }
     .wp-block-buttons>.wp-block-button.wp-block-button__width-50, .wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:100%!important;}
 
