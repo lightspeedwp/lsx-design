@@ -39,7 +39,6 @@ class Frontend {
 		// Output on the frontend.
 		add_filter( 'wpforms_frontend_form_data', array( $this, 'wpforms_match_button_block' ) );
 		add_filter( 'woocommerce_account_menu_items', array( $this, 'woocommerce_account_menu_items_fix' ), 10, 2 );
-
 	}
 
 	/**
@@ -94,6 +93,9 @@ class Frontend {
 	 * @return array
 	 */
 	public function woocommerce_account_menu_items_fix( $items, $endpoints ) {
+		if ( ! function_exists( 'wc_shipping_enabled' ) ) {
+			return $items;
+		}
 		if ( ! isset( $items['edit-address'] ) || '' !== $items['edit-address'] ) {
 			return $items;
 		}
