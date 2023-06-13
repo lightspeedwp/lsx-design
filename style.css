@@ -318,16 +318,17 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     line-height: 22px;
 }
  body.blog .projecttypes, body.category .projecttypes, body.tag .projecttypes{
-     background: var(--wp--preset--color--secondary);
+    background: var(--wp--preset--color--secondary);
     position:absolute;
-     right:-10px;
-     width:auto;
+    right:-10px;
+    width:auto;
     top:15px!important;
     z-index:9;
     padding:4px 10px;
     border-radius: 1px;
     border:1px solid #fff;
     line-height: 22px;
+	margin-block-start: 0px !important;
 }
  .projecttypes a{
     color:#fff!important;

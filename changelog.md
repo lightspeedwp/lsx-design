@@ -6,6 +6,7 @@
 - Skip to content links.
 - Sticky header issue.
 - Navigation hover colour issues.
+- Mobile menu display issues.
 
 ## [[1.0.1]](https://github.com/lightspeeddevelopment/lsx-design/releases/tag/1.0.1)
 
