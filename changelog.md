@@ -1,5 +1,15 @@
 # LSX Design Changelog
 
+## [[1.0.4]](https://github.com/lightspeeddevelopment/lsx-design/releases/tag/1.0.4)
+
+### Security
+- General testing to ensure compatibility with latest WordPress version (6.2.2).
+
+## [[1.0.3]](https://github.com/lightspeeddevelopment/lsx-design/releases/tag/1.0.3)
+
+### Security
+- General testing to ensure compatibility with latest WordPress version (6.2.1).
+
 ## [[1.0.2]](https://github.com/lightspeeddevelopment/lsx-design/releases/tag/1.0.2)
 
 ### Fixed
