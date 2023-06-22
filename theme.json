@@ -313,6 +313,26 @@
 			"default": {
 				"primary": "#FFFFFF",
 				"secondary": "#FFFFFF"
+			},
+			"primary": "#2F8EFF",
+			"secondary": "#FF3131",
+			"tertiary": "#00CE5F",
+			"quatenerey": "#F6DD54",
+			"quinary": "#B4B7C1",
+			"senary": "#CC3F23",
+			"septenary": "#114BB2",
+			"octonary": "#00A34B",
+			"novenary": "#D6B300",
+			"denary": "#323649",
+			"gigantic": {
+				"font-weight": 700,
+				"line-height": "96px",
+				"font-size": "72px"
+			},
+			"huge": {
+				"font-weight": 700,
+				"line-height": "30px",
+				"font-size": "60px"
 			}
 		},
 		"layout": {
