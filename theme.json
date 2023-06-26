@@ -187,12 +187,12 @@
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "var( --wp--custom--base )",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "var( --wp--custom--contrast )",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -345,7 +345,9 @@
 			"cta": "#FF7A00",
 			"cta-hover": "#C15D00",
 			"neutral": "#eeeeee",
-			"woocommerce": "#2F8EFF"
+			"woocommerce": "#2F8EFF",
+			"base": "#FFFFFF",
+			"contrast": "#000000"
 		},
 		"layout": {
 			"contentSize": "640px",

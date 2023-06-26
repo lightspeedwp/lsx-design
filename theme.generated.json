@@ -247,22 +247,22 @@
 					"slug": "denary"
 				},
 				{
-					"color": "#FF7A00",
+					"color": "var( --wp--custom--cta )",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "#C15D00",
+					"color": "var( --wp--custom--cta-hover )",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "var( --wp--custom--neutral )",
 					"name": "Neutral",
 					"slug": "neutral"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "var( --wp--custom--woocommerce )",
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
@@ -345,7 +345,9 @@
 			"cta": "#FF7A00",
 			"cta-hover": "#C15D00",
 			"neutral": "#eeeeee",
-			"woocommerce": "#2F8EFF"
+			"woocommerce": "#2F8EFF",
+			"base": "#FFFFFF",
+			"contrast": "#000000"
 		},
 		"layout": {
 			"contentSize": "640px",
