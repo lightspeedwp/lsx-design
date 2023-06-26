@@ -292,63 +292,6 @@
 				}
 			]
 		},
-		"custom": {
-			"fontWeight": {
-				"light": 300,
-				"regular": 400,
-				"medium": 500,
-				"semi-bold": 600,
-				"bold": 700,
-				"extra-bold": 800,
-				"black": 900
-			},
-			"lineHeight": {
-				"body": 1.75,
-				"heading": 1.1,
-				"medium": 1.5,
-				"one": 1
-			},
-			"spacing": {
-				"outer": "30px"
-			},
-			"default": {
-				"primary": "#FFFFFF",
-				"secondary": "#FFFFFF"
-			},
-			"primary": "#2F8EFF",
-			"secondary": "#FF3131",
-			"tertiary": "#00CE5F",
-			"quatenerey": "#F6DD54",
-			"quinary": "#B4B7C1",
-			"senary": "#CC3F23",
-			"septenary": "#114BB2",
-			"octonary": "#00A34B",
-			"novenary": "#D6B300",
-			"denary": "#323649",
-			"gigantic": {
-				"font-weight": 700,
-				"line-height": "96px",
-				"font-size": "72px"
-			},
-			"huge": {
-				"font-weight": 700,
-				"line-height": "30px",
-				"font-size": "60px"
-			},
-			"space-x-small": "16px",
-			"space-small": "20px",
-			"space-medium": "28px",
-			"space-large": "38px",
-			"space-x-large": "50px",
-			"space-huge": "80px",
-			"space-gigantic": "100px",
-			"cta": "#FF7A00",
-			"cta-hover": "#C15D00",
-			"neutral": "#eeeeee",
-			"woocommerce": "#2F8EFF",
-			"base": "#FFFFFF",
-			"contrast": "#000000"
-		},
 		"layout": {
 			"contentSize": "640px",
 			"wideSize": "1200px"
@@ -592,7 +535,64 @@
 				}
 			]
 		},
-		"useRootPaddingAwareAlignments": true
+		"useRootPaddingAwareAlignments": true,
+		"custom": {
+			"fontWeight": {
+				"light": 300,
+				"regular": 400,
+				"medium": 500,
+				"semi-bold": 600,
+				"bold": 700,
+				"extra-bold": 800,
+				"black": 900
+			},
+			"lineHeight": {
+				"body": 1.75,
+				"heading": 1.1,
+				"medium": 1.5,
+				"one": 1
+			},
+			"spacing": {
+				"outer": "30px"
+			},
+			"default": {
+				"primary": "#FFFFFF",
+				"secondary": "#FFFFFF"
+			},
+			"primary": "#2F8EFF",
+			"secondary": "#FF3131",
+			"tertiary": "#00CE5F",
+			"quatenerey": "#F6DD54",
+			"quinary": "#B4B7C1",
+			"senary": "#CC3F23",
+			"septenary": "#114BB2",
+			"octonary": "#00A34B",
+			"novenary": "#D6B300",
+			"denary": "#323649",
+			"gigantic": {
+				"font-weight": 700,
+				"line-height": "96px",
+				"font-size": "72px"
+			},
+			"huge": {
+				"font-weight": 700,
+				"line-height": "30px",
+				"font-size": "60px"
+			},
+			"space-x-small": "16px",
+			"space-small": "20px",
+			"space-medium": "28px",
+			"space-large": "38px",
+			"space-x-large": "50px",
+			"space-huge": "80px",
+			"space-gigantic": "100px",
+			"cta": "#FF7A00",
+			"cta-hover": "#C15D00",
+			"neutral": "#eeeeee",
+			"woocommerce": "#2F8EFF",
+			"base": "#FFFFFF",
+			"contrast": "#000000"
+		}
 	},
 	"styles": {
 		"blocks": {
