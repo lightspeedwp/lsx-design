@@ -473,64 +473,64 @@
 				{
 					"fluid": false,
 					"name": "Tiny",
-					"size": "12px",
+					"size": "var( --wp--custom--fontsize-tiny )",
 					"slug": "tiny"
 				},
 				{
 					"fluid": false,
 					"name": "xSmall",
-					"size": "16px",
+					"size": "var( --wp--custom--fontsize-x-small )",
 					"slug": "x-small"
 				},
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "20px",
+					"size": "var( --wp--custom--fontsize-small )",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "22px",
-						"max": "24px"
+						"min": "calc( var( --wp--custom--fontsize-medium ) - 2px )",
+						"max": "var( --wp--custom--fontsize-medium )"
 					},
 					"name": "Medium",
-					"size": "24px",
+					"size": "var( --wp--custom--fontsize-medium )",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "24px",
-						"max": "30px"
+						"min": "calc( var( --wp--custom--fontsize-large ) - 6px )",
+						"max": "var( --wp--custom--fontsize-large )"
 					},
 					"name": "Large",
-					"size": "30px",
+					"size": "var( --wp--custom--fontsize-large )",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "26px",
-						"max": "48px"
+						"min": "calc( var( --wp--custom--fontsize-x-large ) - 22px )",
+						"max": "var( --wp--custom--fontsize-x-large )"
 					},
 					"name": "xLarge",
-					"size": "48px",
+					"size": "var( --wp--custom--fontsize-x-large )",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "30px",
-						"max": "60px"
+						"min": "calc( var( --wp--custom--fontsize-x-large ) - 30px )",
+						"max": "var( --wp--custom--fontsize-huge )"
 					},
 					"name": "Huge",
-					"size": "60px",
+					"size": "var( --wp--custom--fontsize-huge )",
 					"slug": "huge"
 				},
 				{
 					"fluid": {
-						"min": "36px",
-						"max": "72px"
+						"min": "calc( var( --wp--custom--fontsize-gigantic ) - 22px )",
+						"max": "var( --wp--custom--fontsize-gigantic )"
 					},
 					"name": "Gigantic",
-					"size": "72px",
+					"size": "var( --wp--custom--fontsize-gigantic )",
 					"slug": "gigantic"
 				}
 			]
@@ -591,7 +591,16 @@
 			"neutral": "#eeeeee",
 			"woocommerce": "#2F8EFF",
 			"base": "#FFFFFF",
-			"contrast": "#000000"
+			"contrast": "#000000",
+			"fontsize-tiny": "12px",
+			"fontsize-x-small": "16px",
+			"fontsize-small": "20px",
+			"fontsize-medium": "24px",
+			"fontsize-medium-min": "22px",
+			"fontsize-large": "30px",
+			"fontsize-x-large": "48px",
+			"fontsize-huge": "60px",
+			"fontsize-gigantic": "72px"
 		}
 	},
 	"styles": {
