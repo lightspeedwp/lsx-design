@@ -25,26 +25,20 @@
 }
 
 .wp-block-separator.is-style-elegant{ 
-	content: '&#xf219;';
-	color: currentColor;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;}
-
-.wp-block-separator.is-style-elegant::before {
-	content: '';
-    display: block;
-    height: 0.09em;
-    min-width: 30vw;
-	background: linear-gradient(to right, rgba(240,240,240,0), currentColor);
-	margin-right: 4vh;
-}
+	margin: 25px auto 30px;
+	padding: 0;
+	border: 0;
+	border-top: solid 3px!important;
+	text-align: center;}
 
 .wp-block-separator.is-style-elegant::after {
-	background: linear-gradient(to left, rgba(240,240,240,0), currentColor);
-	margin-left: 4vh;
-	content: '';
-    display: block;
-    height: 0.09em;
+	content: "\f0e7";
+display: inline-block;
+position: relative;
+top: -1.7rem;
+padding: 0 1rem;
+font-family: FontAwesome;
+font-size: 3rem;
+background-color: #fff;
 }
+
