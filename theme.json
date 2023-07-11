@@ -187,82 +187,82 @@
 			],
 			"palette": [
 				{
-					"color": "var( --wp--custom--base )",
+					"color": "var( --wp--custom--lsx--base--base )",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "var( --wp--custom--contrast )",
+					"color": "var( --wp--custom--lsx--base--contrast )",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "var( --wp--custom--primary )",
+					"color": "var( --wp--custom--lsx--defaults--primary )",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "var( --wp--custom--secondary )",
+					"color": "var( --wp--custom--lsx--defaults--secondary )",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "var( --wp--custom--tertiary )",
+					"color": "var( --wp--custom--lsx--defaults--tertiary )",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "var( --wp--custom--quaternary )",
+					"color": "var( --wp--custom--lsx--defaults--quaternary )",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "var( --wp--custom--quinary )",
+					"color": "var( --wp--custom--lsx--defaults--quinary )",
 					"name": "Quinary",
 					"slug": "quinary"
 				},
 				{
-					"color": "var( --wp--custom--senary )",
+					"color": "var( --wp--custom--lsx--defaults--senary )",
 					"name": "Senary",
 					"slug": "senary"
 				},
 				{
-					"color": "var( --wp--custom--septenary )",
+					"color": "var( --wp--custom--lsx--defaults--septenary )",
 					"name": "Septenary",
 					"slug": "septenary"
 				},
 				{
-					"color": "var( --wp--custom--octonary )",
+					"color": "var( --wp--custom--lsx--defaults--octonary )",
 					"name": "Octonary",
 					"slug": "octonary"
 				},
 				{
-					"color": "var( --wp--custom--novenary )",
+					"color": "var( --wp--custom--lsx--defaults--novenary )",
 					"name": "Novenary",
 					"slug": "novenary"
 				},
 				{
-					"color": "var( --wp--custom--denary )",
+					"color": "var( --wp--custom--lsx--defaults--denary )",
 					"name": "Denary",
 					"slug": "denary"
 				},
 				{
-					"color": "var( --wp--custom--cta )",
+					"color": "var( --wp--custom--lsx--cta--cta )",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "var( --wp--custom--cta-hover )",
+					"color": "var( --wp--custom--lsx--cta--cta-hover )",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
 				{
-					"color": "var( --wp--custom--neutral )",
+					"color": "#eeeeee",
 					"name": "Neutral",
 					"slug": "neutral"
 				},
 				{
-					"color": "var( --wp--custom--woocommerce )",
+					"color": "#2F8EFF",
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
