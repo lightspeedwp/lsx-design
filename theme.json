@@ -473,64 +473,64 @@
 				{
 					"fluid": false,
 					"name": "Tiny",
-					"size": "var( --wp--custom--fontsize-tiny )",
+					"size": "var( --wp--custom--font-size--0 )",
 					"slug": "tiny"
 				},
 				{
 					"fluid": false,
 					"name": "xSmall",
-					"size": "var( --wp--custom--fontsize-x-small )",
+					"size": "var( --wp--custom--font-size--1 )",
 					"slug": "x-small"
 				},
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "var( --wp--custom--fontsize-small )",
+					"size": "var( --wp--custom--font-size--2 )",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "calc( var( --wp--custom--fontsize-medium ) - 2px )",
-						"max": "var( --wp--custom--fontsize-medium )"
+						"min": "calc( var( --wp--custom--font-size--3 ) - 2px )",
+						"max": "var( --wp--custom--font-size--3 )"
 					},
 					"name": "Medium",
-					"size": "var( --wp--custom--fontsize-medium )",
+					"size": "var( --wp--custom--font-size--3 )",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "calc( var( --wp--custom--fontsize-large ) - 6px )",
-						"max": "var( --wp--custom--fontsize-large )"
+						"min": "calc( var( --wp--custom--font-size--5 ) - 6px )",
+						"max": "var( --wp--custom--font-size--5 )"
 					},
 					"name": "Large",
-					"size": "var( --wp--custom--fontsize-large )",
+					"size": "var( --wp--custom--font-size--5 )",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "calc( var( --wp--custom--fontsize-x-large ) - 22px )",
-						"max": "var( --wp--custom--fontsize-x-large )"
+						"min": "calc( var( --wp--custom--font-size--8 ) - 22px )",
+						"max": "var( --wp--custom--font-size--8 )"
 					},
 					"name": "xLarge",
-					"size": "var( --wp--custom--fontsize-x-large )",
+					"size": "var( --wp--custom--font-size--8 )",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "calc( var( --wp--custom--fontsize-x-large ) - 30px )",
-						"max": "var( --wp--custom--fontsize-huge )"
+						"min": "calc( var( --wp--custom--font-size--9 ) - 30px )",
+						"max": "var( --wp--custom--font-size--9 )"
 					},
 					"name": "Huge",
-					"size": "var( --wp--custom--fontsize-huge )",
+					"size": "var( --wp--custom--font-size--9 )",
 					"slug": "huge"
 				},
 				{
 					"fluid": {
-						"min": "calc( var( --wp--custom--fontsize-gigantic ) - 22px )",
-						"max": "var( --wp--custom--fontsize-gigantic )"
+						"min": "calc( var( --wp--custom--font-size--10 ) - 22px )",
+						"max": "var( --wp--custom--font-size-10 )"
 					},
 					"name": "Gigantic",
-					"size": "var( --wp--custom--fontsize-gigantic )",
+					"size": "var( --wp--custom--font-size--10 )",
 					"slug": "gigantic"
 				}
 			]
