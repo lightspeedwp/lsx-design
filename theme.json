@@ -293,8 +293,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "640px",
-			"wideSize": "1200px"
+			"contentSize": "var( --wp--custom--alignment--content )",
+			"wideSize": "var( --wp--custom--alignment--wide )"
 		},
 		"spacing": {
 			"spacingSizes": [
@@ -564,7 +564,7 @@
 			"lsx": {
 				"base": {
 					"base": "#000000",
-					"contrast": "#FFFFFF"
+					"contrast": "#ffffff"
 				},
 				"cta": {
 					"cta": "#ff7a00",
@@ -600,7 +600,7 @@
 			"word-press": {
 				"defaults": {
 					"black": "#000000",
-					"white": "#FFFFFF",
+					"white": "#ffffff",
 					"very-light-grey": "#eeeeee",
 					"cyan-bluish-grey": "#abb8c3",
 					"pale-pink": "#f78da7",
@@ -1399,6 +1399,10 @@
 			},
 			"paragraph-indent": {
 				"0": "0px"
+			},
+			"alignment": {
+				"wide": "1200px",
+				"content": "640px"
 			}
 		}
 	},
