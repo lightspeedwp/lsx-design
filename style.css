@@ -323,7 +323,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     position:absolute;
     right:-10px;
     width:auto;
-    top:15px!important;
+    top:-15px!important;
     z-index:9;
     padding:4px 10px;
     border-radius: 1px;
