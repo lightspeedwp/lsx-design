@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lightspeeddevelopment/lsx"
+    "url": "git+https://github.com/lightspeedwp/lsx"
   },
   "keywords": [
     "lsx"
@@ -13,7 +13,7 @@
   "author": "LightSpeed",
   "license": "GPLv3 or later",
   "bugs": {
-    "url": "https://github.com/lightspeeddevelopment/lsx/issues"
+    "url": "https://github.com/lightspeedwp/lsx/issues"
   },
   "scripts": {
     "build-pot": "wp i18n make-pot . languages/lsxd.pot",
