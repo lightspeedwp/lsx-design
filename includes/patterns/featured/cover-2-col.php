@@ -11,8 +11,8 @@ return array(
 	'content'    => '<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignfull"><!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":"https://lsx.design/wp-content/themes/lsx-design/assets/images/assets/images/lsxd-placeholder-contrst-1920x1200.jpg","dimRatio":40,"customOverlayColor":"#000000","minHeight":60,"minHeightUnit":"vh","contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
-    <div class="wp-block-cover alignfull" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#000000"></span><img class="wp-block-cover__image-background" alt="" src=https://lsx.design/wp-content/themes/lsx-design/assets/images/assets/images/art-01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"className":"wp-block-heading alignwide has-white-color has-text-color","anchor":""} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"https://lsx.design/wp-content/uploads/2023/05/Templates-hero.png","id":1318,"dimRatio":40,"customOverlayColor":"#000000","minHeight":60,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
+    <div class="wp-block-cover alignfull is-light" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#000000"></span><img class="wp-block-cover__image-background wp-image-1318" alt="" src="https://lsx.design/wp-content/uploads/2023/05/Templates-hero.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"className":"wp-block-heading alignwide has-white-color has-text-color"} -->
     <h2 class="wp-block-heading has-text-align-center alignwide has-white-color has-text-color" style="font-size:48px;line-height:1.2"><strong>Heading</strong></h2>
     <!-- /wp:heading -->
     
@@ -24,8 +24,8 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:buttons {"className":"wp-block-button has-custom-width wp-block-button__width-75 is-style-fill","layout":{"type":"flex","justifyContent":"center"}} -->
-    <div class="wp-block-buttons wp-block-button has-custom-width wp-block-button__width-75 is-style-fill"><!-- wp:button {"textColor":"base","className":"is-style-outline"} -->
-    <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color wp-element-button">View More</a></div>
+    <div class="wp-block-buttons wp-block-button has-custom-width wp-block-button__width-75 is-style-fill"><!-- wp:button {"textColor":"base","width":50,"className":"is-style-cta"} -->
+    <div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-cta"><a class="wp-block-button__link has-base-color has-text-color wp-element-button">View More</a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column --></div>
@@ -35,8 +35,8 @@ return array(
     <!-- /wp:column -->
     
     <!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":https://lsx.design/wp-content/themes/lsx-design/assets/images/assets/images/lsxd-placeholder-contrst-1920x1200.jpg","dimRatio":40,"customOverlayColor":"#000000","minHeight":60,"minHeightUnit":"vh","contentPosition":"center center","align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
-    <div class="wp-block-cover alignfull" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#000000"></span><img class="wp-block-cover__image-background" alt="" src=https://lsx.design/wp-content/themes/lsx-design/assets/images/assets/images/art-01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"className":"wp-block-heading alignwide has-white-color has-text-color","anchor":""} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"https://lsx.design/wp-content/uploads/2023/05/Templates-hero.png","id":1318,"dimRatio":40,"customOverlayColor":"#000000","minHeight":60,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} -->
+    <div class="wp-block-cover alignfull is-light" style="margin-bottom:var(--wp--preset--spacing--medium);min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#000000"></span><img class="wp-block-cover__image-background wp-image-1318" alt="" src="https://lsx.design/wp-content/uploads/2023/05/Templates-hero.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"className":"wp-block-heading alignwide has-white-color has-text-color"} -->
     <h2 class="wp-block-heading has-text-align-center alignwide has-white-color has-text-color" style="font-size:48px;line-height:1.2"><strong>Heading</strong></h2>
     <!-- /wp:heading -->
     
@@ -48,8 +48,8 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:buttons {"className":"wp-block-button has-custom-width wp-block-button__width-75 is-style-fill","layout":{"type":"flex","justifyContent":"center"}} -->
-    <div class="wp-block-buttons wp-block-button has-custom-width wp-block-button__width-75 is-style-fill"><!-- wp:button {"textColor":"base","className":"is-style-outline"} -->
-    <div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color wp-element-button">View More</a></div>
+    <div class="wp-block-buttons wp-block-button has-custom-width wp-block-button__width-75 is-style-fill"><!-- wp:button {"textColor":"base","width":50,"className":"is-style-cta"} -->
+    <div class="wp-block-button has-custom-width wp-block-button__width-50 is-style-cta"><a class="wp-block-button__link has-base-color has-text-color wp-element-button">View More</a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column --></div>
