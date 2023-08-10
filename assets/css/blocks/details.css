@@ -7,7 +7,7 @@
     font-size:22px;
     font-weight:700;
     margin:0;
-    padding:17px 56px 17px 12px;
+    padding:13px 56px 14px 12px;
     line-height:1.4;
     cursor:pointer;
     position:relative;
@@ -57,5 +57,7 @@
     font-size:18px!important;
     line-height:1.4!important;
     border-bottom:1px solid #313535;
+    border-left:1px solid #313535;
+    border-right:1px solid #313535;
      color:#000!important;}
 .wp-block-details [open] summary p{display:block!important;}
