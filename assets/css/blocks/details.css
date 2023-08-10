@@ -41,7 +41,7 @@
 .wp-block-details [open] summary:after{
     content:"-"
 }
-.wp-block-details p{
+.wp-block-details summary p{
     margin:0;
     padding:12px;
     background-color:#EBEBEB;
@@ -52,4 +52,4 @@
      color:#000!important;
 }
 
-.wp-block-details [open] p{display:block!important;}
+.wp-block-details [open] summary p{display:block!important;}
