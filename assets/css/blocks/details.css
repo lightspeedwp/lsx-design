@@ -51,3 +51,5 @@
     display:none;
      color:#000!important;
 }
+
+.wp-block-details [open] p{display:block!important;}
