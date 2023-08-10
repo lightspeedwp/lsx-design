@@ -51,5 +51,11 @@
     display:none;
      color:#000!important;
 }
-
+.wp-block-details>:not(summary){margin:0;
+    padding:12px;
+    background-color:#EBEBEB;
+    font-size:18px!important;
+    line-height:1.4!important;
+    border-bottom:1px solid #313535;
+     color:#000!important;}
 .wp-block-details [open] summary p{display:block!important;}
