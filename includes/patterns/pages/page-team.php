@@ -49,8 +49,8 @@ return array(
     <div class="wp-block-group alignfull"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"},"blockGap":{"top":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}}} -->
     <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
-    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"align":"full","id":769,"sizeSlug":"large","linkDestination":"none","style":{"color":{}},"className":"is-style-default"} -->
-    <figure class="wp-block-image alignfull size-large is-style-default"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
@@ -73,8 +73,8 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
-    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"align":"full","id":769,"sizeSlug":"large","linkDestination":"none","style":{"color":{}},"className":"is-style-default"} -->
-    <figure class="wp-block-image alignfull size-large is-style-default"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
@@ -97,8 +97,8 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
-    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"align":"full","id":769,"sizeSlug":"large","linkDestination":"none","style":{"color":{}},"className":"is-style-default"} -->
-    <figure class="wp-block-image alignfull size-large is-style-default"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <div class="wp-block-group has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}}},"layout":{"type":"constrained"}} -->
@@ -132,7 +132,7 @@ return array(
     <!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"backgroundColor":"neutral"} -->
     <div class="wp-block-column has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
@@ -150,7 +150,7 @@ return array(
     
     <!-- wp:column {"backgroundColor":"neutral"} -->
     <div class="wp-block-column has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
@@ -168,7 +168,7 @@ return array(
     
     <!-- wp:column {"backgroundColor":"neutral"} -->
     <div class="wp-block-column has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.svg" alt="" class="wp-image-769"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
@@ -186,7 +186,7 @@ return array(
     
     <!-- wp:column {"backgroundColor":"neutral"} -->
     <div class="wp-block-column has-neutral-background-color has-background"><!-- wp:image {"id":769,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="" class="wp-image-769"/></figure>
+    <figure class="wp-block-image size-large"><img src="https://lsx.design/wp-content/themes/lsx-design/assets/images/mystery-man-square.png" alt="placeholder" class="wp-image-769"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
