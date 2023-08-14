@@ -39,6 +39,9 @@ class Frontend {
 		// Output on the frontend.
 		add_filter( 'wpforms_frontend_form_data', array( $this, 'wpforms_match_button_block' ) );
 		add_filter( 'woocommerce_account_menu_items', array( $this, 'woocommerce_account_menu_items_fix' ), 10, 2 );
+
+		//Yoast FAQ Block
+		add_filter( 'render_block', array( $this, 'yoast_faq_tabindex' ), 20, 3 );
 	}
 
 	/**
@@ -122,5 +125,20 @@ class Frontend {
 			return $tag;
 		}
 		return str_replace( ' src', ' data-cfasync="false" src', $tag );
+	}
+
+	/**
+	 * Add a tabindex to the strong tag of the Yoast FAQ block.
+	 *
+	 * @param string|null   $pre_render   The pre-rendered content. Default null.
+	 * @param array         $parsed_block The block being rendered.
+	 * @param WP_Block|null $parent_block If this is a nested block, a reference to the parent block.
+	 */
+	public function yoast_faq_tabindex( $block_content, $parsed_block, $block_obj ) {
+		// Determine if this is the custom block variation.
+		if ( isset( $parsed_block['blockName'] ) && 'yoast/faq-block' === $parsed_block['blockName'] ) {
+			$block_content = str_replace( 'schema-faq-question"', 'schema-faq-question" tabindex="0"', $block_content );
+		}
+		return $block_content;
 	}
 }
