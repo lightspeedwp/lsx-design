@@ -25,10 +25,6 @@ return array(
 <figure class="wp-block-image aligncenter size-full is-resized"><img alt="" class="wp-image-41956" width="305" height="88"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
 <!-- wp:image {"align":"left","id":42990,"width":100,"height":100,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
 <figure class="wp-block-image alignleft size-full is-resized has-custom-border"><img alt="" class="wp-image-42990" style="border-width:2px;border-radius:100px" width="100" height="100"/></figure>
 <!-- /wp:image --></div>
@@ -37,15 +33,11 @@ return array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:quote {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"quaternary","textColor":"contrast","className":"is-style-default"} -->
-<blockquote class="wp-block-quote is-style-default has-contrast-color has-quaternary-background-color has-text-color has-background has-link-color"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-column"><!-- wp:quote {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"base","textColor":"contrast","className":"is-style-default"} -->
+<blockquote class="wp-block-quote is-style-default has-contrast-color has-base-background-color has-text-color has-background has-link-color"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"align":"center","id":41956,"width":305,"height":88,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img alt="" class="wp-image-41956" width="305" height="88"/></figure>
 <!-- /wp:image -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":42990,"width":100,"height":100,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
 <figure class="wp-block-image alignleft size-full is-resized has-custom-border"><img alt="" class="wp-image-42990" style="border-width:2px;border-radius:100px" width="100" height="100"/></figure>

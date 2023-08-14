@@ -23,9 +23,9 @@ return array(
 <figure class="wp-block-image size-full is-resized"><img alt="" class="wp-image-41956" width="305" height="88"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small"}},"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small);font-style:normal;font-weight:300"></p>
-<!-- /wp:paragraph -->
+<!-- wp:separator {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|small"}}},"className":"is-style-default"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--small)"/>
+<!-- /wp:separator -->
 
 <!-- wp:image {"align":"left","id":42990,"width":100,"height":100,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"100px","width":"2px"}}} -->
 <figure class="wp-block-image alignleft size-full is-resized has-custom-border"><img alt="" class="wp-image-42990" style="border-width:2px;border-radius:100px" width="100" height="100"/></figure>
