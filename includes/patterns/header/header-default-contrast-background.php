@@ -15,7 +15,7 @@ return array(
 	<figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-white.png' . '" alt="" class="wp-image-379"/></figure>
 	<!-- /wp:image -->
 	
-	<!-- wp:navigation {"ref":17,"textColor":"base","layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} /--></div>
+	<!-- wp:navigation {"textColor":"base","layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} /--></div>
 	<!-- /wp:group --></div>
 	<!-- /wp:group -->',
 );

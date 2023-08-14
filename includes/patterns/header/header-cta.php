@@ -15,7 +15,7 @@ return array(
 <div class="wp-block-group"><!-- wp:site-logo {"width":169} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"ref":17,"textColor":"contrast","icon":"menu","overlayBackgroundColor":"contrast","overlayTextColor":"base","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"typography":{"fontSize":"18px"}}} /-->
+<!-- wp:navigation {"textColor":"contrast","icon":"menu","overlayBackgroundColor":"contrast","overlayTextColor":"base","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"typography":{"fontSize":"18px"}}} /-->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"cta","textColor":"base","className":"is-style-cta"} -->
