@@ -3,9 +3,9 @@ Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
 Requires at least: 6.0
-Tested up to: 6.2.2
+Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0.4
+Stable tag: 1.1.0
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -65,16 +65,16 @@ We have documentation on the LSX Design theme, take control of your website setu
 
 Contact the LightSpeed for paid support assistance via the contact form - https://www.lsdev.biz/contact/
 
-Please log bug issues via Github Issues if you are experiencing issues with LSX Design - https://github.com/lightspeeddevelopment/lsx-design/issues
+Please log bug issues via Github Issues if you are experiencing issues with LSX Design - https://github.com/lightspeedwp/lsx-design/issues
 
 = Contributing =
 
-If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit LSX Design on Github and submit a Pull Request with your updates - https://github.com/lightspeeddevelopment/lsx-design
+If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit LSX Design on Github and submit a Pull Request with your updates - https://github.com/lightspeedwp/lsx-design
 
 == Installation ==
 
 1. In your admin panel, go to *Appearance > Themes* and click the *'Add New'* button.
-2. Type in Storefront in the search form and press the 'Enter' key on your keyboard.
+2. Type in LSX Dessign in the search form and press the 'Enter' key on your keyboard.
 3. Click on the *'Activate'* button to use your new theme right away.
 5. Navigate to *Appearance > Site Editor* in your admin panel and customize to taste.
 
@@ -215,4 +215,4 @@ LSX has extensive documentation you can find [here](https://docs.LSX.com).
 
 == Changelog ==
 
-[Latest changelogs can be found on GitHub](https://github.com/lightspeeddevelopment/lsx-design/blob/master/changelog.md).
+[Latest changelogs can be found on GitHub](https://github.com/lightspeedwp/lsx-design/blob/master/changelog.md).

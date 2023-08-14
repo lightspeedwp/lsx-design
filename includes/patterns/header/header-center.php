@@ -15,7 +15,7 @@ return array(
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"ref":17,"layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}}} /--></div>
+<div class="wp-block-group"><!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->',
 );

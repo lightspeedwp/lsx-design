@@ -22,7 +22,7 @@
 
 <br>
 
-![screenshot](https://github.com/lightspeeddevelopment/lsx-design/blob/main/screenshot.png?raw=true)
+![screenshot](https://github.com/lightspeedwp/lsx-design/blob/main/screenshot.png?raw=true)
 
 ## Key Features
 
@@ -67,11 +67,11 @@ We have extensive documentation on all our themes functionality. This allows you
 
 Take a look at all our [Frequently Asked Questions](https://lsx.design/faqs/), we are sure you'll find what you're looking for. 
 
-If you are experiencing issues with LSX Design, please log any bug issues you are having on the [LSX Github Issues](https://github.com/lightspeeddevelopment/lsx-design/issues) page.
+If you are experiencing issues with LSX Design, please log any bug issues you are having on the [LSX Github Issues](https://github.com/lightspeedwp/lsx-design/issues) page.
 
 ## Contributing
 
-If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit the [LSX theme on Github](https://github.com/lightspeeddevelopment/lsx-design) and submit a Pull Request with your updates.
+If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit the [LSX theme on Github](https://github.com/lightspeedwp/lsx-design) and submit a Pull Request with your updates.
 
 ## Credits
 
@@ -105,7 +105,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
   <a href="https://www.lsdev.biz/lsx/">LSX Product Website</a>
 </p>
 <p align="center">
-  <a href="https://github.com/lightspeeddevelopment">GitHub</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/lightspeedwp">GitHub</a> &nbsp;&middot;&nbsp;
   <a href="https://facebook.com/lightspeedwpdev">Facebook</a> &nbsp;&middot;&nbsp;
   <a href="https://twitter.com/lightspeedwp">Twitter</a>
 </p>

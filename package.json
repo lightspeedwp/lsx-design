@@ -1,11 +1,11 @@
 {
   "name": "lsx-design",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "is a light-weight, minimalistic and responsive WordPress theme that allows users to create fast, efficient and attractive websites that are feature-rich. We've built it to be fully compatible with WooCommerce, making it an ideal choice for your next eCommerce build. Its lightweight build ensures better load times, a bonus for both user experience and SEO.",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lightspeeddevelopment/lsx"
+    "url": "git+https://github.com/lightspeedwp/lsx"
   },
   "keywords": [
     "lsx"
@@ -13,7 +13,7 @@
   "author": "LightSpeed",
   "license": "GPLv3 or later",
   "bugs": {
-    "url": "https://github.com/lightspeeddevelopment/lsx/issues"
+    "url": "https://github.com/lightspeedwp/lsx/issues"
   },
   "scripts": {
     "build-pot": "wp i18n make-pot . languages/lsxd.pot",

@@ -1,0 +1,128 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Dark",
+	"settings": {
+		"color": {
+			"duotone": [
+                {
+                    "colors": [ "#CC3F23", "#F6DD54" ],
+                    "slug": "senary-and-quaternary",
+                    "name": "Senary and quaternary"
+                },
+				{
+                    "colors": [ "#323649", "#FF3131" ],
+                    "slug": "denary-and-primary",
+                    "name": "Denary and Primary"
+                },
+				{
+                    "colors": [ "#114BB2", "#F6DD54" ],
+                    "slug": "septenary-and-quaternary",
+                    "name": "Septenary and quaternary"
+                },
+				{
+                    "colors": [ "#114BB2", "#2F8EFF" ],
+                    "slug": "septenary-and-secondary",
+                    "name": "Septenary and Secondary"
+                },
+				{
+                    "colors": [ "#114BB2", "#00CE5F" ],
+                    "slug": "septenary-and-tertiary",
+                    "name": "Septenary and Tertiary"
+                },
+				{
+                    "colors": [ "#000000", "#B4B7C1" ],
+                    "slug": "black-and-quinary",
+                    "name": "Black and Quinary"
+                },
+				{
+                    "colors": [ "#000000", "#2F8EFF" ],
+                    "slug": "black-and-secondary",
+                    "name": "Black and Secondary"
+                }
+			],
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#fff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FF3131",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#2F8EFF",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#00CE5F",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#F6DD54",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#B4B7C1",
+					"name": "Quinary",
+					"slug": "quinary"
+				},
+				{
+					"color": "#CC3F23",
+					"name": "Senary",
+					"slug": "senary"
+				},
+				{
+					"color": "#114BB2",
+					"name": "Septenary",
+					"slug": "septenary"
+				},
+				{
+					"color": "#00A34B",
+					"name": "Octonary",
+					"slug": "octonary"
+				},
+				{
+					"color": "#D6B300",
+					"name": "Novenary",
+					"slug": "novenary"
+				},
+				{
+					"color": "#323649",
+					"name": "Denary",
+					"slug": "denary"
+				},
+				{
+					"color": "#FF7A00",
+					"name": "CTA",
+					"slug": "cta"
+				},
+				{
+					"color": "#C15D00",
+					"name": "CTA Hover",
+					"slug": "ctahover"
+				},
+				{
+					"color": "#eeeeee",
+					"name": "Neutral",
+					"slug": "neutral"
+				},
+				{
+					"color": "#2F8EFF",
+					"name": "Woocommerce",
+					"slug": "woo"
+				}
+			]
+		}
+	}
+}

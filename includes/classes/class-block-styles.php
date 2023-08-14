@@ -160,6 +160,11 @@ class Block_Styles {
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/paragraph.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/paragraph.css',
 			),
+			'core/details' => array(
+				'handle' => 'lsxd-details-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/details.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/details.css',
+			),
 		);
 		return $this->block_assets;
 	}
