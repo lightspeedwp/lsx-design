@@ -2,6 +2,22 @@
 
 ## [[1.1.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.1.0)
 
+### Added
+- Accessibility for the Yoast FAQ block #15
+- Search "no results" block #19
+- Support for the new WordPress Details Block #36
+
+### Fixed
+- Cart Cross Sells block title display #4
+- Increases the padding between the menu items and the submenus #16
+- Mobile Menu Breakpoints were updated #17
+- Search results pagination #18
+- Archives: The category covering the post title on small screens #20
+- CSS Custom variables in patterns and templates #24
+
+### Updated
+- Broken links in the Github readmes. #27 + #31
+
 ### Security
 - General testing to ensure compatibility with latest WordPress version (6.3).
 
