@@ -5,6 +5,7 @@
 ### Added
 - Accessibility for the Yoast FAQ block #15
 - Search "no results" block #19
+- Dark style variation #25
 - Support for the new WordPress Details Block #36
 
 ### Fixed
