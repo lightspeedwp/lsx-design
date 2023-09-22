@@ -443,7 +443,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
  footer .has-contrast-background-color .wp-block-social-links:not(.is-style-logos-only) footer .has-contrast-background-color .wp-block-social-links .wp-social-link a{
     color:#000!important;
 }
-@media screen and (max-width:999px) {
+@media screen and (max-width:1028px) {
     .wp-block-navigation__responsive-container-open:not(.always-shown){
         display: block;
     }
