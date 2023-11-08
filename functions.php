@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'LSXD_VERSION', '1.2.0' );
+define( 'LSXD_VERSION', '1.1.0' );
 
 require_once get_template_directory() . '/includes/classes/class-core.php';
 
