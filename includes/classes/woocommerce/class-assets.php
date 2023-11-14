@@ -29,7 +29,7 @@ class Assets {
 	 * Contructor
 	 */
 	public function __construct() {
-		add_action( 'after_setup_theme', array( $this, 'enqueue_block_styles' ), 10 );
+		add_action( 'init', array( $this, 'enqueue_block_styles' ), 10 );
 	}
 
 	/**

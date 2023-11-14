@@ -1,0 +1,10 @@
+
+.wc-block-order-confirmation-totals thead th {
+	background-color:var( --wp--custom--wc--table--header--bg--color );
+	color: var( --wp--preset--color--base );
+}
+
+.wc-block-order-confirmation-totals {
+	
+}
+
