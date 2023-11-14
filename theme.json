@@ -992,6 +992,11 @@
 		},
 		{
 			"area": "header",
+			"name": "header-cta",
+			"title": "Header CTA"
+		},
+		{
+			"area": "header",
 			"name": "woo-header-light",
 			"title": "Woo Header Light"
 		},
