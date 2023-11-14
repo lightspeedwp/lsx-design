@@ -34,4 +34,3 @@ return array(
     <!-- /wp:group --></div></div>
     <!-- /wp:cover -->',
 );
-

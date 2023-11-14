@@ -243,7 +243,6 @@
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
-				
 			]
 
 		},
@@ -289,6 +288,20 @@
 			},
 			"spacing": {
 				"outer": "30px"
+			},
+			"wc": {
+				"table": {
+					"header": {
+						"bg" : {
+							"color": "#50575E"
+						},
+						"cell-width": "50%"
+					},
+					"border": {
+						"width": "2px",
+						"color": "var( --wp--preset--color--contrast )"
+					}
+				}
 			}
 		},
 		"layout": {

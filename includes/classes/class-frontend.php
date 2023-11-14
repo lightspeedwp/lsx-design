@@ -40,7 +40,7 @@ class Frontend {
 		add_filter( 'wpforms_frontend_form_data', array( $this, 'wpforms_match_button_block' ) );
 		add_filter( 'woocommerce_account_menu_items', array( $this, 'woocommerce_account_menu_items_fix' ), 10, 2 );
 
-		//Yoast FAQ Block
+		// Yoast FAQ Block.
 		add_filter( 'render_block', array( $this, 'yoast_faq_tabindex' ), 20, 3 );
 	}
 
@@ -130,9 +130,9 @@ class Frontend {
 	/**
 	 * Add a tabindex to the strong tag of the Yoast FAQ block.
 	 *
-	 * @param string|null   $pre_render   The pre-rendered content. Default null.
+	 * @param string|null   $block_content   The pre-rendered content. Default null.
 	 * @param array         $parsed_block The block being rendered.
-	 * @param WP_Block|null $parent_block If this is a nested block, a reference to the parent block.
+	 * @param WP_Block|null $block_obj If this is a nested block, a reference to the parent block.
 	 */
 	public function yoast_faq_tabindex( $block_content, $parsed_block, $block_obj ) {
 		// Determine if this is the custom block variation.

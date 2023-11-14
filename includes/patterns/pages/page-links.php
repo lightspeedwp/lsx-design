@@ -67,4 +67,3 @@ return array(
     <!-- /wp:group -->
     ',
 );
-
