@@ -1,0 +1,4 @@
+.woocommerce-order-confirmation-address-wrapper .wp-block-column:empty {
+	display: block;
+	order: 1;
+}

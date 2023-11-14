@@ -49,6 +49,11 @@ class Assets {
 				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/order-confirmation-summary.css',
 				'path'   => get_template_directory() . '/assets/css/woocommerce/order-confirmation-summary.css',
 			),
+			'woocommerce/order-confirmation-billing-wrapper' => array(
+				'handle' => 'lsxd-wc-order-confirmation-billing-wrapper',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/order-confirmation-billing-wrapper.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/order-confirmation-billing-wrapper.css',
+			),
 		);
 		return $this->assets;
 	}
