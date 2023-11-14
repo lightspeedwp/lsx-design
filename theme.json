@@ -294,7 +294,12 @@
 					"header": {
 						"bg" : {
 							"color": "#50575E"
-						}
+						},
+						"cell-width": "50%"
+					},
+					"border": {
+						"width": "2px",
+						"color": "var( --wp--preset--color--contrast )"
 					}
 				}
 			}

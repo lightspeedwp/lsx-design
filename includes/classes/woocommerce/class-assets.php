@@ -44,6 +44,11 @@ class Assets {
 				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/order-confirmation-totals.css',
 				'path'   => get_template_directory() . '/assets/css/woocommerce/order-confirmation-totals.css',
 			),
+			'woocommerce/order-confirmation-summary' => array(
+				'handle' => 'lsxd-wc-order-confirmation-summary',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/order-confirmation-summary.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/order-confirmation-summary.css',
+			),
 		);
 		return $this->assets;
 	}
