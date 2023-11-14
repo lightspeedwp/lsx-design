@@ -1,9 +1,15 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","align":"wide","className":"site-header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"inherit":true,"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:woocommerce/order-confirmation-status {"fontSize":"large"} /-->
+<main class="wp-block-group">
+	
+	<!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|small"}}},"fontSize":"x-large"} -->
+	<h2 class="wp-block-heading alignwide has-x-large-font-size" style="margin-bottom:var(--wp--preset--spacing--small)">Checkout</h2>
+	<!-- /wp:heading -->
 
-	<!-- wp:woocommerce/order-confirmation-summary /-->
+	<!-- wp:woocommerce/order-confirmation-status {"fontSize":"medium"} /-->
+
+	<!-- wp:woocommerce/order-confirmation-summary {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|medium"}}}} /-->
 	
 	<!-- wp:woocommerce/order-confirmation-totals-wrapper {"align":"wide"} -->
 	<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"24px"}}} -->
