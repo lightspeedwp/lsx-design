@@ -17,5 +17,8 @@ return array(
 	
 	<!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}}} /--></div>
 	<!-- /wp:group --></div>
-	<!-- /wp:group -->',
+	<!-- /wp:group -->
+	
+	
+	',
 );

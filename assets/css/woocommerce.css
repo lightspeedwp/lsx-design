@@ -53,6 +53,7 @@
  .wc-block-product-on-sale .wc-block-grid__product-add-to-cart a{
     width:100%!important;
 }
+
  .tab-included-products.chained_items_container li{
     font-size: var(--wp--preset--font-size--x-small) !important;
     line-height: 20px;
@@ -614,6 +615,25 @@
 .editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link, table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link{
     color:#FF0000!important;
 }
+.woocommerce .woocommerce-info .button{
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 0;
+    border-width: 0;
+    color: var(--wp--preset--color--base);
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--x-small);
+    font-weight: 700;
+    line-height: inherit;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
 
 /* Bundles ---------------------------------------------------------------------------- */
  .bundle_sells_title h3{
@@ -729,4 +749,8 @@
         font-size:36px;
         text-align: center;
     }
+    .woocommerce-cart-form__contents .cart_item.chained_item{display:none!important;}
+
+    .woocommerce .woocommerce-info .button{width:100%!important;}
+
 }
