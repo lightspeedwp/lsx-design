@@ -28,6 +28,7 @@
 	padding-left: 0px !important;
 	background-color: var(--wp--preset--color--neutral);
 	max-width: 100%;
+	border: 0;
 }
 
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product h2,
