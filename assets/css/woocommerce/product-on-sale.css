@@ -1,0 +1,23 @@
+
+.wc-block-product-on-sale li {
+    background-color: #FFF;
+    border:0!important;
+    margin:1%;
+}
+
+.wc-block-product-on-sale .wc-block-grid__product-title{
+    font-size: var(--wp--preset--font-size--small) !important;
+}
+
+.wc-block-product-on-sale .wc-block-grid__product-price{
+    font-size: var(--wp--preset--font-size--x-small) !important;
+}
+
+.wc-block-product-on-sale .wc-block-grid__product-add-to-cart{
+    margin:0!important;
+     padding:0!important;
+    width:100%;
+}
+.wc-block-product-on-sale .wc-block-grid__product-add-to-cart a{
+    width:100%!important;
+}
