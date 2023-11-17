@@ -32,7 +32,7 @@
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
     font-family: var(--wp--preset--font-family--heading);
     line-height: 48px;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 	text-align: left;
 }
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-image {

@@ -484,18 +484,6 @@
     margin-right: 7px;
     text-align: right;
 }
-.type-product .taxonomy-product_cat{
-    background: var(--wp--preset--color--secondary);
-    position: absolute;
-    left: -10px;
-    width: auto;
-    top: 15px!important;
-    z-index: 9;
-    padding: 4px 10px;
-    border-radius: 1px;
-    border: 1px solid #fff;
-    line-height: 22px;
-}
 .wc-block-pagination.wc-block-components-pagination .wc-block-components-pagination-page--arrow{
     margin:0!important;
     border: 0px solid var(--wp--preset--color--woo)!important;
