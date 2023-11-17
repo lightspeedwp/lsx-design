@@ -22,6 +22,7 @@ class Frontend {
 	 * Contructor
 	 */
 	public function __construct() {
+		
 	}
 
 	/**
@@ -50,6 +51,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function enqueue_styles() {
+		//wp_get_theme()->get( 'Version' )
 		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), time() );
 	}
 
@@ -73,7 +75,7 @@ class Frontend {
 	 */
 	public function woo_asset_files() {
 		if ( class_exists( 'woocommerce' ) ) {
-			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array(), wp_get_theme()->get( 'Version' ) );
+			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array(), time() );
 		}
 	}
 

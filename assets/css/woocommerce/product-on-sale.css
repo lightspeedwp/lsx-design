@@ -52,3 +52,10 @@
 	padding-bottom: 0;
 }
 
+/* CSS Overwrites */
+@media (max-width: 480px) {
+	.wc-block-product-on-sale.wc-block-grid .wc-block-grid__products {
+		display: grid;
+	}
+}
+
