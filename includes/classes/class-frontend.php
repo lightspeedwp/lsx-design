@@ -50,7 +50,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function enqueue_styles() {
-		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), time() );
 	}
 
 
