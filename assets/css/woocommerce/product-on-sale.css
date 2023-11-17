@@ -21,14 +21,31 @@
 .wc-block-product-on-sale :where(.wc-block-grid__products .wc-block-product)>*{margin-bottom:.75rem;margin-top:0}
 
 /* Styling */
-
-
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product {
 	margin:0px;
 	padding-left: 0px !important;
 	background-color: var(--wp--preset--color--neutral);
 	max-width: 100%;
 	border: 0;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+    font-family: var(--wp--preset--font-family--heading);
+    line-height: var(--wp--custom--line-height--heading);
+	margin-bottom: 10px; 
+	text-align: left;
+}
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-image {
+	margin-bottom: 10px;  
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-price {
+	padding-left: 10px!important;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-link {
+	text-decoration: none;
+	text-align: left;
 }
 
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product h2,
