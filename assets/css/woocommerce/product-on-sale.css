@@ -31,7 +31,7 @@
 
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
     font-family: var(--wp--preset--font-family--heading);
-    line-height: var(--wp--custom--line-height--heading);
+    line-height: 48px;
 	margin-bottom: 10px; 
 	text-align: left;
 }
@@ -48,9 +48,9 @@
 	text-align: left;
 }
 
-.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product h2,
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title,
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .price{
-    padding-left:20px!important;
+    padding-left:10px!important;
 }
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title{
     color:#000!important;
