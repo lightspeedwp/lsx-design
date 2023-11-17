@@ -335,9 +335,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     margin-block-start: 0px;
 }
 .type-product{position:relative;}
-.type-product .taxonomy-product_cat a{
-    color:#FFF!important;
-}
+
  .wp-block-lsx-lsx-mega-menu .wp-block-navigation__container{
     gap:0!important;
 }
