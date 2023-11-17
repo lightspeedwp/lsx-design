@@ -39,10 +39,6 @@
 	margin-bottom: 10px;  
 }
 
-.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-price {
-	padding-left: 10px!important;
-}
-
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-link {
 	text-decoration: none;
 	text-align: left;
@@ -51,7 +47,12 @@
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title,
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .price{
     padding-left:10px!important;
+	text-align: left;
 }
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .price {
+	padding-bottom: 20px;
+}
+
 .wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title{
     color:#000!important;
 }
