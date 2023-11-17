@@ -11,6 +11,12 @@
 	.wc-block-product-on-sale.has-6-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(16.66667% - 1.04167em)}
 }
 
+@media (min-width: 481px) and (max-width: 600px) {
+	.wc-block-product-on-sale.wc-block-grid.has-6-columns .wc-block-grid__product:nth-child(odd) {
+		padding-right: 0px;
+	}
+}
+
 .wc-block-product-on-sale .wc-block-grid__products{grid-gap:1.25em;display:grid}
 .wc-block-product-on-sale.has-2-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(50% - .625em)),1fr))}
 .wc-block-product-on-sale.has-3-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(33.33333% - .83333em)),1fr))}
