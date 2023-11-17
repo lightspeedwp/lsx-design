@@ -637,9 +637,11 @@ background-color: var(--wp--preset--color--secondary);
 		transform: rotate(180deg);
 	}
 	
-	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+	body .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item,
+	body .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container,
+	body .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list,
+	body .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
 		align-items: flex-start;
 	}
-
 }
  
