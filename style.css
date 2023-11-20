@@ -224,7 +224,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      padding: 10px;
 }
 .wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
-     padding: 2px 10px;
+     padding: 16px 10px;
 }
 
 .wp-block-navigation .wp-block-navigation__submenu-container.wp-block-lsx-lsx-mega-menu a {
@@ -558,8 +558,9 @@ background-color: var(--wp--preset--color--secondary);
         padding:10px 0 0 var(--wp--preset--spacing--x-small);
     }
      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container{
-        padding:10px 0 0 15px;
+        padding:10px 0 0 0px;
     }
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content{margin-left:15px;}
     .wp-block-buttons>.wp-block-button.wp-block-button__width-50, .wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:100%!important;}
 
     .wp-block-navigation__responsive-container.is-menu-open .wp-block-search .wp-block-search__inside-wrapper input::placeholder {
@@ -580,10 +581,23 @@ background-color: var(--wp--preset--color--secondary);
     }
 
 	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
-		padding-top: var(--wp--preset--spacing--small);
+		padding-top: 0;
 		padding-left: var(--wp--preset--spacing--medium);
 		padding-right: var(--wp--preset--spacing--medium);
 		padding-bottom: 0;
+        background-color: #eeeeee!important;
+        width: 100%;
+        margin: 16px 0 0 0;   
+	}
+
+    .wp-block-navigation__responsive-container.has-contrast-background-color.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+		padding-top: 0;
+		padding-left: var(--wp--preset--spacing--medium);
+		padding-right: var(--wp--preset--spacing--medium);
+		padding-bottom: 0;
+        background-color: #515151!important;
+        width: 100%;
+        margin: 16px 0 0 0;   
 	}
 
     .wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container{
