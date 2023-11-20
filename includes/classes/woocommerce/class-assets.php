@@ -49,6 +49,11 @@ class Assets {
 				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/order-confirmation-billing-wrapper.css',
 				'path'   => get_template_directory() . '/assets/css/woocommerce/order-confirmation-billing-wrapper.css',
 			),
+			'woocommerce/product-on-sale' => array(
+				'handle' => 'lsxd-wc-product-on-sale',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/product-on-sale.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/product-on-sale.css',
+			),
 		);
 		return $this->assets;
 	}

@@ -1,0 +1,87 @@
+.wc-block-product-on-sale .wc-block-grid__products{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}
+.wc-block-product-on-sale .wc-block-grid__products.wc-block-grid__products{background:none}
+.wc-block-product-on-sale .wc-block-grid__products.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}
+.wc-block-product-on-sale .wc-block-grid__products.is-flex-container>li{list-style:none;margin:0;width:100%}
+
+@media(min-width:600px){
+	.wc-block-product-on-sale.has-2-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(50% - .625em)}
+	.wc-block-product-on-sale.has-3-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(33.33333% - .83333em)}
+	.wc-block-product-on-sale.has-4-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(25% - .9375em)}
+	.wc-block-product-on-sale.has-5-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(20% - 1em)}
+	.wc-block-product-on-sale.has-6-columns .wc-block-grid__products.is-flex-container.is-flex-container>li{width:calc(16.66667% - 1.04167em)}
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+	.wc-block-product-on-sale.wc-block-grid.has-6-columns .wc-block-grid__product:nth-child(odd) {
+		padding-right: 0px;
+	}
+}
+
+.wc-block-product-on-sale .wc-block-grid__products{grid-gap:1.25em;display:grid}
+.wc-block-product-on-sale.has-2-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(50% - .625em)),1fr))}
+.wc-block-product-on-sale.has-3-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(33.33333% - .83333em)),1fr))}
+.wc-block-product-on-sale.has-4-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(25% - .9375em)),1fr))}
+.wc-block-product-on-sale.has-5-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(20% - 1em)),1fr))}
+.wc-block-product-on-sale.has-6-columns .wc-block-grid__products{grid-template-columns:repeat(auto-fill,minmax(max(150px,calc(16.66667% - 1.04167em)),1fr))}
+.wc-block-product-on-sale .wc-block-grid__products>li{margin-block-start:0}
+.wc-block-product-on-sale :where(.wc-block-grid__products .wc-block-product)>*{margin-bottom:.75rem;margin-top:0}
+
+/* Styling */
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product {
+	margin:0px;
+	padding-left: 0px !important;
+	background-color: var(--wp--preset--color--neutral);
+	max-width: 100%;
+	border: 0;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+    font-family: var(--wp--preset--font-family--heading);
+    line-height: 48px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-image {
+	margin-bottom: 10px;  
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-link {
+	text-decoration: none;
+	text-align: left;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title,
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .price{
+    padding-left:10px!important;
+	text-align: left;
+}
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .price {
+	padding-bottom: 20px;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title{
+    color:#000!important;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product .button {
+    width: 100%;
+    text-align: center;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.wc-block-product-on-sale .wc-block-grid__products .wc-block-grid__product a img{
+    margin:0!important;
+}
+
+.wc-block-product-on-sale.wc-block-grid.has-aligned-buttons .wc-block-grid__product>:last-child {
+	padding-bottom: 0;
+}
+
+/* CSS Overwrites */
+@media (max-width: 480px) {
+	.wc-block-product-on-sale.wc-block-grid .wc-block-grid__products {
+		display: grid;
+	}
+}
+
