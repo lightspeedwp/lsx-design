@@ -426,6 +426,11 @@ body .wp-block-navigation .wp-block-navigation-item__description {
  footer .has-contrast-background-color .wp-block-social-links:not(.is-style-logos-only) footer .has-contrast-background-color .wp-block-social-links .wp-social-link a{
     color:#000!important;
 }
+footer ul{list-style: none;}
+footer ul li{margin-left: 0!important;}
+footer .wp-block-site-title:before {
+    content:"\00a9";
+  }
 .login #wfls-prompt-overlay input[type="text"]{
     font-size: var(--wp--preset--font-size--small);
     padding: 0.9rem 1.1rem;
@@ -567,9 +572,6 @@ background-color: var(--wp--preset--color--secondary);
         color:#fff!important;
         padding-left:15px;
     }
-    .wp-block-navigation__responsive-container-close {
-         right: 20px;
-    }
     .desktopnone{
         display:block;
     }
@@ -631,6 +633,12 @@ background-color: var(--wp--preset--color--secondary);
 		padding-left:0;
 		padding-right:0;
 	}
+    footer .legal{text-align: center!important;}
+    footer .legal .is-layout-flex{display: inline!important;}
+    footer .legal .wp-block-social-links{display: flex!important;width:70%;margin:16px auto 0!important;}
+      footer .wp-block-site-title{margin-bottom:16px;}
+      footer .wp-block-columns .wp-block-column{padding:0 25px!important;}
+      footer .wp-block-buttons>.wp-block-button,footer .wp-block-buttons, footer .wp-element-button{width:100%;}
 }
 @media (max-width:960px){ 
 	.wp-block-navigation .wp-block-navigation__submenu-icon{
