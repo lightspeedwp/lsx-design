@@ -31,8 +31,9 @@ class Setup {
 	 */
 	public function init() {
 		add_action( 'after_setup_theme', array( $this, 'theme_setup' ) );
+		add_action( 'admin_init', array( $this, 'woo_asset_files' ) );
 	}
-
+	
 	/**
 	 * Adds the old menu options back in for site transition
 	 *
@@ -42,5 +43,16 @@ class Setup {
 	 */
 	public function theme_setup() {
 		add_theme_support( 'menus' );
+	}
+
+	/**
+	 * Load the assets files for Yoast
+	 *
+	 * @return void
+	 */
+	public function woo_asset_files() {
+		if ( class_exists( 'woocommerce' ) ) {
+			wp_enqueue_style( 'lsxd-woo-css', get_template_directory_uri() . '/assets/css/woocommerce.css', array(), time() );
+		}
 	}
 }

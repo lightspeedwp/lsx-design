@@ -54,6 +54,15 @@ class Assets {
 				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/product-on-sale.css',
 				'path'   => get_template_directory() . '/assets/css/woocommerce/product-on-sale.css',
 			),
+			'woocommerce/checkout-totals-block' => array(
+				'handle' => 'lsxd-wc-checkout-totals-block',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/checkout-totals-block.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/checkout-totals-block.css',
+			),
+
+			 
+
+
 		);
 		return $this->assets;
 	}
