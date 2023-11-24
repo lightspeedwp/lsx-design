@@ -223,9 +223,6 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      color: var(--wp--preset--color--contrast);
      padding: 10px;
 }
-.wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
-     padding: 16px 10px;
-}
 
 .wp-block-navigation .wp-block-navigation__submenu-container.wp-block-lsx-lsx-mega-menu a {
     padding: 0;

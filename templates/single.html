@@ -44,12 +44,28 @@
     <!-- wp:post-terms {"term":"post_tag","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"}}}} /--></div>
     <!-- /wp:group -->
     
-    <!-- wp:block {"ref":818} /--></main>
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-bottom:0"><!-- wp:social-links {"iconBackgroundColor":{},"className":"is-style-default"} -->
+    <ul class="wp-block-social-links is-style-default"><!-- wp:lsx/lsx-sharing-label {"label":"Share to:","icon":true} -->
+    <li class="wp-block-lsx-lsx-sharing-label has-icon">Share to:</li>
+    <!-- /wp:lsx/lsx-sharing-label -->
+    
+    <!-- wp:lsx/lsx-sharing-link {"url":"https://www.facebook.com/sharer.php?display=page\u0026u=lsx_sharing_url\u0026t=lsx_sharing_title","service":"facebook"} /-->
+    
+    <!-- wp:lsx/lsx-sharing-link {"url":"https://www.pinterest.com/pin/create/button/?url=lsx_sharing_url\u0026media=lsx_sharing_image\u0026description=lsx_sharing_title","service":"pinterest"} /-->
+    
+    <!-- wp:lsx/lsx-sharing-link {"url":"https://twitter.com/intent/tweet?text=lsx_sharing_title\u0026url=lsx_sharing_url","service":"twitter"} /-->
+    
+    <!-- wp:lsx/lsx-sharing-link {"url":"https://api.whatsapp.com/send?lsx_sharing_title - lsx_sharing_url","service":"whatsapp"} /-->
+    
+    <!-- wp:lsx/lsx-sharing-link {"url":"https://www.pinterest.com/pin/create/button/?url=lsx_sharing_url\u0026media=lsx_sharing_image\u0026description=lsx_sharing_title","service":"pinterest"} /--></ul>
+    <!-- /wp:social-links --></div>
+    <!-- /wp:group --></main>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
     
     <!-- wp:group {"layout":{"type":"constrained","contentSize":"740px"}} -->
-    <div class="wp-block-group"><!-- wp:template-part {"slug":"comments","area":"uncategorized"} /--></div>
+    <div class="wp-block-group"><!-- wp:template-part {"slug":"comments","theme":"lsx-design","area":"uncategorized"} /--></div>
     <!-- /wp:group -->
     
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|x-small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small"}}},"backgroundColor":"neutral","layout":{"type":"constrained","contentSize":"1200px"}} -->
