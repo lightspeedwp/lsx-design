@@ -257,8 +257,14 @@
     float: left;
     background-size: 24px;
     float: left;
-    width: 260px;
-    background-position-x: 220px;
+}
+.woocommerce.wc-block-product-results-count .woocommerce-result-count{
+    padding-bottom: 0!important;
+}
+.woocommerce div.product form.cart .variations select {
+    max-width: 100%;
+    display: inline-block;
+    margin-right: 2em;
 }
  .woocommerce div.product form.cart .variations td{
 	position: relative;
@@ -348,7 +354,7 @@
  .woocommerce li.type-product{
     position:relative;
 }
- .single.woocommerce table.variations tr{
+ .single.woocommerce table.variations tr:last-child{
     margin-bottom:0!important;
 }
  .woocommerce div.product form.cart table.variations th{

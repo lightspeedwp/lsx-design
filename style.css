@@ -49,9 +49,7 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      margin: 0;
      padding: 0;
 }
- b, strong {
-     font-weight: var(--wp--custom--font-weight--medium);
-}
+
 p.has-base-color a, .has-base-color.has-link-color a{
     color: var(--wp--preset--color--base) !important;text-decoration: none!important;
 }
