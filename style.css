@@ -50,10 +50,6 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      padding: 0;
 }
 
-p.has-base-color a, .has-base-color.has-link-color a{
-    color: var(--wp--preset--color--base) !important;text-decoration: none!important;
-}
-.has-base-color.has-link-color a:hover{color: var(--wp--preset--color--base) !important;text-decoration: underline!important;}
  blockquote {
      margin: 0;
 }

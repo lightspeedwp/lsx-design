@@ -330,7 +330,7 @@
  .woocommerce ul.products li.product .woocommerce-loop-product__title{
     color:#000!important;
 }
- .woocommerce ul.products li.product .button {
+ .woocommerce ul.products li.product .button{
     width: 100%;
     text-align: center;
     padding-right: 0!important;
@@ -350,6 +350,12 @@
 }
  .woocommerce span.onsale{
     padding:0!important;
+}
+.woocommerce table.variations tr td select{
+    padding: 0.9rem 1.4rem 0.9rem 1.1rem;
+}
+.woocommerce.wc-block-product-results-count .woocommerce-result-count{
+    padding-bottom:0!important;
 }
  .woocommerce li.type-product{
     position:relative;
