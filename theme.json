@@ -8,20 +8,6 @@
 			"title": "Blank"
 		},
 		{
-			"name": "woocomemrce-blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Woocommerce Blank"
-		},
-		{
-			"name": "woocomemrce-page",
-			"postTypes": [
-				"page"
-			],
-			"title": "Woocommerce Page"
-		},
-		{
 			"name": "home",
 			"postTypes": [
 				"page"
@@ -612,6 +598,14 @@
 					"margin": {
 						"bottom": "30px",
 						"top": "60px"
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"bottom": "0px",
+						"top": "0px"
 					}
 				}
 			},

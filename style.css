@@ -49,13 +49,7 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      margin: 0;
      padding: 0;
 }
- b, strong {
-     font-weight: var(--wp--custom--font-weight--medium);
-}
-p.has-base-color a, .has-base-color.has-link-color a{
-    color: var(--wp--preset--color--base) !important;text-decoration: none!important;
-}
-.has-base-color.has-link-color a:hover{color: var(--wp--preset--color--base) !important;text-decoration: underline!important;}
+
  blockquote {
      margin: 0;
 }
@@ -222,9 +216,6 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      border: var(--wp--preset--color--contrast);
      color: var(--wp--preset--color--contrast);
      padding: 10px;
-}
-.wp-block-navigation :where(.wp-block-navigation__submenu-container) a {
-     padding: 16px 10px;
 }
 
 .wp-block-navigation .wp-block-navigation__submenu-container.wp-block-lsx-lsx-mega-menu a {
