@@ -89,10 +89,9 @@ class Block_Styles {
 				'success-content-box' => __( 'Success Content Box', 'lsx-design' ),
 			),
 			'core/heading'   => array(
-				'underline-primary'            => __( 'Underline #1', 'lsx-design' ),
-				'underline-secondary-tertiary' => __( 'Underline #2', 'lsx-design' ),
-				'underline-tertiary-primary'   => __( 'Underline #3', 'lsx-design' ),
-				'underline'                    => __( 'Underline #4', 'lsx-design' ),
+				'subheading-1' => __( 'Subheading H1', 'lsx-design' ),
+				'subheading-2' => __( 'Subheading H2', 'lsx-design' ),
+				'subheading-3' => __( 'Subheading H3', 'lsx-design' ),
 			),
 		);
 

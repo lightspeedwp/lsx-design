@@ -156,10 +156,7 @@ body .is-layout-constrained > .wp-block-group.alignfull {
  .wp-block-group.is-style-shadow-solid {
      box-shadow: 5px 5px var(--wp--preset--color--contrast);
 }
-/* Heading --------------------------------------------- */
- .wp-block-post-content .wp-block-heading + * {
-     margin-top: 20px;
-}
+
 /* List --------------------------------------------- */
  ol li:where(:not([class*='block'])), ul li:where(:not([class*='block'])), .wp-block-list li {
      margin-left: 30px;
