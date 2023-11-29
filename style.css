@@ -621,11 +621,12 @@ background-color: var(--wp--preset--color--secondary);
 		padding-left:0;
 		padding-right:0;
 	}
-    footer .legal{text-align: center!important;}
+
+    footer .legal{text-align: center!important;padding: 30px 0!important;}
+    footer p, footer a{font-size:16px;}
+    footer .wp-block-heading{font-size:20px;}
     footer .legal .is-layout-flex{display: inline!important;}
     footer .legal .wp-block-social-links{display: flex!important;width:70%;margin:16px auto 0!important;}
-      footer .wp-block-site-title{margin-bottom:16px;}
-      footer .wp-block-columns .wp-block-column{padding:0 25px!important;}
       footer .wp-block-buttons>.wp-block-button,footer .wp-block-buttons, footer .wp-element-button{width:100%;}
 }
 @media (max-width:960px){ 

@@ -9,16 +9,16 @@ return array(
 	'title'      => __( 'Header default', 'lsx-design' ),
 	'categories' => array( 'header' ),
 	'content'    => '
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"10px","bottom":"10px"},"margin":{"top":"0px"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0px;padding-top:10px;padding-bottom:10px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":377,"sizeSlug":"full","linkDestination":"none"} -->
-	<figure class="wp-block-image size-full"><img src="' . esc_url( get_theme_file_uri() ) . '/assets/images/lsxd-theme.png' . '" alt="" class="wp-image-377"/></figure>
-	<!-- /wp:image -->
-	
-	<!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}}} /--></div>
-	<!-- /wp:group --></div>
-	<!-- /wp:group -->
-	
-	
+	<!-- wp:group {"style":{"position":{"type":""}},"className":"header-default has-base-background-color has-background"} -->
+<div class="wp-block-group header-default has-base-background-color has-background"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|x-small","right":"0","bottom":"var:preset|spacing|x-small","left":"0"},"blockGap":"0"}},"layout":{"inherit":true,"type":"constrained"}} -->
+  <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-small);padding-right:0;padding-bottom:var(--wp--preset--spacing--x-small);padding-left:0"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+  <div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"flex"}} -->
+  <div class="wp-block-group"><!-- wp:site-logo /--></div>
+  <!-- /wp:group -->
+  
+  <!-- wp:navigation {"icon":"menu","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"horizontal"},"style":{"spacing":{"margin":{"top":"0"},"blockGap":"1.25rem"},"typography":{"lineHeight":"1"}}} /--></div>
+  <!-- /wp:group --></div>
+  <!-- /wp:group --></div>
+  <!-- /wp:group -->
 	',
 );
