@@ -5,6 +5,7 @@
 ### Added
 - Sensei LMS - Block Compatability
 - WooCommerce Cart and Checkout Block Compatability
+- The Events Calendar - Block Compatability
 
 ### Fixed
 - Footer padding issues
