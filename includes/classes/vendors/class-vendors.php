@@ -19,11 +19,18 @@ namespace LSXD\Classes\Vendors;
 class Vendors {
 
 	/**
-	 * Hold the WooCommerce Object
+	 * Holds the WooCommerce Object.
 	 *
 	 * @var WooCommerce()
 	 */
 	public $woocommerce;
+
+	/**
+	 * Holds The Events Calendar Object.
+	 *
+	 * @var TEC()
+	 */
+	public $tec;
 
 	/**
 	 * Contructor
@@ -59,6 +66,6 @@ class Vendors {
 	 */
 	public function load_tec() {
 		require get_template_directory() . '/includes/classes/vendors/class-tec.php';
-		$this->woocommerce = new WooCommerce();
+		$this->tec = new TEC();
 	}
 }
