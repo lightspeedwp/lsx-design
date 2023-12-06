@@ -16,7 +16,7 @@ namespace LSXD\Classes\WooCommerce;
  * @link
  * @copyright 2023 LightSpeed
  */
-class WooCommerce {
+class Vendors {
 
 	/**
 	 * Undocumented variable
