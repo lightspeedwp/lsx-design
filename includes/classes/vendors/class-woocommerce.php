@@ -5,7 +5,7 @@
  * @package lsx-design
  */
 
-namespace LSXD\Classes\WooCommerce;
+namespace LSXD\Classes\Vendors;
 
 /**
  * All the functions that run on the frontend and the rendering of the blocks.
@@ -16,7 +16,7 @@ namespace LSXD\Classes\WooCommerce;
  * @link
  * @copyright 2023 LightSpeed
  */
-class Assets {
+class WooCommerce {
 
 	/**
 	 * Handles the conditional loading of the WooCommerce files.

@@ -12,7 +12,7 @@ use LSXD\Classes\Setup;
 use LSXD\Classes\Block_Setup;
 use LSXD\Classes\Block_Styles;
 use LSXD\Classes\Frontend;
-use LSXD\Classes\WooCommerce\WooCommerce;
+use LSXD\Classes\Vendors\Vendors;
 
 /**
  * The main file loading the rest of the files
@@ -125,7 +125,7 @@ class Core {
 	 * @return void
 	 */
 	public function load_vendors() {
-		require get_template_directory() . '/includes/classes/woocommerce/class-woocommerce.php';
-		$this->integrations['woocommerce'] = new WooCommerce();
+		require get_template_directory() . '/includes/classes/vendors/class-vendors.php';
+		$this->integrations['vendors'] = new Vendors();
 	}
 }

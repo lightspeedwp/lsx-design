@@ -5,10 +5,10 @@
  * @package lsx-design
  */
 
-namespace LSXD\Classes\WooCommerce;
+namespace LSXD\Classes\Vendors;
 
 /**
- * The main file loading file for the WooCommerce related functions
+ * The main file loading file for the Vendors related functionality.
  *
  * @package   LSX
  * @author    LightSpeed
@@ -19,11 +19,11 @@ namespace LSXD\Classes\WooCommerce;
 class Vendors {
 
 	/**
-	 * Undocumented variable
+	 * Hold the WooCommerce Object
 	 *
-	 * @var Assets()
+	 * @var WooCommerce()
 	 */
-	public $assets;
+	public $woocommerce;
 
 	/**
 	 * Contructor
@@ -39,15 +39,26 @@ class Vendors {
 	 */
 	public function init() {
 		if ( function_exists( 'WC' ) ) {
-			$this->load_classes();
+			$this->load_woocommerce();
+		}
+		if ( class_exists( 'Tribe__Events__Main' ) ) {
+			$this->load_tec();
 		}
 	}
 
 	/**
-	 * Loads the classes
+	 * Load WooCommerce
 	 */
-	public function load_classes() {
-		require get_template_directory() . '/includes/classes/woocommerce/class-assets.php';
-		$this->assets = new Assets();
+	public function load_woocommerce() {
+		require get_template_directory() . '/includes/classes/vendors/class-woocommerce.php';
+		$this->woocommerce = new WooCommerce();
+	}
+
+	/**
+	 * Loads The Events Calendar
+	 */
+	public function load_tec() {
+		require get_template_directory() . '/includes/classes/vendors/class-tec.php';
+		$this->woocommerce = new WooCommerce();
 	}
 }
