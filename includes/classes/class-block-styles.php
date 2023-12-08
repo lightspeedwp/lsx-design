@@ -84,15 +84,14 @@ class Block_Styles {
 			'core/paragraph' => array(
 				'content-box'         => __( 'Content Box', 'lsx-design' ),
 				'dark-content-box'    => __( 'Dark Content Box', 'lsx-design' ),
-				'failure-content-box' => __( 'Failure Content Box', 'lsx-design' ),
-				'warning-content-box' => __( 'Warning Content Box', 'lsx-design' ),
-				'success-content-box' => __( 'Success Content Box', 'lsx-design' ),
+				'subheading-1' => __( 'Subheading Large', 'lsx-design' ),
+				'subheading-2' => __( 'Subheading Medium', 'lsx-design' ),
+				'subheading-3' => __( 'Subheading Small', 'lsx-design' ),
 			),
 			'core/heading'   => array(
-				'underline-primary'            => __( 'Underline #1', 'lsx-design' ),
-				'underline-secondary-tertiary' => __( 'Underline #2', 'lsx-design' ),
-				'underline-tertiary-primary'   => __( 'Underline #3', 'lsx-design' ),
-				'underline'                    => __( 'Underline #4', 'lsx-design' ),
+				'heading-1' => __( 'Heading Large', 'lsx-design' ),
+				'heading-2' => __( 'Heading Medium', 'lsx-design' ),
+				'heading-3' => __( 'Heading Small', 'lsx-design' ),
 			),
 		);
 
