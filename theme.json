@@ -76,37 +76,37 @@
 			"defaultPalette": true,
 			"duotone": [
                 {
-                    "colors": [ "#CC3F23", "#F6DD54" ],
+                    "colors": [ "#C5389D", "#C5389D" ],
                     "slug": "senary-and-quaternary",
                     "name": "Senary and quaternary"
                 },
 				{
-                    "colors": [ "#323649", "#FF3131" ],
+                    "colors": [ "#7BE7FF", "#1E6AFF" ],
                     "slug": "denary-and-primary",
                     "name": "Denary and Primary"
                 },
 				{
-                    "colors": [ "#114BB2", "#F6DD54" ],
+                    "colors": [ "#BD5B00", "#C5389D" ],
                     "slug": "septenary-and-quaternary",
                     "name": "Septenary and quaternary"
                 },
 				{
-                    "colors": [ "#114BB2", "#2F8EFF" ],
+                    "colors": [ "#BD5B00", "#3D9751" ],
                     "slug": "septenary-and-secondary",
                     "name": "Septenary and Secondary"
                 },
 				{
-                    "colors": [ "#114BB2", "#00CE5F" ],
+                    "colors": [ "#BD5B00", "#E694FF" ],
                     "slug": "septenary-and-tertiary",
                     "name": "Septenary and Tertiary"
                 },
 				{
-                    "colors": [ "#000000", "#B4B7C1" ],
+                    "colors": [ "#000000", "#737487" ],
                     "slug": "black-and-quinary",
                     "name": "Black and Quinary"
                 },
 				{
-                    "colors": [ "#000000", "#2F8EFF" ],
+                    "colors": [ "#000000", "#3D9751" ],
                     "slug": "black-and-secondary",
                     "name": "Black and Secondary"
                 }
@@ -160,72 +160,72 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FF3131",
+					"color": "#1E6AFF",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "#3D9751",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#00CE5F",
+					"color": "#E694FF",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#F6DD54",
+					"color": "#C5389D",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "#B4B7C1",
+					"color": "#737487",
 					"name": "Quinary",
 					"slug": "quinary"
 				},
 				{
-					"color": "#CC3F23",
+					"color": "#C5389D",
 					"name": "Senary",
 					"slug": "senary"
 				},
 				{
-					"color": "#114BB2",
+					"color": "#BD5B00",
 					"name": "Septenary",
 					"slug": "septenary"
 				},
 				{
-					"color": "#00A34B",
+					"color": "#19DFC1",
 					"name": "Octonary",
 					"slug": "octonary"
 				},
 				{
-					"color": "#D6B300",
+					"color": "#E694FF",
 					"name": "Novenary",
 					"slug": "novenary"
 				},
 				{
-					"color": "#323649",
+					"color": "#7BE7FF",
 					"name": "Denary",
 					"slug": "denary"
 				},
 				{
-					"color": "#FF7A00",
+					"color": "#9147FF",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "#C15D00",
+					"color": "#241240",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#EDEFF5",
 					"name": "Neutral",
 					"slug": "neutral"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "#9147FF",
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
