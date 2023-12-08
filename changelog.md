@@ -7,6 +7,9 @@
 - WooCommerce Cart and Checkout Block Compatability
 - The Events Calendar - Block Compatability
 
+### Accessibility
+- Adjusted colour scheme to be more accessible 
+
 ### Fixed
 - Footer padding issues
 
