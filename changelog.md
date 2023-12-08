@@ -3,15 +3,23 @@
 ## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) - IN DEVELOPMENT
 
 ### Added
-- Sensei LMS - Block Compatability
 - WooCommerce Cart and Checkout Block Compatability
 - The Events Calendar - Block Compatability
+- Sensei LMS - Block Compatability
 
 ### Accessibility
-- Adjusted colour scheme to be more accessible 
+- Adjusted colour scheme to be use the accessible colours.
+
+### Updated
+- Mobile menu design updates, focusing on placement and functionality.
+- Fixed Footer padding issues on Desktop and Mobile
+- Block Styles updated
+-- Heading
+-- Paragraph
+-- Loop Details
 
 ### Fixed
-- Footer padding issues
+- LSX Sharing Compatability
 
 ### Security
 - General testing to ensure compatibility with latest WordPress version (6.4.1).
