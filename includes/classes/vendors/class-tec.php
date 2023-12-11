@@ -49,6 +49,16 @@ class TEC {
 				'src'    => get_template_directory_uri() . '/assets/css/tec/archive-events.css',
 				'path'   => get_template_directory() . '/assets/css/tec/archive-events.css',
 			),
+			'tec/single-event' => array(
+				'handle' => 'lsxd-tec-single-events',
+				'src'    => get_template_directory_uri() . '/assets/css/tec/single-events.css',
+				'path'   => get_template_directory() . '/assets/css/tec/single-events.css',
+			),
+			'tribe/single-event' => array(
+				'handle' => 'lsxd-tec-single-events',
+				'src'    => get_template_directory_uri() . '/assets/css/tec/single-events.css',
+				'path'   => get_template_directory() . '/assets/css/tec/single-events.css',
+			),
 		);
 		return $this->assets;
 	}
