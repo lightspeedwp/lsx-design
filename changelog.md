@@ -7,18 +7,6 @@
 - The Events Calendar - Block Compatability
 - Sensei LMS - Block Compatability
 
-#### WooCommerce Templates and Parts
-- Checkout Header, for a distraction free checkout experience.
-- Cart Page
-- Checkout Page
-- Order Confirmation Page
-- Single Product Page
-- Product Archives, for the shop and any other custom taxonomies.
-- Product Search Results Page
-- Product Category Archives
-- Product Tag Archives
-- Product Attribute Archives
-
 ### Accessibility
 - Adjusted colour scheme to be use the accessible colours.
 
