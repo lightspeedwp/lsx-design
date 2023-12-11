@@ -49,11 +49,11 @@
 #### Updated
 - Updated Single Product Block Template
 - All product archives now use the Product Collection Block [#60](https://github.com/lightspeedwp/lsx-design/issues/60), [#70](https://github.com/lightspeedwp/lsx-design/pull/70)
--- Updated Product Search Results Block Template [#67](https://github.com/lightspeedwp/lsx-design/issues/67)
--- Updated Product Catalogue Archive Block Template
--- Updated Product Category Archive Block Template
--- Updated Product Tag Archive Block Template
--- Updated Product Attributes Archive Block Template
+ - Updated Product Search Results Block Template [#67](https://github.com/lightspeedwp/lsx-design/issues/67)
+ - Updated Product Catalogue Archive Block Template
+ - Updated Product Category Archive Block Template
+ - Updated Product Tag Archive Block Template
+ - Updated Product Attributes Archive Block Template
 
 ### Fixed
 - Fixed issues with the Site Editor and Woo Blocks [#73](https://github.com/lightspeedwp/lsx-design/pull/73), [#74](https://github.com/lightspeedwp/lsx-design/issues/74)
