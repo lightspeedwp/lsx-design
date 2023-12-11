@@ -2,12 +2,6 @@
 
 ## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) 
 
-### Accessibility
-- Adjusted colour scheme to be use the accessible colours
-- Applied accessible colour scheme to buttons, menus and links
-- Added an underline to text links 
-- Accessibility improvements apply to WordPress & Woo Blocks, as well as all templates, template parts and patterns
-
 ### LSX
 
 #### Added
@@ -17,8 +11,12 @@
 - WooCommerce - Added support for Woo’s new store editing capabilities & support for all Woo blocks [#70](https://github.com/lightspeedwp/lsx-design/pull/70)
 - The Events Calendar Plugin - Block Compatability [#52](https://github.com/lightspeedwp/lsx-design/issues/52), [#78](https://github.com/lightspeedwp/lsx-design/pull/78), [#79](https://github.com/lightspeedwp/lsx-design/pull/79)
 - Sensei LMS Plugin - Block Compatability [#45](https://github.com/lightspeedwp/lsx-design/issues/45)
+- Added an underline to text links to improve accessibility
 
 #### Updated
+- Updated colour scheme to be use an accessible colour palette
+- Updated buttons, menus and links to use accessible colours
+- Updated WordPress & Woo blocks, patterns, template parts and templates to use new accessible colour palette
 - Updated block groups with a consistent structure to ensure better mobile compatability out the box
 - Updated Header mobile responsiveness [#53](https://github.com/lightspeedwp/lsx-design/issues/53), [#55](https://github.com/lightspeedwp/lsx-design/pull/55)
 - Improved mobile menu usability, focused on placement and functionality [#47](https://github.com/lightspeedwp/lsx-design/pull/47), [#66](https://github.com/lightspeedwp/lsx-design/pull/66)
