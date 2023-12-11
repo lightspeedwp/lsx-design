@@ -43,6 +43,7 @@ class Setup {
 	 */
 	public function theme_setup() {
 		add_theme_support( 'menus' );
+		add_post_type_support( 'page', 'excerpt' );
 	}
 
 	/**
