@@ -1,19 +1,4 @@
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar__search-container {
-    display: inline-block !important;
-    flex: initial;
-    padding: 0;
-    top: -92px !important;
-    position: absolute !important;
-    width: 540px;
-    margin: 0 auto !important;
-    z-index: auto;
-}
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border {
-    border: none !important;
-}
-.tribe-events-header {
-    margin-top: 120px !important;
-}
+
 .tribe-events .tribe-events-c-search__input-control {
     margin-right: 10px !important;
 }
@@ -103,24 +88,6 @@
 .tribe-common .tribe-common-c-btn-icon {
     margin-top: -10px !important;
 }
-.tribe-events .tribe-events-c-top-bar__datepicker {
-    display: flex;
-}
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar {
-    display: block !important;
-}
-.post-type-archive .tribe-events-c-top-bar__nav {
-    float: right !important;
-    display: inline-block !important;
-    margin-left: 20px;
-    position: relative !important;
-}
-.tribe-common-c-btn-border-small.tribe-events-c-top-bar__today-button {
-    border: 0 !important;
-    padding: 0px !important;
-    position: absolute;
-    top: 56px;
-}
 .tribe-common .tribe-common-b1,
 .tribe-common .tribe-common-b2,
 .tribe-common h1,
@@ -134,32 +101,11 @@
 .tribe-events a {
     font-family: var(--wp--preset--font-family--primary) !important;
 }
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__datepicker-button-icon-svg {
-    display: none;
-}
 .tribe-common.tribe-common--breakpoint-medium button.tribe-events-c-top-bar__datepicker-button {
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
-}
-.tribe-events-c-top-bar__datepicker::after {
-    content: "View Calendar";
-    position: relative !important;
-    margin-top: 14px;
-    display: inline-block;
-    font-weight: bold;
-    width: 130px !important;
-    color: var(--wp--preset--color--secondary) !important;
-    font-size: 12px !important;
-}
-.tribe-common.tribe-common--breakpoint-medium button.tribe-events-c-top-bar__datepicker-button::after {
-    background: url("images/events-cal.svg") no-repeat right;
-    color: var(--wp--preset--color--secondary) !important;
-    fill: var(--wp--preset--color--secondary) !important;
-    height: 25px;
-    width: 25px;
-    content: "";
 }
 .tribe-common .tribe-events-calendar-list h2:after {
     display: none !important;
@@ -175,7 +121,49 @@
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector__list-item:hover a {
     color: #fff !important;
 }
-.tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
+
+/* PAGE CONTAINER */
+
+body .tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
     padding-left: 0 !important;
     padding-right: 0 !important;
+	padding-top: 0;
+}
+
+/* HEADER */
+.tribe-events-header {
+    margin-top: 120px !important;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border {
+    border: none !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar__search-container {
+    display: inline-block !important;
+    flex: initial;
+    padding: 0;
+    top: -92px !important;
+    position: absolute !important;
+    width: 540px;
+    margin: 0 auto !important;
+    z-index: auto;
+}
+
+/* TOP BAR - TITLE, TODAY, PAGINATION */
+body .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__nav {
+	order: 3;
+}
+body .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__datepicker {
+	order: 2;
+}
+body .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__today-button {	
+	order: 1;
+	margin-right: 100%;
+    border: 0;
+    padding: 0px !important;
+}
+body .tribe-common--breakpoint-medium.tribe-events a.tribe-events-c-top-bar__today-button::after {
+	flex-basis: 100%;
+	height: 0;
+	display: block;
 }
