@@ -201,11 +201,37 @@ body .tribe-common .tribe-events-calendar-list__month-separator .tribe-events-ca
 	line-height: 30px;
 }
 
-body .tribe-events .tribe-events-calendar-list__event-date-tag-weekday {
+body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-events-calendar-list__event-date-tag-weekday {
 	font-family: var(--wp--preset--font-family--primary);
 	font-weight: var(--wp--custom--font-weight--medium);
 	font-size: var(--wp--preset--font-size--tiny);
 	color: var(--wp--preset--color--contrast);
+}
+
+body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-events-calendar-list__event-date-tag-daynum {
+	font-family: var(--wp--preset--font-family--primary);
+	font-weight: var(--wp--custom--font-weight--medium);
+	font-size: var(--wp--preset--font-size--large);
+	color: var(--wp--preset--color--contrast);
+	line-height: 42px;
+}
+
+.tribe-events .tribe-events-calendar-list__event-datetime-wrapper .tribe-events-calendar-list__event-datetime {
+	font-weight: var(--wp--custom--font-weight--medium);
+	font-size: var(--wp--preset--font-size--x-small);
+	color: var(--wp--preset--color--contrast);
+	line-height: 24px;
+}
+
+body .tribe-events .tribe-events-calendar-list .tribe-events-calendar-list__event-title {
+	font-weight: var(--wp--custom--font-weight--bold);
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 42px;
+}
+
+body .tribe-events .tribe-events-calendar-list .tribe-events-calendar-list__event-header address{
+	font-size: var(--wp--preset--font-size--x-small);
+	line-height: 24px;
 }
 
 /* FOOTER */
