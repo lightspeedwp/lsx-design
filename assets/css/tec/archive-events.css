@@ -239,10 +239,20 @@ body .tribe-events .tribe-events-calendar-list .tribe-events-calendar-list__even
 	font-weight: var(--wp--custom--font-weight--medium);
 	line-height: 24px;
 }
+body .tribe-events .tribe-events-calendar-list__event-cost .tribe-events-c-small-cta__price {
+	font-weight: var(--wp--custom--font-weight--medium);
+	font-family: var(--wp--preset--font-family--primary);
+}
 
 /* FOOTER */
 
-body .tribe-events .tribe-events-calendar-list-nav {
+body .tribe-common.tribe-events .tribe-events-calendar-list-nav {
     border-top: 0;
 	color: var(--wp--preset--color--contrast);
+	padding-top: 80px;
+}
+
+body .tribe-events-c-nav__prev-label,
+body .tribe-events-c-nav__next-label {
+	font-weight: var(--wp--custom--font-weight--medium);
 }
