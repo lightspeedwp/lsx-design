@@ -201,6 +201,13 @@ body .tribe-common .tribe-events-calendar-list__month-separator .tribe-events-ca
 	line-height: 30px;
 }
 
+body .tribe-events .tribe-events-calendar-list__event-date-tag-weekday {
+	font-family: var(--wp--preset--font-family--primary);
+	font-weight: var(--wp--custom--font-weight--medium);
+	font-size: var(--wp--preset--font-size--tiny);
+	color: var(--wp--preset--color--contrast);
+}
+
 /* FOOTER */
 
 body .tribe-events .tribe-events-calendar-list-nav {
