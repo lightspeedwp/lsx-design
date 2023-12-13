@@ -871,7 +871,7 @@
 				},
 				"color": {
 					"background": "var(--wp--preset--color--denary)",
-					"text": "var(--wp--preset--color--base)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"spacing": {
 					"padding": {
@@ -894,19 +894,19 @@
 				":active": {
 					"color": {
 						"background": "var(--wp--preset--color--denary)",
-						"text": "var(--wp--preset--color--base)"
+						"text": "var(--wp--preset--color--contrast)"
 					}
 				},
 				":focus": {
 					"color": {
 						"background": "var(--wp--preset--color--octonary)",
-						"text": "var(--wp--preset--color--base)"
+						"text": "var(--wp--preset--color--contrast)"
 					}
 				},
 				":hover": {
 					"color": {
 						"background": "var(--wp--preset--color--octonary)",
-						"text": "var(--wp--preset--color--base)"
+						"text": "var(--wp--preset--color--contrast)"
 					}
 				}
 			},
