@@ -210,7 +210,7 @@
 					"slug": "denary"
 				},
 				{
-					"color": "--wp--custom--colour--cta--500",
+					"color": "var(--wp--custom--colour--cta--500)",
 					"name": "CTA",
 					"slug": "cta"
 				},
