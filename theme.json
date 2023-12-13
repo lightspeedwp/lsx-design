@@ -270,7 +270,12 @@
 				"body": 1.75,
 				"heading": 1.1,
 				"medium": 1.5,
-				"one": 1
+				"one": 1,
+				"x-small": "16px",
+				"small": "24px",
+				"normal": "30px",
+				"large": "42px",
+				"x-large": "96px"
 			},
 			"spacing": {
 				"outer": "30px"
