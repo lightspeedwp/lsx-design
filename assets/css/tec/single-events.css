@@ -2,3 +2,16 @@
 .tribe-events-venue-map{width:100%!important;}
 .tribe-events-meta-group.tribe-events-meta-group-details{width:33%!important;}
 .tribe-events-meta-group.tribe-events-meta-group-organizer{width:33%!important;}
+
+
+/* CONTAINER */
+.tribe-block #tribe-events-pg-template {
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+.tec-block__single-event #tribe-events-content .tribe-events-back,
+.tec-block__single-event #tribe-events-content .tribe-events-notices {
+	display: none;
+}
