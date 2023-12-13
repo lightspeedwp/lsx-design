@@ -458,8 +458,23 @@
 					"fontFamily": "\"Lora\", serif",
 					"name": "Lora",
 					"slug": "lora"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lexend",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500 700",
+							"src": [
+								"file:./assets/fonts/lexend/Lexend-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Lexend\", sans-serif",
+					"name": "Lexend",
+					"slug": "lexend"	
 				}
-				
 			],
 			"fontSizes": [
 				{
