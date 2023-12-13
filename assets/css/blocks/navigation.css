@@ -1,0 +1,15 @@
+
+/* BLOCK LINKS */
+body .wp-block-navigation a.wp-block-navigation-item__content {
+	line-height: var(--wp--custom--line-height--normal);
+}
+body .wp-block-navigation a.wp-block-navigation-item__content:hover {
+	color: var(--wp--custom--colour--cta--500);
+}
+body .wp-block-navigation a.wp-block-navigation-item__content:active {
+	color: var(--wp--custom--colour--cta--600);
+}
+body .wp-block-navigation a.wp-block-navigation-item__content:focus {
+	color: var(--wp--custom--colour--cta--500);
+	text-decoration-line: underline;
+}
