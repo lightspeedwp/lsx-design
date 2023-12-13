@@ -215,7 +215,7 @@
 					"slug": "cta"
 				},
 				{
-					"color": "#241240",
+					"color": "var(--wp--custom--colour--cta--700)",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
@@ -292,6 +292,14 @@
 						"width": "2px",
 						"color": "var( --wp--preset--color--contrast )"
 					}
+				}
+			},
+			"colour": {
+				"cta": {
+					"300": "#C8A3FF",
+					"500": "#9147FF",
+					"600": "#6D35BF",
+					"700": "#492480"
 				}
 			}
 		},
