@@ -26,6 +26,11 @@ body .alignfull.is-layout-flow {
 /* Button
 --------------------------------------------- */
 
+body a.wp-element-button,
+body a.wp-block-button__link {
+	color: var(--wp--preset--color--base);
+}
+
 .wp-block-button.is-style-cta .wp-element-button {
     background-color: var(--wp--preset--color--cta);
     color: var(--wp--preset--color--base);
