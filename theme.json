@@ -210,7 +210,7 @@
 					"slug": "denary"
 				},
 				{
-					"color": "#9147FF",
+					"color": "--wp--custom--colour--cta--500",
 					"name": "CTA",
 					"slug": "cta"
 				},
@@ -974,16 +974,21 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--secondary)"
+					"text": "var(--wp--custom--colour--cta--500)"
 				},
 				":hover":{
 					"color": {
-						"text": "var(--wp--preset--color--tertiary)"
+						"text": "var(--wp--custom--colour--cta--700)"
 					}
 				},
 				":active":{
 					"color": {
-						"text": "var(--wp--preset--color--primary)"
+						"text": "var(--wp--custom--colour--cta--700)"
+					}
+				},
+				":focus":{
+					"color": {
+						"text": "var(--wp--custom--colour--cta--500)"
 					}
 				}
 			}
