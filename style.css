@@ -58,6 +58,14 @@ body .is-layout-constrained > .wp-block-group.alignfull {
     color: currentColor!important;
 }
 
+/* Backwards Compatability */
+body .has-lexend-font-family,
+body .has-plus-jakarta-sans-font-family,
+body .has-montserrat-font-family,
+body .has-lora-font-family {
+	font-family: var(--wp--preset--font-family--primary);
+}
+
 
 /* Quote --------------------------------------------- */
  .wp-block-quote.is-style-underline, .wp-block-quote.is-style-underline-primary-secondary, .wp-block-quote.is-style-underline-secondary-tertiary, .wp-block-quote.is-style-underline-tertiary-primary {
