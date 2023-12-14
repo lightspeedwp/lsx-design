@@ -210,12 +210,12 @@
 					"slug": "denary"
 				},
 				{
-					"color": "#9147FF",
+					"color": "var(--wp--custom--colour--cta--500)",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "#241240",
+					"color": "var(--wp--custom--colour--cta--700)",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
@@ -292,6 +292,14 @@
 						"width": "2px",
 						"color": "var( --wp--preset--color--contrast )"
 					}
+				}
+			},
+			"colour": {
+				"cta": {
+					"300": "#C8A3FF",
+					"500": "#9147FF",
+					"600": "#6D35BF",
+					"700": "#492480"
 				}
 			}
 		},
@@ -458,8 +466,23 @@
 					"fontFamily": "\"Lora\", serif",
 					"name": "Lora",
 					"slug": "lora"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lexend",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500 700",
+							"src": [
+								"file:./assets/fonts/lexend/Lexend-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Lexend\", sans-serif",
+					"name": "Lexend",
+					"slug": "lexend"	
 				}
-				
 			],
 			"fontSizes": [
 				{
@@ -847,7 +870,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--secondary)",
+					"background": "var(--wp--preset--color--denary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -870,19 +893,19 @@
 				},
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--preset--color--denary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--color--septenary)",
+						"background": "var(--wp--preset--color--octonary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--septenary)",
+						"background": "var(--wp--preset--color--octonary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				}
@@ -951,16 +974,21 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--secondary)"
+					"text": "var(--wp--custom--colour--cta--500)"
 				},
 				":hover":{
 					"color": {
-						"text": "var(--wp--preset--color--tertiary)"
+						"text": "var(--wp--custom--colour--cta--700)"
 					}
 				},
 				":active":{
 					"color": {
-						"text": "var(--wp--preset--color--primary)"
+						"text": "var(--wp--custom--colour--cta--700)"
+					}
+				},
+				":focus":{
+					"color": {
+						"text": "var(--wp--custom--colour--cta--500)"
 					}
 				}
 			}

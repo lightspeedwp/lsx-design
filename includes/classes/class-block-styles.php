@@ -164,6 +164,11 @@ class Block_Styles {
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/details.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/details.css',
 			),
+			'core/navigation' => array(
+				'handle' => 'lsxd-navigation-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/navigation.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/navigation.css',
+			),
 		);
 		return $this->block_assets;
 	}
