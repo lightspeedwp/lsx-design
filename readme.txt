@@ -113,6 +113,12 @@ Copyright 2023 Google LLC
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
+Lexend
+Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
+Copyright 2023 Google LLC
+License: SIL Open Font License, 1.1, https://github.com/googlefonts/lexend/blob/main/OFL.txt
+Source: https://fonts.google.com/specimen/Lexend
+
 assets/images:
 
 Theme Screenshot, Copyright LightSpeed
