@@ -8,20 +8,6 @@
 			"title": "Blank"
 		},
 		{
-			"name": "woocomemrce-blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Woocommerce Blank"
-		},
-		{
-			"name": "woocomemrce-page",
-			"postTypes": [
-				"page"
-			],
-			"title": "Woocommerce Page"
-		},
-		{
 			"name": "home",
 			"postTypes": [
 				"page"
@@ -90,37 +76,37 @@
 			"defaultPalette": true,
 			"duotone": [
                 {
-                    "colors": [ "#CC3F23", "#F6DD54" ],
+                    "colors": [ "#C5389D", "#C5389D" ],
                     "slug": "senary-and-quaternary",
                     "name": "Senary and quaternary"
                 },
 				{
-                    "colors": [ "#323649", "#FF3131" ],
+                    "colors": [ "#7BE7FF", "#1E6AFF" ],
                     "slug": "denary-and-primary",
                     "name": "Denary and Primary"
                 },
 				{
-                    "colors": [ "#114BB2", "#F6DD54" ],
+                    "colors": [ "#BD5B00", "#C5389D" ],
                     "slug": "septenary-and-quaternary",
                     "name": "Septenary and quaternary"
                 },
 				{
-                    "colors": [ "#114BB2", "#2F8EFF" ],
+                    "colors": [ "#BD5B00", "#3D9751" ],
                     "slug": "septenary-and-secondary",
                     "name": "Septenary and Secondary"
                 },
 				{
-                    "colors": [ "#114BB2", "#00CE5F" ],
+                    "colors": [ "#BD5B00", "#E694FF" ],
                     "slug": "septenary-and-tertiary",
                     "name": "Septenary and Tertiary"
                 },
 				{
-                    "colors": [ "#000000", "#B4B7C1" ],
+                    "colors": [ "#000000", "#737487" ],
                     "slug": "black-and-quinary",
                     "name": "Black and Quinary"
                 },
 				{
-                    "colors": [ "#000000", "#2F8EFF" ],
+                    "colors": [ "#000000", "#3D9751" ],
                     "slug": "black-and-secondary",
                     "name": "Black and Secondary"
                 }
@@ -174,76 +160,75 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FF3131",
+					"color": "#1E6AFF",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "#3D9751",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#00CE5F",
+					"color": "#D6B300",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#F6DD54",
+					"color": "#CC3F23",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "#B4B7C1",
+					"color": "#737487",
 					"name": "Quinary",
 					"slug": "quinary"
 				},
 				{
-					"color": "#CC3F23",
+					"color": "#C5389D",
 					"name": "Senary",
 					"slug": "senary"
 				},
 				{
-					"color": "#114BB2",
+					"color": "#BD5B00",
 					"name": "Septenary",
 					"slug": "septenary"
 				},
 				{
-					"color": "#00A34B",
+					"color": "#19DFC1",
 					"name": "Octonary",
 					"slug": "octonary"
 				},
 				{
-					"color": "#D6B300",
+					"color": "#E694FF",
 					"name": "Novenary",
 					"slug": "novenary"
 				},
 				{
-					"color": "#323649",
+					"color": "#7BE7FF",
 					"name": "Denary",
 					"slug": "denary"
 				},
 				{
-					"color": "#FF7A00",
+					"color": "var(--wp--custom--colour--cta--500)",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "#C15D00",
+					"color": "var(--wp--custom--colour--cta--700)",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#EDEFF5",
 					"name": "Neutral",
 					"slug": "neutral"
 				},
 				{
-					"color": "#2F8EFF",
+					"color": "#9147FF",
 					"name": "Woocommerce",
 					"slug": "woo"
 				}
-				
 			]
 
 		},
@@ -285,14 +270,41 @@
 				"body": 1.75,
 				"heading": 1.1,
 				"medium": 1.5,
-				"one": 1
+				"one": 1,
+				"x-small": "16px",
+				"small": "24px",
+				"normal": "30px",
+				"large": "42px",
+				"x-large": "96px"
 			},
 			"spacing": {
 				"outer": "30px"
+			},
+			"wc": {
+				"table": {
+					"header": {
+						"bg" : {
+							"color": "#50575E"
+						},
+						"cell-width": "50%"
+					},
+					"border": {
+						"width": "2px",
+						"color": "var( --wp--preset--color--contrast )"
+					}
+				}
+			},
+			"colour": {
+				"cta": {
+					"300": "#C8A3FF",
+					"500": "#9147FF",
+					"600": "#6D35BF",
+					"700": "#492480"
+				}
 			}
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "750px",
 			"wideSize": "1200px"
 		},
 		"spacing": {
@@ -454,8 +466,23 @@
 					"fontFamily": "\"Lora\", serif",
 					"name": "Lora",
 					"slug": "lora"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lexend",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 500 700",
+							"src": [
+								"file:./assets/fonts/lexend/Lexend-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Lexend\", sans-serif",
+					"name": "Lexend",
+					"slug": "lexend"	
 				}
-				
 			],
 			"fontSizes": [
 				{
@@ -602,6 +629,14 @@
 					}
 				}
 			},
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"bottom": "0px",
+						"top": "0px"
+					}
+				}
+			},
 			"core/cover": {
 				"color": {
 					"background": "var(--wp--preset--color--contract)",
@@ -620,19 +655,19 @@
 				"spacing": {
 					"margin": {
 						"top": "0px",
-						"bottom": "10px"
+						"bottom": "0px"
 					}
 				},
 				"typography": {
-					"fontFamily": "Manrope",
-					"fontWeight": "700",
+					"fontFamily": "var(--wp--preset--font-family--primary)",
+					"fontWeight": "var(--wp--custom--font-weight--bold)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
 			},
 			"core/image": {
 				"spacing": {
 					"margin": {
-						"bottom": "30px",
+						"bottom": "0px",
 						"left": "0",
 						"right": "0",
 						"top": "0"
@@ -720,7 +755,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--monospace)",
+					"fontFamily": "var(--wp--preset--font-family--primary)",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
@@ -835,7 +870,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--secondary)",
+					"background": "var(--wp--preset--color--denary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -858,19 +893,19 @@
 				},
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--preset--color--denary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--color--septenary)",
+						"background": "var(--wp--preset--color--octonary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--septenary)",
+						"background": "var(--wp--preset--color--octonary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				}
@@ -939,16 +974,21 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--secondary)"
+					"text": "var(--wp--custom--colour--cta--500)"
 				},
 				":hover":{
 					"color": {
-						"text": "var(--wp--preset--color--tertiary)"
+						"text": "var(--wp--custom--colour--cta--700)"
 					}
 				},
 				":active":{
 					"color": {
-						"text": "var(--wp--preset--color--primary)"
+						"text": "var(--wp--custom--colour--cta--700)"
+					}
+				},
+				":focus":{
+					"color": {
+						"text": "var(--wp--custom--colour--cta--500)"
 					}
 				}
 			}

@@ -60,4 +60,3 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->',
 );
-

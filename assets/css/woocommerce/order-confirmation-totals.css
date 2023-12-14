@@ -1,0 +1,22 @@
+
+.wc-block-order-confirmation-totals thead th {
+	background-color:var( --wp--custom--wc--table--header--bg--color );
+	color: var( --wp--preset--color--base );
+	font-size: var( --wp--preset--font-size--small );
+	width:var( --wp--custom--wc--table--header--cell-width );
+}
+
+.wc-block-order-confirmation-totals table td,
+.wc-block-order-confirmation-totals table th {
+	border: var( --wp--custom--wc--table--border--width ) solid var( --wp--custom--wc--table--border--color );
+}
+
+.wc-block-order-confirmation-totals table tfoot tr:last-child td,
+.wc-block-order-confirmation-totals table tfoot tr:last-child th {
+    border-bottom-width: var( --wp--custom--wc--table--border--width );
+}
+
+.wc-block-order-confirmation-totals table .wc-block-order-confirmation-totals__note,
+.wc-block-order-confirmation-totals table .wc-block-order-confirmation-totals__total {
+	text-align: left;
+}

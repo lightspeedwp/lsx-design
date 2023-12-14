@@ -136,4 +136,3 @@ return array(
     <!-- /wp:buttons --></div>
     <!-- /wp:group -->',
 );
-

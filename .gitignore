@@ -6,3 +6,8 @@ package-lock.json
 vendor
 wp-content
 package.json
+.DS_Store
+templates/.DS_Store
+.DS_Store
+assets/.DS_Store
+.DS_Store

@@ -32,7 +32,7 @@ class Images {
 	public function init() {
 		add_action( 'after_setup_theme', array( $this, 'register_image_sizes' ), 10 );
 		add_filter( 'image_size_names_choose', array( $this, 'register_media_editor_sizes' ), 10, 1 );
-		add_filter( 'render_block_data', array( $this, 'render_post_image_data' ), 10, 3 );
+	/**	add_filter( 'render_block_data', array( $this, 'render_post_image_data' ), 10, 3 );  */
 	}
 
 	/**

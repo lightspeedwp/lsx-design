@@ -1,5 +1,62 @@
 # LSX Design Changelog
 
+## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) 
+
+### LSX
+
+#### Added
+- Added WordPress 6.4.2 Compatibility
+- Added new Block Styles for Heading and Paragraph blocks [#75](https://github.com/lightspeedwp/lsx-design/issues/75), [#76](https://github.com/lightspeedwp/lsx-design/pull/76)
+- Added new template parts for LSX Sharing, Yoast Breadcrumbs, Post Meta and Woo Distraction Free Header [#71](https://github.com/lightspeedwp/lsx-design/pull/71)
+- WooCommerce - Added support for Woo’s new store editing capabilities & support for all Woo blocks [#70](https://github.com/lightspeedwp/lsx-design/pull/70)
+- The Events Calendar Plugin - Block Compatability [#52](https://github.com/lightspeedwp/lsx-design/issues/52), [#78](https://github.com/lightspeedwp/lsx-design/pull/78), [#79](https://github.com/lightspeedwp/lsx-design/pull/79)
+- Sensei LMS Plugin - Block Compatability [#45](https://github.com/lightspeedwp/lsx-design/issues/45)
+- Added an underline to text links to improve accessibility
+
+#### Updated
+- Updated colour scheme to be use an accessible colour palette
+- Updated buttons, menus and links to use accessible colours
+- Updated WordPress & Woo blocks, patterns, template parts and templates to use new accessible colour palette
+- Updated block groups with a consistent structure to ensure better mobile compatability out the box
+- Updated Header mobile responsiveness [#53](https://github.com/lightspeedwp/lsx-design/issues/53), [#55](https://github.com/lightspeedwp/lsx-design/pull/55)
+- Improved mobile menu usability, focused on placement and functionality [#47](https://github.com/lightspeedwp/lsx-design/pull/47), [#66](https://github.com/lightspeedwp/lsx-design/pull/66)
+- Updated blog index, blog category archives, blog tag archives, blog author archives & blog single templates [#81](https://github.com/lightspeedwp/lsx-design/pull/81)
+- Updated Search Results block template [#81](https://github.com/lightspeedwp/lsx-design/pull/81)
+- Updated 404, No Title & Pages block templates [#81](https://github.com/lightspeedwp/lsx-design/pull/81)
+- Updated Gravity Forms default styles [#56](https://github.com/lightspeedwp/lsx-design/issues/56)
+
+#### Removed
+- Unused Heading & paragraph block styles removed
+- Child theme - Remove theme attribute from Parent wp:template-part tags [#54](https://github.com/lightspeedwp/lsx-design/issues/54) [#63](https://github.com/lightspeedwp/lsx-design/pull/63)
+
+### Fixed
+- Fixed Site Editor Bugs [#65](https://github.com/lightspeedwp/lsx-design/issues/65), [#81](https://github.com/lightspeedwp/lsx-design/pull/81)
+- Fixed Footer padding issues on Desktop and Mobile [#69](https://github.com/lightspeedwp/lsx-design/pull/69)
+- LSX Sharing Compatability
+
+### WooCommerce
+
+#### Added
+- Added Woo 8.4 compatibility 
+- Added Woo Distraction Free Header [#83](https://github.com/lightspeedwp/lsx-design/issues/83)
+- Added block specific assets & stylesheets for Woo Blocks [#68](https://github.com/lightspeedwp/lsx-design/pull/68)
+- Added Order Confirmation Block Template [#61](https://github.com/lightspeedwp/lsx-design/issues/61), [#64](https://github.com/lightspeedwp/lsx-design/pull/64)
+- Added Block Templates for the new Cart & Checkout Block default experience
+- Added "No Results" message to the Product Search Results block template [#29](https://github.com/lightspeedwp/lsx-design/issues/29)
+
+#### Updated
+- Updated Single Product Block Template
+- All product archives now use the Product Collection Block [#60](https://github.com/lightspeedwp/lsx-design/issues/60), [#70](https://github.com/lightspeedwp/lsx-design/pull/70)
+ - Updated Product Search Results Block Template [#67](https://github.com/lightspeedwp/lsx-design/issues/67)
+ - Updated Product Catalogue Archive Block Template
+ - Updated Product Category Archive Block Template
+ - Updated Product Tag Archive Block Template
+ - Updated Product Attributes Archive Block Template
+
+### Fixed
+- Fixed issues with the Site Editor and Woo Blocks [#73](https://github.com/lightspeedwp/lsx-design/pull/73), [#74](https://github.com/lightspeedwp/lsx-design/issues/74)
+
+
 ## [[1.1.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.1.0)
 
 ### Added

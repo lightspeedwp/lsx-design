@@ -12,6 +12,7 @@ use LSXD\Classes\Setup;
 use LSXD\Classes\Block_Setup;
 use LSXD\Classes\Block_Styles;
 use LSXD\Classes\Frontend;
+use LSXD\Classes\Vendors\Vendors;
 
 /**
  * The main file loading the rest of the files
@@ -67,6 +68,13 @@ class Core {
 	public $frontend;
 
 	/**
+	 * All 3rd party integrations
+	 *
+	 * @var array
+	 */
+	public $integrations;
+
+	/**
 	 * Contructor
 	 */
 	public function __construct() {
@@ -87,6 +95,8 @@ class Core {
 		$this->block_setup->init();
 		$this->block_styles->init();
 		$this->frontend->init();
+
+		$this->load_vendors();
 	}
 
 	/**
@@ -107,5 +117,15 @@ class Core {
 
 		require get_template_directory() . '/includes/classes/class-frontend.php';
 		$this->frontend = new Frontend();
+	}
+
+	/**
+	 * Loading the third party vendors.
+	 *
+	 * @return void
+	 */
+	public function load_vendors() {
+		require get_template_directory() . '/includes/classes/vendors/class-vendors.php';
+		$this->integrations['vendors'] = new Vendors();
 	}
 }

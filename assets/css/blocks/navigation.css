@@ -1,0 +1,23 @@
+
+/* BLOCK LINKS */
+body .wp-block-navigation a.wp-block-navigation-item__content {
+	line-height: var(--wp--custom--line-height--normal);
+}
+
+.wp-block-navigation .wp-block-navigation-item:hover > a.wp-block-navigation-item__content,
+.wp-block-navigation .wp-block-navigation-item.current-menu-item > a.wp-block-navigation-item__content {
+	color: var(--wp--custom--colour--cta--500);
+}
+
+.wp-block-navigation .wp-block-navigation-item:active > a.wp-block-navigation-item__content {
+	color: var(--wp--custom--colour--cta--300);
+}
+
+.wp-block-navigation .wp-block-navigation-item:focus > a.wp-block-navigation-item__content {
+	color: var(--wp--custom--colour--cta--600);
+	text-decoration-line: underline;
+}	
+
+body .wp-block-navigation a.wp-block-navigation-item__content:active {
+	text-decoration-line: underline;
+}
