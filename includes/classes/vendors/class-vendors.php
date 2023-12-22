@@ -51,6 +51,10 @@ class Vendors {
 		if ( class_exists( 'Tribe__Events__Main' ) ) {
 			$this->load_tec();
 		}
+
+		if ( function_exists( 'WPJM' ) ) {
+			$this->load_wpjm();
+		}
 	}
 
 	/**
@@ -67,5 +71,13 @@ class Vendors {
 	public function load_tec() {
 		require get_template_directory() . '/includes/classes/vendors/class-tec.php';
 		$this->tec = new TEC();
+	}
+
+	/**
+	 * Loads The WP Job Manager
+	 */
+	public function load_wpjm() {
+		require get_template_directory() . '/includes/classes/vendors/class-wpjm.php';
+		$this->wpjm = new WPJM();
 	}
 }
