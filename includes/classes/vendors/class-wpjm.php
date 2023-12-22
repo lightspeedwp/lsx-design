@@ -38,7 +38,7 @@ class WPJM {
 	 * @return void
 	 */
 	public function enqueue_styles() {
-		if ( is_post_type_archive( 'job_listing' ) || is_tax( 'job_listing_type' ) || is_singular( 'job_listing' ) ) {
+		if ( is_page( 'jobs' ) || is_post_type_archive( 'job_listing' ) || is_tax( 'job_listing_type' ) || is_singular( 'job_listing' ) ) {
 			wp_enqueue_style( 'lsxd-wpjm-styles', get_template_directory_uri() . '/assets/css/wpjm/wpjm.css', array(), time() );
 		}
 	}
