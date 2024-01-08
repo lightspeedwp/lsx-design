@@ -1,0 +1,58 @@
+body .job_filters .search_jobs input[type="button"],body .job_filters .search_jobs input[type="submit"]{
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 0;
+    cursor: pointer;
+    border-width: 0;
+    color: var(--wp--preset--color--base)!important;
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--x-small);
+    font-weight: 700;
+    line-height: inherit;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.job-manager-application-wrapper .application .application_button, .single_job_listing .application .application_button{
+    background-color: var(--wp--preset--color--secondary);
+    border-radius: 0;
+    cursor: pointer;
+    border-width: 0;
+    color: var(--wp--preset--color--base)!important;
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 700;
+    line-height: inherit;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+body .job_filters .search_jobs input[type="submit"]:hover, .job-manager-application-wrapper .application .application_button:hover, .single_job_listing .application .application_button:hover {
+    background-color: var(--wp--preset--color--septenary);
+    color: var(--wp--preset--color--base)!important;
+}
+body .job_filters .search_jobs input{
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: var(--wp--custom--font-weight--regular);
+    line-height: var(--wp--custom--line-height--body);
+}
+
+body .job_filters .search_jobs input[type="text"], body .job_filters .search_jobs textarea{
+    padding:5px;
+}
+
+.rp4wp-related-job_listing>ul li.job_listing, .rp4wp-related-job_listing>ul li.no_job_listings_found, ul.job_listings li.job_listing, ul.job_listings li.no_job_listings_found{border-bottom: 1px solid #bababa;}
