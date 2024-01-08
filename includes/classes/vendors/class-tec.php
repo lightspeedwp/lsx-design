@@ -30,6 +30,7 @@ class TEC {
 	 */
 	public function __construct() {
 		add_action( 'init', array( $this, 'enqueue_block_styles' ), 10 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
 	}
 
 	/**
@@ -78,6 +79,23 @@ class TEC {
 					'path'   => $asset['path'],
 				),
 			);
+		}
+	}
+
+	/**
+	 * A temporary fix for the single event styling.
+	 *
+	 * @return void
+	 */
+	public function enqueue_styles() {
+		global $post;
+		$should_enqueue = (
+			( tribe_is_event_query() && is_singular( array( 'tribe_events' ) ) )
+			|| ( $post instanceof \WP_Post && has_shortcode( $post->post_content, 'tribe_events' ) )
+		);
+
+		if ( $should_enqueue ) {
+			wp_enqueue_style( 'lsxd-wpjm-styles', get_template_directory_uri() . '/assets/css/tec/single-events.css', array(), time() );
 		}
 	}
 }
