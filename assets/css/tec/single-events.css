@@ -8,7 +8,7 @@
 .tribe-block #tribe-events-pg-template {
 	margin: 0;
 	padding: 0;
-	max-width: max-content;
+	max-width: 100%;
 }
 
 /* HEADER */
