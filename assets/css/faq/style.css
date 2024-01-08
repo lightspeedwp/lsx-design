@@ -1,5 +1,5 @@
 .wp-block-yoast-faq-block .schema-faq-section{
-    border:1px solid #127eff;
+    border:1px solid var(--wp--preset--color--secondary);
     margin-bottom:20px;
     background-color:#fdfeff
 }
@@ -20,7 +20,7 @@
     display:block
 }
 .wp-block-yoast-faq-block .schema-faq-question.faq-q-open{
-    border-bottom:1px solid #127eff
+    border-bottom:1px solid var(--wp--preset--color--secondary);
 }
 .wp-block-yoast-faq-block .schema-faq-question:after{
     content:"+";
@@ -36,7 +36,7 @@
     font-weight:700;
     color:#000;
     font-size:40px;
-    color:#127eff;
+    color:var(--wp--preset--color--secondary);
 }
 .wp-block-yoast-faq-block .schema-faq-question.faq-q-open:after{
     content:"-"
@@ -44,10 +44,10 @@
 .wp-block-yoast-faq-block p.schema-faq-answer{
     margin:0;
     padding:12px;
-    background-color:#127eff;
+    background-color:var(--wp--preset--color--secondary);
     font-size:18px!important;
     line-height:1.4!important;
-    border-bottom:1px solid #127eff;
+    border-bottom:1px solid var(--wp--preset--color--secondary);
     display:none;
      color:#fff!important;
 }
