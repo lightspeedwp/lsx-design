@@ -115,6 +115,9 @@ body .tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
 }
 
 /* HEADER */
+.tribe-events-header {
+    margin-top: 120px !important;
+}
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border {
     border: none !important;
 }
@@ -215,20 +218,32 @@ body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-e
 	color: var(--wp--preset--color--contrast);
 }
 
-body .tribe-events .tribe-filter-bar .tribe-filter-bar-c-dropdown .select2-results__option{
-    padding: 4px 0 4px 20px;
-    font-size: var(--wp--preset--font-size--x-small);
-    font-weight: var(--wp--custom--font-weight--medium);
+body .tribe-events .tribe-events-c-subscribe-dropdown__container {
+	margin-left: auto;
+	width:100%;
 }
 
-body .tribe-events .tribe-filter-bar .tribe-filter-bar-c-filter__toggle-text{
-    font-size: var(--wp--preset--font-size--x-small);
-    font-weight: var(--wp--custom--font-weight--medium);
+body .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--x-small);
 }
 
-body .tribe-events .select2-container--default .select2-results__option--highlighted[data-selected] {
-    background-color: var(--wp--preset--color--quaternary);
-}
+body .tribe-events .tribe-events-c-subscribe-dropdown__content{top:72px!important;}
+
+body .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button{
+    padding: 24px 33px;
+    border:0;
+    font-family: var(--wp--preset--font-family--primary);
+    color:#fff;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: var(--wp--custom--font-weight--medium);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--wp--preset--color--secondary)!important;
+    width:100%;
+    }
+    
+    body .tribe-events.tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover{background-color:var(--wp--preset--color--septenary)!important;}
 
 body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-events-calendar-list__event-date-tag-daynum {
 	font-family: var(--wp--preset--font-family--primary);

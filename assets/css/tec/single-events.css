@@ -20,7 +20,6 @@
 .tec-block__single-event .tribe-events-single-event-title {
 	font-size: var(--wp--preset--font-size--gigantic);
 	font-weight: var(--wp--custom--font-weight--bold);
-	line-height: var(--wp--custom--line-height--x-large);
 }
 
 .tec-block__single-event .tribe-events-schedule h2 {
@@ -31,12 +30,28 @@
 
 /* BODY */
 
+body.single-tribe_events .tribe-block.tec-block__single-event{margin-top:0;}
+
 body .tribe-events-event-image {
     margin-bottom: 40px;
 }
 
 .tec-block__single-event #tribe-events-content .tribe-events-single-event-description.tribe-events-content {
-	flex-basis: 80%;
+	flex-basis: 70%;
+}
+
+.wp-block-post-excerpt__more-text{
+	margin-top:0;
+}
+
+body.single-tribe_events .tribe-events-schedule .tribe-events-cost{
+	padding:3px 8px;
+	font-family: var(--wp--preset--font-family--primary);
+	color:#fff;
+justify-content: center;
+align-items: center;
+background-color: var(--wp--preset--color--primary)!important;
+border-radius: 5px;
 }
 
 .tec-block__single-event .tribe-events-content p {
@@ -46,15 +61,85 @@ body .tribe-events-event-image {
 }
 
 .tec-block__single-event #tribe-events-content .tribe-events.tribe-common {
-	flex-basis: 20%;
+	flex-basis: 30%;
 }
+
+body.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button{
+padding: 24px 33px;
+border:0;
+font-family: var(--wp--preset--font-family--primary);
+color:#fff;
+font-size: var(--wp--preset--font-size--small);
+font-weight: var(--wp--custom--font-weight--medium);
+justify-content: center;
+align-items: center;
+background-color: var(--wp--preset--color--secondary)!important;
+width:100%;
+}
+
+body.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover{background-color:var(--wp--preset--color--septenary)!important;}
 
 body.single-tribe_events .tec-block__single-event .tribe-events-c-subscribe-dropdown {
 	margin-top: 0;
 }
+
+body.single-tribe_events .tribe-events-event-image img{
+	width: 100%;
+    height: auto;
+}
+
 body.single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container {
 	margin-left: auto;
+	width:100%;
 }
+
+body.single-tribe_events.single-tribe_events .tribe-events-c-subscribe-dropdown__content{top:72px!important;}
+
+.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.tribe-events-tickets input[type=date], .tribe-events-tickets input[type=datetime-local], .tribe-events-tickets input[type=email], .tribe-events-tickets input[type=month], .tribe-events-tickets input[type=number], .tribe-events-tickets input[type=password], .tribe-events-tickets input[type=search], .tribe-events-tickets input[type=tel], .tribe-events-tickets input[type=text], .tribe-events-tickets input[type=time], .tribe-events-tickets input[type=url], .tribe-events-tickets input[type=week], .tribe-events-tickets select, .tribe-events-tickets textarea{
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--small);
+	padding: 0.8rem 1.0rem;
+	background-color: #fff;
+	border: 2px solid #2B2D2F!important;}
+
+	.tribe-events-tickets button[type="submit"]{
+		font-family: var(--wp--preset--font-family--primary);
+		border-radius: 0px;
+		padding:15px 30px;
+		font-weight: 700;
+		font-size: 20px;
+		background-color:var(--wp--preset--color--secondary);
+		color: #fff!important;
+		cursor: pointer;
+		margin-top: 7px;
+		border:0;}
+
+	.tribe-events-tickets button[type="submit"]:hover{background-color:var(--wp--preset--color--septenary);}
+
+@media (min-width: 768px){
+.tribe-events-venue-map>div, .tribe-events-venue-map>iframe {
+    max-height: 316px;
+}	
+}
+
+@media (max-width: 768px){
+
+	body.single-tribe_events .tribe-events-single>.tribe_events{
+		display:block;
+	}
+
+	.tec-block__single-event #tribe-events-content .tribe-events.tribe-common {
+	flex-basis: 100%;
+}
+
+.tec-block__single-event #tribe-events-content .tribe-events-single-event-description.tribe-events-content {
+	flex-basis: 100%;
+}}
 
 /* EVENTS META */
 .tribe-events-single-section.tribe-events-event-meta:before {
