@@ -1,7 +1,7 @@
 .tribe-events-single-event-title{font-family: var(--wp--preset--font-family--primary)!important;}
 .tribe-events-venue-map{width:100%!important;}
-.tribe-events-meta-group.tribe-events-meta-group-details{width:33%!important;}
-.tribe-events-meta-group.tribe-events-meta-group-organizer{width:33%!important;}
+.tribe-events-meta-group.tribe-events-meta-group-details{width:33%;}
+.tribe-events-meta-group.tribe-events-meta-group-organizer{width:33%;}
 
 
 /* CONTAINER */
@@ -17,6 +17,11 @@
 	display: none;
 }
 
+body.single-tribe_events .tribe-events-tickets .tickets_description, body.single-tribe_events .tribe-events-tickets .tickets_name, body.single-tribe_events .tribe-events-tickets .tickets_name p, body.single-tribe_events .tribe-events-tickets .tickets_price{
+	color: var(--tec-color-text-primary);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--small);}
+
 .tec-block__single-event .tribe-events-single-event-title {
 	font-size: var(--wp--preset--font-size--gigantic);
 	font-weight: var(--wp--custom--font-weight--bold);
@@ -26,6 +31,7 @@
 	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--small);
 	line-height: var(--wp--custom--line-height--normal);
+	font-weight: 500;
 }
 
 /* BODY */
@@ -95,9 +101,11 @@ body.single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__conta
 
 body.single-tribe_events.single-tribe_events .tribe-events-c-subscribe-dropdown__content{top:72px!important;}
 
+body.single-tribe_events .tribe-events-schedule{margin: 10px 0;}
+
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{
 	font-family: var(--wp--preset--font-family--primary);
-	font-size: var(--wp--preset--font-size--x-small);
+	font-size: var(--wp--preset--font-size--x-small)!important;
 }
 
 .tribe-events-tickets input[type=date], .tribe-events-tickets input[type=datetime-local], .tribe-events-tickets input[type=email], .tribe-events-tickets input[type=month], .tribe-events-tickets input[type=number], .tribe-events-tickets input[type=password], .tribe-events-tickets input[type=search], .tribe-events-tickets input[type=tel], .tribe-events-tickets input[type=text], .tribe-events-tickets input[type=time], .tribe-events-tickets input[type=url], .tribe-events-tickets input[type=week], .tribe-events-tickets select, .tribe-events-tickets textarea{
@@ -133,9 +141,14 @@ body.single-tribe_events.single-tribe_events .tribe-events-c-subscribe-dropdown_
 		display:block;
 	}
 
+	body.single-tribe_events .tribe-events-event-meta {
+		display: inline-block;}
+
 	.tec-block__single-event #tribe-events-content .tribe-events.tribe-common {
 	flex-basis: 100%;
 }
+
+.tribe-events-meta-group.tribe-events-meta-group-details, .tribe-events-meta-group.tribe-events-meta-group-organizer{width:100%;}
 
 .tec-block__single-event #tribe-events-content .tribe-events-single-event-description.tribe-events-content {
 	flex-basis: 100%;
@@ -154,13 +167,13 @@ body.single-tribe_events.single-tribe_events .tribe-events-c-subscribe-dropdown_
 
 body .tribe-events-meta-group .tribe-events-single-section-title {
 	font-family: var(--wp--preset--font-family--primary);
+	letter-spacing: 0;
 	font-size: 28px;
 	font-weight: var(--wp--custom--font-weight--bold);
 	line-height: var(--wp--custom--line-height--large);
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-body .tribe-events-event-meta dd[class$=url],
 body .tribe-events-event-meta dt:not(:first-child) {
     margin-top: 30px;
 }
