@@ -210,12 +210,12 @@
 					"slug": "denary"
 				},
 				{
-					"color": "var(--wp--custom--colour--cta--500)",
+					"color": "#9147FF",
 					"name": "CTA",
 					"slug": "cta"
 				},
 				{
-					"color": "var(--wp--custom--colour--cta--700)",
+					"color": "#492480",
 					"name": "CTA Hover",
 					"slug": "ctahover"
 				},
@@ -870,7 +870,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--denary)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -893,19 +893,19 @@
 				},
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--denary)",
+						"background": "var(--wp--preset--color--primary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--color--octonary)",
+						"background": "var(--wp--preset--color--secondary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--octonary)",
+						"background": "var(--wp--preset--color--secondary)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				}
@@ -974,21 +974,21 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--custom--colour--cta--500)"
+					"text": "var(--wp--preset--color--primary)"
 				},
 				":hover":{
 					"color": {
-						"text": "var(--wp--custom--colour--cta--700)"
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				},
 				":active":{
 					"color": {
-						"text": "var(--wp--custom--colour--cta--700)"
+						"text": "var(--wp--preset--color--primary)"
 					}
 				},
 				":focus":{
 					"color": {
-						"text": "var(--wp--custom--colour--cta--500)"
+						"text": "var(--wp--preset--color--secondary)"
 					}
 				}
 			}
@@ -1039,6 +1039,11 @@
 			"area": "header",
 			"name": "woo-header-light",
 			"title": "Woo Header Light"
+		},
+		{
+			"area": "header",
+			"name": "woo-header-search",
+			"title": "Woo Header Search"
 		},
 		{
 			"area": "header",
