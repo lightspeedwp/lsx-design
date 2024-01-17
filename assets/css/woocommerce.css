@@ -537,6 +537,13 @@
     border: 1px solid var(--wp--preset--color--secondary);
     color:#fff!important;
 }
+.wc-block-product-categories select {
+    margin-right: 0.5em;
+    font-size: 18px!important;
+    padding: 12px 5px 14px 8px;
+    color: #1e1e1e;
+    width: 96%;
+}
 .wp-block-query-pagination .wp-block-query-pagination-previous:hover, .wp-block-query-pagination .wp-block-query-pagination-next:hover{color:var(--wp--preset--color--septenary);}
 .wc-block-mini-cart__template-part .cross-sells-product .wp-block-button.wc-block-components-product-button, .wc-block-mini-cart .cross-sells-product .wp-block-button.wc-block-components-product-button{
 	right: 0px;
