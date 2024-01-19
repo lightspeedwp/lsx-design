@@ -27,6 +27,7 @@ header .wp-block-search__button-behavior-expand .wp-block-search__input {
     padding-top: 0;
     padding-bottom: 0;
     height: 44px;
+    z-index: 3;
 }
 
 
