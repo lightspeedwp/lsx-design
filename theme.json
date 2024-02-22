@@ -24,6 +24,9 @@
 	],
 	"settings": {
 		"appearanceTools": true,
+		"shadow": {
+			"defaultPresets": true
+		},
 		"blocks": {
 			"core/button": {
 				"spacing": {
@@ -165,47 +168,47 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#3D9751",
+					"color": "#7BE7FF",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#D6B300",
+					"color": "#19DFC1",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#CC3F23",
+					"color": "#E694FF",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				},
 				{
-					"color": "#737487",
+					"color": "#D6B300",
 					"name": "Quinary",
 					"slug": "quinary"
 				},
 				{
-					"color": "#C5389D",
+					"color": "#3D9751",
 					"name": "Senary",
 					"slug": "senary"
 				},
 				{
-					"color": "#BD5B00",
+					"color": "#CC3F23",
 					"name": "Septenary",
 					"slug": "septenary"
 				},
 				{
-					"color": "#19DFC1",
+					"color": "#BD5B00",
 					"name": "Octonary",
 					"slug": "octonary"
 				},
 				{
-					"color": "#E694FF",
+					"color": "#C5389D",
 					"name": "Novenary",
 					"slug": "novenary"
 				},
 				{
-					"color": "#7BE7FF",
+					"color": "#FFB2B2",
 					"name": "Denary",
 					"slug": "denary"
 				},
@@ -296,10 +299,64 @@
 			},
 			"colour": {
 				"cta": {
+					"100": "#F4EDFF",
+					"200": "#E4D1FF",
 					"300": "#C8A3FF",
-					"500": "#9147FF",
+					"400": "#AD75FF",
 					"600": "#6D35BF",
-					"700": "#492480"
+					"700": "#492480",
+					"800": "#241240",
+					"900": "#0E0719"
+				},
+				"primary": {
+					"100": "#E9F0FF",
+					"200": "#C7DAFF",
+					"300": "#8FB5FF",
+					"400": "#568FFF",
+					"600": "#1750BF",
+					"700": "#0F3580",
+					"800": "#081B40",
+					"900": "#051026"
+				},
+				"secondary": {
+					"100": "#F2FDFF",
+					"200": "#DEF9FF",
+					"300": "#BDF3FF",
+					"400": "#9CEDFF",
+					"600": "#5CADBF",
+					"700": "#3E7480",
+					"800": "#1F3A40",
+					"900": "#132326"
+				},
+				"tertiary": {
+					"100": "#E8FCF9",
+					"200": "#C6F7F0",
+					"300": "#8CEFE0",
+					"400": "#53E7D1",
+					"600": "#13A791",
+					"700": "#0D7061",
+					"800": "#063830",
+					"900": "#031F1A"
+				},
+				"quaternary": {
+					"100": "#FDF4FF",
+					"200": "#F9E4FF",
+					"300": "#F3CAFF",
+					"400": "#ECAFFF",
+					"600": "#AD6FBF",
+					"700": "#734A80",
+					"800": "#3A2540",
+					"900": "#1C121F"
+				},
+				"quinary": {
+					"100": "#FBF7E6",
+					"200": "#F5ECBF",
+					"300": "#EBD980",
+					"400": "#E0C640",
+					"600": "#A18600",
+					"700": "#6B5A00",
+					"800": "#362D00",
+					"900": "#1C1700"
 				}
 			}
 		},
