@@ -7,19 +7,19 @@ p.is-style-dark-content-box{padding:20px;  border:1px solid;border-color: curren
 
 p.is-style-subheading-1{
 	font-family: var(--wp--preset--font-family--primary);
-    font-size: var(--wp--preset--font-size--large);
+    font-size: var(--wp--preset--font-size--large)!important;
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: 1.5;
 }
 p.is-style-subheading-2{
 	font-family: var(--wp--preset--font-family--primary);
-    font-size: var(--wp--preset--font-size--medium);
+    font-size: var(--wp--preset--font-size--medium)!important;
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: 1.5;
 }
 p.is-style-subheading-3{
 	font-family: var(--wp--preset--font-family--primary);
-    font-size: var(--wp--preset--font-size--small);
+    font-size: var(--wp--preset--font-size--small)!important;
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: 1.5;
 }

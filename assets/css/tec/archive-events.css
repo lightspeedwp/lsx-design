@@ -112,11 +112,14 @@ body .tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
     padding-left: 0 !important;
     padding-right: 0 !important;
 	padding-top: 0;
+    padding-bottom: 20px;
 }
+
+body .tribe-common .tribe-common-anchor-thin:active,body .tribe-common .tribe-common-anchor-thin:focus, body .tribe-common .tribe-common-anchor-thin:hover{color:var(--wp--preset--color--secondary);}
 
 /* HEADER */
 .tribe-events-header {
-    margin-top: 120px !important;
+    margin-top: 10px !important;
 }
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border {
     border: none !important;
@@ -218,6 +221,33 @@ body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-e
 	color: var(--wp--preset--color--contrast);
 }
 
+body .tribe-events .tribe-events-c-subscribe-dropdown__container {
+	margin-left: auto;
+	width:100%;
+}
+
+body .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+body .tribe-events .tribe-events-c-subscribe-dropdown__content{top:72px!important;}
+
+body .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button{
+    padding: 24px 33px;
+    border:0;
+    font-family: var(--wp--preset--font-family--primary);
+    color:#fff;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: var(--wp--custom--font-weight--medium);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--wp--preset--color--secondary)!important;
+    width:100%;
+    }
+    
+    body .tribe-events.tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover{background-color:var(--wp--preset--color--septenary)!important;}
+
 body .tribe-events .tribe-events-calendar-list__event-date-tag-datetime .tribe-events-calendar-list__event-date-tag-daynum {
 	font-family: var(--wp--preset--font-family--primary);
 	font-weight: var(--wp--custom--font-weight--medium);
@@ -259,7 +289,9 @@ body .tribe-events .tribe-events-calendar-list__event-cost .tribe-events-c-small
 body .tribe-common.tribe-events .tribe-events-calendar-list-nav {
     border-top: 0;
 	color: var(--wp--preset--color--contrast);
-	padding-top: 80px;
+	padding-top: 0px;
+    font-weight: var(--wp--custom--font-weight--medium);
+	font-family: var(--wp--preset--font-family--primary);
 }
 
 body .tribe-events-c-nav__prev-label,

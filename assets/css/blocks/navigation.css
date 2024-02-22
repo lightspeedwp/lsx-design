@@ -6,15 +6,15 @@ body .wp-block-navigation a.wp-block-navigation-item__content {
 
 .wp-block-navigation .wp-block-navigation-item:hover > a.wp-block-navigation-item__content,
 .wp-block-navigation .wp-block-navigation-item.current-menu-item > a.wp-block-navigation-item__content {
-	color: var(--wp--custom--colour--cta--500);
+	color: var(--wp--preset--color--secondary);
 }
 
 .wp-block-navigation .wp-block-navigation-item:active > a.wp-block-navigation-item__content {
-	color: var(--wp--custom--colour--cta--300);
+	color: var(--wp--preset--color--secondary);
 }
 
 .wp-block-navigation .wp-block-navigation-item:focus > a.wp-block-navigation-item__content {
-	color: var(--wp--custom--colour--cta--600);
+	color: var(--wp--preset--color--primary);
 	text-decoration-line: underline;
 }	
 
