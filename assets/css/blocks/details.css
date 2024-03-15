@@ -18,7 +18,7 @@
     user-select:none;
     display:block
 }
-.wp-block-details [open] summary{
+.wp-block-details[open] summary{
     border-bottom:1px solid #313535
 }
 .wp-block-details summary:after{
@@ -36,7 +36,7 @@
     color:inherit;
     font-size:40px;
 }
-.wp-block-details [open] summary:after{
+.wp-block-details[open] summary:after{
     content:"-"
 }
 .wp-block-details summary p{
@@ -55,3 +55,54 @@
     color:#000;}
 .wp-block-details[open] summary p{display:block!important;}
 .wp-block-details[open]{border-bottom:1px solid #313535;}
+
+.wp-block-details.is-style-plain-arrow{border-bottom:1px solid #313535;margin-top:2px;}
+.wp-block-details.is-style-plain-arrow summary{
+    border: 0;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:700;
+    margin:0;
+    padding:13px 56px 14px 12px;
+    line-height:1.4;
+    cursor:pointer;
+    position:relative;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    display:block
+}
+
+.wp-block-details.is-style-plain-arrow [open] summary,.wp-block-details.is-style-plain-arrow [open]{
+    border-bottom:0px solid #fff!important;
+}
+
+.wp-block-details.is-style-plain-arrow>:not(summary){
+    margin:0;
+    padding:0 12px 12px;
+    border-left:0px solid #313535;
+    border-right:0px solid #313535;
+    color:currentColor;}
+
+    .wp-block-details.is-style-plain-arrow summary:after{
+        content:"";
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31' height='30' viewBox='0 0 31 30' fill='none'%3E%3Cpath d='M8 9L15.5 16.5L23 9L26 10.5L15.5 21L5 10.5L8 9Z' fill='black'/%3E%3C/svg%3E");
+        position:absolute;
+        top:50%;
+        right:0;
+        text-align:center;
+        font-weight:700;
+        color:inherit;
+        font-size:40px;
+        width:30px;
+        height:30px;
+    }
+
+    .wp-block-details[open] summary:after{
+        content:"";
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31' height='30' viewBox='0 0 31 30' fill='none'%3E%3Cpath d='M23 21L15.5 13.5L8 21L5 19.5L15.5 9L26 19.5L23 21Z' fill='black'/%3E%3C/svg%3E")!important;
+        position:absolute;
+        }
