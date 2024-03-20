@@ -1,5 +1,23 @@
 # LSX Design Changelog
 
+## [[1.3.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.0)
+
+## Description
+This WordPress Release focused on WP updates as well as a few styling issues.  Most of the work was done integrating custom variables from the theme.json.
+
+### LSX
+Updated the colour button and styles #[104](https://github.com/lightspeedwp/lsx-design/pull/104)
+- Changes to the Colour Palette to control Colour Variables better including expanding on the Colour palette to include hues of each colour with 100-900 colour variables
+
+Added New Block styles #[105](https://github.com/lightspeedwp/lsx-design/pull/105)
+-  Lists - 2 Versions + variation for Dark/Light
+-  Details Block
+-  Quote Block
+-  Columns Separator
+
+Fixed the Recent Posts Widget, not displaying bullets in the footer. #[58](https://github.com/lightspeedwp/lsx-design/issues/58)
+
+
 ## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) 
 
 ### LSX

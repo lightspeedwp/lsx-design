@@ -93,6 +93,18 @@ class Block_Styles {
 				'heading-2' => __( 'Heading Medium', 'lsx-design' ),
 				'heading-3' => __( 'Heading Small', 'lsx-design' ),
 			),
+			'core/details'   => array(
+				'plain-arrow' => __( 'Plain Arrow', 'lsx-design' ),
+			),
+			'core/list'   => array(
+				'list-tick-light' => __( 'Ticks Light', 'lsx-design' ),
+				'list-tick-dark' => __( 'Ticks Dark', 'lsx-design' ),
+				'list-arrow-light' => __( 'Arrow Light', 'lsx-design' ),
+				'list-arrow-dark' => __( 'Arrow Dark', 'lsx-design' ),
+			),
+			'core/columns'   => array(
+				'col-seperator' => __( 'Seperator', 'lsx-design' ),
+			),
 		);
 
 		foreach ( $block_styles as $block => $styles ) {
@@ -154,6 +166,11 @@ class Block_Styles {
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/pullquote.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/pullquote.css',
 			),
+			'core/quote' => array(
+				'handle' => 'lsxd-quote-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/quote.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/quote.css',
+			),
 			'core/paragraph' => array(
 				'handle' => 'lsxd-paragraph-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/paragraph.css',
@@ -163,6 +180,16 @@ class Block_Styles {
 				'handle' => 'lsxd-details-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/details.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/details.css',
+			),
+			'core/columns' => array(
+				'handle' => 'lsxd-columns-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/columns.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/columns.css',
+			),
+			'core/list' => array(
+				'handle' => 'lsxd-list-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/lists.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/lists.css',
 			),
 			'core/navigation' => array(
 				'handle' => 'lsxd-navigation-block-styles',
