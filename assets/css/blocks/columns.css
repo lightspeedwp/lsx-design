@@ -1,0 +1,6 @@
+.wp-block-columns.is-style-col-seperator .wp-block-column{border-right:1px solid #000;}
+.wp-block-columns.is-style-col-seperator .wp-block-column:last-child{border-right:0px solid #000;}
+
+@media screen and (max-width:990px) {
+    .wp-block-columns.is-style-col-seperator .wp-block-column{border-right:0px solid #000!important;}
+}

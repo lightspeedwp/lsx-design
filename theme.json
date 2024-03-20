@@ -652,12 +652,6 @@
 				}
 			},
 			"core/heading": {
-				"spacing": {
-					"margin": {
-						"top": "0px",
-						"bottom": "0px"
-					}
-				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--primary)",
 					"fontWeight": "var(--wp--custom--font-weight--bold)",

@@ -387,7 +387,8 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     font-size:var(--wp--preset--font-size--small);
 }
 /* Forms --------------------------------------------- */
-.gform_button.button, .gform_next_button.gform-theme-button.button{
+footer .ginput_container_consent label{font-size:12px!important;line-height:12px; float:left;}
+.gform_button.button, .gform_next_button.gform-theme-button.button, #field_submit input[type="submit"]{
 background-color: var(--wp--preset--color--secondary);
 border-radius: 0;
 border-width: 0;
@@ -406,7 +407,7 @@ padding-bottom: 10px;
 padding-left: 20px;
 text-decoration: none;cursor: pointer;}
 
-.gform_button.button:hover, .gform_next_button.gform-theme-button.button:hover{background-color: var(--wp--preset--color--primary);cursor: pointer;}
+.gform_button.button:hover, .gform_next_button.gform-theme-button.button:hover, #field_submit input[type="submit"]:hover{background-color: var(--wp--preset--color--primary);cursor: pointer;}
 
 .gform_wrapper.gravity-theme .gform_previous_button.button, .gform_wrapper.gravity-theme .gform_save_link.button{
     color: var(--wp--preset--color--contrast);

@@ -1,0 +1,77 @@
+.is-style-list-arrow-light li,.is-style-list-tick-dark li,.is-style-list-tick-light li,.is-style-list-arrow-dark li{
+    list-style: none;
+    margin-left:0;
+}
+.is-style-list-tick-light li .block-editor-rich-text__editable{display:inline;}
+.block-editor-block-list__block.is-style-list-tick-light{padding:0!important;}
+
+.is-style-list-arrow-light li:before{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='29' viewBox='0 0 28 29' fill='none'%3E%3Ccircle cx='14.5' cy='15' r='12' stroke='white' stroke-width='2'/%3E%3Cpath d='M13.4887 11.0045L16.3617 13.7766H9.41327C8.90717 13.7766 8.5 14.1863 8.5 14.6956V15.3082C8.5 15.8175 8.90717 16.2272 9.41327 16.2272H16.3617L13.4887 18.9994C13.1196 19.3555 13.112 19.9489 13.4735 20.3127L13.8921 20.7301C14.2498 21.09 14.8282 21.09 15.1821 20.7301L20.2317 15.6528C20.5894 15.2929 20.5894 14.7109 20.2317 14.3548L15.1821 9.26994C14.8244 8.91002 14.246 8.91002 13.8921 9.26994L13.4735 9.6873C13.112 10.0549 13.1196 10.6484 13.4887 11.0045Z' fill='white'/%3E%3C/svg%3E");
+    stroke: #fff !important;
+    fill: #fff !important;
+    content: "";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top:-5px;
+    vertical-align: middle;
+    }
+
+    .is-style-list-arrow-dark li:before{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='29' viewBox='0 0 28 29' fill='none'%3E%3Ccircle cx='14.5' cy='15' r='12' stroke='black' stroke-width='2'/%3E%3Cpath d='M13.4887 11.0045L16.3617 13.7766H9.41327C8.90717 13.7766 8.5 14.1863 8.5 14.6956V15.3082C8.5 15.8175 8.90717 16.2272 9.41327 16.2272H16.3617L13.4887 18.9994C13.1196 19.3555 13.112 19.9489 13.4735 20.3127L13.8921 20.7301C14.2498 21.09 14.8282 21.09 15.1821 20.7301L20.2317 15.6528C20.5894 15.2929 20.5894 14.7109 20.2317 14.3548L15.1821 9.26994C14.8244 8.91002 14.246 8.91002 13.8921 9.26994L13.4735 9.6873C13.112 10.0549 13.1196 10.6484 13.4887 11.0045Z' fill='black'/%3E%3C/svg%3E");
+        stroke: #000 !important;
+        fill: #000 !important;
+        content: "";
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-top:-5px;
+        vertical-align: middle;
+        }
+
+    .is-style-list-tick-dark li:before{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z'/%3E%3C/svg%3E");
+        stroke: #000 !important;
+        fill: #000 !important;
+        content: "";
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-top:-5px;
+        vertical-align: middle;
+        }
+
+        .is-style-list-tick-light li:before{
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z' fill='white'/%3E%3C/svg%3E");
+            stroke: #fff !important;
+            fill: #fff !important;
+            content: "";
+            display: inline-block;
+            height: 24px;
+            width: 24px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin-right: 6px;
+            margin-left: 6px;
+            margin-top:-5px;
+            vertical-align: middle;
+            }
+
+
+    
