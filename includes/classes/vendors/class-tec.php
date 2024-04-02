@@ -89,6 +89,11 @@ class TEC {
 	 */
 	public function enqueue_styles() {
 		global $post;
+
+		if ( ! function_exists( 'tribe_is_event_query' ) ) {
+			return;
+		}
+
 		$should_enqueue = (
 			( tribe_is_event_query() && is_singular( array( 'tribe_events' ) ) )
 			|| ( $post instanceof \WP_Post && has_shortcode( $post->post_content, 'tribe_events' ) )

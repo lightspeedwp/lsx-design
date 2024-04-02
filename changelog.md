@@ -17,6 +17,9 @@ Added New Block styles #[105](https://github.com/lightspeedwp/lsx-design/pull/10
 
 Fixed the Recent Posts Widget, not displaying bullets in the footer. #[58](https://github.com/lightspeedwp/lsx-design/issues/58)
 
+### The Events Calendar
+- Fixed a PHP error occuring when using a legacy version of the plugin.
+
 
 ## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) 
 
