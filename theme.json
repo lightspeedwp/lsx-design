@@ -350,16 +350,6 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"name": "System (Roboto, Segoe UI, Ubuntu)",
-					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
-				},
-				{
-					"name": "Serif (Times New Roman, Noto Serif)",
-					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
-				},
-				{
 					"fontFamily": "Manrope, sans-serif",
 					"name": "Manrope",
 					"slug": "primary",
@@ -401,88 +391,6 @@
 							"src": [ "file:./assets/fonts/manrope/manrope-regular.woff2" ]
 						}
 					]
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Plus Jakarta Sans",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400 800",
-							"src": [
-								"file:./assets/fonts/plusjakartasans/PlusJakartaSans-VariableFont_wght.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Plus Jakarta Sans\", sans-serif",
-					"name": "Plus Jakarta Sans",
-					"slug": "plus-jakarta-sans"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Montserrat",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf"
-							]
-						},
-						{
-							"fontFamily": "Montserrat",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Montserrat\", serif",
-					"name": "Montserrat",
-					"slug": "montserrat"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Lora",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/lora/Lora-VariableFont_wght.ttf"
-							]
-						},
-						{
-							"fontFamily": "Lora",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Lora\", serif",
-					"name": "Lora",
-					"slug": "lora"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Lexend",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "400 500 700",
-							"src": [
-								"file:./assets/fonts/lexend/Lexend-VariableFont_wght.ttf"
-							]
-						}
-					],
-					"fontFamily": "\"Lexend\", sans-serif",
-					"name": "Lexend",
-					"slug": "lexend"	
 				}
 			],
 			"fontSizes": [
