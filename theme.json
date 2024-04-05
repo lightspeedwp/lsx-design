@@ -821,7 +821,7 @@
 						":hover": {
 							"typography": {
 								"textDecoration": "underline",
-								"color": "var(--wp--preset--color--secondary)"
+								"color": "var(--wp--custom--colour--primary--700)"
 							}
 						}
 					}
@@ -983,19 +983,19 @@
 				},
 				":active": {
 					"color": {
-						"background": "var(--wp--preset--color--primary)",
+						"background": "var(--wp--custom--colour--primary--400)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":focus": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--custom--colour--primary--800)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--custom--colour--primary--700)",
 						"text": "var(--wp--preset--color--base)"
 					}
 				}
@@ -1068,7 +1068,7 @@
 				},
 				":hover":{
 					"color": {
-						"text": "var(--wp--preset--color--secondary)"
+						"text": "var(--wp--custom--colour--primary--700)"
 					}
 				},
 				":active":{

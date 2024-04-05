@@ -53,6 +53,7 @@ class Block_Styles {
 			'core/separator' => array(
 				'wide' => __( 'Wide', 'lsx-design' ),
 				'elegant' => __( 'Elegant', 'lsx-design' ),
+				'dashes' => __( 'Dashes', 'lsx-design' ),
 			),
 			'core/search' => array(
 				'header' => __( 'Header', 'lsx-design' ),

@@ -17,13 +17,6 @@
 	width: 100px;
 }
 
-.wp-block-separator:not(.is-style-dots),
-.wp-block-separator.has-background:not(.is-style-dots) {
-	border-bottom: 1px solid currentColor;
-	border-top: none;
-	height: 1px;
-}
-
 .wp-block-separator.is-style-elegant{ 
 	margin: 25px auto 30px;
 	padding: 0;
@@ -42,3 +35,9 @@ font-size: 3rem;
 background-color: #fff;
 }
 
+.wp-block-separator.is-style-dashes{ 
+	margin: 0 !important;
+    border-top: dashed 1px currentColor !important;
+	width: 100%!important;
+    max-width: 100%!important;
+}
