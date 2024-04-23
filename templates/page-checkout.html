@@ -1,99 +1,15 @@
-<!-- wp:template-part {"slug":"checkout-header","theme":"woocommerce/woocommerce","tagName":"header"} /-->
-
-<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small","top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|small"}}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|x-small"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:woocommerce/breadcrumbs /-->
-
-<!-- wp:heading {"level":1,"align":"wide","fontSize":"x-large"} -->
-<h1 class="wp-block-heading alignwide has-x-large-font-size" id="h-checkout">Checkout</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Back to <a class="ek-link" href="/shop/"><strong>Shop</strong></a> or <a class="ek-link" href="/cart/"><strong>Cart</strong></a>.</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0px","bottom":"0px","left":"0","right":"0"},"blockGap":"0"},"position":{"type":"sticky","top":"0px"}},"backgroundColor":"base","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide has-base-background-color has-background" style="padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0"><!-- wp:template-part {"slug":"checkout-header","theme":"woocommerce/woocommerce","tagName":"header"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:woocommerce/checkout -->
-<div class="wp-block-woocommerce-checkout alignwide wc-block-checkout is-loading"><!-- wp:woocommerce/checkout-fields-block -->
-<div class="wp-block-woocommerce-checkout-fields-block"><!-- wp:woocommerce/checkout-express-payment-block -->
-<div class="wp-block-woocommerce-checkout-express-payment-block"></div>
-<!-- /wp:woocommerce/checkout-express-payment-block -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide"><!-- wp:woocommerce/page-content-wrapper {"page":"checkout"} -->
+<!-- wp:post-title {"align":"wide"} /-->
 
-<!-- wp:woocommerce/checkout-contact-information-block -->
-<div class="wp-block-woocommerce-checkout-contact-information-block"></div>
-<!-- /wp:woocommerce/checkout-contact-information-block -->
-
-<!-- wp:woocommerce/checkout-shipping-method-block -->
-<div class="wp-block-woocommerce-checkout-shipping-method-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-method-block -->
-
-<!-- wp:woocommerce/checkout-pickup-options-block -->
-<div class="wp-block-woocommerce-checkout-pickup-options-block"></div>
-<!-- /wp:woocommerce/checkout-pickup-options-block -->
-
-<!-- wp:woocommerce/checkout-shipping-address-block -->
-<div class="wp-block-woocommerce-checkout-shipping-address-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-address-block -->
-
-<!-- wp:woocommerce/checkout-billing-address-block -->
-<div class="wp-block-woocommerce-checkout-billing-address-block"></div>
-<!-- /wp:woocommerce/checkout-billing-address-block -->
-
-<!-- wp:woocommerce/checkout-shipping-methods-block -->
-<div class="wp-block-woocommerce-checkout-shipping-methods-block"></div>
-<!-- /wp:woocommerce/checkout-shipping-methods-block -->
-
-<!-- wp:woocommerce/checkout-payment-block -->
-<div class="wp-block-woocommerce-checkout-payment-block"></div>
-<!-- /wp:woocommerce/checkout-payment-block -->
-
-<!-- wp:woocommerce/checkout-order-note-block -->
-<div class="wp-block-woocommerce-checkout-order-note-block"></div>
-<!-- /wp:woocommerce/checkout-order-note-block -->
-
-<!-- wp:woocommerce/checkout-terms-block -->
-<div class="wp-block-woocommerce-checkout-terms-block"></div>
-<!-- /wp:woocommerce/checkout-terms-block -->
-
-<!-- wp:woocommerce/checkout-actions-block -->
-<div class="wp-block-woocommerce-checkout-actions-block"></div>
-<!-- /wp:woocommerce/checkout-actions-block --></div>
-<!-- /wp:woocommerce/checkout-fields-block -->
-
-<!-- wp:woocommerce/checkout-totals-block -->
-<div class="wp-block-woocommerce-checkout-totals-block"><!-- wp:woocommerce/checkout-order-summary-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-block"><!-- wp:woocommerce/checkout-order-summary-cart-items-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-cart-items-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-cart-items-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-coupon-form-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-coupon-form-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-coupon-form-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-subtotal-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-subtotal-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-subtotal-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-fee-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-fee-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-fee-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-discount-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-discount-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-discount-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-shipping-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-shipping-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-shipping-block -->
-
-<!-- wp:woocommerce/checkout-order-summary-taxes-block -->
-<div class="wp-block-woocommerce-checkout-order-summary-taxes-block"></div>
-<!-- /wp:woocommerce/checkout-order-summary-taxes-block --></div>
-<!-- /wp:woocommerce/checkout-order-summary-block --></div>
-<!-- /wp:woocommerce/checkout-totals-block --></div>
-<!-- /wp:woocommerce/checkout --></div>
-<!-- /wp:group --></main>
+<!-- wp:post-content {"align":"wide"} /-->
+<!-- /wp:woocommerce/page-content-wrapper --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"lsx-design","tagName":"footer"} /-->

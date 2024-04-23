@@ -1,17 +1,19 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"80px","bottom":"80px"}}},"className":"site-content"} -->
-<main class="wp-block-group site-content" style="margin-top:0;padding-top:80px;padding-bottom:80px">
-	<!-- wp:group {"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group">
-		<!-- wp:heading {"level":1} -->
-<h1>Nothing found!</h1>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p>Oops, the page you are looking for does not exist or is no longer available. Everything is still awesome. Just use the search form to find your way.</p>
-<!-- /wp:paragraph -->
-<!-- wp:search {"width":75,"widthUnit":"%","showLabel":false,"buttonText":"Search"} /-->
-	</div>
-	<!-- /wp:group -->
-</main>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","bottom":"10px","left":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small"},"blockGap":"0"}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:10px;padding-right:var(--wp--preset--spacing--x-small);padding-bottom:10px;padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:template-part {"slug":"header","tagName":"header","align":"wide","className":"site-header"} /--></div>
 <!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|x-small","right":"var:preset|spacing|x-small"}}},"className":"site-content","layout":{"type":"default"}} -->
+<main class="wp-block-group site-content" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.35"}}} -->
+<h1 class="wp-block-heading has-text-align-center" id="h-nothing-found" style="line-height:1.35">Nothing found!</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size">Oops, the page you are looking for does not exist or is no longer available. Everything is still awesome. Just use the search form to find your way.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:search {"showLabel":false,"placeholder":"Search the site...","width":100,"widthUnit":"%","buttonText":"Search","align":"center","fontSize":"small"} /--></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
 <!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->

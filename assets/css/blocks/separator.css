@@ -13,31 +13,14 @@
 	padding-left: 10px;
 }
 
-.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-	width: 100px;
-}
-
-.wp-block-separator.is-style-elegant{ 
-	margin: 25px auto 30px;
-	padding: 0;
-	border: 0;
-	border-top: solid 3px!important;
-	text-align: center;}
-
-.wp-block-separator.is-style-elegant::after {
-	content: "\f0e7";
-display: inline-block;
-position: relative;
-top: -1.7rem;
-padding: 0 1rem;
-font-family: FontAwesome;
-font-size: 3rem;
-background-color: #fff;
-}
-
 .wp-block-separator.is-style-dashes{ 
 	margin: 0 !important;
-    border-top: dashed 1px currentColor !important;
-	width: 100%!important;
-    max-width: 100%!important;
+    border-top: 2px dashed !important;
+	background:transparent!important;
+}
+
+.wp-block-separator.is-style-dots-wide{ 
+	margin: 0 !important;
+    border-top: 2px dotted !important;
+	background:transparent!important;
 }

@@ -133,7 +133,7 @@ return array(
 <!-- /wp:group -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","iconBackgroundColor":"contrast","iconBackgroundColorValue":"#000000","openInNewTab":true,"size":"has-normal-icon-size","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"margin":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"},"blockGap":{"top":"0","left":"5px"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"horizontal","justifyContent":"space-between"}} -->
-<ul class="wp-block-social-links has-normal-icon-size has-icon-color has-icon-background-color has-link-color" style="margin-top:var(--wp--preset--spacing--x-small);margin-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:social-link {"url":"https://www.facebook.com/wanderlustjewelryZA","service":"facebook"} /-->
+<ul class="wp-block-social-links has-normal-icon-size has-icon-color has-icon-background-color has-link-color" style="margin-top:var(--wp--preset--spacing--x-small);margin-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
 

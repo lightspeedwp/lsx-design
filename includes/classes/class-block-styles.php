@@ -52,21 +52,21 @@ class Block_Styles {
 		$block_styles = array(
 			'core/separator' => array(
 				'wide' => __( 'Wide', 'lsx-design' ),
-				'elegant' => __( 'Elegant', 'lsx-design' ),
 				'dashes' => __( 'Dashes', 'lsx-design' ),
+				'dots-wide' => __( 'Dots Wide', 'lsx-design' ),
 			),
 			'core/search' => array(
 				'header' => __( 'Header', 'lsx-design' ),
 			),
 			'core/button'    => array(
 				'cta'             => __( 'CTA', 'lsx-design' ),
-				'pill'            => __( 'Pill', 'lsx-design' ),
-				'pill-outline'    => __( 'Pill Outline', 'lsx-design' ),
-				'rounded'         => __( 'Rounded', 'lsx-design' ),
+				'lsx'             => __( 'LSX Button', 'lsx-design' ),
+				'lsx-outline'     => __( 'LSX Outline', 'lsx-design' ),
+				'icon'            => __( 'Icon Button', 'lsx-design' ),
 				'shadow'          => __( 'Shadow', 'lsx-design' ),
 				'outline-shadow'  => __( 'Outline Shadow', 'lsx-design' ),
 				'link'            => __( 'Link', 'lsx-design' ),
-				'underline-hover' => __( 'Unerline Hover', 'lsx-design' ),
+				'underline-hover' => __( 'Underline Hover', 'lsx-design' ),
 			),
 			'core/quote'     => array(
 				'contrast-background'  => __( 'Contrast', 'lsx-design' ),
@@ -80,7 +80,7 @@ class Block_Styles {
 			),
 			'core/image'     => array(
 				'inner-border' => __( 'Inner Border', 'lsx-design' ),
-				'shadow'       => __( 'Shadow', 'lsx-design' ),
+				'inner-border-dark'       => __( 'Dark Inner Border', 'lsx-design' ),
 			),
 			'core/paragraph' => array(
 				'content-box'         => __( 'Content Box', 'lsx-design' ),
@@ -93,6 +93,36 @@ class Block_Styles {
 				'heading-1' => __( 'Heading Large', 'lsx-design' ),
 				'heading-2' => __( 'Heading Medium', 'lsx-design' ),
 				'heading-3' => __( 'Heading Small', 'lsx-design' ),
+			),
+			'core/details'   => array(
+				'plain-arrow' => __( 'Plain Arrow', 'lsx-design' ),
+			),
+			'core/list'   => array(
+				'list-tick-light' => __( 'Ticks Light', 'lsx-design' ),
+				'list-tick-dark' => __( 'Ticks Dark', 'lsx-design' ),
+				'list-arrow-light' => __( 'Arrow Light', 'lsx-design' ),
+				'list-arrow-dark' => __( 'Arrow Dark', 'lsx-design' ),
+			),
+			'core/post-terms'   => array(
+				'primary-badge' => __( 'Primary Badge', 'lsx-design' ),
+				'secondary-badge' => __( 'Secondary Badge', 'lsx-design' ),
+				'white-badge' => __( 'White Badge', 'lsx-design' ),
+			),
+			'core/loginout'   => array(
+				'compressed' => __( 'Compressed', 'lsx-design' ),
+			),
+			'core/post-template'   => array(
+				'badges-img' => __( 'Badges on Image', 'lsx-design' ),
+			),
+			'core/columns'   => array(
+				'col-seperator' => __( 'Seperator', 'lsx-design' ),
+				'shadow-xsm' => __( 'Shadow x-S', 'lsx-design' ),
+				'shadow-sm' => __( 'Shadow S', 'lsx-design' ),
+				'shadow-m' => __( 'Shadow M', 'lsx-design' ),
+				'shadow-l' => __( 'Shadow L', 'lsx-design' ),
+				'shadow-xl' => __( 'Shadow x-L', 'lsx-design' ),
+				'shadow-h' => __( 'Shadow Huge', 'lsx-design' ),
+
 			),
 		);
 
@@ -164,6 +194,31 @@ class Block_Styles {
 				'handle' => 'lsxd-details-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/details.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/details.css',
+			),
+			'core/columns' => array(
+				'handle' => 'lsxd-columns-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/columns.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/columns.css',
+			),
+			'core/list' => array(
+				'handle' => 'lsxd-list-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/lists.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/lists.css',
+			),
+			'core/post-terms' => array(
+				'handle' => 'lsxd-post-terms-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/post-terms.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/post-terms.css',
+			),
+			'core/loginout' => array(
+				'handle' => 'lsxd-loginout-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/loginout.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/loginout.css',
+			),
+			'core/post-template' => array(
+				'handle' => 'lsxd-post-template-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/post-template.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/post-template.css',
 			),
 			'core/navigation' => array(
 				'handle' => 'lsxd-navigation-block-styles',
