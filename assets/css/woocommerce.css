@@ -25,6 +25,15 @@
  .tax-product_cat .wp-block-group.is-layout-flow, .tax-product_tag .wp-block-group.is-layout-flow {
     margin-block-start: 0px!important;
 }
+.wp-block-group.woocommerce.product .up-sells.upsells.products ul li.product img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.wp-block-group.woocommerce.product .up-sells.upsells.products ul li.product a.add_to_cart_button{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
  .wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon{
     padding:4px!important;
     margin-top:-5px;
