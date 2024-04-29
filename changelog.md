@@ -1,5 +1,44 @@
 # LSX Design Changelog
 
+## [[1.3.0]
+
+### LSX
+
+#### Added
+- Added WordPress 6.5 Compatibility
+- theme.json added custom colour pallette to imrpove colour selections - [#91](https://github.com/lightspeedwp/lsx-design/issues/91)
+- theme.json added Shadow preset options as per designs with 6 sizing presets
+- Block styles created for
+- - Login/Log out Block style with 2 variations
+- - List Block style - 4 Options which include custom icons - Arow & Ticks for White/dark depending on background - [#100](https://github.com/lightspeedwp/lsx-design/issues/100). 
+- - Columns - Column seperator Block styling including Shadow Block style using presets - [#101](https://github.com/lightspeedwp/lsx-design/issues/101)
+- - Image Block style, added option for Dark inner border 
+- - Post Template Block style - Reposition Term list on image
+- - Term List block style - Badge designs for Term lists 3 options available, Primary, Secondary & White
+- New Pattern added for Query block - 3 coloumn card layout
+- Template parts updated for posts 2-4 columns, post stack, product-collection, related products, title section
+- New template added for author.html & page-wide.html
+
+#### Updated
+- Updated theme.json to refine theme settings and configurations.
+- button.css - Button Block styles changes, removed custom designs fro the Default & Outline button and created new Block styles for LSX buttons - [#94](https://github.com/lightspeedwp/lsx-design/issues/94) & [#109](https://github.com/lightspeedwp/lsx-design/issues/109)
+- Improved CSS for better responsiveness and visual consistency across the theme included editor conflicts - [#98](https://github.com/lightspeedwp/lsx-design/issues/98)
+- updated class-block-setup.php to register new Patterns
+- updated class-block-style.php to register new Block styles
+- Template parts updated for breadcrumbs, checkout, comments, header-cta
+- All templates updated with spacing & layout to be uniform with margin/padding & presets 
+
+#### Removed
+- Removed extra fonts like Lora, Montserrat and few other fonts to optimize performance and streamline design.
+
+### WooCommerce
+
+#### Added
+- New Woocomemrce patterns added, featured-products, on sale products, top rated with 3 different card designs
+
+#### Updated
+- Updated woocommerce.css for better colour and layout compatibility with updated theme
+
 ## [[1.2.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.2.0) 
 
 ### LSX
