@@ -960,9 +960,6 @@
 				}
 			},
 			"core/paragraph": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
 				"elements": {
 					"link": {
 						":hover": {
@@ -977,7 +974,7 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "5px",
+						"bottom": "10px",
 						"top": "0px"
 					}
 				},

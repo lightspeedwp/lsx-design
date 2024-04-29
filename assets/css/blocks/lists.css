@@ -2,13 +2,18 @@
 	list-style: none;
 	margin-left:0;
 }
+.editor-styles-wrapper .is-style-list-arrow-light,.editor-styles-wrapper .is-style-list-tick-dark,.editor-styles-wrapper .is-style-list-tick-light,.editor-styles-wrapper .is-style-list-arrow-dark
+{
+	list-style: none;
+	padding-left:0;
+}
 .is-style-list-tick-light li .block-editor-rich-text__editable{
 	display:inline;
 }
 .is-style-list-tick-dark li .block-editor-rich-text__editable{
 	display:inline;
 }
-.is-style-list-tick-light li .block-editor-rich-text__editable{
+.is-style-list-arrow-light li .block-editor-rich-text__editable{
 	display:inline;
 }
 .is-style-list-arrow-dark li .block-editor-rich-text__editable{

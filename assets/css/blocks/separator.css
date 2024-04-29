@@ -14,13 +14,11 @@
 }
 
 .wp-block-separator.is-style-dashes{ 
-	margin: 0 !important;
     border-top: 2px dashed !important;
 	background:transparent!important;
 }
 
 .wp-block-separator.is-style-dots-wide{ 
-	margin: 0 !important;
     border-top: 2px dotted !important;
 	background:transparent!important;
 }
