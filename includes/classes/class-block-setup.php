@@ -109,7 +109,13 @@ class Block_Setup {
 			'pages/page-home',
 			'pages/page-team',
 			'pages/page-testimonials',
-			'cards/three-columns-icon-cards',
+			'cards/posts-style1-cards',
+			'cards/woo-style1-cards',
+			'cards/woo-style2-cards',
+			'cards/woo-style3-cards',
+			'cards/featured-products-basic-cards',
+			'cards/top-rated-products-cards',
+			'cards/on-sale-products-cards',
 		);
 
 		$page_patterns  = array(

@@ -1,0 +1,8 @@
+/* Badges Absolute
+--------------------------------------------- */
+
+.is-style-badges-img .wp-block-post .wp-block-post-terms{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}

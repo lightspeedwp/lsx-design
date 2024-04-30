@@ -43,7 +43,8 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      transition: all 0.2s ease-in-out;
 }
  a, a:not(.wp-element-button), a:focus, a:hover {
-     text-decoration-thickness: 1px;
+     text-decoration-thickness: 2px;
+     text-underline-offset: 4px;
 }
  ol, ul {
      margin: 0;
@@ -189,7 +190,6 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     font-weight: 400;
     text-decoration: none;
 }
-
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
 	flex-direction: column;
 }
@@ -207,7 +207,9 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     box-shadow: 2px 4px 14px 2px rgba(165, 165, 165, 0.15);
 }
 .wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container:not(.wp-block-lsx-lsx-mega-menu) {
-     min-width: 220px!important;
+     min-width: 260px!important;
+     z-index: 10;
+     top:28px;
 }
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container:not(.wp-block-lsx-lsx-mega-menu) {
      border: var(--wp--preset--color--contrast);
@@ -215,9 +217,32 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      padding: 10px;
 }
 
+:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)), :where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)), :where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content), :where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content) {
+    padding: 5px 0px;
+}
+
 .wp-block-navigation .wp-block-navigation__submenu-container.wp-block-lsx-lsx-mega-menu a {
     padding: 0;
 }
+
+.entry-content .wp-block-page-list li ul.wp-block-navigation__submenu-container{margin-left:20px;} 
+
+.wp-block-woocommerce-customer-account a:hover{opacity: .6;}
+
+header .has-base-background-color .wp-block-navigation .wp-block-navigation-item:hover > a.wp-block-navigation-item__content, header .has-base-background-color .wp-block-navigation .wp-block-navigation-item.current-menu-item > a.wp-block-navigation-item__content{color: var(--wp--preset--color--primary);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;}
+
+    header .has-base-background-color  .wp-block-navigation .wp-block-navigation-item:hover .wp-block-navigation__submenu-icon svg{color: var(--wp--preset--color--primary);stroke:var(--wp--preset--color--primary);}
+
+    header .has-contrast-background-color .wp-block-navigation .wp-block-navigation-item:hover > a.wp-block-navigation-item__content, header .has-contrast-background-color .wp-block-navigation .wp-block-navigation-item.current-menu-item > a.wp-block-navigation-item__content{color: var(--wp--preset--color--secondary);
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;}
+
+        header .has-contrast-background-color  .wp-block-navigation .wp-block-navigation-item:hover .wp-block-navigation__submenu-icon svg{color: var(--wp--preset--color--secondary);stroke:var(--wp--preset--color--secondary);}
+
 
 /* Paragraph --------------------------------------------- */
  p.has-background {
@@ -304,6 +329,12 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     line-height: 22px;
 	margin-block-start: 0px !important;
 }
+a:where(:not(.wp-element-button)){
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
  .projecttypes a{
     color:#fff!important;
     font-size:14px;
@@ -387,9 +418,19 @@ body .wp-block-navigation .wp-block-navigation-item__description {
     font-size:var(--wp--preset--font-size--small);
 }
 /* Forms --------------------------------------------- */
-footer .ginput_container_consent label{font-size:12px!important;line-height:12px; float:left;}
+.gform_button.button, .gform_next_button.gform-theme-button.button{
+background-color: var(--wp--preset--color--secondary);}
+footer .gform_wrapper{margin-top:0!important;}
+footer .ginput_container_consent{line-height:15px;}
+footer .ginput_container_consent label{font-size:12px!important;line-height:12px;}
+.gform_wrapper.gravity-theme .gfield input.large, .gform_wrapper.gravity-theme .gfield select.large{
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 8px;
+    height: 48px;}
 .gform_button.button, .gform_next_button.gform-theme-button.button, #field_submit input[type="submit"]{
-background-color: var(--wp--preset--color--secondary);
+background-color: var(--wp--preset--color--primary);
 border-radius: 0;
 border-width: 0;
 color: var(--wp--preset--color--base);
@@ -407,7 +448,8 @@ padding-bottom: 10px;
 padding-left: 20px;
 text-decoration: none;cursor: pointer;}
 
-.gform_button.button:hover, .gform_next_button.gform-theme-button.button:hover, #field_submit input[type="submit"]:hover{background-color: var(--wp--preset--color--primary);cursor: pointer;}
+.gform_button.button:hover, .gform_next_button.gform-theme-button.button:hover{background-color: var(--wp--preset--color--primary);cursor: pointer;}
+.gform_button.button:hover, .gform_next_button.gform-theme-button.button:hover, #field_submit input[type="submit"]:hover{background-color: var(--wp--custom--colour--primary--600);cursor: pointer;}
 
 .gform_wrapper.gravity-theme .gform_previous_button.button, .gform_wrapper.gravity-theme .gform_save_link.button{
     color: var(--wp--preset--color--contrast);
@@ -455,6 +497,7 @@ text-decoration: none;cursor: pointer;}
 
 footer .wp-block-site-title:before {
     content:"\00a9";
+    padding-right:5px;
   }
 .login #wfls-prompt-overlay input[type="text"]{
     font-size: var(--wp--preset--font-size--small);
@@ -467,7 +510,7 @@ footer .wp-block-site-title:before {
     line-height: normal;
 }
 .login #wfls-prompt-overlay input[type="submit"]{
-background-color: var(--wp--preset--color--secondary);
+background-color: var(--wp--preset--color--primary);
     border-radius: 0;
     border-width: 0;
     color: var(--wp--preset--color--base);
@@ -484,6 +527,9 @@ background-color: var(--wp--preset--color--secondary);
     padding-bottom: 10px;
     padding-left: 20px;
     text-decoration: none;
+}
+.login #wfls-prompt-overlay input[type="submit"]:hover{
+    background-color: var( --wp--custom--colour--primary--700 );
 }
 .wp-block-navigation__responsive-container-close svg, .wp-block-navigation__responsive-container-open svg {
     fill: currentColor;

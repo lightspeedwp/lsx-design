@@ -1,0 +1,38 @@
+.is-style-primary-badge.wp-block-post-terms a{
+    background-color: var(--wp--preset--color--primary);
+    color:#fff;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.is-style-primary-badge.wp-block-post-terms a:hover{
+    background-color: var(--wp--custom--colour--primary--600);
+    color:#fff;
+}
+
+.is-style-secondary-badge.wp-block-post-terms a{
+    background-color: var(--wp--preset--color--secondary);
+    text-decoration: none;
+    color:#000;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.is-style-secondary-badge.wp-block-post-terms a:hover{
+    background-color: var(--wp--custom--colour--secondary--600);
+    color:#fff;
+}
+
+.is-style-white-badge.wp-block-post-terms a{
+    background-color: #fff;
+    color:var(--wp--custom--colour--contrast--700);
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid var(--wp--custom--colour--contrast--400);
+    text-decoration: none;
+}
+
+.is-style-white-badge.wp-block-post-terms a:hover{
+    background-color: var(--wp--custom--colour--contrast--200);
+}
