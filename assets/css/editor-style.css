@@ -263,8 +263,8 @@ body .wp-block-navigation .wp-block-navigation-item__description {
      background-color: #eee;
 }
 /* Custom ---------------------------------------------------------------------------- */
- .wp-block-yoast-faq-block p.schema-faq-answer a{
-    color:#fff!important;
+ .wp-block-yoast-faq-block p.schema-faq-answer a:hover{
+   text-decoration: none;
 }
  .post-meta p{
     padding-bottom: 0px;

@@ -90,12 +90,9 @@ body a.wp-block-button__link {
     color: var(--wp--preset--color--base);
 }
 
-
 .wp-block-button .has-cta-background-color {
     color: var(--wp--preset--color--base);
 }
-
-
    
 /* LSX Button styles
 --------------------------------------------- */
@@ -679,7 +676,6 @@ vertical-align: middle;
     -ms-transform: translateY(calc(-1*var(--animation-depth, .275em)));
     transform: translateY(calc(-1*var(--animation-depth, .275em)));
 }
-
 .wp-block-button.is-style-outline .has-secondary-color:hover {
     background-color: var(--wp--preset--color--secondary) !important;
     color: var(--wp--preset--color--base) !important;
@@ -695,7 +691,6 @@ vertical-align: middle;
     -ms-transform: translateY(calc(-1*var(--animation-depth, .275em)));
     transform: translateY(calc(-1*var(--animation-depth, .275em)));
 }
-
 .wp-block-button.is-style-pill .has-quaternary-background-color:hover {
     background-color: var(--wp--custom--colour--quaternary--600) !important;
     color: var(--wp--preset--color--base) !important;
@@ -715,7 +710,6 @@ vertical-align: middle;
     -ms-transform: translateY(calc(-1*var(--animation-depth, .275em)));
     transform: translateY(calc(-1*var(--animation-depth, .275em)));
 }
-
 .wp-block-button.is-style-pill .has-quinary-background-color:hover {
     background-color: var(--wp--custom--colour--quinary--600) !important;
     color: var(--wp--preset--color--base) !important;
@@ -736,14 +730,10 @@ vertical-align: middle;
     transform: translateY(calc(-1*var(--animation-depth, .275em)));
 }
 
-
-
-
 /* Contrast Backgrounds */
 .has-contrast-background-color .wp-block-button.is-style-cta .wp-element-button, .has-contrast-background-color .wp-block-button .has-cta-background-color{
     border: 1px solid var(--wp--custom--colour--cta--300)!important;
 }
-
 
 .has-contrast-background-color .wp-block-button.is-style-cta .wp-element-button:hover, .has-contrast-background-color .wp-block-button .has-cta-background-color:hover, .has-contrast-background-color .wp-block-button.is-style-pill .has-cta-background-color:hover{        background-color: var(--wp--custom--colour--cta--600) !important;
         border-color: var(--wp--custom--colour--cta--300) !important;

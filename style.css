@@ -3,7 +3,7 @@ Theme URI: 			https://lsx.design/
 Description: 		LSX Design is a light-weight WordPress Block Theme designed to empower makers to build beautifully rich websites using WordPress Block Editor and Site Editor. We take full advantage of the block editor, which gives you more control over creating your content. Install the free Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page. The flexibility is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites. LSX Design is fully compatibility with WooCommerce & WooCommerce Blocks, making it an ideal choice for your next eCommerce build.
 Author: 			LightSpeed 
 Author URI: 		https://www.lsdev.biz/ 
-Version: 			1.2.0
+Version: 			1.3.0
 Tested up to: 		6.4
 Requires at least: 	6.0
 Requires PHP: 		7.4
@@ -57,6 +57,11 @@ body .is-layout-constrained > .wp-block-group.alignfull {
 .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:active, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:hover, .wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor:visited {
     fill: currentColor!important;
     color: currentColor!important;
+}
+
+.has-tiny-font-size a{
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 
@@ -139,8 +144,10 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      border-color: var(--wp--preset--color--contrast);
 }
  .wp-block-post-comments-form input[type=submit] {
-     border: 1px solid var(--wp--preset--color--secondary);
-	 color: var(--wp--preset--color--base);
+    font-size: var(--wp--preset--font-size--x-small);
+    padding: 0.9rem 1.1rem;
+    color: #fff;
+    border-radius: 5px;
 }
  .wp-block-post-comments-form .form-submit {
      margin-bottom: 0;
@@ -292,9 +299,6 @@ header .has-base-background-color .wp-block-navigation .wp-block-navigation-item
      background-color: #eee;
 }
 /* Custom ---------------------------------------------------------------------------- */
- .wp-block-yoast-faq-block p.schema-faq-answer a{
-    color:#fff!important;
-}
  .post-meta p{
     padding-bottom: 0px;
 }

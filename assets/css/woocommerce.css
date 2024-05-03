@@ -163,6 +163,9 @@
  .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wp-block-woocommerce-mini-cart-checkout-button-block{
     background-color: var(--wp--preset--color--cta)!important;
 }
+.wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wp-block-woocommerce-mini-cart-checkout-button-block:hover{
+    background-color:  var(--wp--custom--colour--cta--700)!important;
+}
  .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
      display: block;
      text-align: center!important;
@@ -402,7 +405,13 @@
  .wc-block-featured-product h2 {
      font-size: var(--wp--preset--font-size--large)!important;
 }
-
+.wp-element-button.wc-block-cart__submit-button{
+    background-color:var(--wp--preset--color--cta)!important;
+    font-size:20px;
+}
+.wp-element-button.wc-block-cart__submit-button:hover{
+    background-color: var(--wp--custom--colour--cta--700)!important;
+}
 
  .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
      border: 2px solid #d3ced2!important;
@@ -417,9 +426,10 @@
     border-radius: 5px;
 }
 .comment-respond .comment-form input{
-    font-size: var(--wp--preset--font-size--small);
+    font-size: var(--wp--preset--font-size--x-small);
     padding: 0.9rem 1.1rem;
-    border: 2px solid #2B2D2F!important;
+    color:#fff;
+    border-radius: 5px;
 }
  .product-details .woocommerce-tabs.wc-tabs-wrapper{
     margin-top: 0;
@@ -537,17 +547,20 @@
     padding:0px 9px;
     background: #FFFFFF;
     border: 2px solid var(--wp--preset--color--primary);
-    float:left
+    float:left;
+    text-decoration: none!important;
 }
  .wp-block-query-pagination-numbers .page-numbers.current{
     background: var(--wp--preset--color--primary);
     border: 2px solid var(--wp--preset--color--primary);
     color:#fff!important;
+    text-decoration: none!important;
 }
  .wp-block-query-pagination-numbers .page-numbers:hover{
     background: var(--wp--preset--color--contrast);
     border: 2px solid var(--wp--preset--color--contrast);
     color:#fff!important;
+    text-decoration: none!important;
 }
 .wc-block-product-categories select {
     margin-right: 0.5em;
@@ -602,6 +615,10 @@
     text-decoration: none;
 }
 
+.single .woocommerce table.shop_attributes {
+    text-align: left;
+    padding-left: 10px;
+}
 /* Bundles ---------------------------------------------------------------------------- */
  .bundle_sells_title h3{
      margin-block-start: 15px!important;

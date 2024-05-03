@@ -207,13 +207,8 @@
 					"slug": "primary-quaternary"
 				},
 				{
-					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--contrast) 100%)",
-					"name": "Primary to Black",
-					"slug": "primary-black"
-				},
-				{
 					"gradient": "linear-gradient(0deg,var(--wp--preset--color--contrast) 0%,var(--wp--preset--color--primary) 100%)",
-					"name": "Black to Primary",
+					"name": "Primary to Black",
 					"slug": "black-primary"
 				},
 				{
@@ -237,16 +232,66 @@
 					"slug": "secondary-tertiary"
 				}
 			],
-			"palette": [
+			"palette": [	
+				{
+					"color": "var( --wp--custom--colour--contrast--900 )",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
 				{
 					"color": "var( --wp--custom--colour--base--100 )",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "var( --wp--custom--colour--contrast--900 )",
-					"name": "Contrast",
-					"slug": "contrast"
+					"color": "var( --wp--custom--colour--contrast--100 )",
+					"name": "Contrast 100",
+					"slug": "contrast-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--base--500 )",
+					"name": "Base 500",
+					"slug": "base-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--100 )",
+					"name": "Neutral",
+					"slug": "neutral"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--500 )",
+					"name": "Neutral 500",
+					"slug": "neutral-500"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--100 )",
+					"name": "CTA 100",
+					"slug": "cta-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--200 )",
+					"name": "CTA 200",
+					"slug": "cta-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--300 )",
+					"name": "CTA 300",
+					"slug": "cta-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--500 )",
+					"name": "CTA",
+					"slug": "cta"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--600 )",
+					"name": "CTA 600",
+					"slug": "cta-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--700 )",
+					"name": "CTA Hover",
+					"slug": "ctahover"
 				},
 				{
 					"color": "var( --wp--custom--colour--primary--500 )",
@@ -299,26 +344,6 @@
 					"slug": "denary"
 				},
 				{
-					"color": "var( --wp--custom--colour--cta--500 )",
-					"name": "CTA",
-					"slug": "cta"
-				},
-				{
-					"color": "#492480",
-					"name": "CTA Hover",
-					"slug": "ctahover"
-				},
-				{
-					"color": "var( --wp--custom--colour--neutral--100 )",
-					"name": "Neutral",
-					"slug": "neutral"
-				},
-				{
-					"color": "#9147FF",
-					"name": "Woocommerce",
-					"slug": "woo"
-				},
-				{
 					"color": "var( --wp--custom--colour--primary--100 )",
 					"name": "Primary 100",
 					"slug": "primary-bg"
@@ -334,9 +359,14 @@
 					"slug": "tertiary-bg"
 				},
 				{
-					"color": "var( --wp--custom--colour--cta--100 )",
-					"name": "CTA 100",
-					"slug": "cta-bg"
+					"color": "var( --wp--custom--colour--quaternary--100 )",
+					"name": "Quaternary 100",
+					"slug": "quaternary-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--100 )",
+					"name": "Quinary 100",
+					"slug": "quinary-bg"
 				}
 			]
 		},
@@ -376,15 +406,15 @@
 					"900": "#0E0719"
 				},
 				"neutral": {
-					"100": "#E8EDF7",
-					"200": "#DEE8FA",
-					"300": "#C4D2EB",
-					"400": "#ADBAD1",
-					"500": "#939FB8",
-					"600": "#78859E",
-					"700": "#596680",
-					"800": "#3C4961",
-					"900": "#242E3D"
+					"100": "#F6F7F9",
+					"200": "#EBEDF1",
+					"300": "#D6DAE2",
+					"400": "#BEC4D2",
+					"500": "#A3ACC1",
+					"600": "#8B96AD",
+					"700": "#788296",
+					"800": "#626A7B",
+					"900": "#454B57"
 				},
 				"primary": {
 					"100": "#E9F0FF",
@@ -722,10 +752,10 @@
 			"core/buttons": {
 				"spacing": {
 					"margin": {
-						"bottom": "10px",
+						"bottom": "0px",
 						"left": "0px",
 						"right": "0px",
-						"top": "10px"
+						"top": "0px"
 					}
 				},
 				"typography": {
