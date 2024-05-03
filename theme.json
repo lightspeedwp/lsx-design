@@ -647,38 +647,38 @@
 				},
 				{
 					"fluid": {
-						"max": "30px",
-						"min": "24px"
+						"max": "32px",
+						"min": "26px"
 					},
 					"name": "Large",
-					"size": "30px",
+					"size": "32px",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"max": "48px",
+						"max": "40px",
 						"min": "26px"
 					},
 					"name": "xLarge",
-					"size": "48px",
+					"size": "40px",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "60px",
+						"max": "48px",
 						"min": "30px"
 					},
 					"name": "Huge",
-					"size": "60px",
+					"size": "48px",
 					"slug": "huge"
 				},
 				{
 					"fluid": {
-						"max": "72px",
+						"max": "60px",
 						"min": "36px"
 					},
 					"name": "Gigantic",
-					"size": "72px",
+					"size": "60px",
 					"slug": "gigantic"
 				}
 			]
@@ -1346,7 +1346,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontSize": "48px",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"lineHeight": "1.35"
