@@ -294,6 +294,16 @@
 					"slug": "ctahover"
 				},
 				{
+					"color": "var( --wp--custom--colour--cta--800 )",
+					"name": "CTA 800",
+					"slug": "cta-800"
+				},
+				{
+					"color": "var( --wp--custom--colour--cta--900 )",
+					"name": "CTA 900",
+					"slug": "cta-900"
+				},
+				{
 					"color": "var( --wp--custom--colour--primary--500 )",
 					"name": "Primary",
 					"slug": "primary"
