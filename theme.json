@@ -290,7 +290,7 @@
 				},
 				{
 					"color": "var( --wp--custom--colour--cta--700 )",
-					"name": "CTA Hover",
+					"name": "CTA 700",
 					"slug": "ctahover"
 				},
 				{
@@ -349,9 +349,74 @@
 					"slug": "primary-bg"
 				},
 				{
+					"color": "var( --wp--custom--colour--primary--100 )",
+					"name": "Primary 100",
+					"slug": "primary-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--200 )",
+					"name": "Primary 200",
+					"slug": "primary-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--300 )",
+					"name": "Primary 300",
+					"slug": "primary-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--400 )",
+					"name": "Primary 400",
+					"slug": "primary-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--600 )",
+					"name": "Primary 600",
+					"slug": "primary-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--700 )",
+					"name": "Primary 700",
+					"slug": "primary-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--primary--800 )",
+					"name": "Primary 800",
+					"slug": "primary-800"
+				},
+				{
 					"color": "var( --wp--custom--colour--secondary--100 )",
 					"name": "Secondary 100",
 					"slug": "secondary-bg"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--200 )",
+					"name": "Secondary 200",
+					"slug": "secondary-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--300 )",
+					"name": "Secondary 300",
+					"slug": "secondary-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--400 )",
+					"name": "Secondary 400",
+					"slug": "secondary-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--600 )",
+					"name": "Secondary 600",
+					"slug": "secondary-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--700 )",
+					"name": "Secondary 700",
+					"slug": "secondary-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--secondary--800 )",
+					"name": "Secondary 800",
+					"slug": "secondary-800"
 				},
 				{
 					"color": "var( --wp--custom--colour--tertiary--100 )",
@@ -359,14 +424,103 @@
 					"slug": "tertiary-bg"
 				},
 				{
+					"color": "var( --wp--custom--colour--tertiary--200 )",
+					"name": "Tertiary 200",
+					"slug": "tertiary-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--tertiary--300 )",
+					"name": "Tertiary 300",
+					"slug": "tertiary-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--tertiary--400 )",
+					"name": "Tertiary 400",
+					"slug": "tertiary-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--tertiary--600 )",
+					"name": "Tertiary 600",
+					"slug": "tertiary-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--tertiary--700 )",
+					"name": "Tertiary 700",
+					"slug": "tertiary-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--tertiary--800 )",
+					"name": "Tertiary 800",
+					"slug": "tertiary-800"
+				},
+				{
 					"color": "var( --wp--custom--colour--quaternary--100 )",
 					"name": "Quaternary 100",
 					"slug": "quaternary-bg"
 				},
 				{
+					"color": "var( --wp--custom--colour--quaternary--200 )",
+					"name": "Quaternary 200",
+					"slug": "quaternary-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--quaternary--300 )",
+					"name": "Quaternary 300",
+					"slug": "quaternary-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--quaternary--400 )",
+					"name": "Quaternary 400",
+					"slug": "quaternary-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--quaternary--600 )",
+					"name": "Quaternary 600",
+					"slug": "quaternary-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--quaternary--700 )",
+					"name": "Quaternary 700",
+					"slug": "quaternary-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--quaternary--800 )",
+					"name": "Quaternary 800",
+					"slug": "quaternary-800"
+				},
+				{
 					"color": "var( --wp--custom--colour--quinary--100 )",
 					"name": "Quinary 100",
 					"slug": "quinary-bg"
+				},{
+					"color": "var( --wp--custom--colour--quinary--200 )",
+					"name": "Quinary 200",
+					"slug": "quinary-200"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--300 )",
+					"name": "Quinary 300",
+					"slug": "quinary-300"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--400 )",
+					"name": "Quinary 400",
+					"slug": "quinary-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--600 )",
+					"name": "Quinary 600",
+					"slug": "quinary-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--700 )",
+					"name": "Quinary 700",
+					"slug": "quinary-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--quinary--800 )",
+					"name": "Quinary 800",
+					"slug": "quinary-800"
 				}
 			]
 		},
