@@ -534,7 +534,7 @@
 }
  .wp-block-query-pagination>.wp-block-query-pagination-numbers{
     margin:0!important;
-    border: 2px solid var(--wp--preset--color--primary);
+    border: 0px solid var(--wp--preset--color--primary);
 }
 .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current {
     background: var(--wp--preset--color--primary);

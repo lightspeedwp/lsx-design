@@ -1,5 +1,17 @@
 /* Sizes
 --------------------------------------------- */
+
+
+.wp-block-pullquote.is-style-simple{
+    border:none;
+    border-left:4px solid currentColor;
+    text-align: left;
+}
+.editor-styles-wrapper .wp-block-pullquote.is-style-simple{
+    border:none;
+    border-left:4px solid currentColor;
+    text-align: left;
+}
 .wp-block-pullquote.is-style-primary-background{margin-top:40px;position: relative;border-radius: 5px;border: 2px solid #ccc;}
 
 .wp-block-pullquote.is-style-primary-background:before {

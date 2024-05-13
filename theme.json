@@ -1071,6 +1071,12 @@
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
 				},
+				"spacing": {
+					"margin": {
+						"bottom": "10px",
+						"top": "0px"
+					}
+				},
 				"elements": {
 					"link": {
 						":hover": {

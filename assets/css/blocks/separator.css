@@ -1,5 +1,8 @@
 /* Separator
 --------------------------------------------- */
+.wp-block-separator {
+	border-top: 1px solid
+}
 
 .wp-block-separator,
 .wp-block-separator.has-css-opacity {

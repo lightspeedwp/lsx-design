@@ -74,6 +74,7 @@ class Block_Styles {
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
 			'core/pullquote' => array(
+				'simple'  => __( 'Simple', 'lsx-design' ),
 				'contrast-background'  => __( 'Contrast', 'lsx-design' ),
 				'primary-background'   => __( 'Primary', 'lsx-design' ),
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
