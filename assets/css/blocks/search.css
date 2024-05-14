@@ -15,7 +15,7 @@
     width: auto;
 }
 .components-resizable-box__container.wp-block-search__inside-wrapper{min-width:30px!important;}
-.wp-block-search__inside-wrapper input{border: 2px solid #2B2D2F!important;}
+.wp-block-search__inside-wrapper input{border: 1px solid #2B2D2F!important;}
 /** * Search Block */
 
 header .wp-block-search.wp-block-search__button-only .wp-block-search__button{max-width: 0;padding: 10px 31px 10px 10px!important;}

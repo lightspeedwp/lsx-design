@@ -15,4 +15,9 @@
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: var(--wp--custom--line-height--heading);
 }
+.wp-block-heading.is-style-heading-4{
+    font-size: var(--wp--preset--font-size--x-small);
+    font-weight: var(--wp--custom--font-weight--medium);
+    line-height: var(--wp--custom--line-height--heading);
+}
 

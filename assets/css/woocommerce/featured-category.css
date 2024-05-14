@@ -1,0 +1,4 @@
+.wc-block-featured-category.is-style-rounded-cat{border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-s{box-shadow: var(--wp--preset--shadow--small);border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-m{box-shadow: var(--wp--preset--shadow--md);border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-l{box-shadow: var(--wp--preset--shadow--lg);border-radius: 8px;}

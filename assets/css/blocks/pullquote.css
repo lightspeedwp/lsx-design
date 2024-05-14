@@ -1,11 +1,11 @@
 /* Sizes
 --------------------------------------------- */
 
-
 .wp-block-pullquote.is-style-simple{
     border:none;
     border-left:4px solid currentColor;
     text-align: left;
+    padding:20px 30px;
 }
 .editor-styles-wrapper .wp-block-pullquote.is-style-simple{
     border:none;
