@@ -136,6 +136,12 @@ body {
 				border-color: var(--wp--custom--colour--secondary--500)!important; 
 			}
 
+			&.has-secondary-color:hover {
+				background-color: var(--wp--custom--colour--secondary--100) !important;
+				border-color: var(--wp--preset--color--secondary) !important;
+				color: var(--wp--preset--color--secondary) !important;
+			}
+
 			&.has-tertiary-color:hover {
 				background-color: var(--wp--custom--colour--tertiary--500)!important;
 				border-color: var(--wp--custom--colour--tertiary--500)!important; 
@@ -154,6 +160,11 @@ body {
 			&.has-cta-color-color:hover {
 				background-color: var(--wp--custom--colour--cta-color--500)!important;
 				border-color: var(--wp--custom--colour--cta-color--500)!important; 
+			}
+
+			&.has-contrast-color:hover {
+				background-color: var(--wp--preset--color--ctahover) !important;
+				color: var(--wp--preset--color--base) !important;
 			}
 		}	
 	}
@@ -688,10 +699,7 @@ body {
 }
 
 /* Normal Button hover contrast */
-.wp-block-button.is-style-outline .has-contrast-color:hover {
-    background-color: var(--wp--preset--color--ctahover) !important;
-    color: var(--wp--preset--color--base) !important;
-}
+
 
 .wp-block-button.has-contrast-background-color:hover {
     background-color: var(--wp--preset--color--primary) !important;
@@ -726,17 +734,7 @@ body {
 }
 
 
-.wp-block-button.is-style-outline .has-secondary-color:hover {
-    background-color: var(--wp--custom--colour--secondary--100) !important;
-    border-color: var(--wp--preset--color--secondary) !important;
-    color: var(--wp--preset--color--secondary) !important;
-    box-shadow: 0px 2px var(--wp--preset--color--secondary);
-    -webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--secondary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--secondary);
-    box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--secondary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--secondary);
-    -webkit-transform: translateY(calc(-1*var(--animation-depth, .275em)));
-    -ms-transform: translateY(calc(-1*var(--animation-depth, .275em)));
-    transform: translateY(calc(-1*var(--animation-depth, .275em)));
-}
+
 
 .wp-block-button.is-style-pill .has-tertiary-background-color:hover {
     background-color: var(--wp--custom--colour--tertiary--600) !important;
