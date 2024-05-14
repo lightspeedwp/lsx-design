@@ -23,8 +23,9 @@ body .alignfull.is-layout-flow {
 }
 
 .block-editor-block-list__block.is-style-underline-hover .wp-block-button__link {
-  background-color: transparent;
-  border: solid 1px currentColor;
+  background-color: transparent !important;
+  border: solid 1px currentColor !important;
+  color: currentColor !important;
 }
 
 /* === Buttons Styles === */
