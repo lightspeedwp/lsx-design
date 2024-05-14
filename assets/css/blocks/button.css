@@ -52,28 +52,28 @@ body a .wp-block-button__link {
   background-color: var(--wp--custom--colour--quinary--700) !important;
 }
 .wp-block-button .has-senary-background-color:hover {
-  background-color: #183c20 !important;
+  background-color: #276134 !important;
 }
 .wp-block-button .has-senary-background-color:active {
-  background-color: #86ce96 !important;
+  background-color: #61bf76 !important;
 }
 .wp-block-button .has-septenary-background-color:hover {
-  background-color: #5f1d10 !important;
+  background-color: #8b2b18 !important;
 }
 .wp-block-button .has-septenary-background-color:active {
-  background-color: #ea9585 !important;
+  background-color: #e37059 !important;
 }
 .wp-block-button .has-octonary-background-color:hover {
-  background-color: #3e1e00 !important;
+  background-color: #713600 !important;
 }
 .wp-block-button .has-octonary-background-color:active {
-  background-color: #ff9b3e !important;
+  background-color: #ff800b !important;
 }
 .wp-block-button .has-novenary-background-color:hover {
-  background-color: #621c4e !important;
+  background-color: #89276e !important;
 }
 .wp-block-button .has-novenary-background-color:active {
-  background-color: #e29ace !important;
+  background-color: #d772bb !important;
 }
 .wp-block-button .has-denary-background-color:hover {
   background-color: #ff3333 !important;

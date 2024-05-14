@@ -78,34 +78,34 @@ body {
 	}
 	.has-senary-background-color {
 		&:hover{
-			background-color: darken( $senary, 25% ) !important;
+			background-color: darken( $senary, 15% ) !important;
 		}
 		&:active{
-			background-color: lighten( $senary, 25% ) !important;
+			background-color: lighten( $senary, 15% ) !important;
 		}
 	}
 	.has-septenary-background-color {
 		&:hover{
-			background-color: darken( $septenary, 25% ) !important;
+			background-color: darken( $septenary, 15% ) !important;
 		}
 		&:active {
-			background-color: lighten( $septenary, 25% ) !important;
+			background-color: lighten( $septenary, 15% ) !important;
 		}
 	}
 	.has-octonary-background-color {
 		&:hover{
-			background-color: darken( $octonary, 25% ) !important;
+			background-color: darken( $octonary, 15% ) !important;
 		}
 		&:active{
-			background-color: lighten( $octonary, 25% ) !important;
+			background-color: lighten( $octonary, 15% ) !important;
 		}
 	}
 	.has-novenary-background-color {
 		&:hover{
-			background-color: darken( $novenary, 25% ) !important;
+			background-color: darken( $novenary, 15% ) !important;
 		}
 		&:active{
-			background-color: lighten( $novenary, 25% ) !important;
+			background-color: lighten( $novenary, 15% ) !important;
 		}
 	}
 	.has-denary-background-color {
