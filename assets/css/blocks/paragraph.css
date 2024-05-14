@@ -1,9 +1,9 @@
 /* Paragraph
 --------------------------------------------- */
 
-p.is-style-content-box{padding:20px;  border:1px solid;border-color: currentColor;}
+p.is-style-content-box{padding:20px;border:1px solid;border-color: currentColor;}
 
-p.is-style-dark-content-box{padding:20px;  border:1px solid;border-color: currentColor;background-color: var(--wp--preset--color--contrast)!important;color:var(--wp--preset--color--base)!important;}
+p.is-style-dark-content-box{padding:20px;border:1px solid;border-color: currentColor;background-color: var(--wp--preset--color--contrast)!important;color:var(--wp--preset--color--base)!important;}
 
 p.is-style-subheading-1{
     font-size: var(--wp--preset--font-size--large)!important;
@@ -18,5 +18,10 @@ p.is-style-subheading-2{
 p.is-style-subheading-3{
     font-size: var(--wp--preset--font-size--small)!important;
     font-weight: var(--wp--custom--font-weight--medium);
-    line-height: 1.5;
+    line-height: 1.3;
+}
+p.is-style-subheading-4{
+    font-size: var(--wp--preset--font-size--x-small)!important;
+    font-weight: var(--wp--custom--font-weight--medium);
+    line-height: 1.1;
 }
