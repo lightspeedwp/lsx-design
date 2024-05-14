@@ -1,4 +1,9 @@
 /* === Button Padding Preset === */
+$senary: #3D9751;
+$septenary: #CC3F23;
+$octonary: #BD5B00;
+$novenary: #C5389D;
+$denary: #FFB2B2;
 
 .wp-block-buttons {
 	&.has-x-small-font-size .wp-element-button {
@@ -73,44 +78,42 @@ body {
 	}
 	.has-senary-background-color {
 		&:hover{
-			//background-color: var(--wp--custom--colour--senary--700) !important;
-			background-color: rgba( var(--wp--preset--color--senary), 0.8 ) !important;
+			background-color: darken( $senary, 25% ) !important;
 		}
 		&:active{
-			//background-color: var(--wp--custom--colour--senary--400) !important;
-			background-color: rgba( var(--wp--preset--color--senary), 0.5 ) !important;
+			background-color: lighten( $senary, 25% ) !important;
 		}
 	}
 	.has-septenary-background-color {
 		&:hover{
-			background-color: var(--wp--custom--colour--septenary--700) !important;
+			background-color: darken( $septenary, 25% ) !important;
 		}
-		&:active{
-			background-color: var(--wp--custom--colour--septenary--400) !important;
+		&:active {
+			background-color: lighten( $septenary, 25% ) !important;
 		}
 	}
 	.has-octonary-background-color {
 		&:hover{
-			background-color: var(--wp--custom--colour--octonary--700) !important;
+			background-color: darken( $octonary, 25% ) !important;
 		}
 		&:active{
-			background-color: var(--wp--custom--colour--octonary--400) !important;
+			background-color: lighten( $octonary, 25% ) !important;
 		}
 	}
 	.has-novenary-background-color {
 		&:hover{
-			background-color: var(--wp--custom--colour--novenary--700) !important;
+			background-color: darken( $novenary, 25% ) !important;
 		}
 		&:active{
-			background-color: var(--wp--custom--colour--novenary--400) !important;
+			background-color: lighten( $novenary, 25% ) !important;
 		}
 	}
 	.has-denary-background-color {
 		&:hover{
-			background-color: var(--wp--custom--colour--denary--700) !important;
+			background-color: darken( $denary, 25% ) !important;
 		}
 		&:active{
-			background-color: var(--wp--custom--colour--denary--400) !important;
+			background-color: lighten( $denary, 5% ) !important;
 		}
 	}
 	.has-cta-background-color {
@@ -751,7 +754,6 @@ body {
     color: var(--wp--preset--color--base) !important;
 }
 
-
 .wp-block-button.is-style-pill .has-quinary-background-color:hover {
     background-color: var(--wp--custom--colour--quinary--600) !important;
     color: var(--wp--preset--color--base) !important;
@@ -760,8 +762,6 @@ body {
     background-color: var(--wp--custom--colour--quinary--600) !important;
     color: var(--wp--preset--color--base) !important;
 }
-
-
 
 /* Contrast Backgrounds 
 .has-contrast-background-color .wp-block-button .has-cta-background-color {
