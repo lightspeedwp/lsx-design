@@ -36,6 +36,9 @@ body a .wp-block-button__link {
   color: var(--wp--preset--color--base);
 }
 
+.wp-block-button {
+  /* TO REMOVE */
+}
 .wp-block-button .has-primary-background-color:hover {
   background-color: var(--wp--custom--colour--primary--700) !important;
 }

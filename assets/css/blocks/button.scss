@@ -5,6 +5,7 @@ $octonary: #BD5B00;
 $novenary: #C5389D;
 $denary: #FFB2B2;
 
+
 .wp-block-buttons {
 	&.has-x-small-font-size .wp-element-button {
 		padding: 10px !important;
@@ -16,12 +17,10 @@ $denary: #FFB2B2;
 		padding: 30px 40px !important;
 	}
 }
-
 .wp-block-button .wp-block-button__link.is-style-outline,
 .wp-block-button.is-style-outline > .wp-block-button__link {
     padding: 8px 1.333em;
 }
-
 body {
 	.is-layout-constrained {
 		& > .wp-block-group.alignfull,
@@ -33,7 +32,6 @@ body {
 		margin-block-start: 0px !important;
 	}
 }
-
 .block-editor-block-list__block.is-style-underline-hover .wp-block-button__link{
     background-color: transparent !important;
     border: solid 1px currentColor !important;
@@ -179,6 +177,7 @@ body {
 		}	
 	}
 
+	/* TO REMOVE */
 	&.is-style-fill {
 		a:hover{
 			opacity:0.8;
@@ -381,7 +380,7 @@ body {
 					-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--primary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--primary);
 					box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--primary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--primary);
 				}
-			}
+			}	
 			&.has-secondary-color {
 				&:active{
 					border-color: var(--wp--preset--color--secondary) !important;
