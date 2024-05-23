@@ -75,67 +75,6 @@
 						}
 					]
 				}
-			},
-			"core/columns": {
-				"typography": {
-					"fontFamilies": [
-						{
-							"fontFace": [
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "200",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-200.woff2"
-									]
-								},
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "300",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-300.woff2"
-									]
-								},
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "500",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-500.woff2"
-									]
-								},
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "700",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-700.woff2"
-									]
-								},
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "800",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-800.woff2"
-									]
-								},
-								{
-									"fontFamily": "Manrope",
-									"fontStyle": "normal",
-									"fontWeight": "regular",
-									"src": [
-										"file:./assets/fonts/manrope/manrope-regular.woff2"
-									]
-								}
-							],
-							"fontFamily": "Manrope, sans-serif",
-							"name": "Manrope",
-							"slug": "primary"
-						}
-					]
-				}
 			}
 		},
 		"color": {
@@ -234,34 +173,34 @@
 			],
 			"palette": [	
 				{
-					"color": "var( --wp--custom--colour--base--100 )",
-					"name": "Base",
-					"slug": "base"
+					"color": "#00B300",
+					"name": "Senary",
+					"slug": "senary"
 				},
 				{
-					"color": "var( --wp--custom--colour--neutral--100 )",
-					"name": "Neutral",
-					"slug": "neutral"
+					"color": "#FF5733",
+					"name": "Septenary",
+					"slug": "septenary"
 				},
 				{
-					"color": "var( --wp--custom--colour--contrast--100 )",
-					"name": "Contrast 100",
-					"slug": "contrast-bg"
+					"color": "#FFA500",
+					"name": "Octonary",
+					"slug": "octonary"
 				},
 				{
-					"color": "var( --wp--custom--colour--base--500 )",
-					"name": "Base 500",
-					"slug": "base-bg"
+					"color": "#C5389D",
+					"name": "Novenary",
+					"slug": "novenary"
 				},
 				{
-					"color": "var( --wp--custom--colour--neutral--500 )",
-					"name": "Neutral 500",
-					"slug": "neutral-500"
+					"color": "#FFB2B2",
+					"name": "Denary",
+					"slug": "denary"
 				},
 				{
-					"color": "var( --wp--custom--colour--contrast--900 )",
-					"name": "Contrast",
-					"slug": "contrast"
+					"color": "var( --wp--custom--colour--cta--800 )",
+					"name": "CTA 800",
+					"slug": "cta-800"
 				},
 				{
 					"color": "var( --wp--custom--colour--cta--100 )",
@@ -442,30 +381,66 @@
 					"name": "Quinary 700",
 					"slug": "quinary-700"
 				},
+				
 				{
-					"color": "#3D9751",
-					"name": "Senary",
-					"slug": "senary"
+					"color": "var( --wp--custom--colour--base--100 )",
+					"name": "Base",
+					"slug": "base"
 				},
 				{
-					"color": "#CC3F23",
-					"name": "Septenary",
-					"slug": "septenary"
+					"color": "var( --wp--custom--colour--neutral--100 )",
+					"name": "Neutral",
+					"slug": "neutral"
 				},
 				{
-					"color": "#BD5B00",
-					"name": "Octonary",
-					"slug": "octonary"
+					"color": "var( --wp--custom--colour--neutral--200 )",
+					"name": "Neutral 200",
+					"slug": "neutral-200"
 				},
 				{
-					"color": "#C5389D",
-					"name": "Novenary",
-					"slug": "novenary"
+					"color": "var( --wp--custom--colour--neutral--300 )",
+					"name": "Neutral 300",
+					"slug": "neutral-300"
 				},
 				{
-					"color": "#FFB2B2",
-					"name": "Denary",
-					"slug": "denary"
+					"color": "var( --wp--custom--colour--neutral--400 )",
+					"name": "Neutral 400",
+					"slug": "neutral-400"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--500 )",
+					"name": "Neutral 500",
+					"slug": "neutral-500"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--600 )",
+					"name": "Neutral 600",
+					"slug": "neutral-600"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--700 )",
+					"name": "Neutral 700",
+					"slug": "neutral-700"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--800 )",
+					"name": "Neutral 800",
+					"slug": "neutral-800"
+				},
+				{
+					"color": "var( --wp--custom--colour--neutral--900 )",
+					"name": "Neutral 900",
+					"slug": "neutral-900"
+				},
+				{
+					"color": "var( --wp--custom--colour--contrast--500 )",
+					"name": "Contrast 500",
+					"slug": "contrast-500"
+				},
+				{
+					"color": "var( --wp--custom--colour--contrast--900 )",
+					"name": "Contrast",
+					"slug": "contrast"
 				}
 			]
 		},
@@ -487,33 +462,33 @@
 					"200": "#D3D3D3",
 					"300": "#A7A7A7",
 					"400": "#7B7B7B",
-					"500": "#4F4F4F",
+					"500": "#2A2A2A",
 					"600": "#3B3B3B",
 					"700": "#282828",
 					"800": "#141414",
-					"900": "#090909"
+					"900": "#040404"
 				},
 				"cta": {
-					"100": "#F4EDFF",
-					"200": "#E4D1FF",
-					"300": "#C8A3FF",
-					"400": "#AD75FF",
+					"100": "#F6F3FF",
+					"200": "#EBE3FF",
+					"300": "#D5C4FF",
+					"400": "#BD9EFF",
 					"500": "#9147FF",
-					"600": "#6D35BF",
-					"700": "#492480",
-					"800": "#241240",
-					"900": "#0E0719"
+					"600": "#8943F0",
+					"700": "#763AD0",
+					"800": "#612FAA",
+					"900": "#442178"
 				},
 				"neutral": {
-					"100": "#F6F7F9",
-					"200": "#EBEDF1",
-					"300": "#D6DAE2",
-					"400": "#BEC4D2",
-					"500": "#A3ACC1",
-					"600": "#8B96AD",
-					"700": "#788296",
-					"800": "#626A7B",
-					"900": "#454B57"
+					"100": "#F9F9F9",
+					"200": "#F2F2F2",
+					"300": "#E4E4E4",
+					"400": "#D6D6D6",
+					"500": "#C6C6C6",
+					"600": "#B3B3B3",
+					"700": "#9B9B9B",
+					"800": "#7F7F7F",
+					"900": "#5A5A5A"
 				},
 				"primary": {
 					"100": "#E9F0FF",
@@ -538,15 +513,15 @@
 					"900": "#1C121F"
 				},
 				"quinary": {
-					"100": "#FBF7E6",
-					"200": "#F5ECBF",
-					"300": "#EBD980",
-					"400": "#E0C640",
-					"500": "#D6B300",
-					"600": "#A18600",
-					"700": "#6B5A00",
-					"800": "#362D00",
-					"900": "#1C1700"
+					"100": "#FFFDF2",
+					"200": "#FFFAE1",
+					"300": "#FFF6BE",
+					"400": "#FFF193",
+					"500": "#FFEC55",
+					"600": "#F0DD00",
+					"700": "#D0BF00",
+					"800": "#AA9C00",
+					"900": "#786E00"
 				},
 				"secondary": {
 					"100": "#F2FDFF",
@@ -560,15 +535,23 @@
 					"900": "#132326"
 				},
 				"tertiary": {
-					"100": "#E8FCF9",
-					"200": "#C6F7F0",
-					"300": "#8CEFE0",
-					"400": "#53E7D1",
-					"500": "#19DFC1",
-					"600": "#13A791",
-					"700": "#0D7061",
-					"800": "#063830",
-					"900": "#031F1A"
+					"100": "#F2FCF9",
+					"200": "#E1F8F3",
+					"300": "#BFF1E6",
+					"400": "#95EAD8",
+					"500": "#59E3C9",
+					"600": "#18D2B6",
+					"700": "#14B69E",
+					"800": "#119581",
+					"900": "#0C695B"
+				},
+				"semantic": {
+					"error": "#CC0000",
+					"error-bg": "#FABCBC",
+					"warning": "#DF9300",
+					"warning-bg": "#FFEEB2",
+					"success": "#158701",
+					"success-bg": "#B8FFBF"
 				}
 			},
 			"fontWeight": {
@@ -693,56 +676,17 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Manrope",
+							"fontFamily": "Lexend",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "200",
+							"fontWeight": "400 500 700",
 							"src": [
-								"file:./assets/fonts/manrope/manrope-200.woff2"
-							]
-						},
-						{
-							"fontFamily": "Manrope",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/manrope/manrope-300.woff2"
-							]
-						},
-						{
-							"fontFamily": "Manrope",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/manrope/manrope-500.woff2"
-							]
-						},
-						{
-							"fontFamily": "Manrope",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/manrope/manrope-700.woff2"
-							]
-						},
-						{
-							"fontFamily": "Manrope",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/manrope/manrope-800.woff2"
-							]
-						},
-						{
-							"fontFamily": "Manrope",
-							"fontStyle": "normal",
-							"fontWeight": "regular",
-							"src": [
-								"file:./assets/fonts/manrope/manrope-regular.woff2"
+								"file:./assets/fonts/lexend/Lexend-VariableFont_wght.ttf"
 							]
 						}
 					],
-					"fontFamily": "Manrope, sans-serif",
-					"name": "Manrope",
+					"fontFamily": "\"Lexend\", sans-serif",
+					"name": "Lexend",
 					"slug": "primary"
 				}
 			],
