@@ -198,9 +198,9 @@
 					"slug": "denary"
 				},
 				{
-					"color": "var( --wp--custom--colour--cta--800 )",
-					"name": "CTA 800",
-					"slug": "cta-800"
+					"color": "var( --wp--custom--colour--cta--400 )",
+					"name": "CTA 400",
+					"slug": "cta-400"
 				},
 				{
 					"color": "var( --wp--custom--colour--cta--100 )",
@@ -688,6 +688,21 @@
 					"fontFamily": "\"Lexend\", sans-serif",
 					"name": "Lexend",
 					"slug": "primary"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "regular",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-regular.woff2"
+							]
+						}
+					],
+					"fontFamily": "Manrope, sans-serif",
+					"name": "Manrope",
+					"slug": "secondary"
 				}
 			],
 			"fontSizes": [
@@ -1058,7 +1073,8 @@
 					}
 				},
 				"typography": {
-					"lineHeight": "1.5"
+					"lineHeight": "1.5",
+					"fontFamily": "var(--wp--preset--font-family--secondary)"
 				}
 			},
 			"core/post-author-name": {
