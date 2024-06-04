@@ -43,6 +43,7 @@ class Frontend {
 
 		// Yoast FAQ Block.
 		add_filter( 'render_block', array( $this, 'yoast_faq_tabindex' ), 20, 3 );
+		add_filter( 'render_block', array( $this, 'remove_version_from_svg' ), 25, 2 );
 	}
 
 	/**
@@ -140,6 +141,21 @@ class Frontend {
 		// Determine if this is the custom block variation.
 		if ( isset( $parsed_block['blockName'] ) && 'yoast/faq-block' === $parsed_block['blockName'] ) {
 			$block_content = str_replace( 'schema-faq-question"', 'schema-faq-question" tabindex="0"', $block_content );
+		}
+		return $block_content;
+	}
+
+	/**
+	 * Undocumented function
+	 *
+	 * @param string|null   $block_content   The pre-rendered content. Default null.
+	 * @param array         $parsed_block The block being rendered.
+	 * @param WP_Block|null $block_obj If this is a nested block, a reference to the parent block.
+	 */
+	public function remove_version_from_svg( $block_content, $block ) {
+		// Use regular expression to find and remove 'version' attribute
+		if ( $block['blockName'] === 'core/social-link' ) {
+			$block_content = preg_replace( '/\s+version=["\'][^"\']*["\']/', '', $block_content );
 		}
 		return $block_content;
 	}
