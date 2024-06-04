@@ -154,7 +154,7 @@ class Frontend {
 	 */
 	public function remove_version_from_svg( $block_content, $block ) {
 		// Use regular expression to find and remove 'version' attribute
-		if ( $block['blockName'] === 'core/social-link' ) {
+		if ( $block['blockName'] === 'core/social-link' || $block['blockName'] === 'core/image' || $block['blockName'] === 'lsx/lsx-sharing-link' ) {
 			$block_content = preg_replace( '/\s+version=["\'][^"\']*["\']/', '', $block_content );
 		}
 		return $block_content;
