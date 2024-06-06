@@ -37,7 +37,7 @@ body .wp-block-button__link {
 }
 body .is-style-lsx-outline .wp-element-button,
 body is-style-lsx-outline .wp-block-button__link {
-  color: var(--wp--preset--color--contrast);
+  color: var(--wp--preset--color--primary);
 }
 
 .wp-block-button {
@@ -228,7 +228,7 @@ body is-style-lsx-outline .wp-block-button__link {
   background-color: var(--wp--custom--colour--tertiary--400) !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color {
-  color: var(--wp--preset--color--base) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color:hover {
   background-color: var(--wp--custom--colour--quaternary--700) !important;
@@ -237,7 +237,7 @@ body is-style-lsx-outline .wp-block-button__link {
   background-color: var(--wp--custom--colour--quaternary--400) !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color {
-  color: var(--wp--preset--color--base) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color:hover {
   background-color: var(--wp--custom--colour--quinary--700) !important;
