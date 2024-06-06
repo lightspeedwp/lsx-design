@@ -35,6 +35,10 @@ body a .wp-element-button,
 body a .wp-block-button__link {
   color: var(--wp--preset--color--base);
 }
+body a .is-style-lsx-outline .wp-element-button,
+body a is-style-lsx-outline .wp-block-button__link {
+  color: var(--wp--preset--color--contrast);
+}
 
 .wp-block-button {
   /* TO REMOVE */
@@ -214,7 +218,7 @@ body a .wp-block-button__link {
   background-color: var(--wp--custom--colour--secondary--400) !important;
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color {
-  color: var(--wp--custom--colour--tertiary--800) !important;
+  color: var(--wp--custom--colour--tertiary--900) !important;
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color:hover {
   background-color: var(--wp--custom--colour--tertiary--700) !important;
