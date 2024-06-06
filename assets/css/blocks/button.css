@@ -35,6 +35,8 @@ body .wp-element-button,
 body .wp-block-button__link {
   color: var(--wp--preset--color--base);
 }
+body .is-style-outline .wp-element-button,
+body is-style-outline .wp-block-button__link,
 body .is-style-lsx-outline .wp-element-button,
 body is-style-lsx-outline .wp-block-button__link {
   color: var(--wp--preset--color--primary);

@@ -45,6 +45,8 @@ body {
 		color: var(--wp--preset--color--base);
 	}
 
+	.is-style-outline .wp-element-button,
+	is-style-outline .wp-block-button__link,
 	.is-style-lsx-outline .wp-element-button,
 	is-style-lsx-outline .wp-block-button__link {
 		color: var(--wp--preset--color--primary);
