@@ -40,16 +40,14 @@ body {
 
 /* === Buttons Styles === */
 body {
-	a {
-		.wp-element-button,
-		.wp-block-button__link {
-			color: var(--wp--preset--color--base);
-		}
+	.wp-element-button,
+	.wp-block-button__link {
+		color: var(--wp--preset--color--base);
+	}
 
-		.is-style-lsx-outline .wp-element-button,
-		is-style-lsx-outline .wp-block-button__link {
-			color: var(--wp--preset--color--contrast);
-		}
+	.is-style-lsx-outline .wp-element-button,
+	is-style-lsx-outline .wp-block-button__link {
+		color: var(--wp--preset--color--contrast);
 	}
 }
 
@@ -298,7 +296,7 @@ body {
 			}
 		}
 		.has-tertiary-background-color {
-			color: var(--wp--custom--colour--tertiary--900) !important;
+			color: var(--wp--custom--colour--tertiary--1000) !important;
 
 			&:hover {
 				background-color: var(--wp--custom--colour--tertiary--700) !important;
