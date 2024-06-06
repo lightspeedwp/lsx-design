@@ -694,6 +694,46 @@
 						{
 							"fontFamily": "Manrope",
 							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/manrope/manrope-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Manrope",
+							"fontStyle": "normal",
 							"fontWeight": "regular",
 							"src": [
 								"file:./assets/fonts/manrope/manrope-regular.woff2"
