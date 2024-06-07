@@ -639,7 +639,6 @@
 /* MINI CART */
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions a:hover {
     text-decoration: underline;
-    transform: translateY(calc(-1* var(--animation-depth, 0.275em)));
 }
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wp-block-woocommerce-mini-cart-checkout-button-block{
     background-color: var(--wp--preset--color--cta)!important;

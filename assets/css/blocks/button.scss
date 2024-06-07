@@ -48,7 +48,6 @@ body {
 	.wp-element-button:hover,
 	.wp-block-button__link:hover {
 		text-decoration: underline;
-		transform: translateY(calc(-1* var(--animation-depth, 0.275em)));
 	}
 
 	.is-style-outline .wp-element-button,
