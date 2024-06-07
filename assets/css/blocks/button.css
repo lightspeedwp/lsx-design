@@ -301,12 +301,12 @@ body is-style-lsx-outline .wp-block-button__link {
   box-shadow: 0px 2px var(--wp--preset--color--primary);
   box-shadow: 0 0 0 var(--cta-stroke-width, 0) var(--wp--preset--color--primary), 0 var(--animation-depth, 0.275em) 0 0 var(--wp--preset--color--primary);
 }
-.wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-color:active, .wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-* -color:active {
+.wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-color:active {
   border-color: var(--wp--preset--color--secondary) !important;
   box-shadow: 0px 2px var(--wp--preset--color--secondary);
   color: var(--wp--preset--color--secondary) !important;
 }
-.wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-color:hover, .wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-* -color:hover {
+.wp-block-button.is-style-lsx-outline .wp-element-button.has-secondary-color:hover {
   background-color: var(--wp--custom--colour--secondary--100) !important;
   border-color: var(--wp--preset--color--secondary) !important;
   color: var(--wp--preset--color--secondary) !important;
