@@ -1,4 +1,4 @@
-=== LSX ===
+=== LSX Design ===
 Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
