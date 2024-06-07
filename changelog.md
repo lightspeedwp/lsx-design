@@ -1,6 +1,6 @@
 # LSX Design Changelog
 
-## [[1.3.0]
+## [[1.3.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.0)
 
 ### LSX
 
@@ -13,11 +13,14 @@
 - - List Block style - 4 Options which include custom icons - Arow & Ticks for White/dark depending on background - [#100](https://github.com/lightspeedwp/lsx-design/issues/100). 
 - - Columns - Column seperator Block styling including Shadow Block style using presets - [#101](https://github.com/lightspeedwp/lsx-design/issues/101)
 - - Image Block style, added option for Dark inner border 
+- - Quote Block style
+- - Search Block style - Header Full expand - [#123](https://github.com/lightspeedwp/lsx-design/issues/123)
 - - Post Template Block style - Reposition Term list on image
 - - Term List block style - Badge designs for Term lists 3 options available, Primary, Secondary & White
 - New Pattern added for Query block - 3 coloumn card layout
 - Template parts updated for posts 2-4 columns, post stack, product-collection, related products, title section
 - New template added for author.html & page-wide.html
+- Accessibility with ARIA labels and keyboard navigation
 
 #### Updated
 - Updated theme.json to refine theme settings and configurations.
@@ -27,6 +30,13 @@
 - updated class-block-style.php to register new Block styles
 - Template parts updated for breadcrumbs, checkout, comments, header-cta
 - All templates updated with spacing & layout to be uniform with margin/padding & presets 
+- Screenshot update
+- User guide and developer notes
+- Updated the theme name in the readme and the style.css description.
+
+#### Improved
+- Image handling techniques
+- Code optimization for better performance
 
 #### Removed
 - Removed extra fonts like Lora, Montserrat and few other fonts to optimize performance and streamline design.

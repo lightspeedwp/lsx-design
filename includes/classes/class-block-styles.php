@@ -57,6 +57,7 @@ class Block_Styles {
 			),
 			'core/search' => array(
 				'header' => __( 'Header', 'lsx-design' ),
+				'navigation' => __( 'Navigation', 'lsx-design' ),
 			),
 			'core/button'    => array(
 				'cta'             => __( 'CTA', 'lsx-design' ),
@@ -74,6 +75,7 @@ class Block_Styles {
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
 			),
 			'core/pullquote' => array(
+				'simple'  => __( 'Simple', 'lsx-design' ),
 				'contrast-background'  => __( 'Contrast', 'lsx-design' ),
 				'primary-background'   => __( 'Primary', 'lsx-design' ),
 				'secondary-background' => __( 'Secondary', 'lsx-design' ),
@@ -88,11 +90,13 @@ class Block_Styles {
 				'subheading-1' => __( 'Subheading Large', 'lsx-design' ),
 				'subheading-2' => __( 'Subheading Medium', 'lsx-design' ),
 				'subheading-3' => __( 'Subheading Small', 'lsx-design' ),
+				'subheading-4' => __( 'Subheading X-Small', 'lsx-design' ),
 			),
 			'core/heading'   => array(
 				'heading-1' => __( 'Heading Large', 'lsx-design' ),
 				'heading-2' => __( 'Heading Medium', 'lsx-design' ),
 				'heading-3' => __( 'Heading Small', 'lsx-design' ),
+				'heading-4' => __( 'Heading x-Small', 'lsx-design' ),
 			),
 			'core/details'   => array(
 				'plain-arrow' => __( 'Plain Arrow', 'lsx-design' ),
@@ -113,6 +117,18 @@ class Block_Styles {
 			),
 			'core/post-template'   => array(
 				'badges-img' => __( 'Badges on Image', 'lsx-design' ),
+			),
+			'woocommerce/featured-category'   => array(
+				'rounded-cat' => __( 'Corners Round', 'lsx-design' ),
+				'rounded-shadow-cat-s' => __( 'Small Shadow Round', 'lsx-design' ),
+				'rounded-shadow-cat-m' => __( 'Medium Shadow Round', 'lsx-design' ),
+				'rounded-shadow-cat-l' => __( 'Large Shadow Round', 'lsx-design' ),
+			),
+			'woocommerce/featured-product'   => array(
+				'rounded-pro' => __( 'Corners Round', 'lsx-design' ),
+				'rounded-shadow-pro-s' => __( 'Small Shadow Round', 'lsx-design' ),
+				'rounded-shadow-pro-m' => __( 'Medium Shadow Round', 'lsx-design' ),
+				'rounded-shadow-pro-l' => __( 'Large Shadow Round', 'lsx-design' ),
 			),
 			'core/columns'   => array(
 				'col-seperator' => __( 'Seperator', 'lsx-design' ),
@@ -224,6 +240,16 @@ class Block_Styles {
 				'handle' => 'lsxd-post-template-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/post-template.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/post-template.css',
+			),
+			'woocommerce/featured-category' => array(
+				'handle' => 'lsxd-wc-featured-category',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/featured-category.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/featured-category.css',
+			),
+			'woocommerce/featured-product' => array(
+				'handle' => 'lsxd-wc-featured-category',
+				'src'    => get_template_directory_uri() . '/assets/css/woocommerce/featured-product.css',
+				'path'   => get_template_directory() . '/assets/css/woocommerce/featured-product.css',
 			),
 			'core/navigation' => array(
 				'handle' => 'lsxd-navigation-block-styles',

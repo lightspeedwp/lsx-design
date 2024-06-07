@@ -1,20 +1,22 @@
 /* Sizes
 --------------------------------------------- */
 .wp-block-heading.is-style-heading-1{
-	font-family: var(--wp--preset--font-family--primary);
     font-size: var(--wp--preset--font-size--large);
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: var(--wp--custom--line-height--heading);
 }
 .wp-block-heading.is-style-heading-2{
-	font-family: var(--wp--preset--font-family--primary);
     font-size: var(--wp--preset--font-size--medium);
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: var(--wp--custom--line-height--heading);
 }
 .wp-block-heading.is-style-heading-3{
-	font-family: var(--wp--preset--font-family--primary);
     font-size: var(--wp--preset--font-size--small);
+    font-weight: var(--wp--custom--font-weight--medium);
+    line-height: var(--wp--custom--line-height--heading);
+}
+.wp-block-heading.is-style-heading-4{
+    font-size: var(--wp--preset--font-size--x-small);
     font-weight: var(--wp--custom--font-weight--medium);
     line-height: var(--wp--custom--line-height--heading);
 }

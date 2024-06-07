@@ -28,20 +28,42 @@
 
 [LSX Design](https://lsx.design/) is a WordPress block theme that is light-weight & responsive. Users are able to use the theme to create fast, efficient and attractive websites by using the WordPress's Block Editor and Site Editor. We've built it to be fully compatible with WooCommerce, making it an ideal choice for your next eCommerce build. Its lightweight build ensures better load times, a bonus for both user experience and SEO. LSX has been designed to be minimal and lean, while still having rich customizer options, like allowing you to control fonts, color options, home page configuration, widget areas and much more. 
 
+* Block Editor Patterns  
+* Block Editor Styles  
+* BuddyPress  
+* Custom Background  
+* Custom Colors  
+* Custom Header  
+* Customise Logo & Site Icon
+* Custom Menu  
+* Editor Style  
+* Featured Image 
+* Header  
+* Flexible Header  
+* Footer Widgets  
+* Front Page Posting  
+* Full Site Editing  
+* Full Width Template  
+* Microformats  
+* Post Formats  
+* RTL Language Support  
+* Sticky Post  
+* Style Variations  
+* Template Editing
+* Theme Options
+* Threaded Comments
 * Responsive Layout
 * Customise Colors
 * Customise Fonts
-* Customise Menus
 * Multiple Design Styles
 * Multiple Header Variations
 * Multiple Footer Variations
 * WooCommerce Ready
 * Translation Ready
+* Portfolio
 * Blog
-* Block Editor styles,
+* Block Editor styles
 * Wide Blocks
-* Featured Images
-* Sticky Posts
 * Threaded Comments
 
 ## Download
@@ -110,5 +132,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
   <a href="https://twitter.com/lightspeedwp">Twitter</a>
 </p>
 <p align="center">
-  Copyright © 2020 LightSpeed WordPress Development. All Rights Reserved.
+  Copyright © 2040 LightSpeed WordPress Development. All Rights Reserved.
 </p>

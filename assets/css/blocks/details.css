@@ -57,6 +57,7 @@
 .wp-block-details[open]{border-bottom:1px solid #313535;}
 
 .wp-block-details.is-style-plain-arrow{border-bottom:1px solid #313535;margin-top:2px;}
+.wp-block-details.is-style-plain-arrow:first-child {border-top:1px solid #313535;}
 .wp-block-details.is-style-plain-arrow summary{
     border: 0;
     margin-bottom:20px;

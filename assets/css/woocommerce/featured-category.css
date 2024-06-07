@@ -1,0 +1,13 @@
+.wc-block-featured-category.is-style-rounded-cat{border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-s{box-shadow: var(--wp--preset--shadow--small);border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-m{box-shadow: var(--wp--preset--shadow--md);border-radius: 8px;}
+.wc-block-featured-category.is-style-rounded-shadow-cat-l{box-shadow: var(--wp--preset--shadow--lg);border-radius: 8px;}
+
+.block-editor-block-list__block.is-style-rounded-shadow-cat-s.wp-block-woocommerce-featured-category{box-shadow: var(--wp--preset--shadow--small);border-radius: 8px;}
+.block-editor-block-list__block.is-style-rounded-shadow-cat-m.wp-block-woocommerce-featured-category{box-shadow: var(--wp--preset--shadow--md);border-radius: 8px;}
+.block-editor-block-list__block.is-style-rounded-shadow-cat-l.wp-block-woocommerce-featured-category{box-shadow: var(--wp--preset--shadow--lg);border-radius: 8px;}
+
+.block-editor-block-list__block.is-style-rounded-cat.wp-block-woocommerce-featured-category .wc-block-featured-category{border-radius: 8px;}
+.block-editor-block-list__block.is-style-rounded-shadow-cat-s.wp-block-woocommerce-featured-category .wc-block-featured-category{border-radius: 8px;}
+.block-editor-block-list__block.is-style-rounded-shadow-cat-m.wp-block-woocommerce-featured-category .wc-block-featured-category{border-radius: 8px;}
+.block-editor-block-list__block.is-style-rounded-shadow-cat-l.wp-block-woocommerce-featured-category .wc-block-featured-category{border-radius: 8px;}

@@ -1,7 +1,8 @@
 /* Badges Absolute
 --------------------------------------------- */
+.is-style-badges-img .wp-block-post{position:relative;}
 
-.is-style-badges-img .wp-block-post .wp-block-post-terms{
+.is-style-badges-img .wp-block-post .is-style-primary-badge, .is-style-badges-img .wp-block-post .is-style-secondary-badge, .is-style-badges-img .wp-block-post .is-style-white-badge{
     position: absolute;
     top: 15px;
     right: 10px;

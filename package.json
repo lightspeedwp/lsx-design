@@ -19,5 +19,5 @@
     "build-pot": "wp i18n make-pot . languages/lsxd.pot",
     "build-mopo": "rm -R languages/en_EN.mo && cp languages/lsxd.pot languages/en_EN.po && wp i18n make-mo languages",
     "translate-US": "cp languages/en_EN.po languages/en_US.po && cp languages/en_EN.mo languages/en_US.mo"
-  }
+  }	
 }
