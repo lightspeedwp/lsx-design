@@ -217,7 +217,7 @@ body {
 			color: var(--wp--preset--color--base);
 
 			&:hover{
-				background-color: var(--wp--custom--colour--cta--600) !important;
+				background-color: var(--wp--custom--colour--cta--700) !important;
 				-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--800),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--800);
 				box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--800),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--800);
 				-webkit-transform: translateY(calc(-1*var(--animation-depth, .275em)));

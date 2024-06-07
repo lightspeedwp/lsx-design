@@ -162,7 +162,7 @@ body is-style-lsx-outline .wp-block-button__link {
   color: var(--wp--preset--color--base);
 }
 .wp-block-button.is-style-cta .wp-element-button:hover {
-  background-color: var(--wp--custom--colour--cta--600) !important;
+  background-color: var(--wp--custom--colour--cta--700) !important;
   box-shadow: 0 0 0 var(--cta-stroke-width, 0) var(--wp--custom--colour--cta--800), 0 var(--animation-depth, 0.275em) 0 0 var(--wp--custom--colour--cta--800);
   transform: translateY(calc(-1 * var(--animation-depth, 0.275em)));
 }
