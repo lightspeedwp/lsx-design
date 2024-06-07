@@ -40,11 +40,21 @@ body {
 
 /* === Buttons Styles === */
 body {
-	a {
-		.wp-element-button,
-		.wp-block-button__link {
-			color: var(--wp--preset--color--base);
-		}
+	.wp-element-button,
+	.wp-block-button__link {
+		color: var(--wp--preset--color--base);
+	}
+
+	.wp-element-button:hover,
+	.wp-block-button__link:hover {
+		text-decoration: underline;
+	}
+
+	.is-style-outline .wp-element-button,
+	is-style-outline .wp-block-button__link,
+	.is-style-lsx-outline .wp-element-button,
+	is-style-lsx-outline .wp-block-button__link {
+		color: var(--wp--preset--color--primary);
 	}
 }
 
@@ -207,22 +217,22 @@ body {
 			color: var(--wp--preset--color--base);
 
 			&:hover{
-				background-color: var(--wp--custom--colour--cta--600) !important;
-				-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--800),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--800);
-				box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--800),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--800);
+				background-color: var(--wp--custom--colour--cta--800) !important;
+				-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--900),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--900);
+				box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--custom--colour--cta--900),0 var(--animation-depth,.275em) 0 0 var(--wp--custom--colour--cta--900);
 				-webkit-transform: translateY(calc(-1*var(--animation-depth, .275em)));
 				-ms-transform: translateY(calc(-1*var(--animation-depth, .275em)));
 				transform: translateY(calc(-1*var(--animation-depth, .275em)));
 			}
 			&:active{
-				background-color: var(--wp--custom--colour--cta--600) !important;
+				background-color: var(--wp--custom--colour--cta--500) !important;
 				box-shadow: 0px 2px var(--wp--custom--colour--cta--800);
 				-webkit-transform: translateY(calc(-1*var(--animation-depth, .075em)));
 				-ms-transform: translateY(calc(-1*var(--animation-depth, .075em)));
 				transform: translateY(calc(-1*var(--animation-depth, .075em)));
 			}
 			&:focus{
-				background-color: var(--wp--custom--colour--cta--400) !important;
+				background-color: var(--wp--custom--colour--cta--500) !important;
 				box-shadow: 0px 0px var(--wp--custom--colour--cta--800);
 			}
 		}
@@ -290,10 +300,11 @@ body {
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--secondary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-tertiary-background-color {
-			color:var(--wp--custom--colour--tertiary--800) !important;
+			color: var(--wp--custom--colour--tertiary--1000) !important;
 
 			&:hover {
 				background-color: var(--wp--custom--colour--tertiary--700) !important;
@@ -301,26 +312,31 @@ body {
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--tertiary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-quaternary-background-color {
-			color: var(--wp--preset--color--base) !important;
+			color: var( --wp--preset--color--contrast ) !important;
 
 			&:hover {
 				background-color: var(--wp--custom--colour--quaternary--700) !important;
+				color:#fff !important;
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--quaternary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-quinary-background-color {
-			color: var(--wp--preset--color--base) !important;
+			color: var( --wp--preset--color--contrast ) !important;
 
 			&:hover {
 				background-color: var(--wp--custom--colour--quinary--700) !important;
+				color:#fff !important;
 			}
 			&:active {
 				background-color: var(--wp--custom--colour--quinary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 	}
@@ -332,9 +348,11 @@ body {
 
 			&:active {
 				background-color: #fff !important;
-				-webkit-transform: translateY(calc(-1*var(--animation-depth, .075em)));
-				-ms-transform: translateY(calc(-1*var(--animation-depth, .075em)));
-				transform: translateY(calc(-1*var(--animation-depth, .075em)));
+				box-shadow: 0px 0px 0px 0px;
+				-webkit-box-shadow: 0px 0px 0px 0px;
+				-webkit-transform: translateY(calc(-1*var(--animation-depth, .075em)))!important;
+				-ms-transform: translateY(calc(-1*var(--animation-depth, .075em)))!important;
+				transform: translateY(calc(-1*var(--animation-depth, .075em)))!important;
 			}
 			&:hover {
 				-webkit-transform: translateY(calc(-1*var(--animation-depth, .275em)));
@@ -376,6 +394,7 @@ body {
 					background-color: var(--wp--custom--colour--primary--100) !important;
 					border-color: var(--wp--preset--color--primary) !important;
 					color: var(--wp--preset--color--primary) !important;
+
 					box-shadow: 0px 2px var(--wp--preset--color--primary);
 					-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--primary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--primary);
 					box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--primary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--primary);
@@ -405,6 +424,7 @@ body {
 					background-color: var(--wp--custom--colour--tertiary--100) !important;
 					border-color: var(--wp--preset--color--tertiary) !important;
 					color: var(--wp--preset--color--tertiary) !important;
+
 					box-shadow: 0px 2px var(--wp--preset--color--tertiary);
 					-webkit-box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--tertiary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--tertiary);
 					box-shadow: 0 0 0 var(--cta-stroke-width,0) var(--wp--preset--color--tertiary),0 var(--animation-depth,.275em) 0 0 var(--wp--preset--color--tertiary);

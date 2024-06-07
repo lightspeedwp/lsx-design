@@ -31,9 +31,19 @@ body .alignfull.is-layout-flow {
 }
 
 /* === Buttons Styles === */
-body a .wp-element-button,
-body a .wp-block-button__link {
+body .wp-element-button,
+body .wp-block-button__link {
   color: var(--wp--preset--color--base);
+}
+body .wp-element-button:hover,
+body .wp-block-button__link:hover {
+  text-decoration: underline;
+}
+body .is-style-outline .wp-element-button,
+body is-style-outline .wp-block-button__link,
+body .is-style-lsx-outline .wp-element-button,
+body is-style-lsx-outline .wp-block-button__link {
+  color: var(--wp--preset--color--primary);
 }
 
 .wp-block-button {
@@ -152,17 +162,17 @@ body a .wp-block-button__link {
   color: var(--wp--preset--color--base);
 }
 .wp-block-button.is-style-cta .wp-element-button:hover {
-  background-color: var(--wp--custom--colour--cta--600) !important;
-  box-shadow: 0 0 0 var(--cta-stroke-width, 0) var(--wp--custom--colour--cta--800), 0 var(--animation-depth, 0.275em) 0 0 var(--wp--custom--colour--cta--800);
+  background-color: var(--wp--custom--colour--cta--800) !important;
+  box-shadow: 0 0 0 var(--cta-stroke-width, 0) var(--wp--custom--colour--cta--900), 0 var(--animation-depth, 0.275em) 0 0 var(--wp--custom--colour--cta--900);
   transform: translateY(calc(-1 * var(--animation-depth, 0.275em)));
 }
 .wp-block-button.is-style-cta .wp-element-button:active {
-  background-color: var(--wp--custom--colour--cta--600) !important;
+  background-color: var(--wp--custom--colour--cta--500) !important;
   box-shadow: 0px 2px var(--wp--custom--colour--cta--800);
   transform: translateY(calc(-1 * var(--animation-depth, 0.075em)));
 }
 .wp-block-button.is-style-cta .wp-element-button:focus {
-  background-color: var(--wp--custom--colour--cta--400) !important;
+  background-color: var(--wp--custom--colour--cta--500) !important;
   box-shadow: 0px 0px var(--wp--custom--colour--cta--800);
 }
 .wp-block-button .has-cta-background-color {
@@ -212,9 +222,10 @@ body a .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-secondary-background-color:active {
   background-color: var(--wp--custom--colour--secondary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color {
-  color: var(--wp--custom--colour--tertiary--800) !important;
+  color: var(--wp--custom--colour--tertiary--1000) !important;
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color:hover {
   background-color: var(--wp--custom--colour--tertiary--700) !important;
@@ -222,24 +233,29 @@ body a .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color:active {
   background-color: var(--wp--custom--colour--tertiary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color {
-  color: var(--wp--preset--color--base) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color:hover {
   background-color: var(--wp--custom--colour--quaternary--700) !important;
+  color: #fff !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color:active {
   background-color: var(--wp--custom--colour--quaternary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color {
-  color: var(--wp--preset--color--base) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color:hover {
   background-color: var(--wp--custom--colour--quinary--700) !important;
+  color: #fff !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color:active {
   background-color: var(--wp--custom--colour--quinary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx-outline .wp-element-button {
   border: 1px solid currentColor;
@@ -247,7 +263,9 @@ body a .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx-outline .wp-element-button:active {
   background-color: #fff !important;
-  transform: translateY(calc(-1 * var(--animation-depth, 0.075em)));
+  box-shadow: 0px 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  transform: translateY(calc(-1 * var(--animation-depth, 0.075em))) !important;
 }
 .wp-block-button.is-style-lsx-outline .wp-element-button:hover {
   transform: translateY(calc(-1 * var(--animation-depth, 0.275em)));
