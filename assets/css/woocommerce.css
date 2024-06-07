@@ -636,6 +636,12 @@
 }
 
 
+/* GENERAL BUTTONS */
+.woocommerce .wp-element-button:hover,
+.woocommerce .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
 /* MINI CART */
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions a:hover {
     text-decoration: underline;
