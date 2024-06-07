@@ -295,6 +295,7 @@ body {
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--secondary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-tertiary-background-color {
@@ -306,6 +307,7 @@ body {
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--tertiary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-quaternary-background-color {
@@ -317,6 +319,7 @@ body {
 			}
 			&:active{
 				background-color: var(--wp--custom--colour--quaternary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 		.has-quinary-background-color {
@@ -328,6 +331,7 @@ body {
 			}
 			&:active {
 				background-color: var(--wp--custom--colour--quinary--400) !important;
+				color: var( --wp--preset--color--contrast ) !important;
 			}
 		}
 	}

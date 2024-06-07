@@ -218,6 +218,7 @@ body is-style-lsx-outline .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-secondary-background-color:active {
   background-color: var(--wp--custom--colour--secondary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color {
   color: var(--wp--custom--colour--tertiary--1000) !important;
@@ -228,6 +229,7 @@ body is-style-lsx-outline .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-tertiary-background-color:active {
   background-color: var(--wp--custom--colour--tertiary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color {
   color: var(--wp--preset--color--contrast) !important;
@@ -238,6 +240,7 @@ body is-style-lsx-outline .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-quaternary-background-color:active {
   background-color: var(--wp--custom--colour--quaternary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color {
   color: var(--wp--preset--color--contrast) !important;
@@ -248,6 +251,7 @@ body is-style-lsx-outline .wp-block-button__link {
 }
 .wp-block-button.is-style-lsx .has-quinary-background-color:active {
   background-color: var(--wp--custom--colour--quinary--400) !important;
+  color: var(--wp--preset--color--contrast) !important;
 }
 .wp-block-button.is-style-lsx-outline .wp-element-button {
   border: 1px solid currentColor;
