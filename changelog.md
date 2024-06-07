@@ -13,6 +13,8 @@
 - - List Block style - 4 Options which include custom icons - Arow & Ticks for White/dark depending on background - [#100](https://github.com/lightspeedwp/lsx-design/issues/100). 
 - - Columns - Column seperator Block styling including Shadow Block style using presets - [#101](https://github.com/lightspeedwp/lsx-design/issues/101)
 - - Image Block style, added option for Dark inner border 
+- - Quote Block style
+- - Search Block style - Header Full expand
 - - Post Template Block style - Reposition Term list on image
 - - Term List block style - Badge designs for Term lists 3 options available, Primary, Secondary & White
 - New Pattern added for Query block - 3 coloumn card layout
