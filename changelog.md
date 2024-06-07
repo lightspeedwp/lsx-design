@@ -1,6 +1,6 @@
 # LSX Design Changelog
 
-## [[1.3.0]
+## [[1.3.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.0)
 
 ### LSX
 
@@ -32,6 +32,7 @@
 - All templates updated with spacing & layout to be uniform with margin/padding & presets 
 - Screenshot update
 - User guide and developer notes
+- Updated the theme name in the readme and the style.css description.
 
 #### Improved
 - Image handling techniques

@@ -1,4 +1,4 @@
-=== LSX Design ===
+=== LSX ===
 Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
@@ -9,17 +9,17 @@ Stable tag: 1.3.0
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-LSX Design is a flexible WordPress Block theme, light-weight, minimalistic and responsive theme built for the WordPress block editor and full site editor, with extensive WooCommerce integration support.
+LSX is a flexible WordPress Block theme, light-weight, minimalistic and responsive theme built for the WordPress block editor and full site editor, with extensive WooCommerce integration support.
 
 == Description ==
 
-LSX Design is a flexible, light-weight, minimalistic and responsive theme designed to empower makers to build beautifully rich websites with WordPress block editor and customizer.
+LSX is a flexible, light-weight, minimalistic and responsive theme designed to empower makers to build beautifully rich websites with WordPress block editor and customizer.
 
 We take full advantage of the block editor, which gives you more control over creating your content.
 
 Install the free LSX Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page.
 
-LSX Design is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
+LSX is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites.
 
 Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce, making it an ideal choice for your next eCommerce build.
 
@@ -68,29 +68,29 @@ Accessibility Ready
 
 = WooCommerce Support =
 
-LSX Design is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lsdev.biz/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+LSX is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lsdev.biz/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
 
-For more information about LSX Design please go to the [product site](https://lsx.design/).
+For more information about LSX please go to the [product site](https://lsx.design/).
 
 For even more customization, check out the available free [LSX extensions](https://lsx.design/extensions/).
 
 = Block Editor & Site Editor Compatible =
 
-LSX Design is full compatible with the WordPress block editor and site editor. This means you can now make use of the drag-and-drop page builder when editing website layouts or creating new pages and posts.
+LSX is full compatible with the WordPress block editor and site editor. This means you can now make use of the drag-and-drop page builder when editing website layouts or creating new pages and posts.
 
 = Documentation =
 
-We have documentation on the LSX Design theme, take control of your website setup and design to your needs - https://lsx.design/docs/
+We have documentation on the LSX theme, take control of your website setup and design to your needs - https://lsx.design/docs/
 
 = Support =
 
 Contact the LightSpeed for paid support assistance via the contact form - https://www.lsdev.biz/contact/
 
-Please log bug issues via Github Issues if you are experiencing issues with LSX Design - https://github.com/lightspeedwp/lsx-design/issues
+Please log bug issues via Github Issues if you are experiencing issues with LSX - https://github.com/lightspeedwp/lsx-design/issues
 
 = Contributing =
 
-If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit LSX Design on Github and submit a Pull Request with your updates - https://github.com/lightspeedwp/lsx-design
+If you're a developer who's spotted a bug issue and have a fix, or simply have functionality you think would extend our core theme, we are always happy to accept your contribution! Visit LSX on Github and submit a Pull Request with your updates - https://github.com/lightspeedwp/lsx-design
 
 == Installation ==
 
@@ -172,19 +172,19 @@ Placeholder White 1920x1200, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-placeholder-White-1920x1200.jpg
 
-LSX Design Logo, Copyright LightSpeed
+LSX Logo, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-theme.jpg
 
-LSX Design Quote Icon, Copyright LightSpeed
+LSX Quote Icon, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/testimonial-comma-graphic.png
 
-LSX Design PullQuote Icon, Copyright LightSpeed
+LSX PullQuote Icon, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/pull-quote-icon-with-circle.png
 
-LSX Design Logo Blank, Copyright LightSpeed
+LSX Logo Blank, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-white.jpg
 
