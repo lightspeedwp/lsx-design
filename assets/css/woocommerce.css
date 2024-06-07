@@ -650,10 +650,10 @@
     background-color: var(--wp--preset--color--cta)!important;
 }
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wp-block-woocommerce-mini-cart-checkout-button-block:hover{
-    background-color:  var(--wp--custom--colour--cta--700)!important;
+    background-color:  var(--wp--custom--colour--cta--800)!important;
 }
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wp-block-woocommerce-mini-cart-checkout-button-block:active{
-    background-color:  var(--wp--custom--colour--cta--400)!important;
+    background-color:  var(--wp--custom--colour--cta--500)!important;
 }
 .wc-block-mini-cart__footer .wc-block-mini-cart__footer-actions .wc-block-components-button.outlined{
     border-radius:8px;border: 1px solid currentColor;
