@@ -57,6 +57,7 @@ class Block_Styles {
 			),
 			'core/search' => array(
 				'header' => __( 'Header', 'lsx-design' ),
+				'navigation' => __( 'Navigation', 'lsx-design' ),
 			),
 			'core/button'    => array(
 				'cta'             => __( 'CTA', 'lsx-design' ),
@@ -199,6 +200,11 @@ class Block_Styles {
 				'handle' => 'lsxd-pullquote-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/pullquote.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/pullquote.css',
+			),
+			'core/quote' => array(
+				'handle' => 'lsxd-quote-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/quote.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/quote.css',
 			),
 			'core/paragraph' => array(
 				'handle' => 'lsxd-paragraph-block-styles',

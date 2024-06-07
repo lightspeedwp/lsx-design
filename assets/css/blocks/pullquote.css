@@ -1,6 +1,19 @@
 /* Sizes
 --------------------------------------------- */
 
+.wp-block-pullquote cite{font-size: var(--wp--preset--font-size--x-small);font-weight:normal;text-align:center;}
+.wp-block-pullquote{position:relative;}
+.wp-block-pullquote blockquote:before{content: '';padding-left: 42px;
+    height:42px;width:42px;
+    background-image: url(../../images/pull-quote-icon-with-circle.png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    position: absolute;
+    display: block;
+    margin-top: 0;
+    top: -20px;
+    left: 48%;}
+
 .wp-block-pullquote.is-style-simple{
     border:none;
     border-left:4px solid currentColor;

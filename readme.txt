@@ -3,9 +3,9 @@ Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -23,15 +23,38 @@ LSX Design is perfect for blogs, small business, startups, agencies, firms, WooC
 
 Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce, making it an ideal choice for your next eCommerce build.
 
-Check the product sitehere - https://lsx.design/ - and theme demo here - https://demo.lsx.design/
+Check the product site here - https://lsx.design/ - and theme demo here - https://demo.lsx.design/
 
 = Features =
 
-* Responsive Layout
+Accessibility Ready  
+* Block Editor Patterns  
+* Block Editor Styles  
+* BuddyPress  
+* Custom Background  
+* Custom Colors  
+* Custom Header  
 * Customise Logo & Site Icon
+* Custom Menu  
+* Editor Style  
+* Featured Image 
+* Header  
+* Flexible Header  
+* Footer Widgets  
+* Front Page Posting  
+* Full Site Editing  
+* Full Width Template  
+* Microformats  
+* Post Formats  
+* RTL Language Support  
+* Sticky Post  
+* Style Variations  
+* Template Editing
+* Theme Options
+* Threaded Comments
+* Responsive Layout
 * Customise Colors
 * Customise Fonts
-* Customise Menus
 * Multiple Design Styles
 * Multiple Header Variations
 * Multiple Footer Variations
@@ -39,10 +62,8 @@ Check the product sitehere - https://lsx.design/ - and theme demo here - https:/
 * Translation Ready
 * Portfolio
 * Blog
-* Block Editor styles,
+* Block Editor styles
 * Wide Blocks
-* Featured Images
-* Sticky Posts
 * Threaded Comments
 
 = WooCommerce Support =
@@ -87,31 +108,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 This theme bundles the following third-party resources:
 
-assets/images:
-
-Lora
-Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name "Lora".
-Copyright 2023 Google LLC
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/Lora/
+assets/fonts:
 
 Manrope
 Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
 Copyright 2023 Google LLC
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Manrope/
-
-Montserrat
-Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
-Copyright 2023 Google LLC
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/Montserrat/
-
-Plus Jakarta Sans
-Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
-Copyright 2023 Google LLC
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://fonts.google.com/specimen/Plus+Jakarta+Sans
 
 Lexend
 Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.
@@ -172,6 +175,14 @@ Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-
 LSX Design Logo, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/lsxd-theme.jpg
+
+LSX Design Quote Icon, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/testimonial-comma-graphic.png
+
+LSX Design PullQuote Icon, Copyright LightSpeed
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://github.com/lightspeedwp/lsx-design/blob/main/assets/images/pull-quote-icon-with-circle.png
 
 LSX Design Logo Blank, Copyright LightSpeed
 License: CC0 1.0 Universal (CC0 1.0)

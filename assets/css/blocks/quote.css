@@ -1,0 +1,10 @@
+/* Sizes
+--------------------------------------------- */
+.wp-block-quote cite{font-size: var(--wp--preset--font-size--x-small);font-weight:normal;text-align:right;}
+.wp-block-quote:before{content: '';padding-left: 32px;
+    height:32px;width:32px;
+    background-image: url(../../images/testimonial-comma-graphic.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;}

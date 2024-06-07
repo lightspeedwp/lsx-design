@@ -30,6 +30,20 @@ header .wp-block-search__button-behavior-expand .wp-block-search__input {
     z-index: 3;
 }
 
+header .is-style-navigation.wp-block-search .wp-block-search__input {
+    position: absolute;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 44px;
+    z-index: 3;
+    right: 38px;
+    border-radius: 8px;
+}
+
+header .is-style-navigation.wp-block-search.wp-block-search__button-only .wp-block-search__button[aria-expanded=true]{
+    max-width: 0;}
+
 
 
 @media (max-width:960px) {
