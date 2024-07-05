@@ -298,6 +298,68 @@ header .has-base-background-color .wp-block-navigation .wp-block-navigation-item
  .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
      background-color: #eee;
 }
+/* Pagination ---------------------------------------------------------------------------- */
+.wp-block-query-pagination .wp-block-query-pagination-previous:hover, .wp-block-query-pagination .wp-block-query-pagination-next:hover{color:var(--wp--preset--color--contrast);}
+.wc-block-mini-cart__template-part .cross-sells-product .wp-block-button.wc-block-components-product-button, .wc-block-mini-cart .cross-sells-product .wp-block-button.wc-block-components-product-button{
+	right: 0px;
+    position: absolute;
+}
+
+.wc-block-pagination.wc-block-components-pagination .wc-block-components-pagination-page--arrow{
+    margin:0!important;
+    border: 0px solid var(--wp--preset--color--primary)!important;
+}
+.wc-block-pagination.wc-block-components-pagination  .wc-block-pagination-page{
+    margin:0!important;
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary);
+    color:var(--wp--preset--color--primary)!important;
+}
+    .wc-block-pagination.wc-block-components-pagination  .wc-block-pagination-page:hover{
+    background: var(--wp--preset--color--contrast);
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary)!important;
+    color:#fff!important;
+    }
+.wc-block-pagination.wc-block-components-pagination .wc-block-pagination-page--active{
+    background: var(--wp--preset--color--contrast);
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary);
+    color:#fff!important;
+}
+.woocommerce-pagination .page-numbers{
+    margin:0!important;
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary)!important;
+    color:var(--wp--preset--color--primary)!important;
+}
+ .wp-block-query-pagination>.wp-block-query-pagination-numbers{
+    margin:0!important;
+    border: 0px solid var(--wp--preset--color--primary);
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current {
+    background: var(--wp--preset--color--primary);
+    color:#fff!important;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+    border-right: 0px solid var(--wp--preset--color--primary);
+}
+ .wp-block-query-pagination-numbers .page-numbers{
+    padding:0px 9px;
+    background: #FFFFFF;
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary);
+    float:left;
+    text-decoration: none!important;
+}
+ .wp-block-query-pagination-numbers .page-numbers.current{
+    background: var(--wp--preset--color--primary);
+    border-radius:8px;border: 1px solid var(--wp--preset--color--primary);
+    color:#fff!important;
+    text-decoration: none!important;
+}
+ .wp-block-query-pagination-numbers .page-numbers:hover{
+    background: var(--wp--preset--color--contrast);
+    border-radius:8px;border: 1px solid var(--wp--preset--color--contrast);
+    color:#fff!important;
+    text-decoration: none!important;
+}
+
 /* Custom ---------------------------------------------------------------------------- */
  .post-meta p{
     padding-bottom: 0px;

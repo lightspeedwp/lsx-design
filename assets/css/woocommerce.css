@@ -105,8 +105,20 @@
     box-shadow: none!important;
 }
  .wc-block-checkout__payment-method .wc-block-components-radio-control__option, .wc-block-checkout__payment-method .wc-block-components-radio-control__option:first-child, .wc-block-checkout__payment-method .wc-block-components-radio-control__option:last-child {
-     padding: 22px 0 20px 2.9em!important;
+     padding: 22px 0 12px 54px!important;
+     display:flex;
 }
+.wc-block-checkout__pickup-options .wc-block-components-local-pickup-rates-control .wc-block-components-radio-control__option, .wp-block-woocommerce-checkout-pickup-options-block .wc-block-components-local-pickup-rates-control .wc-block-components-radio-control__option{
+    padding: 22px 0 12px 54px !important;
+    display: flex;
+}
+.wc-block-components-shipping-rates-control input[type="radio"] {
+    top: 10px!important;
+}
+    .wc-block-checkout__pickup-options .wc-block-components-local-pickup-rates-control .wc-block-components-radio-control__label-group>:last-child, .wp-block-woocommerce-checkout-pickup-options-block .wc-block-components-local-pickup-rates-control .wc-block-components-radio-control__label-group>:last-child{
+        margin-right:20px;
+    }
+.wc-block-checkout__shipping-option .wc-block-components-radio-control__option{display:flex;padding: 22px 30px 12px 30px!important;}
  .wc-block-components-checkbox .wc-block-components-checkbox__input[type=checkbox]{
     padding:10px!important;
 }
@@ -243,6 +255,24 @@
     border-radius:8px;border: 1px solid #2B2D2F!important;
     padding:12px;
 }
+.woocommerce-variation-add-to-cart.variations_button .quantity .qty {
+    padding: 13px 10px 8px!important;
+    margin-top: -3px!important;}
+    .variations_form.cart .single_variation_wrap{margin-top:8px;}
+
+    .variations_form.cart select{
+        border: 1px solid #2B2D2F !important;
+    background: url(/wp-content/plugins/woocommerce/assets/images/icons/gridicons-chevron-down.svg) no-repeat right;
+    -webkit-appearance: none;
+    width: 174px;
+    background-position-x: 148px;
+    background-size: 20px;
+    padding: 8px;
+    font-size: var(--wp--preset--font-size--x-small);
+    margin-right: 8px;
+    margin-left: 4px;
+    }
+
  .woocommerce div.product form.cart button.single_add_to_cart_button{
     font-size: var(--wp--preset--font-size--x-small)!important;
 }
