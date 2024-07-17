@@ -1,5 +1,9 @@
 # LSX Design Changelog
 
+## [[1.4.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.4.0)
+
+
+
 ## [[1.3.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.1)
 
 ### LSX
