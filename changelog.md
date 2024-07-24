@@ -2,8 +2,14 @@
 
 ## [[1.4.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.4.0)
 
+### LSX
+
+#### Updated
 - theme.json schema updated to version - [#139](https://github.com/lightspeedwp/lsx-design/issues/139).
 - theme.json default font and spacing sizes have been disabled.
+
+#### Fixed
+- Button Text Transforms not working - [#141](https://github.com/lightspeedwp/lsx-design/issues/141)
 
 ## [[1.3.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.1)
 
