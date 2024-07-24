@@ -140,6 +140,18 @@ class Block_Styles {
 				'shadow-h' => __( 'Shadow Huge', 'lsx-design' ),
 
 			),
+			'core/group'   => array(
+				'shadow-xsm' => __( 'Shadow x-S', 'lsx-design' ),
+				'shadow-sm' => __( 'Shadow S', 'lsx-design' ),
+				'shadow-m' => __( 'Shadow M', 'lsx-design' ),
+				'shadow-l' => __( 'Shadow L', 'lsx-design' ),
+				'shadow-xl' => __( 'Shadow x-L', 'lsx-design' ),
+				'shadow-h' => __( 'Shadow Huge', 'lsx-design' ),
+
+			),
+			'core/query-pagination'   => array(
+				'square' => __( 'Square', 'lsx-design' ),
+			),
 		);
 
 		foreach ( $block_styles as $block => $styles ) {
@@ -221,6 +233,11 @@ class Block_Styles {
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/columns.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/columns.css',
 			),
+			'core/group' => array(
+				'handle' => 'lsxd-columns-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/group.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/group.css',
+			),
 			'core/list' => array(
 				'handle' => 'lsxd-list-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/lists.css',
@@ -255,6 +272,11 @@ class Block_Styles {
 				'handle' => 'lsxd-navigation-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/navigation.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/navigation.css',
+			),
+			'core/query-pagination' => array(
+				'handle' => 'lsxd-navigation-block-styles',
+				'src'    => get_template_directory_uri() . '/assets/css/blocks/pagination.css',
+				'path'   => get_template_directory() . '/assets/css/blocks/pagination.css',
 			),
 		);
 		return $this->block_assets;
