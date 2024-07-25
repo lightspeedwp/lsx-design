@@ -1,4 +1,7 @@
 /* Woocommerce bug fixes ---------------------------------------------------------------------------- */
+:root :where(.wp-element-button, .wp-block-button__link):hover {
+	text-decoration: underline;
+}
 .wc-block-components-product-image p{
     padding:0!important;
     margin:0!important;
