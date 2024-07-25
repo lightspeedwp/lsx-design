@@ -174,6 +174,7 @@ class Block_Styles {
 	 */
 	public function block_editor_styles() {
 		wp_enqueue_style( 'editor-styles', get_template_directory_uri() . '/assets/css/editor-style.css', false, LSXD_VERSION, 'all' );
+		wp_enqueue_style( 'editor-styles', get_template_directory_uri() . '/assets/css/blocks/group.css', false, LSXD_VERSION, 'all' );
 	}
 
 	/**
@@ -234,7 +235,7 @@ class Block_Styles {
 				'path'   => get_template_directory() . '/assets/css/blocks/columns.css',
 			),
 			'core/group' => array(
-				'handle' => 'lsxd-columns-block-styles',
+				'handle' => 'lsxd-group-block-styles',
 				'src'    => get_template_directory_uri() . '/assets/css/blocks/group.css',
 				'path'   => get_template_directory() . '/assets/css/blocks/group.css',
 			),
