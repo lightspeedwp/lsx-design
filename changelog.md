@@ -10,6 +10,7 @@
 
 #### Fixed
 - Button Text Transforms not working - [#141](https://github.com/lightspeedwp/lsx-design/issues/141)
+- Button hover has no underline - [#117](https://github.com/lightspeedwp/lsx-design/issues/117)
 
 ## [[1.3.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.1)
 
