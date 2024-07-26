@@ -173,7 +173,9 @@ input[type="submit"]:hover {
 .wp-block-group.is-layout-grid .wp-block-image img{
     width: 100%;
     height: 100%;
-    aspect-ratio: 1 / 1;}
+    object-fit: cover;}
+
+.wp-block-group.is-layout-grid .wp-block-group{height:100%!important;} 
 
 /* List --------------------------------------------- */
  ol li:where(:not([class*='block'])), ul li:where(:not([class*='block'])), .wp-block-list li {
@@ -650,6 +652,10 @@ background-color: var(--wp--preset--color--primary);
 }
 /* Media Queries ---------------------------------------------------------------------------- */
  @media (max-width:599px) {
+    body .is-layout-grid {
+        display: flex!important;
+        flex-direction: column!important;}
+        
     .mobile-search, .header-default .wp-block-search, .header-cta .wp-block-search{
         display:block!important;
     }
