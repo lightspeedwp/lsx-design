@@ -39,7 +39,9 @@ form#loginform input.button-primary{
 }
 
 form#loginform input.button-primary:hover{
-    background-color: var(--wp--custom--colour--primary--600);}
+    background-color: var(--wp--custom--colour--primary--600);
+	text-decoration: underline;
+}
 
 
     .is-style-compressed form#loginform p.login-remember{display:inline-flex;width:30%;}

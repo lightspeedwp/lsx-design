@@ -104,7 +104,11 @@ body .is-layout-constrained > .wp-block-group.alignfull {
     border: 1px solid var(--wp--preset--color--contrast)!important;
 }
 /* Button --------------------------------------------- */
- input[type="button"], input[type="submit"], .wp-block-post-comments input[type=submit]
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
 /* Calendar --------------------------------------------- */
  .wp-block-calendar table caption, .wp-block-calendar table tbody {
      color: var(--wp--preset--color--contrast);
@@ -189,7 +193,9 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      padding: 2px;
 }
 
-.wp-block-navigation:not([style*=text-decoration]) a, .wp-block-navigation:not([style*=text-decoration]) a:focus, .wp-block-navigation:not([style*=text-decoration]) a:hover {
+.wp-block-navigation:not([style*=text-decoration]) a,
+.wp-block-navigation:not([style*=text-decoration]) a:focus,
+.wp-block-navigation:not([style*=text-decoration]) a:hover {
      text-decoration: none;
 }
 
@@ -304,8 +310,30 @@ header .has-base-background-color .wp-block-navigation .wp-block-navigation-item
  .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
      background-color: #eee;
 }
+
 /* Pagination ---------------------------------------------------------------------------- */
-.wp-block-query-pagination .wp-block-query-pagination-previous:hover, .wp-block-query-pagination .wp-block-query-pagination-next:hover{color:var(--wp--preset--color--contrast);}
+.wp-block-query-pagination .wp-block-query-pagination-previous:hover,
+.wp-block-query-pagination .wp-block-query-pagination-next:hover {
+	color:var(--wp--preset--color--contrast);
+}
+
+@media ( max-width:767px ) {
+	body .wp-block-query-pagination-is-layout-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	body .wp-block-query-pagination-is-layout-flex .wp-block-query-pagination-previous {
+		margin-inline-end: initial !important;
+	}
+	body .wp-block-query-pagination-is-layout-flex .wp-block-query-pagination-next {
+		margin-inline-start: initial !important;
+	}
+}
+
+
 .wc-block-mini-cart__template-part .cross-sells-product .wp-block-button.wc-block-components-product-button, .wc-block-mini-cart .cross-sells-product .wp-block-button.wc-block-components-product-button{
 	right: 0px;
     position: absolute;
