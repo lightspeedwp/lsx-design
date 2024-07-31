@@ -3,8 +3,8 @@ Theme URI: 			https://lsx.design/
 Description: 		LSX is a light-weight WordPress Block Theme designed to empower makers to build beautifully rich websites using WordPress Block Editor and Site Editor. We take full advantage of the block editor, which gives you more control over creating your content. Install the free Blocks plugin to add additional blocks and extend core WordPress blocks. Users can easily install any of the 20 free extensions via the WordPress plugins page. The flexibility is perfect for blogs, small business, startups, agencies, firms, WooCommerce stores and portfolio sites. LSX Design is fully compatibility with WooCommerce & WooCommerce Blocks, making it an ideal choice for your next eCommerce build.
 Author: 			LightSpeed 
 Author URI: 		https://www.lsdev.biz/ 
-Version: 			1.3.1
-Tested up to: 		6.5
+Version: 			1.4.0
+Tested up to: 		6.6
 Requires at least: 	6.0
 Requires PHP: 		7.4
 License: 			GPLv3 or later
@@ -104,7 +104,11 @@ body .is-layout-constrained > .wp-block-group.alignfull {
     border: 1px solid var(--wp--preset--color--contrast)!important;
 }
 /* Button --------------------------------------------- */
- input[type="button"], input[type="submit"], .wp-block-post-comments input[type=submit]
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	text-decoration: underline;
+}
+
 /* Calendar --------------------------------------------- */
  .wp-block-calendar table caption, .wp-block-calendar table tbody {
      color: var(--wp--preset--color--contrast);
@@ -165,6 +169,14 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      box-shadow: 5px 5px var(--wp--preset--color--contrast);
 }
 
+/* Group Grid--------------------------------------------- */
+.wp-block-group.is-layout-grid .wp-block-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+.wp-block-group.is-layout-grid .wp-block-group{height:100%!important;} 
+
 /* List --------------------------------------------- */
  ol li:where(:not([class*='block'])), ul li:where(:not([class*='block'])), .wp-block-list li {
      margin-left: 30px;
@@ -183,7 +195,9 @@ body .is-layout-constrained > .wp-block-group.alignfull {
      padding: 2px;
 }
 
-.wp-block-navigation:not([style*=text-decoration]) a, .wp-block-navigation:not([style*=text-decoration]) a:focus, .wp-block-navigation:not([style*=text-decoration]) a:hover {
+.wp-block-navigation:not([style*=text-decoration]) a,
+.wp-block-navigation:not([style*=text-decoration]) a:focus,
+.wp-block-navigation:not([style*=text-decoration]) a:hover {
      text-decoration: none;
 }
 
@@ -298,8 +312,30 @@ header .has-base-background-color .wp-block-navigation .wp-block-navigation-item
  .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
      background-color: #eee;
 }
+
 /* Pagination ---------------------------------------------------------------------------- */
-.wp-block-query-pagination .wp-block-query-pagination-previous:hover, .wp-block-query-pagination .wp-block-query-pagination-next:hover{color:var(--wp--preset--color--contrast);}
+.wp-block-query-pagination .wp-block-query-pagination-previous:hover,
+.wp-block-query-pagination .wp-block-query-pagination-next:hover {
+	color:var(--wp--preset--color--contrast);
+}
+
+@media ( max-width:767px ) {
+	body .wp-block-query-pagination-is-layout-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	body .wp-block-query-pagination-is-layout-flex .wp-block-query-pagination-previous {
+		margin-inline-end: initial !important;
+	}
+	body .wp-block-query-pagination-is-layout-flex .wp-block-query-pagination-next {
+		margin-inline-start: initial !important;
+	}
+}
+
+
 .wc-block-mini-cart__template-part .cross-sells-product .wp-block-button.wc-block-components-product-button, .wc-block-mini-cart .cross-sells-product .wp-block-button.wc-block-components-product-button{
 	right: 0px;
     position: absolute;
@@ -605,6 +641,7 @@ background-color: var(--wp--preset--color--primary);
     width: 48px;
 }
 .mobile-search, .header-default .wp-block-search, .header-cta .wp-block-search{display:none;}
+.wp-block-search input:focus-visible{border-radius: 0!important;outline: none;border:2px solid!important;}
 @media screen and (max-width:1028px) {
     .wp-block-navigation__responsive-container-open:not(.always-shown){
         display: block;
@@ -615,6 +652,10 @@ background-color: var(--wp--preset--color--primary);
 }
 /* Media Queries ---------------------------------------------------------------------------- */
  @media (max-width:599px) {
+    body .is-layout-grid {
+        display: flex!important;
+        flex-direction: column!important;}
+        
     .mobile-search, .header-default .wp-block-search, .header-cta .wp-block-search{
         display:block!important;
     }

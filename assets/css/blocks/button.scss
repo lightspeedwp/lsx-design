@@ -5,6 +5,12 @@ $octonary: #BD5B00;
 $novenary: #C5389D;
 $denary: #FFB2B2;
 
+/* === Fixes for WP Core Updates === */
+:root :where(.wp-block-button .wp-block-button__link) {
+    text-transform: inherit !important;
+}
+
+/* === General Styles === */
 
 .wp-block-buttons {
 	&.has-x-small-font-size .wp-element-button {

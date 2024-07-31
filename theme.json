@@ -1,4 +1,6 @@
 {
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -31,9 +33,6 @@
 	],
 	"settings": {
 		"appearanceTools": true,
-		"shadow": {
-			"defaultPresets": true
-		},
 		"blocks": {
 			"core/button": {
 				"spacing": {
@@ -637,6 +636,7 @@
 			]
 		},
 		"spacing": {
+			"defaultSpacingSizes":false,
 			"spacingSizes": [
 				{
 					"name": "xSmall",
@@ -676,6 +676,7 @@
 		"typography": {
 			"dropCap": true,
 			"fluid": true,
+			"defaultFontSizes" :false,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -1614,7 +1615,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.5/theme.json"
+	]
 }
