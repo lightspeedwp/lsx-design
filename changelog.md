@@ -3,6 +3,12 @@
 ## [[1.4.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.4.0)
 
 ### LSX
+#### Added
+- Include WordPress 6.6 Grid Block compatibility with theme
+- - Grid Block - Mobile compatibility - [#137](https://github.com/lightspeedwp/lsx-design/issues/137).
+- - Grid Block - Image cover display issues & theme compatibility - [#135](https://github.com/lightspeedwp/lsx-design/issues/135)
+- Added Group Block style - Shadow effect block styles for Group
+- - Pagination Block style - Square Pagenation Block style added to theme
 
 #### Updated
 - theme.json schema updated to version - [#139](https://github.com/lightspeedwp/lsx-design/issues/139).
@@ -11,6 +17,10 @@
 #### Fixed
 - Button Text Transforms not working - [#141](https://github.com/lightspeedwp/lsx-design/issues/141)
 - Button hover has no underline - [#117](https://github.com/lightspeedwp/lsx-design/issues/117)
+- Group Block - Group Block style - Not display in Site Editor - [#145](https://github.com/lightspeedwp/lsx-design/issues/145)
+- Search results template update - No Results Block added back to template - [#143](https://github.com/lightspeedwp/lsx-design/issues/143)
+- All buttons to have underline + Removing uneccesary code - [#148](https://github.com/lightspeedwp/lsx-design/issues/141)
+
 
 ## [[1.3.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.1)
 
