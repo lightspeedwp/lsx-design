@@ -21,6 +21,10 @@
 - Search results template update - No Results Block added back to template - [#143](https://github.com/lightspeedwp/lsx-design/issues/143)
 - All buttons to have underline + Removing uneccesary code - [#148](https://github.com/lightspeedwp/lsx-design/issues/141)
 
+#### Security
+- General testing to ensure compatibility with latest WordPress version (6.6).
+
+
 
 ## [[1.3.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.3.1)
 
