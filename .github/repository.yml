@@ -4,7 +4,7 @@ compliance:
 
 data_sensitivity: public
 
-project_type: wordpress-theme
+project_type: wordpress
 
 development_status: active
 
@@ -22,7 +22,7 @@ tech_stack:
 
 version: 1.4.0
 
-documentation_url: https://lsx.design/docs/lsx-design
+documentation_url: https://lsx.design/docs/
 
 support_url: https://support.lightspeedwp.agency/
 
