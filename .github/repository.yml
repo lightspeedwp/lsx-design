@@ -1,0 +1,29 @@
+compliance:
+  - GDPR
+  - WCAG 2.1
+
+data_sensitivity: public
+
+project_type: wordpress-theme
+
+development_status: active
+
+license: gpl-3.0
+
+audience:
+  - developers
+  - wordpress-users
+  - e-commerce-businesses
+
+tech_stack:
+  - PHP
+  - WordPress Block Editor
+  - WooCommerce
+
+version: 1.4.0
+
+documentation_url: https://lsx.design/docs/lsx-design
+
+support_url: https://support.lightspeedwp.agency/
+
+project_priority: core
