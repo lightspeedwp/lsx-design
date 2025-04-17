@@ -18,7 +18,7 @@
 .wp-block-search__inside-wrapper input{border: 1px solid #2B2D2F!important;}
 /** * Search Block */
 
-header .wp-block-search.wp-block-search__button-only .wp-block-search__button{max-width: 0;padding: 10px 31px 10px 10px!important;}
+header .wp-block-search.wp-block-search__button-only .wp-block-search__button{max-width: 0;padding: 10px 22px 10px 19px!important;}
 
 header .wp-block-search__button-behavior-expand .wp-block-search__input {
     position: absolute;
