@@ -5,7 +5,7 @@ Tags: blog, e-commerce, education
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
