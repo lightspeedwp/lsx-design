@@ -37,11 +37,7 @@
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
- .wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon{
-    padding:4px!important;
-    margin-top:-5px;
-    margin-left:-10px;
-}
+
  .post-type-archive-product .wp-block-group.is-layout-flow{
     margin-block-start: 0px!important;
 }

@@ -31,7 +31,7 @@ msgid "LightSpeed"
 msgstr ""
 
 #. Author URI of the theme
-msgid "https://www.lsdev.biz/"
+msgid "https://lightspeedwp.agency/"
 msgstr ""
 
 #: includes/classes/class-block-setup.php:45

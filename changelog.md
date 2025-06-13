@@ -1,5 +1,14 @@
 # LSX Design Changelog
 
+## [[1.4.1]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.4.1)
+
+### Updated
+- CSS updates for the My Account Icon [34dbbc](https://github.com/lightspeedwp/lsx-design/commit/34dbbc4e8ee7596bba6e8230f89c1223c59ec52f)
+- CSS updates for the Search Icon and Input in the header. [0ba737](https://github.com/lightspeedwp/lsx-design/commit/0ba7371db02d11dcef6c31a9989eb1917200a621)
+
+#### Security
+- General testing to ensure compatibility with latest WordPress version (6.8.1).
+
 ## [[1.4.0]](https://github.com/lightspeedwp/lsx-design/releases/tag/1.4.0)
 
 ### LSX

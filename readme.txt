@@ -2,10 +2,10 @@
 Contributors: feedmymedia, lightspeedwp, eleshar, krugazul, justinabes
 Donate link: https://lsx.design/
 Tags: blog, e-commerce, education
-Requires at least: 6.6
+Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 8.0
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv3
 Licence URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -69,7 +69,7 @@ Accessibility Ready
 
 = WooCommerce Support =
 
-LSX is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lsdev.biz/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+LSX is the perfect theme for your next WooCommerce project. Designed and developed by [LightSpeed](https://lightspeedwp.agency/), it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalize your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
 
 For more information about LSX please go to the [product site](https://lsx.design/).
 
@@ -85,7 +85,7 @@ We have documentation on the LSX theme, take control of your website setup and d
 
 = Support =
 
-Contact the LightSpeed for paid support assistance via the contact form - https://www.lsdev.biz/contact/
+Contact the LightSpeed for paid support assistance via the contact form - https://lightspeedwp.agency/contact/
 
 Please log bug issues via Github Issues if you are experiencing issues with LSX - https://github.com/lightspeedwp/lsx-design/issues
 
@@ -203,7 +203,7 @@ Source: https://commons.wikimedia.org/wiki/File:Francis_Danby_-_Sunset_at_Sea_af
 
 == Frequently Asked Questions ==
 
-Take a look at all our [Frequently Asked Questions](https://www.lsdev.biz/lsx/documentation/lsx-theme/lsx-theme-faqs/), we are sure you'll find what you're looking for.
+Take a look at all our [Frequently Asked Questions](https://lsx.design/faqs/), we are sure you'll find what you're looking for.
 
 = What are the server requirements for running the LSX Theme? =
 Your WordPress website needs to be running PHP version 8.0 or higher in order to make use of the LSX theme.
@@ -226,10 +226,10 @@ Social networks that aren’t currently supported will be indicated by a generic
 Yes! LSX is a free theme, and always will be.
 
 = Where can I find documentation? =
-LSX has extensive documentation you can find [here](https://docs.LSX.com).
+LSX has extensive documentation you can find [here](https://lsx.design/docs/).
 
 = Do you offer support? =
- Contact the [LightSpeed](https://lsdev.biz/) for assistance via the [LSX support form](https://www.lsdev.biz/lsx/support/).
+ Contact the [LightSpeed](https://lightspeedwp.agency/) for assistance via the [LSX support form](https://lsx.design/contact/).
 
 == Changelog ==
 

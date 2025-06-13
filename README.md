@@ -1,4 +1,4 @@
-<h1 align="center"><a target="_blank" href="https://lsx.dsign/"><img src="https://lsx.design/wp-content/uploads/2023/05/lsx-design-logo-dark.svg" alt="LSX Theme"></a></h1>
+<h1 align="center"><a target="_blank" href="https://lsx.design/"><img src="https://lsx.design/wp-content/uploads/2023/05/lsx-design-logo-dark.svg" alt="LSX Theme"></a></h1>
 
 <h2 align="center">A flexible <a href="https://wordpress.org/documentation/article/block-themes/" target="_blank">WordPress Block Theme designed for WooCommerce</a></h2>
 
@@ -120,11 +120,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ---
 <p align="center">
-  <a href="https://www.lsdev.biz/contact/"><img src="https://www.lsdev.biz/wp-content/uploads/2020/02/work-with-lightspeed.png" width="850" alt="Work with us at LightSpeed"></a>
+  <a href="https://lightspeedwp.agency/contact/"><img src="https://lightspeedwp.agency/wp-content/uploads/2020/02/work-with-lightspeed.png" width="850" alt="Work with us at LightSpeed"></a>
 </p>
 <p align="center">
-  <a href="https://www.lsdev.biz">LightSpeed's Company Website</a> &nbsp;&middot;&nbsp;
-  <a href="https://www.lsdev.biz/lsx/">LSX Product Website</a>
+  <a href="https://lightspeedwp.agency">LightSpeed's Company Website</a> &nbsp;&middot;&nbsp;
+  <a href="https://lsx.design/">LSX Product Website</a>
 </p>
 <p align="center">
   <a href="https://github.com/lightspeedwp">GitHub</a> &nbsp;&middot;&nbsp;
