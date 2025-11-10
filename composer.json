@@ -26,12 +26,8 @@
     "minimum-stability": "dev",
     "config": {
         "allow-plugins": {
-            "third-party/required-plugin": true,
-            "my-organization/*": true,
-            "unnecessary/plugin": false,
-            "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "johnpbloch/wordpress-core-installer": true
+            "composer/installers": true
         }
     },
 	"config": {

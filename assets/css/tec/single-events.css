@@ -132,7 +132,7 @@ body.single-tribe_events .tribe-events-schedule{margin: 10px 0;}
 @media (min-width: 768px){
 .tribe-events-venue-map>div, .tribe-events-venue-map>iframe {
     max-height: 316px;
-}	
+}
 }
 
 @media (max-width: 768px){
@@ -174,11 +174,13 @@ body .tribe-events-meta-group .tribe-events-single-section-title {
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-body .tribe-events-event-meta dt:not(:first-child) {
+body .tribe-events-event-meta dt:not(:first-child),
+body .tribe-events-event-meta ul li:not(:first-child) {
     margin-top: 30px;
 }
 body .tribe-events-meta-group dl dt,
-body .tribe-events-meta-group dl dd {
+body .tribe-events-meta-group dl dd,
+body .tribe-events-meta-group ul li {
 	font-family: var(--wp--preset--font-family--primary);
 	font-size: var(--wp--preset--font-size--small);
 	line-height: var(--wp--custom--line-height--normal);
@@ -186,7 +188,8 @@ body .tribe-events-meta-group dl dd {
 body .tribe-events-meta-group dl dt {
 	font-weight: var(--wp--custom--font-weight--bold);
 }
-body .tribe-events-meta-group dl dd {
+body .tribe-events-meta-group dl dd,
+body .tribe-events-meta-group ul li {
 	font-weight: var(--wp--custom--font-weight--medium);
 }
 
