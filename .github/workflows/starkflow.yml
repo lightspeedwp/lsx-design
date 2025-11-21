@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Checkout code
         id: code-checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Audit
         id: stark
