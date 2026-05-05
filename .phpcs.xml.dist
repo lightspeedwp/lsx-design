@@ -3,7 +3,7 @@
     name="WordPress-LSX-Design"
     namespace="WordPressCS\WordPress"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd"
+    xsi:noNamespaceSchemaLocation="https://schema.phpcodesniffer.com/phpcs.xsd"
 >
     <description>WordPress Coding Standards for HTML and PHP files in the project.</description>
     
