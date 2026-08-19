@@ -1,6 +1,6 @@
 <?php
 /**
- * Woo Style 3 Cards 
+ * Woo Style 3 Cards
  *
  * @package lsx-design
  */

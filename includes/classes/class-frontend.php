@@ -22,7 +22,6 @@ class Frontend {
 	 * Contructor
 	 */
 	public function __construct() {
-		
 	}
 
 	/**
@@ -52,7 +51,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function enqueue_styles() {
-		//wp_get_theme()->get( 'Version' )
+		// wp_get_theme()->get( 'Version' )
 		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), time() );
 	}
 
