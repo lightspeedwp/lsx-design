@@ -39,11 +39,11 @@
     "build-pot": "wp i18n make-pot . languages/lsxd.pot",
     "build-mopo": "rm -R languages/en_EN.mo && cp languages/lsxd.pot languages/en_EN.po && wp i18n make-mo languages",
     "translate-US": "cp languages/en_EN.po languages/en_US.po && cp languages/en_EN.mo languages/en_US.mo",
-    "lint:css": "stylelint **/*.css -i .gitignore",
-    "lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
+    "lint:css": "stylelint \"**/*.css\" -i .gitignore",
+    "lint:css:fix": "stylelint \"**/*.css\" -i .gitignore --fix",
     "lint:php": "composer run-script lint",
     "lint:php:fix": "composer run-script format",
     "lint:theme": "node theme-utils.mjs validate-theme",
-    "lint:patterns:fix": "node theme-utils.mjs escape-patterns --text-domain=twentytwentyfive"
+    "lint:patterns:fix": "node theme-utils.mjs escape-patterns --text-domain=lsxd"
   }
 }
