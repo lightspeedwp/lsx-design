@@ -60,9 +60,6 @@ class WooCommerce {
 				'path'   => get_template_directory() . '/assets/css/woocommerce/checkout-totals-block.css',
 			),
 
-			 
-
-
 		);
 		return $this->assets;
 	}
