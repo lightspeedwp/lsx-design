@@ -33,7 +33,7 @@ class Setup {
 		add_action( 'after_setup_theme', array( $this, 'theme_setup' ) );
 		add_action( 'admin_init', array( $this, 'woo_asset_files' ) );
 	}
-	
+
 	/**
 	 * Adds the old menu options back in for site transition
 	 *

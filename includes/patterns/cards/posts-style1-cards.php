@@ -1,6 +1,6 @@
 <?php
 /**
- * Posts Style 1 Cards 
+ * Posts Style 1 Cards
  *
  * @package lsx-design
  */
