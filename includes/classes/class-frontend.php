@@ -51,7 +51,7 @@ class Frontend {
 	 * @return void
 	 */
 	public function enqueue_styles() {
-		// wp_get_theme()->get( 'Version' )
+		// wp_get_theme()->get( 'Version' ).
 		wp_enqueue_style( 'lsxd-styles', get_template_directory_uri() . '/style.css', array(), time() );
 	}
 
@@ -145,14 +145,14 @@ class Frontend {
 	}
 
 	/**
-	 * Undocumented function
+	 * Strip the version query arg from social/image/sharing-link block SVGs.
 	 *
-	 * @param string|null   $block_content   The pre-rendered content. Default null.
-	 * @param array         $parsed_block The block being rendered.
-	 * @param WP_Block|null $block_obj If this is a nested block, a reference to the parent block.
+	 * @param string|null $block_content The pre-rendered content. Default null.
+	 * @param array       $block         The block being rendered.
+	 * @return string|null
 	 */
 	public function remove_version_from_svg( $block_content, $block ) {
-		// Use regular expression to find and remove 'version' attribute
+		// Use regular expression to find and remove 'version' attribute.
 		if ( $block['blockName'] === 'core/social-link' || $block['blockName'] === 'core/image' || $block['blockName'] === 'lsx/lsx-sharing-link' ) {
 			$block_content = preg_replace( '/\s+version=["\'][^"\']*["\']/', '', $block_content );
 		}
