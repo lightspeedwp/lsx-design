@@ -145,10 +145,11 @@ class Frontend {
 	}
 
 	/**
-	 * Remove version attribute from SVG elements.
+	 * Strip the version query arg from social/image/sharing-link block SVGs.
 	 *
-	 * @param string|null $block_content   The pre-rendered content. Default null.
-	 * @param array       $block The block being rendered.
+	 * @param string|null $block_content The pre-rendered content. Default null.
+	 * @param array       $block         The block being rendered.
+	 * @return string|null
 	 */
 	public function remove_version_from_svg( $block_content, $block ) {
 		// Use regular expression to find and remove 'version' attribute.

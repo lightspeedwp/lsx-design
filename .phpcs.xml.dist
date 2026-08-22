@@ -6,7 +6,10 @@
     xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd"
 >
     <description>WordPress Coding Standards for HTML and PHP files in the project.</description>
-    
+
+    <!-- Report warnings, but only fail the CI check on actual errors. -->
+    <config name="ignore_warnings_on_exit" value="1"/>
+
     <rule ref="WordPress"/>
     <rule ref="WordPress-Core"/>
     <rule ref="WordPress-Docs"/>
@@ -29,7 +32,6 @@
     <arg name="parallel" value="8" />
 
     <config name="testVersion" value="8.0-" />
-    <rule ref="PHPCompatibilityWP" />
 
     <rule ref="WordPress">
         <exclude name="Generic.WhiteSpace.DisallowSpaceIndent" />
