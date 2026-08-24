@@ -29,7 +29,7 @@
     "ajv-draft-04": "^1.0.0",
     "chalk": "^6.0.0",
     "fast-glob": "^3.3.2",
-    "parse5-html-rewriting-stream": "^7.0.0",
+    "parse5-html-rewriting-stream": "^8.0.1",
     "semver": "^7.8.5",
     "string-progressbar": "^1.0.4",
     "stylelint": "^17.14.1",
