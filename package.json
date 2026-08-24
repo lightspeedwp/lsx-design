@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@wordpress/stylelint-config": "^24.2.0",
-    "ajv": "^8.17.1",
+    "ajv": "^8.20.0",
     "ajv-draft-04": "^1.0.0",
     "chalk": "^5.3.0",
     "fast-glob": "^3.3.2",
