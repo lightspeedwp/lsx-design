@@ -27,7 +27,7 @@
     "@wordpress/stylelint-config": "^26.0.0",
     "ajv": "^8.20.0",
     "ajv-draft-04": "^1.0.0",
-    "chalk": "^6.0.0",
+    "chalk": "^6.0.1",
     "fast-glob": "^3.3.2",
     "parse5-html-rewriting-stream": "^8.0.1",
     "semver": "^7.8.5",
