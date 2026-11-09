@@ -33,7 +33,7 @@
     "semver": "^7.8.6",
     "string-progressbar": "^1.0.4",
     "stylelint": "^18.0.0",
-    "table": "^6.8.2"
+    "table": "^6.10.1"
   },
   "scripts": {
     "build-pot": "wp i18n make-pot . languages/lsxd.pot",
