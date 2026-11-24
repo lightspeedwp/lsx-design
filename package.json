@@ -32,7 +32,7 @@
     "parse5-html-rewriting-stream": "^8.1.1",
     "semver": "^7.8.6",
     "string-progressbar": "^1.0.4",
-    "stylelint": "^18.0.0",
+    "stylelint": "^18.1.0",
     "table": "^6.10.1"
   },
   "scripts": {
