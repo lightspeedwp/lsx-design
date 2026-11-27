@@ -104,7 +104,7 @@ This software uses the following open source packages:
 * [WebPack](https://webpackwebpack.js.org/)
 * [Gulp](https://gulpjs.com/)
 * [Node.js](https://nodejs.org/)
-* [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+* [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer)
 * [Font Awesome](http://fontawesome.io/) icons are licensed under the terms of the SIL OFL 1.1, and code licensed under the terms of MIT License.
 * [Modernizr](https://modernizr.com/) is licensed under the terms of the MIT license.
 * [imagesLoaded](http://imagesloaded.desandro.com/) is licensed under the terms of the MIT license.
